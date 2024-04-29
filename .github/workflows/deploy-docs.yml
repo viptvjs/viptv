@@ -1,0 +1,41 @@
+name: Build and Deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,8 * * *"
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v3
+        with:
+            version: 8
+            run_install: true
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm     
+      
+      - name: 构建文档
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          pnpm run build
+          > dist/.nojekyll   
+
+      - name: 部署到公共仓库
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PUBLISH_DOCS }}
+          external_repository: viptv-work/viptv
+          publish_dir: ./docs/.vuepress/dist
+          publish_branch: gh-pages
