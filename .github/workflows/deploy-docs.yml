@@ -37,5 +37,5 @@ jobs:
         with:
           personal_token: ${{ secrets.PUBLISH_DOCS }}
           external_repository: viptv-work/viptv
-          publish_dir: ./docs/.vuepress/dist
+          publish_dir: ./dist
           publish_branch: gh-pages
