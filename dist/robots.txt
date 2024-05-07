@@ -1,5 +1,0 @@
-
-User-agent:*
-Disallow:
-
-Sitemap: https://DESKTOP-BB2QNSK/sitemap.xml
