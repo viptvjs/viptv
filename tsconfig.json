@@ -1,16 +1,14 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "target": "ES2022",
-    "allowJs": true
+    "target": "ES2022"
   },
   "include": [
-    "**/*.ts",
-    "**/*.vue",
-    "**/.vuepress/*.ts",
-    "**/.vuepress/**/*.ts",
-    "**/.vuepress/**/*.vue",
+    "src/.vuepress/**/*.ts",
+    "src/.vuepress/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

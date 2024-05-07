@@ -1,7 +1,5 @@
 import { defineClientConfig } from "vuepress/client";
 import CodeTabs from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.38_markdown-it@14.1.0_reveal.js@5.1.0_typescript@4.9.5_vu_w2vycwiq7upz2lwsmgqi2rbmy4/node_modules/vuepress-plugin-md-enhance/lib/client/components/CodeTabs.js";
-import CodeDemo from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.38_markdown-it@14.1.0_reveal.js@5.1.0_typescript@4.9.5_vu_w2vycwiq7upz2lwsmgqi2rbmy4/node_modules/vuepress-plugin-md-enhance/lib/client/components/CodeDemo.js";
-import MdDemo from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.38_markdown-it@14.1.0_reveal.js@5.1.0_typescript@4.9.5_vu_w2vycwiq7upz2lwsmgqi2rbmy4/node_modules/vuepress-plugin-md-enhance/lib/client/components/MdDemo.js";
 import "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.38_markdown-it@14.1.0_reveal.js@5.1.0_typescript@4.9.5_vu_w2vycwiq7upz2lwsmgqi2rbmy4/node_modules/vuepress-plugin-md-enhance/lib/client/styles/figure.scss";
 import { useHintContainers } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.38_markdown-it@14.1.0_reveal.js@5.1.0_typescript@4.9.5_vu_w2vycwiq7upz2lwsmgqi2rbmy4/node_modules/vuepress-plugin-md-enhance/lib/client/composables/useHintContainers.js";
 import "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.38_markdown-it@14.1.0_reveal.js@5.1.0_typescript@4.9.5_vu_w2vycwiq7upz2lwsmgqi2rbmy4/node_modules/vuepress-plugin-md-enhance/lib/client/styles/hint/index.scss";
@@ -15,8 +13,6 @@ import "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-plugi
 export default defineClientConfig({
   enhance: ({ app }) => {
     app.component("CodeTabs", CodeTabs);
-    app.component("CodeDemo", CodeDemo);
-    app.component("MdDemo", MdDemo);
     injectRevealJsConfig(app);
     app.component("RevealJs", RevealJs);
     app.component("Tabs", Tabs);

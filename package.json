@@ -13,7 +13,6 @@
   "devDependencies": {
     "@types/node-fetch": "^2.6.2",
     "@vuepress/bundler-vite": "2.0.0-rc.9",
-    "@vuepress/plugin-search": "2.0.0-rc.26",
     "artplayer": "^5.1.1",
     "artplayer-plugin-danmuku": "^5.0.1",
     "dashjs": "^4.7.4",

@@ -7,18 +7,26 @@ export default defineUserConfig({
   base,
   dest: "./dist",
   lang: "zh-CN",
-  title: "VIPTV - 云视听",
-  description: "简单,快捷,高效，打造最佳的视听链",
-  pagePatterns: ["**/*.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"],
+  locales: {
+    "/": {
+      lang: "zh-CN",
+      title: "VIPTV - 云视听",
+      description: "简单,快捷,高效，打造最佳的视听链",
+    },
+    "/en/": {
+      lang: "en-US",
+      title: "viptv - play",
+      description: "best iptv play",
+    },
+  },
   alias: {
     "db": path.resolve(__dirname, "./lib/dexie"),
     "cpn": path.resolve(__dirname, "./components"),
     "cps": path.resolve(__dirname, "./composables"),
-    "@theme-hope/modules/blog/components/BlogHero": path.resolve(
-      __dirname,
-      "./components/BlogHero.vue",
-    ),
+    //"@theme-hope/components/HeroInfo": path.resolve(__dirname, "./components/HopeHero.js",),
+    "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./components/BlogHero.vue"),
   },
   theme,
   shouldPrefetch: false,
+  clientConfigFile: path.resolve(__dirname, "./client.ts"),
 });

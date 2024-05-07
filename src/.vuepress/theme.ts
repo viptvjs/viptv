@@ -1,31 +1,62 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
+import { enNavbar, zhNavbar } from "./navbar/index.js";
+import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+
 const hostname =
   process.env["HOSTNAME"] ?? "https://viptv.work";
 
 export default hopeTheme({
   hostname,
-
   author: {
     name: "VIPTV - 云视听",
     url: "/about",
+    email: 'mail@vodtv.cn',
   },
   favicon: "/favicon.ico",
   iconAssets: "fontawesome-with-brands",
+  docsRepo: "viptv-work/viptv",
+  repo: `viptv-work/viptv`,
+  fullscreen: true,
+  locales: {
+    "/en/": {
+      // navbar
+      navbar: enNavbar,
+      // sidebar
+      sidebar: enSidebar,
+      footer: "Default footer",
+      displayFooter: true,
+    },
+
+    /**
+     * Chinese locale config
+     */
+    "/": {
+      // navbar
+      navbar: zhNavbar,
+      // sidebar
+      sidebar: zhSidebar,
+      footer: "默认页脚",
+      blog: {
+        name: "VIPTV 云视听",
+        description: '专心致志做事，大气温和待人。',
+        intro: '/about/',
+        timeline: '简单快乐，理应如此。',
+        medias: {
+          Email: "mailto:vodtvx@gamil.com",
+          Gitee: "https://gitee.com/viptv-work",
+          GitHub: "https://github.com/viptv-work",
+          Gitlab: "https://gitlab.com/viptv",
+        },
+      },
+    },
+  },
   //iconAssets: "//at.alicdn.com/t/c/font_2601581_j5ywre6kshm.css",
 
-  logo: "https://img.viptv.work/viptv/VIP-TV-LOGO-FINAL-360x360.png",
+  logo: "/logo.svg",
 
   docsDir: "src",
-
-  // 导航栏
-  navbar,
-
-  // 侧边栏
-  sidebar,
 
   // 页脚
   copyright: "MIT Licensed | Copyright © 2024-present Mr.Hefung",
@@ -38,13 +69,9 @@ export default hopeTheme({
   },
   editLink: false,
   // 多语言配置
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
-  },
 
   plugins: {
     blog: true,
-    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     copyCode: {},
 
     components: {
@@ -73,7 +100,6 @@ export default hopeTheme({
       attrs: true,
       codetabs: true,
       component: true,
-      demo: true,
       figure: true, // 图像添加描述
       imgLazyload: true, // 启用图片懒加载
       imgMark: true, // 启用图片标记
@@ -122,11 +148,6 @@ export default hopeTheme({
         ],
       },
     },
-    seo:
-      hostname === "https://viptv.work"
-        ? {}
-        : { canonical: "https://viptv.work" },
-
   },
 },
   { custom: true },
