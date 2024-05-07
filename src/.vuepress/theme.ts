@@ -81,7 +81,7 @@ export default hopeTheme({
           {
             path: "/",
             title: "通知",
-            content: "我们的文档已经迁移至新域名 vuejs.press 下。<br>当前文档是基于主分支最新提交构建的，可能包含<strong>未发布的更改</strong>。",
+            content: "欢迎光临我的新站",
             actions: [
               {
                 text: "立即访问→",

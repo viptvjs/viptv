@@ -1,1 +1,0 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"\",\"description\":\"\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\"}]],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"VIPTV - 云视听\",\"description\":\"简单,快捷,高效，打造最佳的视听链\"},\"/en/\":{\"lang\":\"en-US\",\"title\":\"viptv - play\",\"description\":\"best iptv play\"}}}")

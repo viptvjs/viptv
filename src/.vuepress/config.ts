@@ -28,5 +28,4 @@ export default defineUserConfig({
   },
   theme,
   shouldPrefetch: false,
-  clientConfigFile: path.resolve(__dirname, "./client.ts"),
 });

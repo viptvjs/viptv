@@ -1,3 +1,0 @@
-import comp from "D:/Administrator/Desktop/viptv-private/src/.vuepress/.temp/pages/vod/lunli/lzcaiji-lunli.html.vue"
-const data = JSON.parse("{\"path\":\"/vod/lunli/lzcaiji-lunli.html\",\"title\":\"伦理片\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"伦理片\",\"icon\":\"fa-solid fa-user-graduate\",\"date\":\"2020-01-01T00:00:00.000Z\",\"order\":4,\"category\":[\"影视点播\"],\"tag\":[\"伦理片\"],\"feed\":false,\"seo\":false,\"head\":[]},\"headers\":[],\"git\":{\"createdTime\":1714993694000,\"updatedTime\":1714993694000,\"contributors\":[{\"name\":\"viptv\",\"email\":\"mail@viptv.work\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.57,\"words\":170},\"filePathRelative\":\"vod/lunli/lzcaiji-lunli.md\",\"localizedDate\":\"2020年1月1日\"}")
-export { comp, data }
