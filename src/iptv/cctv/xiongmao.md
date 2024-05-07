@@ -1,5 +1,5 @@
 ---
-title: 熊猫直播
+title: 测试1
 icon: fa-solid fa-user-graduate
 date: 2020-01-01
 order: 4
@@ -9,7 +9,7 @@ tag:
   - 熊猫
 ---
 
-<ArtPlayer src="" :config="artPlayerConfig" />
+<ArtPlayer :src="state.Src" :config="artPlayerConfig" />
 
 ::: tip 熊猫直播
 全面汇聚央视、卫视频道，您的专属 全面聚合高清资源 旗舰平台，品质首选！
@@ -20,20 +20,21 @@ tag:
   import { iptv } from 'db'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
-  const vodId = "xiongmao"
+  const vodId = "fmml_dv6"
 
   const state = useStorage(
     vodId,
     {
+      Src:"",
       PlayList: []
     }
   )
-  const src = state.value.PlayList[0] ? state.value.PlayList[0].url : ""
 
   onMounted(() => {
     nextTick(async () => {
       const { data } = await iptv.find({ "name": vodId })
       state.value.PlayList = data
+      state.value.Src = data[0].url
     })
   });
 

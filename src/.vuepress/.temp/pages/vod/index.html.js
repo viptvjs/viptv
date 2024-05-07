@@ -1,16 +1,3 @@
 import comp from "D:/Administrator/Desktop/viptv-private/src/.vuepress/.temp/pages/vod/index.html.vue"
-const data = JSON.parse("{\"path\":\"/vod/\",\"title\":\"影视点播\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"影视点播\",\"index\":true,\"icon\":\"file-video\",\"category\":[\"影视\"],\"gitInclude\":[],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://DESKTOP-BB2QNSK/vod/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"VIPTV - 云视听\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"影视点播\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"VIPTV - 云视听\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"影视点播\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"VIPTV - 云视听\\\",\\\"url\\\":\\\"/about\\\",\\\"email\\\":\\\"mail@vodtv.cn\\\"}]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.04,\"words\":13},\"filePathRelative\":\"vod/README.md\",\"excerpt\":\"\"}")
+const data = JSON.parse("{\"path\":\"/vod/\",\"title\":\"影视点播\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"影视点播\",\"index\":true,\"icon\":\"file-video\",\"category\":[\"影视\"],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://DESKTOP-BB2QNSK/vod/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"VIPTV - 云视听\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"影视点播\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-05-06T11:08:14.000Z\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"VIPTV - 云视听\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-05-06T11:08:14.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"影视点播\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2024-05-06T11:08:14.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"VIPTV - 云视听\\\",\\\"url\\\":\\\"/about\\\",\\\"email\\\":\\\"mail@vodtv.cn\\\"}]}\"]]},\"headers\":[],\"git\":{\"createdTime\":1714993694000,\"updatedTime\":1714993694000,\"contributors\":[{\"name\":\"viptv\",\"email\":\"mail@viptv.work\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.04,\"words\":13},\"filePathRelative\":\"vod/README.md\",\"localizedDate\":\"2024年5月6日\",\"excerpt\":\"\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

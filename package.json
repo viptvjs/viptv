@@ -33,6 +33,7 @@
     "@vueuse/core": "^10.9.0",
     "crypto-js": "^4.2.0",
     "dexie": "^4.0.4",
+    "dexie-cloud-addon": "^4.0.5",
     "node-fetch": "^3.3.2",
     "three": "^0.164.1"
   }

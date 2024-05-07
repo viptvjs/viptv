@@ -1,3 +1,3 @@
-import vod from './orm/vod';
-import iptv from './orm/iptv';
+import vod from './vod.js';
+import iptv from './iptv.js';
 export { vod, iptv };

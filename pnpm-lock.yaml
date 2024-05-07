@@ -23,6 +23,9 @@ importers:
       dexie:
         specifier: ^4.0.4
         version: 4.0.4
+      dexie-cloud-addon:
+        specifier: ^4.0.5
+        version: 4.0.5(dexie@4.0.4)
       node-fetch:
         specifier: ^3.3.2
         version: 3.3.2
@@ -33,9 +36,6 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.9
         version: 2.0.0-rc.9(@types/node@20.12.8)(sass@1.76.0)(terser@5.31.0)(typescript@4.9.5)
-      '@vuepress/plugin-search':
-        specifier: 2.0.0-rc.26
-        version: 2.0.0-rc.26(typescript@4.9.5)(vuepress@2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.8)(sass@1.76.0)(terser@5.31.0)(typescript@4.9.5))(typescript@4.9.5)(vue@3.4.26(typescript@4.9.5)))
       artplayer:
         specifier: ^5.1.1
         version: 5.1.1
@@ -1753,6 +1753,15 @@ packages:
     resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
     engines: {node: '>=0.4.0'}
 
+  dexie-cloud-addon@4.0.5:
+    resolution: {integrity: sha512-TIrMZVCiOO4kZgCixA/ReSCwZjurlxhrUHVviX4RO+50B+TQalIAqRLJe+dkYrHBWKJlJFkIbayYOnuDeaN80A==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      dexie: ^4.0.1-alpha.5
+
+  dexie-cloud-common@1.0.33:
+    resolution: {integrity: sha512-n/R6YHPYXnA80XTy8qJDXj3ejZhA01nSpUqltSU7iiTZ99NOX9a/BQya6Z8+fb1iFK3wJc3Zt9aE5s5SSpbK0Q==}
+
   dexie@4.0.4:
     resolution: {integrity: sha512-wFzwWSUdi+MC3jiFeQcCp9nInR7EaX8edzYY+4wmiITkQAiSnHpe4Wo2o5Ce5tJZe2nqt7mLW91MsW4GYx3ziQ==}
 
@@ -2610,6 +2619,9 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
+  rxjs@7.8.1:
+    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
+
   safe-array-concat@1.1.2:
     resolution: {integrity: sha512-vj6RsCsWBCf19jIeHEfkRMw8DPiBb+DMXklQ/1SGDHOMlHdPUkZXFQ2YdplS23zESTijAcurb1aSgJA3AgMu1Q==}
     engines: {node: '>=0.4'}
@@ -2801,6 +2813,9 @@ packages:
 
   tr46@1.0.1:
     resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
+
+  tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
   type-fest@0.16.0:
     resolution: {integrity: sha512-eaBzG6MxNzEn9kiwvtre90cXaNLkmadMWa1zQMs3XORCXNbsH/OewwbxC5ia9dCxIxnTAsSxXJaa/p5y8DlvJg==}
@@ -4681,6 +4696,7 @@ snapshots:
       vuepress: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.8)(sass@1.76.0)(terser@5.31.0)(typescript@4.9.5))(typescript@4.9.5)(vue@3.4.26(typescript@4.9.5))
     transitivePeerDependencies:
       - typescript
+    optional: true
 
   '@vuepress/plugin-seo@2.0.0-rc.26(typescript@4.9.5)(vuepress@2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.8)(sass@1.76.0)(terser@5.31.0)(typescript@4.9.5))(typescript@4.9.5)(vue@3.4.26(typescript@4.9.5)))':
     dependencies:
@@ -5073,6 +5089,14 @@ snapshots:
       object-keys: 1.1.1
 
   delayed-stream@1.0.0: {}
+
+  dexie-cloud-addon@4.0.5(dexie@4.0.4):
+    dependencies:
+      dexie: 4.0.4
+      dexie-cloud-common: 1.0.33
+      rxjs: 7.8.1
+
+  dexie-cloud-common@1.0.33: {}
 
   dexie@4.0.4: {}
 
@@ -5955,6 +5979,10 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
+  rxjs@7.8.1:
+    dependencies:
+      tslib: 2.6.2
+
   safe-array-concat@1.1.2:
     dependencies:
       call-bind: 1.0.7
@@ -6163,6 +6191,8 @@ snapshots:
   tr46@1.0.1:
     dependencies:
       punycode: 2.3.1
+
+  tslib@2.6.2: {}
 
   type-fest@0.16.0: {}
 

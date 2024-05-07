@@ -1,5 +1,5 @@
 ---
-title: 央视频直播
+title: 测试2
 icon: fa-solid fa-user-graduate
 date: 2020-01-01
 order: 4
@@ -9,7 +9,7 @@ tag:
 - 央视频
 ---
 
-<ArtPlayer :src :config="artPlayerConfig" />
+<ArtPlayer :src="state.Src" :config="artPlayerConfig" />
 
 ::: tip 央视频直播
 全面汇聚央视、卫视频道，您的专属 全面聚合高清资源 旗舰平台，品质首选！
@@ -22,11 +22,12 @@ tag:
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
 
-  const vodId = "ysp"
+  const vodId = "ss_itv"
 
   const state = useStorage(
     vodId,
     {
+      Src:"",
       PlayList: []
     }
   )
@@ -34,6 +35,7 @@ tag:
   onMounted(async() => {
     const { data } = await iptv.find({ "name": vodId })
     state.value.PlayList = data
+    state.value.Src = data[0].url
   });
 
   const artPlayerConfig = {

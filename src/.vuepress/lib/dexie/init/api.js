@@ -1,0 +1,13 @@
+export const vodId = ["ks-dance", "ks-meitui", "ks", "ks-xjj", "ks-meinv", "tiktok"]
+
+export const vodIdx = ["vod-gcw", "vod-djw"]
+
+export const tvId = ["ss_itv", "fmml_dv6"]
+
+export const movieId = ["5151md-mdsp", "ylzy-fzsj", "ylzy-lanqiu", "ylzy-swdj", "ylzy-zuqiu", "ylzy-gzxx", "ylzy-dongzuo", "ylzy-ndcy", "lzcaiji-dzp", "lzcaiji-xjp", "lzcaiji-aqp", "lzcaiji-kbp", "lzcaiji-khp", "lzcaiji-jqp", "lzcaiji-zzp", "suonizy-gtsj", "suonizy-hgll", "suonizy-lanqiu", "suonizy-rbll", "suonizy-swdj", "suonizy-xfll", "suonizy-zuqiu", "bfzy-dzp", "bfzy-xjp", "bfzy-kbp", "bfzy-khp", "bfzy-aqp", "bfzy-jqp", "bfzy-zzp", "bfzy-zuqiu", "bfzy-lanqiu", "bfzy-snk",]
+
+export const movieIdx = ["lzcaiji-duanju", "lzcaiji-gcj", "lzcaiji-hkj", "lzcaiji-hgj", "lzcaiji-omj", "lzcaiji-hwj", "lzcaiji-dlzy", "lzcaiji-gtzy", "lzcaiji-rhzy", "lzcaiji-omzy", "lzcaiji-gcdm", "lzcaiji-rhdm", "lzcaiji-omdm", "lzcaiji-gtdm", "lzcaiji-hwdm", "lzcaiji-llp", "moduapi-gcdm", "ylzy-guochanju", "suonizy-gcdm", "suonizy-dlzy", "suonizy-gtzy", "suonizy-gzxx", "suonizy-ndxy", "suonizy-ndla", "suonizy-xdds", "suonizy-rhdm", "bfzy-gcju", "bfzy-omju", "bfzy-hkju", "bfzy-hgju", "bfzy-twju", "bfzy-rbju", "bfzy-hwju", "bfzy-tgju", "bfzy-gcdm", "bfzy-rhdm", "bfzy-omdm", "bfzy-gtdm", "bfzy-hwdm", "bfzy-dlzy", "bfzy-gtzy", "bfzy-rhzy", "bfzy-omzy", "bfzy-dsnd", "bfzy-gzxx"]
+
+
+export const dataPath = "https://raw.viptv.work/data/"
+export const txtPath = "https://raw.viptv.work/txt/"
