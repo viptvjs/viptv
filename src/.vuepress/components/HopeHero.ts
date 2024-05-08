@@ -4,6 +4,7 @@ import HeroInfo from "vuepress-theme-hope/components/HeroInfo.js";
 
 import HopeLogo from "./HopeLogo.js";
 
+
 const HopeHero: FunctionalComponent = (): VNode =>
   h(HeroInfo, {}, { logo: () => h(HopeLogo) });
 

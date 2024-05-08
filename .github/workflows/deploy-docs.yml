@@ -24,13 +24,12 @@ jobs:
         with:
           node-version: 20
           cache: pnpm     
+
+      - name: Install deps
+        run: pnpm install --frozen-lockfile    
       
       - name: 构建文档
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
-        run: |-
-          pnpm run build
-          > dist/.nojekyll   
+        run: pnpm run build  
 
       - name: 部署到公共仓库
         uses: peaceiris/actions-gh-pages@v4
@@ -39,3 +38,4 @@ jobs:
           external_repository: viptv-work/viptv
           publish_dir: ./dist
           publish_branch: gh-pages
+          cname: viptv.work

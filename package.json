@@ -5,8 +5,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "vuepress-vite dev src --clean-cache",
     "build": "vuepress-vite build src",
+    "dev": "vuepress-vite dev src --clean-cache",
     "serve": "http-server -a localhost dist -o",
     "update": "pnpm dlx vp-update"
   },
