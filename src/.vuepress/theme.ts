@@ -1,121 +1,99 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
-
-const hostname =
-  process.env["HOSTNAME"] ?? "https://viptv.work";
-
 export default hopeTheme({
-  hostname,
+  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+
   author: {
-    name: "VIPTV - 云视听",
-    url: "/about",
-    email: 'mail@vodtv.cn',
+    name: "Mr.Hope",
+    url: "https://mister-hope.com",
   },
-  favicon: "/favicon.ico",
+
   iconAssets: "fontawesome-with-brands",
-  docsRepo: "viptv-work/viptv",
-  repo: `viptv-work/viptv`,
-  fullscreen: true,
+
+  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+
+  repo: "vuepress-theme-hope/vuepress-theme-hope",
+
+  docsDir: "src",
+
   locales: {
-    "/en/": {
+    "/": {
       // navbar
       navbar: enNavbar,
+
       // sidebar
       sidebar: enSidebar,
+
       footer: "Default footer",
+
       displayFooter: true,
+
+      metaLocales: {
+        editLink: "Edit this page on GitHub",
+      },
     },
 
     /**
      * Chinese locale config
      */
-    "/": {
+    "/zh/": {
       // navbar
       navbar: zhNavbar,
+
       // sidebar
       sidebar: zhSidebar,
+
       footer: "默认页脚",
-      blog: {
-        name: "VIPTV 云视听",
-        description: '专心致志做事，大气温和待人。',
-        intro: '/about/',
-        timeline: '简单快乐，理应如此。',
-        medias: {
-          Email: "mailto:vodtvx@gamil.com",
-          Gitee: "https://gitee.com/viptv-work",
-          GitHub: "https://github.com/viptv-work",
-          Gitlab: "https://gitlab.com/viptv",
-        },
+
+      displayFooter: true,
+
+      // page meta
+      metaLocales: {
+        editLink: "在 GitHub 上编辑此页",
       },
     },
   },
-  //iconAssets: "//at.alicdn.com/t/c/font_2601581_j5ywre6kshm.css",
 
-  logo: "/logo.svg",
-
-  docsDir: "src",
-
-  // 页脚
-  copyright: "MIT Licensed | Copyright © 2024-present Mr.Hefung",
-  displayFooter: true,
-  // 加密配置
   encrypt: {
     config: {
-      "/vod/lunli/": ["3.1415926", "8.8888888", "9.9999999"],
+      "/demo/encrypt.html": ["1234"],
+      "/zh/demo/encrypt.html": ["1234"],
     },
   },
-  editLink: false,
-  // 多语言配置
 
   plugins: {
-    blog: true,
-    copyCode: {},
-
-    components: {
-      components: ["Badge", "VPCard", "ArtPlayer", "VPBanner", "SiteInfo"],
-      rootComponents: {
-        notice: [
-          {
-            path: "/",
-            title: "通知",
-            content: "欢迎光临我的新站",
-            actions: [
-              {
-                text: "立即访问→",
-                type: "primary",
-              },
-            ],
-            showOnce: true,
-          },
-        ],
-      },
+    // Note: This is for testing ONLY!
+    // You MUST generate and use your own comment service in production.
+    comment: {
+      provider: "Giscus",
+      repo: "vuepress-theme-hope/giscus-discussions",
+      repoId: "R_kgDOG_Pt2A",
+      category: "Announcements",
+      categoryId: "DIC_kwDOG_Pt2M4COD69",
     },
 
+    components: {
+      components: ["Badge", "VPCard"],
+    },
+
+    // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
-      align: true, // 启用自定义对齐
-      hint: true,// 启用提示容器
+      align: true,
       attrs: true,
       codetabs: true,
       component: true,
-      figure: true, // 图像添加描述
-      imgLazyload: true, // 启用图片懒加载
-      imgMark: true, // 启用图片标记
-      imgSize: true,  // 启用图片大小
+      demo: true,
+      figure: true,
+      imgLazyload: true,
+      imgSize: true,
       include: true,
       mark: true,
       stylize: [
         {
           matcher: "Recommended",
-          replacer: ({
-            tag,
-          }): {
-            tag: string;
-            attrs: Record<string, string>;
-            content: string;
-          } | void => {
+          replacer: ({ tag }) => {
             if (tag === "em")
               return {
                 tag: "Badge",
@@ -127,28 +105,104 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true, // 添加选项卡支持
+      tabs: true,
       tasklist: true,
       vPre: true,
-      revealJs: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-        themes: [
-          "auto",
-          "beige",
-          "black",
-          "blood",
-          "league",
-          "moon",
-          "night",
-          "serif",
-          "simple",
-          "sky",
-          "solarized",
-          "white",
-        ],
-      },
+
+      // Install chart.js before enabling it
+      // chart: true,
+
+      // insert component easily
+
+      // Install echarts before enabling it
+      // echarts: true,
+
+      // Install flowchart.ts before enabling it
+      // flowchart: true,
+
+      // gfm requires mathjax-full to provide tex support
+      // gfm: true,
+
+      // Install katex before enabling it
+      // katex: true,
+
+      // Install mathjax-full before enabling it
+      // mathjax: true,
+
+      // Install mermaid before enabling it
+      // mermaid: true,
+
+      // playground: {
+      //   presets: ["ts", "vue"],
+      // },
+
+      // Install reveal.js before enabling it
+      // revealJs: {
+      //   plugins: ["highlight", "math", "search", "notes", "zoom"],
+      // },
+
+      // Install @vue/repl before enabling it
+      // vuePlayground: true,
+
+      // Install sandpack-vue3 before enabling it
+      // sandpack: true,
     },
+
+    // Install @vuepress/plugin-pwa and uncomment these if you want a PWA
+    // pwa: {
+    //   favicon: "/favicon.ico",
+    //   cacheHTML: true,
+    //   cacheImage: true,
+    //   appendBase: true,
+    //   apple: {
+    //     icon: "/assets/icon/apple-icon-152.png",
+    //     statusBarColor: "black",
+    //   },
+    //   msTile: {
+    //     image: "/assets/icon/ms-icon-144.png",
+    //     color: "#ffffff",
+    //   },
+    //   manifest: {
+    //     icons: [
+    //       {
+    //         src: "/assets/icon/chrome-mask-512.png",
+    //         sizes: "512x512",
+    //         purpose: "maskable",
+    //         type: "image/png",
+    //       },
+    //       {
+    //         src: "/assets/icon/chrome-mask-192.png",
+    //         sizes: "192x192",
+    //         purpose: "maskable",
+    //         type: "image/png",
+    //       },
+    //       {
+    //         src: "/assets/icon/chrome-512.png",
+    //         sizes: "512x512",
+    //         type: "image/png",
+    //       },
+    //       {
+    //         src: "/assets/icon/chrome-192.png",
+    //         sizes: "192x192",
+    //         type: "image/png",
+    //       },
+    //     ],
+    //     shortcuts: [
+    //       {
+    //         name: "Demo",
+    //         short_name: "Demo",
+    //         url: "/demo/",
+    //         icons: [
+    //           {
+    //             src: "/assets/icon/guide-maskable.png",
+    //             sizes: "192x192",
+    //             purpose: "maskable",
+    //             type: "image/png",
+    //           },
+    //         ],
+    //       },
+    //     ],
+    //   },
+    // },
   },
-},
-  { custom: true },
-);
+});

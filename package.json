@@ -1,41 +1,19 @@
 {
-  "name": "viptv-private",
-  "version": "2.3.3",
-  "description": "VIPTV-工作室,组件开发,文档编辑",
+  "name": "vuepress-theme-hope-template",
+  "version": "2.0.0",
+  "description": "A project of vuepress-theme-hope",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "vuepress-vite build src",
-    "dev": "vuepress-vite dev src --clean-cache",
-    "serve": "http-server -a localhost dist -o",
-    "update": "pnpm dlx vp-update"
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@types/node-fetch": "^2.6.2",
     "@vuepress/bundler-vite": "2.0.0-rc.9",
-    "artplayer": "^5.1.1",
-    "artplayer-plugin-danmuku": "^5.0.1",
-    "dashjs": "^4.7.4",
-    "flv.js": "^1.6.2",
-    "hls.js": "^1.5.8",
-    "mpegts.js": "^1.7.3",
-    "reveal.js": "^5.1.0",
-    "typescript": "^4.9.5",
-    "vidstack": "^1.11.21",
-    "vue": "^3.4.26",
+    "vue": "^3.4.23",
     "vuepress": "2.0.0-rc.9",
-    "vuepress-plugin-components": "2.0.0-rc.38",
     "vuepress-theme-hope": "2.0.0-rc.38"
-  },
-  "dependencies": {
-    "@types/node-fetch": "^2.6.11",
-    "@vuepress/plugin-pwa": "2.0.0-rc.26",
-    "@vueuse/core": "^10.9.0",
-    "crypto-js": "^4.2.0",
-    "dexie": "^4.0.4",
-    "dexie-cloud-addon": "^4.0.5",
-    "http-server": "^14.1.1",
-    "node-fetch": "^3.3.2",
-    "three": "^0.164.1"
   }
 }

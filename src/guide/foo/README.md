@@ -1,13 +1,13 @@
 ---
-title: Foo 功能
+title: Foo feature
 icon: lightbulb
 ---
 
-## 介绍
+## Introduction
 
-我们支持 foo 功能，...
+We support foo feature, ...
 
-## 详情
+## Details
 
 - [ray](ray.md)
 - ...

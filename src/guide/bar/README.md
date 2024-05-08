@@ -1,13 +1,13 @@
 ---
-title: Bar 功能
+title: Bar feature
 icon: lightbulb
 ---
 
-## 介绍
+## Introduction
 
-我们支持 bar 功能，...
+We support bar feature, ...
 
-## 详情
+## Details
 
 - [baz](baz.md)
 - ...
