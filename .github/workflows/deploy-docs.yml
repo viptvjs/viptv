@@ -35,15 +35,11 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: pnpm run build
 
-      - name: Combine output
-        run: |
-          pnpm cpx "src/.vuepress/dist/**" dist   
-
       - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           repository-name: viptv-work/viptv
           branch: gh-pages
-          folder: dist
+          folder: src/.vuepress/dist
           token: ${{ secrets.PUBLISH_DOCS }}
           single-commit: true
