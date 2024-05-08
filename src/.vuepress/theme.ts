@@ -4,6 +4,7 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 const hostname =
   process.env["HOSTNAME"] ?? "https://viptv.work";
+
 export default hopeTheme({
   hostname,
   author: {
@@ -18,31 +19,30 @@ export default hopeTheme({
   repoDisplay: false,
   fullscreen: true,
   locales: {
-    "/en/": {
-      navbar: enNavbar,
-      sidebar: enSidebar,
-      footer: "Default footer",
-      displayFooter: true,
-    },
     "/": {
       navbar: zhNavbar,
       sidebar: zhSidebar,
-      footer: "默认页脚",
-      blog: {
-        description: '专心致志做事，大气温和待人。',
-        intro: '/',
-        timeline: '简单快乐，理应如此。',
-        medias: {
-          Email: "mailto:vodtvx@gamil.com",
-          Gitee: "https://gitee.com/viptv-work",
-          GitHub: "https://github.com/viptv-work",
-          Gitlab: "https://gitlab.com/viptv",
-        },
-      },
+      footer: "努力打造便捷 、高效 、最有价值的视听链",
+
+    },
+    "/en/": {
+      navbar: enNavbar,
+      sidebar: enSidebar,
+      footer: "「VIPTV Cloud Audiovisual」 is a very good audiovisual toolchain.",
     },
   },
-  //iconAssets: "//at.alicdn.com/t/c/font_2601581_j5ywre6kshm.css",
   docsDir: "src",
+  blog: {
+    description: '专心致志做事，大气温和待人。',
+    intro: '/',
+    timeline: '简单快乐，理应如此。',
+    medias: {
+      Email: "mailto:vodtvx@gamil.com",
+      Gitee: "https://gitee.com/viptv-work",
+      GitHub: "https://github.com/viptv-work",
+      Gitlab: "https://gitlab.com/viptv",
+    },
+  },
   // 页脚
   copyright: "MIT Licensed | Copyright © 2024-present Mr.Hefung",
   displayFooter: true,
@@ -72,6 +72,7 @@ export default hopeTheme({
                 type: "primary",
               },
             ],
+            fullscreen: true,
             showOnce: true,
           },
         ],

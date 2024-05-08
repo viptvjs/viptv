@@ -1,6 +1,6 @@
 ---
 title: 海外动漫
-icon: fa-solid fa-user-graduate
+icon: person-falling-burst
 date: 2020-01-01
 order: 4
 category:

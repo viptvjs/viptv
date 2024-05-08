@@ -1,6 +1,6 @@
 ---
 title: 欧美综艺
-icon: fa-solid fa-user-graduate
+icon: star
 date: 2020-01-01
 order: 4
 category:

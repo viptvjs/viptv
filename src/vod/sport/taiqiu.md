@@ -1,6 +1,6 @@
 ---
 title: 台球
-icon: fa-solid fa-user-graduate
+icon: bowling-ball
 date: 2020-01-01
 order: 4
 category:

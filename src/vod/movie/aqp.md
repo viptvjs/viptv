@@ -1,6 +1,6 @@
 ---
 title: 爱情片
-icon: fa-solid fa-user-graduate
+icon: photo-film
 date: 2020-01-01
 order: 4
 category:

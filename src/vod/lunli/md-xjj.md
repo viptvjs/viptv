@@ -1,6 +1,6 @@
 ---
 title: 麻豆小姐姐
-icon: fa-solid fa-user-graduate
+icon: hat-cowboy
 date: 2020-01-01
 order: 4
 category:

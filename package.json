@@ -11,10 +11,8 @@
     "update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@types/node-fetch": "^2.6.2",
     "@vuepress/bundler-vite": "2.0.0-rc.9",
     "artplayer": "^5.1.1",
-    "artplayer-plugin-danmuku": "^5.0.1",
     "dashjs": "^4.7.4",
     "flv.js": "^1.6.2",
     "hls.js": "^1.5.8",
@@ -28,13 +26,9 @@
     "vuepress-theme-hope": "2.0.0-rc.38"
   },
   "dependencies": {
-    "@fancyapps/ui": "^5.0.36",
-    "@types/node-fetch": "^2.6.11",
     "@vuepress/plugin-pwa": "2.0.0-rc.26",
     "@vueuse/core": "^10.9.0",
-    "crypto-js": "^4.2.0",
     "dexie": "^4.0.4",
-    "dexie-cloud-addon": "^4.0.5",
     "http-server": "^14.1.1",
     "node-fetch": "^3.3.2",
     "three": "^0.164.1"

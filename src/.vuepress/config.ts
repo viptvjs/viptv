@@ -10,13 +10,13 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "VIPTV - 云视听",
-      description: "简捷 、高效 、最有价值的视听链",
+      title: "VIPTV",
+      description: "便捷 、高效 、最有价值的视听链",
     },
     "/en/": {
       lang: "en-US",
-      title: "viptv - play",
-      description: "best iptv play",
+      title: "VIPTV - Cloud Audiovisual",
+      description: "Simple, efficient, and the most valuable audio-visual chain",
     },
   },
   alias: {
@@ -24,23 +24,7 @@ export default defineUserConfig({
     "cpn": path.resolve(__dirname, "./components"),
     "cps": path.resolve(__dirname, "./composables")
   },
-  bundler: viteBundler({
-    viteOptions: {
-      ssr: {
-        noExternal: ['@fancyapps/ui'],
-      },
-      build: {
-        chunkSizeWarningLimit: 1500,
-      },
-    },
-    vuePluginOptions: {
-      template: {
-        compilerOptions: {
-          isCustomElement: (tag) => tag === "ms-store-badge",
-        },
-      },
-    },
-  }),
+
   theme,
   shouldPrefetch: false,
 });
