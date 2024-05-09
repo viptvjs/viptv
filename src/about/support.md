@@ -9,7 +9,4 @@ timeline: false
 
 以下是我的二维码:
 
-![支付宝](./assets/alipay.jpg)
-
-![微信](./assets/wechat-light.jpg#light)
-![微信](./assets/wechat-dark.jpg#dark)
+![支付宝](/assets/png/support.jpg)

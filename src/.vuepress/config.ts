@@ -1,4 +1,3 @@
-import { viteBundler } from '@vuepress/bundler-vite';
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { getDirname, path } from "vuepress/utils";
@@ -6,7 +5,16 @@ const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   base: "/",
   dest: "./dist",
-  clientConfigFile: path.resolve(__dirname, "./client.ts"),
+  head: [
+    ['link', { rel: 'icon', href: '/logo.svgs' }],
+    [
+      "meta",
+      {
+        name: "baidu-site-verification",
+        content: "codeva-4N5cviFcWA",
+      },
+    ],
+  ],
   locales: {
     "/": {
       lang: "zh-CN",

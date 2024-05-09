@@ -1,16 +1,3 @@
 import comp from "D:/Administrator/Desktop/viptv-private/src/.vuepress/.temp/pages/vod/dongman/gtdm.html.vue"
-const data = JSON.parse("{\"path\":\"/vod/dongman/gtdm.html\",\"title\":\"港台动漫\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"港台动漫\",\"icon\":\"person-falling-burst\",\"date\":\"2020-01-01T00:00:00.000Z\",\"order\":4,\"category\":[\"影视点播\"],\"tag\":[\"动漫\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":0.64,\"words\":193},\"filePathRelative\":\"vod/dongman/gtdm.md\",\"localizedDate\":\"2020年1月1日\",\"excerpt\":\"\"}")
+const data = JSON.parse("{\"path\":\"/vod/dongman/gtdm.html\",\"title\":\"港台动漫\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"港台动漫\",\"icon\":\"person-falling-burst\",\"date\":\"2020-01-01T00:00:00.000Z\",\"order\":4,\"category\":[\"影视点播\"],\"tag\":[\"动漫\"],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://DESKTOP-BB2QNSK/vod/dongman/gtdm.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"VIPTV\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"港台动漫\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-05-08T12:19:44.000Z\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Mr.Hefung\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"动漫\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2020-01-01T00:00:00.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-05-08T12:19:44.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"港台动漫\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2020-01-01T00:00:00.000Z\\\",\\\"dateModified\\\":\\\"2024-05-08T12:19:44.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Mr.Hefung\\\",\\\"url\\\":\\\"/\\\"}]}\"]]},\"headers\":[],\"git\":{\"createdTime\":1714993694000,\"updatedTime\":1715170784000,\"contributors\":[{\"name\":\"viptv\",\"email\":\"mail@viptv.work\",\"commits\":4}]},\"readingTime\":{\"minutes\":0.64,\"words\":193},\"filePathRelative\":\"vod/dongman/gtdm.md\",\"localizedDate\":\"2020年1月1日\",\"excerpt\":\"\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

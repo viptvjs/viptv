@@ -1,16 +1,3 @@
 import comp from "D:/Administrator/Desktop/viptv-private/src/.vuepress/.temp/pages/vod/duanju/remen.html.vue"
-const data = JSON.parse("{\"path\":\"/vod/duanju/remen.html\",\"title\":\"热门短剧\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"热门短剧\",\"icon\":\"file-video\",\"date\":\"2020-01-01T00:00:00.000Z\",\"order\":4,\"category\":[\"影视点播\"],\"tag\":[\"短剧\"],\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":0.47,\"words\":142},\"filePathRelative\":\"vod/duanju/remen.md\",\"localizedDate\":\"2020年1月1日\",\"excerpt\":\"\"}")
+const data = JSON.parse("{\"path\":\"/vod/duanju/remen.html\",\"title\":\"热门短剧\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"热门短剧\",\"icon\":\"file-video\",\"date\":\"2020-01-01T00:00:00.000Z\",\"order\":4,\"category\":[\"影视点播\"],\"tag\":[\"短剧\"],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://DESKTOP-BB2QNSK/vod/duanju/remen.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"VIPTV\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"热门短剧\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-05-08T12:19:44.000Z\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Mr.Hefung\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"短剧\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2020-01-01T00:00:00.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-05-08T12:19:44.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"热门短剧\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2020-01-01T00:00:00.000Z\\\",\\\"dateModified\\\":\\\"2024-05-08T12:19:44.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Mr.Hefung\\\",\\\"url\\\":\\\"/\\\"}]}\"]]},\"headers\":[],\"git\":{\"createdTime\":1714993694000,\"updatedTime\":1715170784000,\"contributors\":[{\"name\":\"viptv\",\"email\":\"mail@viptv.work\",\"commits\":4}]},\"readingTime\":{\"minutes\":0.47,\"words\":142},\"filePathRelative\":\"vod/duanju/remen.md\",\"localizedDate\":\"2020年1月1日\",\"excerpt\":\"\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

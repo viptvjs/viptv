@@ -57,40 +57,43 @@ export default hopeTheme({
     blog: {
       excerptLength: 0,
     },
+    notice: [
+      {
+        path: "/",
+        title: "通知",
+        content: "欢迎光临我的新站",
+        actions: [
+          {
+            text: "立即访问→",
+            type: "primary",
+          },
+        ],
+        fullscreen: true,
+        confirm: true,
+        showOnce: true,
+      },
+    ],
+    watermark: {
+      enabled: false,
+    },
     copyCode: {},
     components: {
       components: ["Badge", "VPCard", "ArtPlayer", "VPBanner", "SiteInfo"],
-      rootComponents: {
-        notice: [
-          {
-            path: "/",
-            title: "通知",
-            content: "欢迎光临我的新站",
-            actions: [
-              {
-                text: "立即访问→",
-                type: "primary",
-              },
-            ],
-            fullscreen: true,
-            showOnce: true,
-          },
-        ],
-      },
     },
     mdEnhance: {
       align: true, // 启用自定义对齐
       hint: true,// 启用提示容器
-      attrs: true,
+      attrs: true, //属性支持
       codetabs: true,
+      spoiler: true,
       component: true,
       figure: true, // 图像添加描述
       imgLazyload: true, // 启用图片懒加载
       imgMark: true, // 启用图片标记
       imgSize: true,  // 启用图片大小
       include: true,
-      mark: true,
-      stylize: [
+      mark: true, //标记
+      stylize: [  //样式化
         {
           matcher: "Recommended",
           replacer: ({
@@ -132,6 +135,7 @@ export default hopeTheme({
         ],
       },
     },
+
   },
 },
   { custom: true },

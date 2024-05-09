@@ -1,61 +1,55 @@
 {
-  "hash": "d4d79341",
-  "configHash": "728ba238",
-  "lockfileHash": "e2445314",
-  "browserHash": "d496a1b7",
+  "hash": "44090600",
+  "configHash": "d36f907a",
+  "lockfileHash": "154d80af",
+  "browserHash": "14803fd6",
   "optimized": {
     "artplayer": {
       "src": "../../../../node_modules/.pnpm/artplayer@5.1.1/node_modules/artplayer/dist/artplayer.js",
       "file": "artplayer.js",
-      "fileHash": "65ba6d93",
+      "fileHash": "66ce95b6",
       "needsInterop": true
     },
     "@vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@6.6.1/node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "@vue_devtools-api.js",
-      "fileHash": "2290c698",
+      "fileHash": "f719f065",
       "needsInterop": false
     },
     "@vuepress/shared": {
       "src": "../../../../node_modules/.pnpm/@vuepress+shared@2.0.0-rc.9/node_modules/@vuepress/shared/dist/index.js",
       "file": "@vuepress_shared.js",
-      "fileHash": "48132b6e",
+      "fileHash": "dba32152",
       "needsInterop": false
     },
     "vue": {
-      "src": "../../../../node_modules/.pnpm/vue@3.4.26_typescript@4.9.5/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/.pnpm/vue@3.4.27_typescript@4.9.5/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "e2bd73d9",
+      "fileHash": "e9a24f3e",
       "needsInterop": false
     },
     "vue-router": {
-      "src": "../../../../node_modules/.pnpm/vue-router@4.3.2_vue@3.4.26_typescript@4.9.5_/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "src": "../../../../node_modules/.pnpm/vue-router@4.3.2_vue@3.4.27_typescript@4.9.5_/node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "file": "vue-router.js",
-      "fileHash": "83c73387",
-      "needsInterop": false
-    },
-    "@fancyapps/ui/dist/fancybox/fancybox.esm.js": {
-      "src": "../../../../node_modules/.pnpm/@fancyapps+ui@5.0.36/node_modules/@fancyapps/ui/dist/fancybox/fancybox.esm.js",
-      "file": "@fancyapps_ui_dist_fancybox_fancybox__esm__js.js",
-      "fileHash": "526cf5b9",
+      "fileHash": "5df5d315",
       "needsInterop": false
     },
     "@vueuse/core": {
-      "src": "../../../../node_modules/.pnpm/@vueuse+core@10.9.0_vue@3.4.26_typescript@4.9.5_/node_modules/@vueuse/core/index.mjs",
+      "src": "../../../../node_modules/.pnpm/@vueuse+core@10.9.0_vue@3.4.27_typescript@4.9.5_/node_modules/@vueuse/core/index.mjs",
       "file": "@vueuse_core.js",
-      "fileHash": "70875a21",
+      "fileHash": "7011af20",
       "needsInterop": false
     },
     "hls.js/dist/hls.min.js": {
       "src": "../../../../node_modules/.pnpm/hls.js@1.5.8/node_modules/hls.js/dist/hls.min.js",
       "file": "hls__js_dist_hls__min__js.js",
-      "fileHash": "05030b05",
+      "fileHash": "482a2aac",
       "needsInterop": true
     },
     "dexie": {
       "src": "../../../../node_modules/.pnpm/dexie@4.0.4/node_modules/dexie/import-wrapper.mjs",
       "file": "dexie.js",
-      "fileHash": "b6255686",
+      "fileHash": "19a44625",
       "needsInterop": false
     }
   },
@@ -63,8 +57,8 @@
     "chunk-BAIHGESP": {
       "file": "chunk-BAIHGESP.js"
     },
-    "chunk-OQ5DBIJB": {
-      "file": "chunk-OQ5DBIJB.js"
+    "chunk-VDV77W7A": {
+      "file": "chunk-VDV77W7A.js"
     },
     "chunk-LQ2VYIYD": {
       "file": "chunk-LQ2VYIYD.js"
