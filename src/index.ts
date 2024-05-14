@@ -5,7 +5,6 @@ import {
   writeFile,
   readFileSync,
   mkdirSync,
-  rmSync
 } from 'fs'
 import { dirname } from 'path'
 
