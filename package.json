@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "tsc": "tsc && node ./lib/index.js",
+    "tsup": "tsup && node ./lib/index.js",
     "build": "vuepress-vite build docs --clean-cache --clean-temp",
     "dev": "vuepress-vite dev docs --clean-cache --clean-temp",
     "serve": "http-server -a localhost dist -o",
