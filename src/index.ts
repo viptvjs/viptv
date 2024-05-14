@@ -115,8 +115,6 @@ function writeMap(info: PictureInfo) {
     writeFileSync("./map.json", JSON.stringify(JSONData));
     console.log("Done: Write map.json completed! ↓");
     console.log(info);
-
-    writeReadme(images, archives);
     writeDocs(info, images, archives);
   } catch (e) {
     console.log(e);
