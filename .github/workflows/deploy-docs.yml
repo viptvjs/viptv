@@ -32,7 +32,7 @@ jobs:
       - name: Build Docs
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: pnpm run build
+        run: pnpm run tsup && pnpm run build
         
       - name: Deploy Docs
         uses: peaceiris/actions-gh-pages@v4

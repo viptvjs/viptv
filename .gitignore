@@ -5,3 +5,8 @@ docs/.vuepress/dist/
 dist/
 .idea/
 .npmrc
+dist/
+node_modules/
+.cache/
+.temp/
+.npmrc
