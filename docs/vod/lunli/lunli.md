@@ -26,9 +26,8 @@ tag:
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
 
-  const vodId = "lzcaiji-lunli"
   const state = useStorage(
-    vodId,
+    "vod-lunli",
     {
       src:"",
       vod: [],
@@ -37,7 +36,7 @@ tag:
   )
  
   onMounted(async () => {
-    const { data } = await vod.find({ "name": vodId })
+    const { data } = await vod.find({ "name": "lzzy-34" })
     state.value.vod = data
     url(0)
   });

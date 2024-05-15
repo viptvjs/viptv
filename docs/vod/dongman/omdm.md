@@ -8,15 +8,16 @@ category:
 tag:
   - 动漫
 ---
+
 <ArtPlayer :src="state.src" :config="artPlayerConfig" />
 
 ::: tabs
 @tab:active 量子资源
 <SiteInfo v-for="(item,k) in state.vodlz" :name="item.vod_name" desc="" :logo="item.vod_pic"
-  :preview="item.vod_pic" url="" @click="vodlzurl(k)" />
+:preview="item.vod_pic" url="" @click="vodlzurl(k)" />
 @tab 暴风资源
 <SiteInfo v-for="(item,k) in state.vodbf" :name="item.vod_name" desc="" :logo="item.vod_pic"
-  :preview="item.vod_pic" url="" @click="vodbfurl(k)" />  
+:preview="item.vod_pic" url="" @click="vodbfurl(k)" />  
 :::
 
 <script setup lang="ts">
@@ -37,11 +38,11 @@ tag:
   )
  
   onMounted(async () => {
-    const lzcaiji = await vod.find({ "name": "lzcaiji-omdm" })
-    const bfzy = await vod.find({ "name": "bfzy-omdm" })
+    const lzcaiji = await vod.find({ "name": "lzzy-31" })
+    const bfzy = await vod.find({ "name": "bfzy-42" })
     state.value.vodlz = lzcaiji.data
     state.value.vodbf = bfzy.data
-    vodsnurl(0)
+    vodlzurl(0)
   });
   const vodlzurl = (key) => {
     const { vodlz } = state.value

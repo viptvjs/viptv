@@ -45,10 +45,10 @@ tag:
   )
  
   onMounted(async () => {
-    const moduapi = await vod.find({ "name": "moduapi-gcdm" })
-    const suonizy = await vod.find({ "name": "suonizy-gcdm" })
-    const lzcaiji = await vod.find({ "name": "lzcaiji-gcdm" })
-    const bfzy = await vod.find({ "name": "bfzy-gcdm" })
+    const moduapi = await vod.find({ "name": "mdzy-1" })
+    const suonizy = await vod.find({ "name": "snzy-29" })
+    const lzcaiji = await vod.find({ "name": "lzzy-29" })
+    const bfzy = await vod.find({ "name": "bfzy-40" })
     state.value.vodmd = moduapi.data
     state.value.vodsn = suonizy.data
     state.value.vodlz = lzcaiji.data
@@ -57,8 +57,8 @@ tag:
   });
   const vodmdurl = (key) => {
     const { vodmd } = state.value
-    state.value.PlayList =vodmd[key].play_list
-    state.value.src = vodmd[key].play_list[0].url
+    state.value.PlayList =vodmd
+    state.value.src = vodmd[key].url
   }
   const vodsnurl = (key) => {
     const { vodsn } = state.value

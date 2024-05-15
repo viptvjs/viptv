@@ -14,10 +14,10 @@ tag:
 ::: tabs
 @tab:active 索尼资源
 <SiteInfo v-for="(item,k) in state.vodsn" :name="item.title" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
-  @click="vodsnurl(k)" />
+@click="vodsnurl(k)" />
 @tab:active 鱼乐资源
 <SiteInfo v-for="(item,k) in state.vodyl" :name="item.title" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
-  @click="vodylurl(k)" />
+@click="vodylurl(k)" />
 :::
 
 <script setup lang="ts">
@@ -37,16 +37,16 @@ tag:
     }
   )
   onMounted(async () => {
-    const snzy = await vod.find({ "name": "suonizy-swdj" })
-    const ylzy = await vod.find({ "name": "ylzy-swdj" })
+    const snzy = await vod.find({ "name": "snzy-54" })
+    const ylzy = await vod.find({ "name": "ylzy-54" })
     state.value.vodsn = snzy.data
     state.value.vodyl = ylzy.data
     vodsnurl(0)
   });
   const vodsnurl = (key) => {
     const { vodsn } = state.value
-    state.value.PlayList = vodsn
-    state.value.src = vodsn[key].url
+    state.value.PlayList = vodsn[key].play_list
+    state.value.src = vodsn[key].play_list[0].url
   }
   const vodylurl = (key) => {
     const { vodyl } = state.value

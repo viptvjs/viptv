@@ -42,9 +42,9 @@ tag:
   )
  
   onMounted(async () => {
-    const suonizy = await vod.find({ "name": "suonizy-dlzy" })
-    const bfzy = await vod.find({ "name": "bfzy-dlzy" })
-    const lzcaiji = await vod.find({ "name": "lzcaiji-dlzy" })
+    const suonizy = await vod.find({ "name": "snzy-25" })
+    const bfzy = await vod.find({ "name": "bfzy-46" })
+    const lzcaiji = await vod.find({ "name": "lzzy-25" })
     state.value.vodsn = suonizy.data
     state.value.vodbf = bfzy.data
     state.value.vodlz = lzcaiji.data

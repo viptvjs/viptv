@@ -1,18 +1,20 @@
 ---
-title: 日本伦理
-icon: hat-cowboy
+title: 港台三级
+icon: person-falling-burst
 date: 2020-01-01
 order: 4
 category:
   - 影视点播
 tag:
-  - 三级
+  - 港台
 ---
 
-<ArtPlayer :src :config="artPlayerConfig" />
+<ArtPlayer :src="state.src" :config="artPlayerConfig" />
 
-::: tip 日本伦理
-资源链来自索尼资源站,感谢提供！
+::: tabs
+@tab:active 索尼资源
+<SiteInfo v-for="(item,k) in state.vodsn" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="vodsnurl(k)" />
 :::
 
 <script setup lang="ts">
@@ -21,24 +23,30 @@ tag:
   import { poster, Hls } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
-  const vodId = "suonizy-rbll"
   const state = useStorage(
-    vodId,
+    "gtsj",
     {
+      src:"",
+      vodsn: [],
       PlayList: []
     }
   )
-  const src = state.value.PlayList[0] ? state.value.PlayList[0].url : ""
-  onMounted(() => {
-    nextTick(async () => {
-      const { data } = await vod.find({ "name": vodId })
-      state.value.PlayList = data
-    })
+ 
+  onMounted(async () => {
+    const sn = await vod.find({ "name": "snzy-56" })
+    state.value.vodsn = sn.data
+    vodmdurl(0)
   });
+  const vodsnurl = (key) => {
+    const { vodsn } = state.value
+    state.value.PlayList =vodsn
+    state.value.src = vodsn[key].url
+  }
+  
   const artPlayerConfig = {
     poster,
     fullscreen: true,
-    fullscreenWeb: true,    
+    fullscreenWeb: true,
     autoplay: true,
     muted: true,
     type: "Hls",

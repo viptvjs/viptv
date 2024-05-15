@@ -12,7 +12,7 @@ tag:
 <ArtPlayer :src="state.src" :config="artPlayerConfig" />
 
 ::: tabs
-@tab:active 暴风资源
+@tab:active 鱼乐资源
 <SiteInfo v-for="(item,k) in state.vodbf" :name="item.title" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="vodbfurl(k)" />
 :::
@@ -35,7 +35,7 @@ tag:
   
   onMounted(() => {
     nextTick(async () => {
-      const bfzy = await vod.find({ "name": "bfzy-khp" })
+      const bfzy = await vod.find({ "name": "ylzy-9" })
       state.value.vodbf = bfzy.data
       vodbfurl(0)
     })

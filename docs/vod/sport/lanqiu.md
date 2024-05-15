@@ -39,8 +39,8 @@ tag:
   
   onMounted(() => {
     nextTick(async () => {
-      const suonizy = await vod.find({ "name": "suonizy-lanqiu" })
-      const ylzy = await vod.find({ "name": "ylzy-lanqiu" })
+      const suonizy = await vod.find({ "name": "snzy-49" })
+      const ylzy = await vod.find({ "name": "ylzy-49" })
       state.value.vodsn = suonizy.data
       state.value.vodyl = ylzy.data
       vodsnurl(0)

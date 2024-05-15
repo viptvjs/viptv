@@ -14,7 +14,7 @@ tag:
 ::: tabs
 @tab:active 索尼资源
 <SiteInfo v-for="(item,k) in state.vodsn" :name="item.vod_name" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
-  @click="vodsnurl(k)" />
+@click="vodsnurl(k)" />
 :::
 
 <script setup lang="ts">
@@ -33,7 +33,7 @@ tag:
     }
   )
   onMounted(async () => {
-    const snzy = await vod.find({ "name": "suonizy-xdds" })
+    const snzy = await vod.find({ "name": "snzy-69" })
     state.value.vodsn = snzy.data
     vodsnurl(0)
   });

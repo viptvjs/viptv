@@ -12,11 +12,9 @@ tag:
 <ArtPlayer :src="state.src" :config="artPlayerConfig" />
 
 ::: tabs
-@tab:active 量子资源
-
-<SiteInfo v-for="(item,k) in state.vod" :name="item.vod_name" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="url(k)" />
-
+@tab:active 鱼乐资源
+<SiteInfo v-for="(item,k) in state.vodyl" :name="item.title" desc="" :logo="item.vod_pic" :preview="item.vod_pic"
+url="" @click="vodylurl(k)" />
 :::
 
 <script setup lang="ts">
@@ -25,28 +23,27 @@ tag:
   import { poster, Hls } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
-
-  const vodId = "suonizy-ndxy"
   const state = useStorage(
-    vodId,
+    "vod-ndxy",
     {
-      src:"",
-      vod: [],
+      src: "",
+      vodyl: [],
       PlayList: []
     }
   )
- 
-  onMounted(async () => {
-    const { data } = await vod.find({ "name": vodId })
-    state.value.vod = data
-    url(0)
-  });
- const url = (key) => {
-    const { vod } = state.value
-    state.value.PlayList =vod[key].play_list
-    state.value.tip = vod[key].vod_content
-    state.value.src = vod[key].play_list[0].url
+
+  const vodylurl = (key) => {
+    const { vodyl } = state.value
+    state.value.PlayList = vodyl
+    state.value.src = vodyl[key].url
   }
+
+  onMounted(async () => {
+    const ylzy = await vod.find({ "name": "ylzy-68" })
+    state.value.vodyl = ylzy.data
+    vodylurl(0)
+  });
+
   const artPlayerConfig = {
     poster,
     fullscreen: true,

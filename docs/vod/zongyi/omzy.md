@@ -34,7 +34,7 @@ tag:
   )
  
   onMounted(async () => {
-    const lzcaiji = await vod.find({ "name": "lzcaiji-omzy" })
+    const lzcaiji = await vod.find({ "name": "lzzy-28" })
     state.value.vodlz = lzcaiji.data
     vodlzurl(0)
   });

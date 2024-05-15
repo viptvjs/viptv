@@ -39,7 +39,7 @@ url="" @click="vodlzurl(k)" />
   }
 
   onMounted(async () => {
-    const lzzy = await vod.find({ "name": "lzcaiji-duanju" })
+    const lzzy = await vod.find({ "name": "lzzy-46" })
     state.value.vodlz = lzzy.data
     vodlzurl(0)
   });

@@ -35,7 +35,7 @@ tag:
   
   onMounted(() => {
     nextTick(async () => {
-      const lzcaiji = await vod.find({ "name": "lzcaiji-jqp" })
+      const lzcaiji = await vod.find({ "name": "lzzy-11" })
       state.value.vodlz = lzcaiji.data
       vodlzurl(0)
     })

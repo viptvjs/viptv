@@ -8,15 +8,16 @@ category:
 tag:
   - 动漫
 ---
+
 <ArtPlayer :src="state.src" :config="artPlayerConfig" />
 
 ::: tabs
 @tab:active 索尼资源
 <SiteInfo v-for="(item,k) in state.vodsn" :name="item.vod_name" desc="" :logo="item.vod_pic"
-  :preview="item.vod_pic" url="" @click="vodsnurl(k)" />
+:preview="item.vod_pic" url="" @click="vodsnurl(k)" />
 @tab 量子资源
 <SiteInfo v-for="(item,k) in state.vodlz" :name="item.vod_name" desc="" :logo="item.vod_pic"
-  :preview="item.vod_pic" url="" @click="vodlzurl(k)" />
+:preview="item.vod_pic" url="" @click="vodlzurl(k)" />
 :::
 
 <script setup lang="ts">
@@ -37,8 +38,8 @@ tag:
   )
  
   onMounted(async () => {
-    const suonizy = await vod.find({ "name": "suonizy-rhdm" })
-    const lzcaiji = await vod.find({ "name": "lzcaiji-rhdm" })
+    const suonizy = await vod.find({ "name": "snzy-30" })
+    const lzcaiji = await vod.find({ "name": "lzzy-30" })
     state.value.vodsn = suonizy.data
     state.value.vodlz = lzcaiji.data
     vodsnurl(0)
