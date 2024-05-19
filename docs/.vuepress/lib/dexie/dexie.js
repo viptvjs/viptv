@@ -1,8 +1,11 @@
 import Dexie from "dexie";
 
-import { getTxt, getTxtt, getJson, getJsonx, gethema } from "./init/getAjax.js";
-
 import {
+  getTxt,
+  getTxtt,
+  getJson,
+  getJsonx,
+  gethema,
   vodId,
   vodIdx,
   tvId,
@@ -10,7 +13,7 @@ import {
   movieIdx,
   dataPath,
   txtPath,
-} from "./init/api.js";
+} from "./init/index.js";
 
 const db = new Dexie("viptv");
 
