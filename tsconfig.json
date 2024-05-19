@@ -1,20 +1,14 @@
 {
   "compilerOptions": {
-    "moduleResolution": "bundler",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "strict": true,
-    "module": "esnext",
-    "target": "ES2020",
-    "baseUrl": "./",
-    "types": ["vuepress/client-types"]
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022"
   },
   "include": [
-    "src/**/*.ts",
-    "docs/.vuepress/**/*.js",
     "docs/.vuepress/**/*.ts",
     "docs/.vuepress/**/*.vue"
   ],
-  "exclude": ["node_modules", "dist", "draft"]
+  "exclude": [
+    "node_modules"
+  ]
 }

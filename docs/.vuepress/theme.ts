@@ -71,8 +71,8 @@ export default hopeTheme(
       notice: [
         {
           path: "/",
-          title: "欢迎光临 : VIPTV - 云视听",
-          content: "便捷 、高效 、最有价值的视听链",
+          title: "公告",
+          content: "VIPTV 开始新建了，努力打造 便捷 、高效 、最有价值的视听链",
           actions: [
             {
               text: "主站 → ",

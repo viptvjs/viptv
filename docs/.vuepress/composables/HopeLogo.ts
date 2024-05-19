@@ -5,8 +5,8 @@ import type { STLLoader } from "three/examples/jsm/loaders/STLLoader.js";
 import type { VNode } from "vue";
 import { computed, defineComponent, h, onMounted, ref, watch } from "vue";
 
-import { useWindowSize } from "@theme-hope/composables/index";
-import { useDarkmode } from "@theme-hope/modules/outlook/composables/index";
+import { useWindowSize } from "vuepress-theme-hope/composables/index.js";
+import { useDarkmode } from "vuepress-theme-hope/modules/outlook/composables/index.js";
 
 import "../styles/hope-logo.scss";
 

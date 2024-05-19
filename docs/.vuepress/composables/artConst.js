@@ -1,26 +1,27 @@
-import hlsjs from "hls.js/dist/hls.min.js";
 import { artplayerPlaylist } from "cps/artplayer-plugin-playlist";
 export const poster = "https://img.viptv.work/iptv/ads.png";
 
-export const Hls = (video, url, art) => {
-  if (hlsjs.isSupported()) {
-    if (art.hls) art.hls.destroy();
-    let hls = new hlsjs();
-    hls.loadSource(url);
-    hls.attachMedia(video);
-    art.hls = hls;
-    art.on("destroy", () => hls.destroy());
-  } else if (
-    video.canPlayType("application/x-mpegURL") ||
-    video.canPlayType("application/vnd.apple.mpegURL")
+export const Hls = async (mediaElement, src, player) => {
+  if (
+    mediaElement.canPlayType("application/x-mpegURL") ||
+    mediaElement.canPlayType("application/vnd.apple.mpegURL")
   ) {
-    video.src = url;
+    mediaElement.src = src;
   } else {
-    art.notice.show = "Unsupported playback format: m3u8";
+    const HLS = (await import("hls.js/dist/hls.min.js")).default;
+    const hls = new HLS();
+    hls.attachMedia(mediaElement);
+    hls.on(HLS.Events.MEDIA_ATTACHED, () => {
+      hls.loadSource(src);
+    });
+    player.on("destroy", () => {
+      hls.destroy();
+    });
   }
 };
 
-export const Flv = (video, url, art) => {
+export const Flv = async (video, url, art) => {
+  const mpegts = (await import("mpegts.js/dist/mpegts.js")).default;
   if (mpegts.isSupported()) {
     if (art.flv) art.flv.destroy();
     const flv = flvjs.createPlayer({ type: "flv", url });
@@ -33,7 +34,8 @@ export const Flv = (video, url, art) => {
   }
 };
 
-export const Dash = (video, url, art) => {
+export const Dash = async (video, url, art) => {
+  const dashjs = (await import("dashjs")).default;
   if (dashjs.supportsMediaSource()) {
     if (art.dash) art.dash.destroy();
     const dash = dashjs.MediaPlayer().create();
