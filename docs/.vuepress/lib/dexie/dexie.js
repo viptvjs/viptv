@@ -13,7 +13,7 @@ import {
   movieIdx,
   dataPath,
   txtPath,
-} from "./init/index.js";
+} from './init/index.js';
 
 const db = new Dexie("viptv");
 
