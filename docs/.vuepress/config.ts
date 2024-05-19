@@ -4,7 +4,7 @@ import { getDirname, path } from "vuepress/utils";
 const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
-  base: "/",
+  base: "/viptv-private/",
   dest: "./dist",
   head: [
     ["link", { rel: "icon", href: "/logo.svgs" }],
