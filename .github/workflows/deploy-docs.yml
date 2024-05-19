@@ -18,23 +18,14 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           version: 8
-<<<<<<< HEAD
 
       - name: 设置 Node.js
-=======
-          
-      - name: Setup Node.js
->>>>>>> 9ebb3cfcf2725e110d1dbae7f25e96592c1477c6
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: pnpm
           
-<<<<<<< HEAD
       - name: 安装依赖
-=======
-      - name: Install deps
->>>>>>> 9ebb3cfcf2725e110d1dbae7f25e96592c1477c6
         run: |
           corepack enable
           pnpm install --frozen-lockfile
@@ -44,11 +35,7 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           pnpm run build
-<<<<<<< HEAD
           > dist/.nojekyll
-=======
-          > /dist/.nojekyll
->>>>>>> 9ebb3cfcf2725e110d1dbae7f25e96592c1477c6
         
       - name: 部署文档
         uses: peaceiris/actions-gh-pages@v4
