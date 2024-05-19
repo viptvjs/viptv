@@ -33,7 +33,7 @@ jobs:
           cache: pnpm
           
       - name: Install deps
-        run: pnpm i
+        run: pnpm install --frozen-lockfile
 
       - name: update bing wallpaper
         run: pnpm run tsup 
