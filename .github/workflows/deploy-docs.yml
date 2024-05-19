@@ -5,8 +5,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 0,8 * * *"
-env:
-  TZ: Asia/Shanghai   
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -15,10 +13,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: GetTime
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S CST')"
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
@@ -35,13 +29,12 @@ jobs:
       - name: Install deps
         run: pnpm install --frozen-lockfile
 
-      - name: update bing wallpaper
-        run: pnpm run tsup 
-
       - name: Build Docs
-        run: pnpm run build   
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: pnpm run build
         
-      - name: Deploy to viptv-work/viptv
+      - name: Deploy Docs
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PUBLISH_DOCS }}
@@ -49,11 +42,3 @@ jobs:
           publish_dir: ./dist
           publish_branch: gh-pages
           cname: viptv.work
-
-      - name: Deploy to hefung/docs
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          personal_token: ${{ secrets.PUBLISH_DOCS }}
-          external_repository: hefung/docs
-          publish_dir: ./dist
-          publish_branch: main  
