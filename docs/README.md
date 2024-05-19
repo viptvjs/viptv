@@ -1,13 +1,11 @@
 ---
+date: 2024-04-29
 home: true
 icon: home
 title: 首页
-heroImage: /logo.svg
+heroImage: /assets/png/viptv.png
 heroFullScreen: true
-bgImage: /assets/svg/6-light.svg
-bgImageDark: /assets/svg/6-dark.svg
-bgImageStyle:
-  background-attachment: fixed
+bgImage: /assets/svg/bg.svg
 heroText: VIPTV云视听
 tagline: 便捷 、高效 、最有价值的视听链
 actions:

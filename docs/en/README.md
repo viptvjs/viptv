@@ -1,8 +1,10 @@
 ---
+date: 2024-05-14
 home: true
 icon: home
 title: HOME
-heroImage: /logo.svg
+heroImage: /assets/png/viptv.png
+bgImage: /assets/svg/bg.svg
 heroFullScreen: true
 actions:
   - text: ReMenDuanJu

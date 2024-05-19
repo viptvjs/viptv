@@ -1,4 +1,4 @@
-import { token } from "./consts";
+import { token } from "./consts.js";
 import { enc, mode, AES, DES, pad } from "crypto-js";
 const timeStamp = {
   Milliseconds: new Date().getTime(),

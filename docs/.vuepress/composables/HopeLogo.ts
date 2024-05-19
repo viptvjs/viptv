@@ -5,9 +5,7 @@ import type { STLLoader } from "three/examples/jsm/loaders/STLLoader.js";
 import type { VNode } from "vue";
 import { computed, defineComponent, h, onMounted, ref, watch } from "vue";
 
-// @ts-ignore
 import { useWindowSize } from "@theme-hope/composables/index";
-// @ts-ignore
 import { useDarkmode } from "@theme-hope/modules/outlook/composables/index";
 
 import "../styles/hope-logo.scss";
@@ -15,7 +13,7 @@ import "../styles/hope-logo.scss";
 const ASSETS_SERVER = "https://theme-hope-assets.vuejs.press";
 
 export default defineComponent({
-  name: "VIPTVLogo",
+  name: "HopeLogo",
 
   setup() {
     const { isDarkmode } = useDarkmode();
@@ -24,13 +22,15 @@ export default defineComponent({
     const ready = ref(false);
 
     const sizes = computed(() =>
-      isMobile.value ? { width: 220, height: 220 } : { width: 300, height: 300 }
+      isMobile.value
+        ? { width: 220, height: 220 }
+        : { width: 300, height: 300 },
     );
 
     const renderLogo = async (
       three: typeof Three,
       STLLoaderConstructor: typeof STLLoader,
-      OrbitControlsConstructor: typeof OrbitControls
+      OrbitControlsConstructor: typeof OrbitControls,
     ): Promise<void> => {
       const { width, height } = sizes.value;
 
@@ -42,7 +42,7 @@ export default defineComponent({
       const stlLoader = new STLLoaderConstructor();
       const textureLoader = new three.TextureLoader();
       const roughnessTexture = textureLoader.load(
-        `${ASSETS_SERVER}/model/roughness.jpeg`
+        `${ASSETS_SERVER}/model/roughness.jpeg`,
       );
       // Models
       let logo1: Mesh;
@@ -51,7 +51,7 @@ export default defineComponent({
       // Lights
       const ambientLight = new three.AmbientLight(
         0xffffff,
-        isDarkmode.value ? 5 : 15
+        isDarkmode.value ? 5 : 15,
       );
       const directionalLight = new three.DirectionalLight(0xffffff, 3);
       const directionalLight2 = new three.DirectionalLight(0xffffff, 3);
@@ -136,7 +136,7 @@ export default defineComponent({
             scene.add(logo1);
 
             resolve();
-          })
+          }),
         ),
         new Promise<void>((resolve) =>
           stlLoader.load(`${ASSETS_SERVER}/model/logo2.stl`, (geometry) => {
@@ -159,7 +159,7 @@ export default defineComponent({
             scene.add(logo2);
 
             resolve();
-          })
+          }),
         ),
       ]);
 
@@ -171,15 +171,17 @@ export default defineComponent({
         [isDarkmode, isMobile],
         () =>
           Promise.all([
-            import("three").then((m) => m),
-            import("three/examples/jsm/controls/OrbitControls.js").then(
-              (m) => m
-            ),
-            import("three/examples/jsm/loaders/STLLoader.js").then((m) => m),
+            import(/* webpackChunkName: "hope-logo" */ "three").then((m) => m),
+            import(
+              /* webpackChunkName: "hope-logo" */ "three/examples/jsm/controls/OrbitControls.js"
+            ).then((m) => m),
+            import(
+              /* webpackChunkName: "hope-logo" */ "three/examples/jsm/loaders/STLLoader.js"
+            ).then((m) => m),
           ]).then(([THREE, { OrbitControls }, { STLLoader }]) =>
-            renderLogo(THREE, STLLoader, OrbitControls)
+            renderLogo(THREE, STLLoader, OrbitControls),
           ),
-        { immediate: true }
+        { immediate: true },
       );
     });
 
@@ -187,10 +189,10 @@ export default defineComponent({
       ready.value
         ? null
         : h("img", {
-            class: "vp-hero-image",
-            src: `${ASSETS_SERVER}/logo.svg`,
-            alt: "vuepress-theme-hope",
-          }),
+          class: "vp-hero-image",
+          src: `${ASSETS_SERVER}/logo.svg`,
+          alt: "vuepress-theme-hope",
+        }),
 
       h("canvas", {
         id: "hero-logo",

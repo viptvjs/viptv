@@ -9,7 +9,7 @@ tag:
   - 综艺
 ---
 
-<ArtPlayer :src="state.src" :config="artPlayerConfig" />
+<ArtPlayer :src="state.src" :config="artConfig(Hls,state.PlayList)" type="Hls"/>
 
 ::: tabs
 @tab:active 索尼资源
@@ -25,9 +25,8 @@ tag:
 :::
 
 <script setup lang="ts">
-  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
   import { vod } from 'db'
-  import { poster, Hls } from 'cps/artConst'
+  import { artConfig, Hls } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
   const state = useStorage(
@@ -40,7 +39,7 @@ tag:
       PlayList: []
     }
   )
- 
+
   onMounted(async () => {
     const suonizy = await vod.find({ "name": "snzy-25" })
     const bfzy = await vod.find({ "name": "bfzy-46" })
@@ -55,7 +54,7 @@ tag:
     state.value.PlayList =vodsn[key].play_list
     state.value.src = vodsn[key].play_list[0].url
   }
-    const vodbfurl = (key) => {
+  const vodbfurl = (key) => {
     const { vodbf } = state.value
     state.value.PlayList =vodbf[key].play_list
     state.value.src = vodbf[key].play_list[0].url
@@ -64,21 +63,5 @@ tag:
     const { vodlz } = state.value
     state.value.PlayList =vodlz[key].play_list
     state.value.src = vodlz[key].play_list[0].url
-  }
-
-  const artPlayerConfig = {
-    poster,
-    fullscreen: true,
-    fullscreenWeb: true,
-    autoplay: true,
-    muted: true,
-    type: "Hls",
-    customType: { Hls },
-    plugins: [
-      artplayerPlaylist({
-        autoNext: true,
-        playlist: state.value.PlayList
-      })
-    ],
   }
 </script>

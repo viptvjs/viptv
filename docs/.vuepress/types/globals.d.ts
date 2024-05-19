@@ -15,4 +15,10 @@ declare module "*.svg" {
   export default CONTENT;
 }
 
+declare global {
+  const __VUEPRESS_SSR__: boolean;
+}
+
+export { };
+
 declare type Recordable<T = any> = Record<string, T>;
