@@ -33,7 +33,7 @@ jobs:
           cache: pnpm
           
       - name: Install deps
-        run: pnpm dlx vp-update
+        run: pnpm i
 
       - name: update bing wallpaper
         run: pnpm run tsup 
