@@ -1,5 +1,5 @@
 import db from "./dexie.js";
-const { iptv } = db;
+const { iptv } =db
 export default {
   async all() {
     return await iptv.toArray();
