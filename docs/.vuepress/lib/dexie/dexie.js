@@ -1,5 +1,7 @@
 import Dexie from "dexie";
 
+import { getTxt, getTxtt, getJson, getJsonx } from "./init/getAjax.js";
+
 import {
   getTxt,
   getTxtt,

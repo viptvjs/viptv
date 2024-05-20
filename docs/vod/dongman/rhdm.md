@@ -9,7 +9,7 @@ tag:
   - 动漫
 ---
 
-<ArtPlayer :src="state.src" :config="mpConfig(state.PlayList)" type="Hls"/>
+<ArtPlayer :src="state.src" :config="artPlayerConfig" />
 
 ::: tabs
 @tab:active 索尼资源
@@ -21,8 +21,9 @@ tag:
 :::
 
 <script setup lang="ts">
+  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
   import { vod } from 'db'
-  import { mpConfig } from 'cps/artConst'
+  import { poster, Hls } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
 
@@ -35,7 +36,7 @@ tag:
       PlayList: []
     }
   )
-
+ 
   onMounted(async () => {
     const suonizy = await vod.find({ "name": "snzy-30" })
     const lzcaiji = await vod.find({ "name": "lzzy-30" })
@@ -53,5 +54,20 @@ tag:
     const { vodlz } = state.value
     state.value.PlayList =vodlz[key].play_list
     state.value.src = vodlz[key].play_list[0].url
+  }
+  const artPlayerConfig = {
+    poster,
+    fullscreen: true,
+    fullscreenWeb: true,
+    autoplay: true,
+    muted: true,
+    type: "Hls",
+    customType: { Hls },
+    plugins: [
+      artplayerPlaylist({
+        autoNext: true,
+        playlist: state.value.PlayList
+      })
+    ],
   }
 </script>

@@ -9,11 +9,11 @@ tag:
   - 动漫
 ---
 
-<ArtPlayer :src="state.src" :config="artConfig(Hls,state.PlayList)" type="Hls"/>
+<ArtPlayer :src="state.src" :config="artPlayerConfig" />
 
 ::: tabs
 @tab:active 魔都资源
-<SiteInfo v-for="(item,k) in state.vodmd" :name="item.title" desc="" :logo="item.vod_pic"
+<SiteInfo v-for="(item,k) in state.vodmd" :name="item.vod_name" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="vodmdurl(k)" />
 @tab 索尼资源
 <SiteInfo v-for="(item,k) in state.vodsn" :name="item.vod_name" desc="" :logo="item.vod_pic"
@@ -23,12 +23,13 @@ tag:
 :preview="item.vod_pic" url="" @click="vodsnurl(k)" />
 @tab 暴风资源
 <SiteInfo v-for="(item,k) in state.vodbf" :name="item.vod_name" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodbfurl(k)" />
+:preview="item.vod_pic" url="" @click="vodbfurl(k)" />  
 :::
 
 <script setup lang="ts">
+  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
   import { vod } from 'db'
-  import { artConfig, Hls } from 'cps/artConst'
+  import { poster, Hls } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
   const state = useStorage(
@@ -42,7 +43,7 @@ tag:
       PlayList: []
     }
   )
-
+ 
   onMounted(async () => {
     const moduapi = await vod.find({ "name": "mdzy-1" })
     const suonizy = await vod.find({ "name": "snzy-29" })
@@ -73,5 +74,20 @@ tag:
     const { vodbf } = state.value
     state.value.PlayList =vodbf[key].play_list
     state.value.src = vodbf[key].play_list[0].url
+  }
+  const artPlayerConfig = {
+    poster,
+    fullscreen: true,
+    fullscreenWeb: true,
+    autoplay: true,
+    muted: true,
+    type: "Hls",
+    customType: { Hls },
+    plugins: [
+      artplayerPlaylist({
+        autoNext: true,
+        playlist: state.value.PlayList
+      })
+    ],
   }
 </script>

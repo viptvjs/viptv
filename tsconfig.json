@@ -9,8 +9,6 @@
     "skipLibCheck": true 
   },
   "include": [
-    "src/**/*.ts",
-    "docs/.vuepress/lib/dexie/**/*.js",
     "docs/.vuepress/**/*.ts",
     "docs/.vuepress/**/*.vue"
   ],

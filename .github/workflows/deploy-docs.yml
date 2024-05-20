@@ -51,3 +51,11 @@ jobs:
           external_repository: hefung/docs
           publish_dir: ./dist
           publish_branch: main  
+
+      - name: Deploy to hefung/docs
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PUBLISH_DOCS }}
+          external_repository: hefung/docs
+          publish_dir: ./dist
+          publish_branch: main  

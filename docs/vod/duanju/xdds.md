@@ -9,7 +9,7 @@ tag:
   - 短剧
 ---
 
-<ArtPlayer :src="state.src" :config="artConfig(Hls,state.PlayList)" type="Hls"/>
+<ArtPlayer :src="state.src" :config="artPlayerConfig" />
 
 ::: tabs
 @tab:active 索尼资源
@@ -18,8 +18,9 @@ tag:
 :::
 
 <script setup lang="ts">
+  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
   import { vod } from 'db'
-  import { artConfig, Hls } from 'cps/artConst'
+  import { poster, Hls } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
 
@@ -40,5 +41,21 @@ tag:
     const { vodsn } = state.value
     state.value.PlayList = vodsn[key].play_list
     state.value.src = vodsn[key].play_list[0].url
+  }
+
+  const artPlayerConfig = {
+    poster,
+    fullscreen: true,
+    fullscreenWeb: true,
+    autoplay: true,
+    muted: true,
+    type: "Hls",
+    customType: { Hls },
+    plugins: [
+      artplayerPlaylist({
+        autoNext: true,
+        playlist: state.value.PlayList
+      })
+    ],
   }
 </script>

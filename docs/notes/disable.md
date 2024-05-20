@@ -1,5 +1,4 @@
 ---
-date: 2024-04-29
 title: 布局与功能禁用
 icon: gears
 order: 4

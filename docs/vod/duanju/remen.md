@@ -9,7 +9,7 @@ tag:
   - 短剧
 ---
 
-<ArtPlayer :src="state.src" :config="artConfig(Hls,state.PlayList)" type="Hls"/>
+<ArtPlayer :src="state.src" :config="artPlayerConfig" />
 
 ::: tabs
 @tab:active 量子资源
@@ -18,8 +18,9 @@ url="" @click="vodlzurl(k)" />
 :::
 
 <script setup lang="ts">
+  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
   import { vod } from 'db'
-  import { artConfig, Hls } from 'cps/artConst'
+  import { poster, Hls } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
   const state = useStorage(
@@ -42,4 +43,20 @@ url="" @click="vodlzurl(k)" />
     state.value.vodlz = lzzy.data
     vodlzurl(0)
   });
+
+  const artPlayerConfig = {
+    poster,
+    fullscreen: true,
+    fullscreenWeb: true,
+    autoplay: true,
+    muted: true,
+    type: "Hls",
+    customType: { Hls },
+    plugins: [
+      artplayerPlaylist({
+        autoNext: true,
+        playlist: state.value.PlayList
+      })
+    ],
+  }
 </script>
