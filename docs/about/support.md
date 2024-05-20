@@ -1,8 +1,4 @@
 ---
-date: 2024-05-06
----
-
----
 title: 捐赠
 icon: support
 article: false

@@ -1,6 +1,6 @@
 import Dexie from "dexie";
 
-import { getTxt, getTxtt, getJson, getJsonx } from "./init/getAjax.js";
+import { getTxt, getTxtt, getJson, getJsonx, gethema } from "./init/getAjax.js";
 
 import {
   vodId,

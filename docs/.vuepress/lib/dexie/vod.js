@@ -1,5 +1,5 @@
 import db from "./dexie.js";
-const { vod } =db
+const { vod } = db;
 export default {
   async all() {
     return await vod.toArray();

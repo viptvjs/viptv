@@ -1,21 +1,16 @@
 ---
-date: 2024-05-14
----
-
----
 home: true
 portfolio: true
 title: 档案主页
-icon: home
-name: VIPTV 云视听
-welcome: 👋 您好，欢迎访问
+icon: user-tag
+welcome: 👋 你好，我是
+name: 何锋
 avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
 
 titles:
-  - 简便 , 快捷 , 高效 , 无广告 , 高价值
-  - CCTV , IPTV , 央视台 , 卫视台 , 地方台 , 省市台 , 国际台
-  - 直播 , 点播 , 音乐 , 小说 , 壁纸
-  - JS , TS , VUE , API , PHP , VUEPRESS
+  - 善于学习
+  - 积极向上
+  - 团结友爱
 
 footer: false
 ---

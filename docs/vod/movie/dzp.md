@@ -1,7 +1,7 @@
 ---
-date: 2024-05-06
 title: 动作片
 icon: photo-film
+date: 2020-01-01
 order: 4
 category:
   - 影视点播
@@ -9,7 +9,7 @@ tag:
   - 篮球
 ---
 
-<ArtPlayer :src="state.src" :config="artConfig(Hls,state.PlayList)" type="Hls"/>
+<ArtPlayer :src="state.src" :config="artPlayerConfig" />
 
 ::: tabs
 @tab:active 量子资源
@@ -24,8 +24,9 @@ tag:
 :::
 
 <script setup lang="ts">
+  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
   import { vod } from 'db'
-  import { artConfig, Hls } from 'cps/artConst'
+  import { poster, Hls } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
   
@@ -65,5 +66,20 @@ tag:
     const { vodbf } = state.value
     state.value.PlayList =vodbf
     state.value.src = vodbf[key].url
+  }
+  const artPlayerConfig = {
+    poster,
+    fullscreen: true,
+    fullscreenWeb: true,    
+    autoplay: true,
+    muted: true,
+    type: "Hls",
+    customType: { Hls },
+    plugins: [
+      artplayerPlaylist({
+        autoNext: true,
+        playlist: state.value.PlayList
+      })
+    ],
   }
 </script>
