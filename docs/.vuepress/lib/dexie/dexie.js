@@ -1,15 +1,8 @@
-import Dexie from "dexie";
+import Dexie from 'dexie';
 
-import { getTxt, getTxtt, getJson, getJsonx, gethema } from './getAjax.js';
-import {
-  vodId,
-  vodIdx,
-  tvId,
-  movieId,
-  movieIdx,
-  dataPath,
-  txtPath,
-} from './api.js';
+import { getTxt, getTxtt, getJson, getJsonx } from './init/getAjax.js'
+
+import { vodId, vodIdx, tvId, movieId, movieIdx, dataPath, txtPath } from './init/api.js'
 
 const db = new Dexie("viptv");
 
