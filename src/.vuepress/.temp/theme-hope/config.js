@@ -1,16 +1,16 @@
 import { defineClientConfig } from "vuepress/client";
 
 
-import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.40_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._42oyv6nw22xsan6j6csk3znxpq/node_modules/vuepress-theme-hope/lib/client/export.js";
+import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "D:/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.42_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._r6ovetvjjyrqvc7a2ae4k3oyeq/node_modules/vuepress-theme-hope/lib/client/export.js";
 
-import { defineCatalogInfoGetter } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/@vuepress+plugin-catalog@2.0.0-rc.28_typescript@4.9.5_vuepress@2.0.0-rc.9_@vuepress+bundler-v_ulfsbf3an2vy2vwrwbzcbutf6m/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
+import { defineCatalogInfoGetter } from "D:/viptv-private/node_modules/.pnpm/@vuepress+plugin-catalog@2.0.0-rc.28_typescript@4.9.5_vuepress@2.0.0-rc.9_@vuepress+bundler-v_wddxclfjn7t2manjvi6j2pp3vi/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, PortfolioHome, Timeline, setupBlog } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.40_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._42oyv6nw22xsan6j6csk3znxpq/node_modules/vuepress-theme-hope/lib/client/modules/blog/export.js";
-import "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.40_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._42oyv6nw22xsan6j6csk3znxpq/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/layout.scss";
-import { GlobalEncrypt, LocalEncrypt } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.40_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._42oyv6nw22xsan6j6csk3znxpq/node_modules/vuepress-theme-hope/lib/client/modules/encrypt/export.js";
-import Slide from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.39_markdown-it@14.1.0_reveal.js@5.1.0_typescript@4.9.5_vu_gbwafrx7qb4cvueivxdlfw4ffq/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, SocialMedias, Timeline, setupBlog } from "D:/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.42_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._r6ovetvjjyrqvc7a2ae4k3oyeq/node_modules/vuepress-theme-hope/lib/client/modules/blog/export.js";
+import "D:/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.42_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._r6ovetvjjyrqvc7a2ae4k3oyeq/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/layout.scss";
+import { GlobalEncrypt, LocalEncrypt } from "D:/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.42_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._r6ovetvjjyrqvc7a2ae4k3oyeq/node_modules/vuepress-theme-hope/lib/client/modules/encrypt/export.js";
+import Slide from "D:/viptv-private/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.42_markdown-it@14.1.0_reveal.js@5.1.0_typescript@4.9.5_vu_gt3llufcjga2gnlxwhtbop6epi/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
 
-import "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.40_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._42oyv6nw22xsan6j6csk3znxpq/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
+import "D:/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.42_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._r6ovetvjjyrqvc7a2ae4k3oyeq/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.t;
@@ -42,6 +42,7 @@ export default defineClientConfig({
     app.component("HopeIcon", HopeIcon);
 
     app.component("BloggerInfo", BloggerInfo);
+    app.component("SocialMedias", SocialMedias);
     app.component("GlobalEncrypt", GlobalEncrypt);
     app.component("LocalEncrypt", LocalEncrypt);
   },
@@ -56,7 +57,6 @@ export default defineClientConfig({
     BlogCategory,
     BlogHome,
     BlogType,
-    PortfolioHome,
     Timeline,
     Slide,
   }

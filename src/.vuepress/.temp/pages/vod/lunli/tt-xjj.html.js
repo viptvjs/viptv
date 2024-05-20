@@ -1,3 +1,3 @@
-import comp from "D:/Administrator/Desktop/viptv-private/src/.vuepress/.temp/pages/vod/lunli/tt-xjj.html.vue"
+import comp from "D:/viptv-private/src/.vuepress/.temp/pages/vod/lunli/tt-xjj.html.vue"
 const data = JSON.parse("{\"path\":\"/vod/lunli/tt-xjj.html\",\"title\":\"TikTok小姐姐\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"TikTok小姐姐\",\"icon\":\"hat-cowboy\",\"date\":\"2020-01-01T00:00:00.000Z\",\"order\":4,\"category\":[\"影视点播\"],\"tag\":[\"小姐姐\"],\"feed\":false,\"seo\":false,\"head\":[]},\"headers\":[],\"git\":{\"createdTime\":1714993694000,\"updatedTime\":1715170784000,\"contributors\":[{\"name\":\"viptv\",\"email\":\"mail@viptv.work\",\"commits\":4}]},\"readingTime\":{\"minutes\":0.37,\"words\":112},\"filePathRelative\":\"vod/lunli/tt-xjj.md\",\"localizedDate\":\"2020年1月1日\"}")
 export { comp, data }
