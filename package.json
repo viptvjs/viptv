@@ -13,7 +13,6 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.11",
-    "@vuepress/helper": "2.0.0-rc.28",
     "artplayer": "^5.1.1",
     "dashjs": "^4.7.4",
     "flv.js": "^1.6.2",
