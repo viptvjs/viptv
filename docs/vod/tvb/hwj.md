@@ -1,0 +1,56 @@
+---
+title: 海外剧
+icon: clone
+date: 2020-01-01
+order: 4
+category:
+  - 影视点播
+tag:
+  - 海外剧
+---
+
+<ArtPlayer :src="state.src" :config="artConfig(Hls,state.PlayList)" type="Hls"/>
+
+::: tabs
+@tab:active 量子资源
+
+<SiteInfo v-for="(item,k) in state.vodlz" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="vodlzurl(k)" />
+@tab 暴风资源
+<SiteInfo v-for="(item,k) in state.vodbf" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="vodbf(k)" />
+:::
+
+<script setup lang="ts">
+  import { vod } from 'db'
+  import { artConfig, Hls } from 'cps/artConst'
+  import { useStorage } from '@vueuse/core'
+  import { onMounted, nextTick, onDeactivated } from "vue";
+  const state = useStorage(
+    "vod-hwj",
+    {
+      src:"",
+      vodlz: [],
+      vodbf: [],
+      PlayList: []
+    }
+  )
+
+  onMounted(async () => {
+    const lzcaiji = await vod.find({ "name": "lzzy-23" })
+    const bfzy = await vod.find({ "name": "bfzy-37" })
+    state.value.vodlz = lzcaiji.data
+    state.value.vodbf = bfzy.data
+    vodlzurl(0)
+  });
+  const vodlzurl = (key) => {
+    const { vodlz } = state.value
+    state.value.PlayList =vodlz[key].play_list
+    state.value.src = vodlz[key].play_list[0].url
+  }
+  const vodbfurl = (key) => {
+    const { vodbf } = state.value
+    state.value.PlayList =vodbf[key].play_list
+    state.value.src = vodbf[key].play_list[0].url
+  }
+</script>

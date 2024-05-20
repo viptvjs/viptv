@@ -48,8 +48,8 @@
     "skipLibCheck": true
   },
   "include": [
-    "src/.vuepress/**/*.ts",
-    "src/.vuepress/**/*.vue"
+    "docs/.vuepress/**/*.ts",
+    "docs/.vuepress/**/*.vue"
   ],
   "exclude": [
     "node_modules"
