@@ -1,5 +1,4 @@
 ---
-date: 2024-04-29
 title: 主要功能与配置演示
 index: false
 icon: laptop-code

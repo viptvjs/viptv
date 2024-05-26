@@ -9,7 +9,7 @@ tag:
   - 足球
 ---
 
-<ArtPlayer :src="state.src" :config="artConfig(Hls,state.PlayList)" type="Hls"/>
+<ArtPlayer :src="state.src" :config="artPlayerConfig" />
 
 ::: tabs
 @tab:active 索尼资源
@@ -24,11 +24,12 @@ tag:
 :::
 
 <script setup lang="ts">
+  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
   import { vod } from 'db'
-  import { artConfig, Hls } from 'cps/artConst'
+  import { poster, Hls } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
-
+  
   const state = useStorage(
     "vod-zuqiu",
     {
@@ -39,7 +40,7 @@ tag:
       PlayList: []
     }
   )
-
+  
   onMounted(() => {
     nextTick(async () => {
       const suonizy = await vod.find({ "name": "snzy-50" })
@@ -65,5 +66,20 @@ tag:
     const { vodbf } = state.value
     state.value.PlayList =vodbf
     state.value.src = vodbf[key].url
+  }
+  const artPlayerConfig = {
+    poster,
+    fullscreen: true,
+    fullscreenWeb: true,    
+    autoplay: true,
+    muted: true,
+    type: "Hls",
+    customType: { Hls },
+    plugins: [
+      artplayerPlaylist({
+        autoNext: true,
+        playlist: state.value.PlayList
+      })
+    ],
   }
 </script>
