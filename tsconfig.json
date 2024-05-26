@@ -2,7 +2,6 @@
   "compilerOptions": {
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-<<<<<<< HEAD
     "resolveJsonModule": true,
     "baseUrl": "./",
     "paths": {
@@ -19,13 +18,6 @@
     "types": [
       "vuepress/client-types"
     ]
-=======
-    "target": "ES2022",
-    "esModuleInterop": true,   
-    "forceConsistentCasingInFileNames": true, 
-    "strict": true, 
-    "skipLibCheck": true 
->>>>>>> ca70720fe4d31c6ae1d52bfe6b185608c0555e56
   },
   "include": [
     "src/.vuepress/**/*.ts",
