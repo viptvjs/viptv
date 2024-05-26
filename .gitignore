@@ -5,7 +5,5 @@ lib/
 dist/
 .idea/
 .npmrc
-dist/
 .cache/
 .temp/
-.npmrc

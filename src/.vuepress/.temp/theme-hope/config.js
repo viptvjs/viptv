@@ -1,16 +1,16 @@
 import { defineClientConfig } from "vuepress/client";
 
 
-import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "D:/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.42_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._r6ovetvjjyrqvc7a2ae4k3oyeq/node_modules/vuepress-theme-hope/lib/client/export.js";
+import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.43_artplayer@5.1.1_dashjs@4.7.4_hls.js@1.5.8_markdown-it@14.1.0__kn2b7xznnniv473orgajzckqeq/node_modules/vuepress-theme-hope/lib/client/export.js";
 
-import { defineCatalogInfoGetter } from "D:/viptv-private/node_modules/.pnpm/@vuepress+plugin-catalog@2.0.0-rc.28_typescript@4.9.5_vuepress@2.0.0-rc.9_@vuepress+bundler-v_wddxclfjn7t2manjvi6j2pp3vi/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
+import { defineCatalogInfoGetter } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/@vuepress+plugin-catalog@2.0.0-rc.28_vuepress@2.0.0-rc.11_@vuepress+bundler-vite@2.0.0-rc.11__7caskn5jiaspjfctcie3a3acnm/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, SocialMedias, Timeline, setupBlog } from "D:/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.42_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._r6ovetvjjyrqvc7a2ae4k3oyeq/node_modules/vuepress-theme-hope/lib/client/modules/blog/export.js";
-import "D:/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.42_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._r6ovetvjjyrqvc7a2ae4k3oyeq/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/layout.scss";
-import { GlobalEncrypt, LocalEncrypt } from "D:/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.42_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._r6ovetvjjyrqvc7a2ae4k3oyeq/node_modules/vuepress-theme-hope/lib/client/modules/encrypt/export.js";
-import Slide from "D:/viptv-private/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.42_markdown-it@14.1.0_reveal.js@5.1.0_typescript@4.9.5_vu_gt3llufcjga2gnlxwhtbop6epi/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, SocialMedias, Timeline, setupBlog } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.43_artplayer@5.1.1_dashjs@4.7.4_hls.js@1.5.8_markdown-it@14.1.0__kn2b7xznnniv473orgajzckqeq/node_modules/vuepress-theme-hope/lib/client/modules/blog/export.js";
+import "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.43_artplayer@5.1.1_dashjs@4.7.4_hls.js@1.5.8_markdown-it@14.1.0__kn2b7xznnniv473orgajzckqeq/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/layout.scss";
+import { GlobalEncrypt, LocalEncrypt } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.43_artplayer@5.1.1_dashjs@4.7.4_hls.js@1.5.8_markdown-it@14.1.0__kn2b7xznnniv473orgajzckqeq/node_modules/vuepress-theme-hope/lib/client/modules/encrypt/export.js";
+import Slide from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.43_markdown-it@14.1.0_reveal.js@5.1.0_sass-loader@14.2.1__zj2jqd6z32v6qd6b57yvngad54/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
 
-import "D:/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.42_@vuepress+plugin-pwa@2.0.0-rc.28_typescript@4.9.5_vuepress@2._r6ovetvjjyrqvc7a2ae4k3oyeq/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
+import "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.43_artplayer@5.1.1_dashjs@4.7.4_hls.js@1.5.8_markdown-it@14.1.0__kn2b7xznnniv473orgajzckqeq/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.t;

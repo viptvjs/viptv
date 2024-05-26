@@ -1,6 +1,6 @@
 import { defineConfig } from "tsup";
 export const tsup = defineConfig({
-    entry: ["src/index.ts"],
+    entry: ["scripts/index.ts"],
     outDir: "lib",
     splitting: false,
     clean: true,
