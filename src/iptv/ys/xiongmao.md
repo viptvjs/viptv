@@ -16,7 +16,6 @@ tag:
 :::
 
 <script setup>
-  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
   import { iptv } from 'db'
   import { hlsConfig } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
