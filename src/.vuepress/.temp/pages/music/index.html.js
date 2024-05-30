@@ -1,16 +1,3 @@
 import comp from "D:/Administrator/Desktop/viptv-private/src/.vuepress/.temp/pages/music/index.html.vue"
-const data = JSON.parse("{\"path\":\"/music/\",\"title\":\"音乐专区\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"音乐专区\",\"index\":false,\"icon\":\"circle-play\",\"category\":[\"音乐\"],\"gitInclude\":[],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://DESKTOP-BB2QNSK/music/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"VIPTV 云视听\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"音乐专区\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Mr.Hefung\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"音乐专区\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Mr.Hefung\\\",\\\"url\\\":\\\"/\\\"}]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.05,\"words\":15},\"filePathRelative\":\"music/README.md\",\"excerpt\":\"\"}")
+const data = JSON.parse("{\"path\":\"/music/\",\"title\":\"音乐专区\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"音乐专区\",\"index\":false,\"icon\":\"circle-play\",\"category\":[\"音乐\"],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://viptv.work/music/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"VIPTV 云视听\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"音乐专区\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-05-26T13:24:40.000Z\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Mr.Hefung\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-05-26T13:24:40.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"音乐专区\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2024-05-26T13:24:40.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Mr.Hefung\\\",\\\"url\\\":\\\"/\\\"}]}\"]]},\"headers\":[],\"git\":{\"createdTime\":1714993694000,\"updatedTime\":1716729880000,\"contributors\":[{\"name\":\"viptv\",\"email\":\"mail@viptv.work\",\"commits\":6}]},\"readingTime\":{\"minutes\":0.05,\"words\":15},\"filePathRelative\":\"music/README.md\",\"localizedDate\":\"2024年5月6日\",\"excerpt\":\"\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

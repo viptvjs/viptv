@@ -5,6 +5,7 @@ import { getDirname, path } from "vuepress/utils";
 const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
+  base: "/",
   dest: "./dist",
   head: [
     ["link", { rel: "icon", href: "/logo.svgs" }],
@@ -35,9 +36,7 @@ export default defineUserConfig({
       __dirname,
       "./components/BlogHero.vue"
     ),
-  
   },
-  
 
   bundler: viteBundler({
     viteOptions: {
@@ -49,7 +48,7 @@ export default defineUserConfig({
             rewrite: (path: any) => path.replace(/^\/bing/, ""),
           },
           "/raw": {
-            target: "https://raw.viptv.work",
+            target: "https://raw.viptv.work/",
             changeOrigin: true,
             rewrite: (path: any) => path.replace(/^\/raw/, ""),
           },

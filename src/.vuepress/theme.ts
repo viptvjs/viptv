@@ -4,11 +4,9 @@ import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
 import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
 
-const hostname = process.env["HOSTNAME"] ?? "https://viptv.work";
-
 export default hopeTheme(
   {
-    hostname,
+    hostname:"https://viptv.work",
     author: {
       name: "Mr.Hefung",
       url: "/",
@@ -70,7 +68,6 @@ export default hopeTheme(
     plugins: {
 
       searchPro: {
-        // 这里放置 searchProPlugin 的配置
         indexContent: true,
         hotReload: true,
         customFields: [
