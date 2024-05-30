@@ -1,3 +1,16 @@
 import comp from "D:/Administrator/Desktop/viptv-private/src/.vuepress/.temp/pages/vod/movie/kbp.html.vue"
-const data = JSON.parse("{\"path\":\"/vod/movie/kbp.html\",\"title\":\"恐怖片\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"恐怖片\",\"icon\":\"film\",\"date\":\"2020-01-01T00:00:00.000Z\",\"order\":4,\"category\":[\"影视点播\"],\"tag\":[\"恐怖\"],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://DESKTOP-BB2QNSK/vod/movie/kbp.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"VIPTV 云视听\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"恐怖片\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-05-26T13:24:40.000Z\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Mr.Hefung\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"恐怖\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2020-01-01T00:00:00.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-05-26T13:24:40.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"恐怖片\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2020-01-01T00:00:00.000Z\\\",\\\"dateModified\\\":\\\"2024-05-26T13:24:40.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Mr.Hefung\\\",\\\"url\\\":\\\"/\\\"}]}\"]]},\"headers\":[],\"git\":{\"createdTime\":1714993694000,\"updatedTime\":1716729880000,\"contributors\":[{\"name\":\"viptv\",\"email\":\"mail@viptv.work\",\"commits\":7}]},\"readingTime\":{\"minutes\":0.51,\"words\":154},\"filePathRelative\":\"vod/movie/kbp.md\",\"localizedDate\":\"2020年1月1日\",\"excerpt\":\"\"}")
+const data = JSON.parse("{\"path\":\"/vod/movie/kbp.html\",\"title\":\"恐怖片\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"恐怖片\",\"icon\":\"film\",\"date\":\"2020-01-01T00:00:00.000Z\",\"order\":4,\"category\":[\"影视点播\"],\"tag\":[\"恐怖\"],\"gitInclude\":[],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://DESKTOP-BB2QNSK/vod/movie/kbp.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"VIPTV 云视听\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"恐怖片\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Mr.Hefung\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"恐怖\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2020-01-01T00:00:00.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"恐怖片\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2020-01-01T00:00:00.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Mr.Hefung\\\",\\\"url\\\":\\\"/\\\"}]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.51,\"words\":154},\"filePathRelative\":\"vod/movie/kbp.md\",\"localizedDate\":\"2020年1月1日\",\"excerpt\":\"\"}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

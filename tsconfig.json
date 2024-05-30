@@ -13,6 +13,9 @@
       ],
       "vuepress-shared/*": [
         "node_modules/vuepress-shared/lib/*"
+      ],
+      "db": [
+        "src/.vuepress/lib/dexie/index.js"
       ]
     },
     "types": [

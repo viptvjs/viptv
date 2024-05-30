@@ -1,3 +1,16 @@
 import comp from "D:/Administrator/Desktop/viptv-private/src/.vuepress/.temp/pages/vod/dongman/rhdm.html.vue"
-const data = JSON.parse("{\"path\":\"/vod/dongman/rhdm.html\",\"title\":\"日韩动漫\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"日韩动漫\",\"icon\":\"person-falling-burst\",\"date\":\"2020-01-01T00:00:00.000Z\",\"order\":4,\"category\":[\"影视点播\"],\"tag\":[\"动漫\"],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://DESKTOP-BB2QNSK/vod/dongman/rhdm.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"VIPTV 云视听\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"日韩动漫\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-05-26T13:24:40.000Z\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Mr.Hefung\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"动漫\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2020-01-01T00:00:00.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-05-26T13:24:40.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"日韩动漫\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2020-01-01T00:00:00.000Z\\\",\\\"dateModified\\\":\\\"2024-05-26T13:24:40.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Mr.Hefung\\\",\\\"url\\\":\\\"/\\\"}]}\"]]},\"headers\":[],\"git\":{\"createdTime\":1714993694000,\"updatedTime\":1716729880000,\"contributors\":[{\"name\":\"viptv\",\"email\":\"mail@viptv.work\",\"commits\":7}]},\"readingTime\":{\"minutes\":0.56,\"words\":168},\"filePathRelative\":\"vod/dongman/rhdm.md\",\"localizedDate\":\"2020年1月1日\",\"excerpt\":\"\"}")
+const data = JSON.parse("{\"path\":\"/vod/dongman/rhdm.html\",\"title\":\"日韩动漫\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"日韩动漫\",\"icon\":\"person-falling-burst\",\"date\":\"2020-01-01T00:00:00.000Z\",\"order\":4,\"category\":[\"影视点播\"],\"tag\":[\"动漫\"],\"gitInclude\":[],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://DESKTOP-BB2QNSK/vod/dongman/rhdm.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"VIPTV 云视听\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"日韩动漫\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Mr.Hefung\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"动漫\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2020-01-01T00:00:00.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"日韩动漫\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2020-01-01T00:00:00.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Mr.Hefung\\\",\\\"url\\\":\\\"/\\\"}]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.56,\"words\":168},\"filePathRelative\":\"vod/dongman/rhdm.md\",\"localizedDate\":\"2020年1月1日\",\"excerpt\":\"\"}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
