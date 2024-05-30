@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Deploy docs
 on:
   push:
     branches: [main]
@@ -6,24 +6,13 @@ on:
   schedule:
     - cron: "0 0,8 * * *"
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:         
-          version: 8
-          run_install: false
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
 
       - name: Deploy to viptv-work/viptv
         uses: peaceiris/actions-gh-pages@v4
@@ -41,12 +30,3 @@ jobs:
           external_repository: hefung/docs
           publish_dir: ./dist
           publish_branch: main   
-          
-      - name: Install deps
-        run: pnpm dlx vp-update
-  
-      - name: update bing wallpaper
-        run: pnpm run tsup 
-  
-      - name: Build Docs
-        run: pnpm run build   
