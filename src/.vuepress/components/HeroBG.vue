@@ -2,7 +2,7 @@
 import { onMounted, nextTick } from "vue";
 import { useRouter } from "vue-router";
 import axios from "axios";
-import { mStorage, LoadImage } from "../utils/tools";
+import { mStorage, LoadImage } from "../lib/utils/tools";
 
 const UpdateBingImg = () => {
   let toPath = window.location.pathname;

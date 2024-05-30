@@ -9,30 +9,29 @@ tag:
   - 动漫
 ---
 
-<ArtPlayer :src="state.src" :config="artPlayerConfig" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
 
 ::: tabs
 @tab:active 麻豆视频
-<SiteInfo v-for="(item,k) in state.vodmd" :name="item.vod_name" desc="" :logo="item.vod_pic"
+<SiteInfo v-for="(item,k) in state.vodmd" :name="item.title" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="vodmdurl(k)" />
 @tab 果冻传媒
-<SiteInfo v-for="(item,k) in state.vodgd" :name="item.vod_name" desc="" :logo="item.vod_pic"
+<SiteInfo v-for="(item,k) in state.vodgd" :name="item.title" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="vodgdurl(k)" />
 @tab 天美传媒
-<SiteInfo v-for="(item,k) in state.vodtm" :name="item.vod_name" desc="" :logo="item.vod_pic"
+<SiteInfo v-for="(item,k) in state.vodtm" :name="item.title" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="vodtmurl(k)" />
 @tab 蜜桃传媒
-<SiteInfo v-for="(item,k) in state.vodmt" :name="item.vod_name" desc="" :logo="item.vod_pic"
+<SiteInfo v-for="(item,k) in state.vodmt" :name="item.title" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="vodmturl(k)" />  
 @tab 玩偶姐姐
-<SiteInfo v-for="(item,k) in state.vodwo" :name="item.vod_name" desc="" :logo="item.vod_pic"
+<SiteInfo v-for="(item,k) in state.vodwo" :name="item.title" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="vodwourl(k)" />
 :::
 
-<script setup lang="ts">
-  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
+<script setup>
   import { vod } from 'db'
-  import { poster, Hls } from 'cps/artConst'
+  import { hlsConfig } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
   const state = useStorage(
@@ -85,20 +84,5 @@ tag:
     const { vodwo } = state.value
     state.value.PlayList =vodwo
     state.value.src = vodwo[key].url
-  }
-  const artPlayerConfig = {
-    poster,
-    fullscreen: true,
-    fullscreenWeb: true,
-    autoplay: true,
-    muted: true,
-    type: "Hls",
-    customType: { Hls },
-    plugins: [
-      artplayerPlaylist({
-        autoNext: true,
-        playlist: state.value.PlayList
-      })
-    ],
   }
 </script>

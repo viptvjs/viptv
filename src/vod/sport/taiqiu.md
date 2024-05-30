@@ -9,7 +9,7 @@ tag:
   - 台球
 ---
 
-<ArtPlayer :src="state.src" :config="artPlayerConfig" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
 
 ::: tabs
 @tab:active 量子资源
@@ -17,10 +17,10 @@ tag:
 :preview="item.vod_pic" url="" @click="vodbfurl(k)" />
 :::
 
-<script setup lang="ts">
+<script setup>
   import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
   import { vod } from 'db'
-  import { poster, Hls } from 'cps/artConst'
+  import { hlsConfig } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
   
@@ -44,20 +44,5 @@ tag:
     const { vodbf } = state.value
     state.value.PlayList =vodbf
     state.value.src = vodbf[key].url
-  }
-  const artPlayerConfig = {
-    poster,
-    fullscreen: true,
-    fullscreenWeb: true,    
-    autoplay: true,
-    muted: true,
-    type: "Hls",
-    customType: { Hls },
-    plugins: [
-      artplayerPlaylist({
-        autoNext: true,
-        playlist: state.value.PlayList
-      })
-    ],
   }
 </script>

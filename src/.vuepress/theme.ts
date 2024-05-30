@@ -1,11 +1,9 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { AVAILABLE_SERVICES } from "vuepress-plugin-components";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
+import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
+import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
 
-<<<<<<< HEAD:src/.vuepress/theme.ts
-
-=======
->>>>>>> ca70720fe4d31c6ae1d52bfe6b185608c0555e56:docs/.vuepress/theme.ts
 const hostname = process.env["HOSTNAME"] ?? "https://viptv.work";
 
 export default hopeTheme(
@@ -15,25 +13,15 @@ export default hopeTheme(
       name: "Mr.Hefung",
       url: "/",
     },
-<<<<<<< HEAD:src/.vuepress/theme.ts
-    iconAssets: [
-      "https://theme-hope-assets.vuejs.press/fontawesome/js/fontawesome.min.js",
-      "https://theme-hope-assets.vuejs.press/fontawesome/js/solid.min.js",
-      "https://theme-hope-assets.vuejs.press/fontawesome/js/brands.min.js",
-    ],
-=======
->>>>>>> ca70720fe4d31c6ae1d52bfe6b185608c0555e56:docs/.vuepress/theme.ts
-    favicon: "/favicon.ico",
     iconAssets: "fontawesome-with-brands",
+    favicon: "/favicon.ico",
     logo: "/logo.svg",
     docsRepo: "viptv-work/viptv",
-<<<<<<< HEAD:src/.vuepress/theme.ts
-    docsDir: "docs",
+    docsDir: "src",
     repoLabel: "GitHub", // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
     repo: "viptv-work/viptv",  // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     repoDisplay: true,  //是否在导航栏显示仓库链接，默认为 `true`
-    fullscreen: true,  //全屏按钮
-    displayFooter: true,  //是否默认显示页脚
+    fullscreen: true,  //全屏按钮 
     pageInfo: ["ReadingTime", "Category", "Tag"],
     extraLocales: {
       主站: "https://www.viptv.work",
@@ -45,25 +33,22 @@ export default hopeTheme(
       center: ["Links"],
       end: ["Language", "Repo", "SocialLink", "Outlook", "Search"],
     },
-=======
-    repo: `viptv-work/viptv`,
-    repoDisplay: false,
-    fullscreen: true,
->>>>>>> ca70720fe4d31c6ae1d52bfe6b185608c0555e56:docs/.vuepress/theme.ts
     locales: {
       "/": {
         navbar: zhNavbar,
         sidebar: zhSidebar,
-        footer: "努力打造便捷 、高效 、最有价值的视听链",
+        displayFooter: true,
+        footer: "极速 、 高清 、 无广告", // 页脚
+        copyright: "MIT 协议 | 版权所有 © 2024-至今 Mr.Hefung",
       },
       "/en/": {
         navbar: enNavbar,
         sidebar: enSidebar,
-        footer:
-          "「VIPTV Cloud Audiovisual」 is a very good audiovisual toolchain.",
+        displayFooter: true,
+        footer: "Best IPTV Subscription Provider.", // 页脚
+        copyright: "MIT Licensed | Copyright © 2024-present Mr.Hefung",
       },
     },
-    docsDir: "src",
     blog: {
       description: "专心致志做事，大气温和待人。",
       intro: "/",
@@ -75,9 +60,6 @@ export default hopeTheme(
         Gitlab: "https://gitlab.com/viptv",
       },
     },
-    // 页脚
-    copyright: "MIT Licensed | Copyright © 2024-present Mr.Hefung",
-    displayFooter: true,
     // 加密配置
     encrypt: {
       config: {
@@ -86,7 +68,7 @@ export default hopeTheme(
     },
     editLink: false,
     plugins: {
-      
+
       searchPro: {
         // 这里放置 searchProPlugin 的配置
         indexContent: true,
@@ -110,6 +92,14 @@ export default hopeTheme(
       },
       blog: {
         excerptLength: 0,
+        type: [
+          getRecentUpdatedArticles({
+            locales: { "/en/": "Recent Updated", "/": "最近更新" },
+          }),
+          getSlides({
+            locales: { "/en": "Slides", "/": "幻灯片" },
+          }),
+        ],
       },
       notice: [
         {
@@ -131,14 +121,18 @@ export default hopeTheme(
               link: "https://dns2.viptv.work/",
             },
           ],
-<<<<<<< HEAD:src/.vuepress/theme.ts
           fullscreen: false,
           showOnce: true,
-=======
-          confirm: true,
->>>>>>> ca70720fe4d31c6ae1d52bfe6b185608c0555e56:docs/.vuepress/theme.ts
         },
       ],
+      shiki: {
+        lineNumbers: 15,
+        notationDiff: true,
+        themes: {
+          light: "github-light",
+          dark: "one-dark-pro",
+        },
+      },
       watermark: {
         enabled: false,
       },

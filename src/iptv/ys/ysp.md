@@ -18,7 +18,7 @@ https://www.yangshipin.cn/#/tv/home
 
 :::
 
-<script setup lang="ts">
+<script setup>
  import axios from"axios"
   import { iptv } from 'db'
   import { mpConfig } from 'cps/artConst'
@@ -35,9 +35,7 @@ https://www.yangshipin.cn/#/tv/home
   onMounted(async () => {
     axios.get("/cors/https://api.zxz.ee/api/bilibili/?url=BV1MH4y1p7Mk").then((res)=>{
       state.value.Src= res.data.url
-      console.log(res.data)
     })
-
   });
 
 </script>

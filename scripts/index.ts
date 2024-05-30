@@ -185,12 +185,12 @@ function writeDocs(
       `[Download 1920 * 1080](${item.url_1080}) | [Download 3840 * 2160](${item.url_4k})\n\n`
     );
   });
-  writeFile("./docs/archives/README.md", writeDataList.join(""), (err) => {
+  writeFile("./src/archives/README.md", writeDataList.join(""), (err) => {
     if (err) {
       console.log(err);
       throw err;
     }
-    console.log(`Done: Write ./docs/archives/README.md completed!`);
+    console.log(`Done: Write ./src/archives/README.md completed!`);
   });
   writeDocsArchive(info, archives);
   writeSidebar(archives);
@@ -226,7 +226,7 @@ function writeDocsArchive(info: PictureInfo, archives: ArchivesInfo[]) {
     );
   });
   const year = date.split("-")[0];
-  const path = `./docs/archives/${year}/${date}.md`;
+  const path = `./src/archives/${year}/${date}.md`;
   const dir = dirname(path);
   if (!existsSync(dir)) {
     mkdirSync(dir, { recursive: true });
@@ -267,7 +267,7 @@ function writeSidebar(archives: ArchivesInfo[]) {
   sidebar.sort((a, b) => +b.text - +a.text);
   const sidebarDate = "export default " + JSON.stringify(sidebar);
   writeFile(
-    `./docs/.vuepress/config/sidebar/archives.ts`,
+    `./src/.vuepress/config/sidebar/archives.ts`,
     sidebarDate,
     (err) => {
       if (err) {
@@ -275,7 +275,7 @@ function writeSidebar(archives: ArchivesInfo[]) {
         throw err;
       }
       console.log(
-        `Done: Write ./docs/.vuepress/config/sidebar/archives.ts completed!`
+        `Done: Write ./src/.vuepress/config/sidebar/archives.ts completed!`
       );
     }
   );

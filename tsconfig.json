@@ -22,6 +22,7 @@
   "include": [
     "**/*.ts",
     "src/.vuepress/**/*.ts",
+    "src/.vuepress/**/*.js",
     "src/.vuepress/**/*.vue"
   ],
   "exclude": [

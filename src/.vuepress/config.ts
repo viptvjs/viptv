@@ -1,14 +1,10 @@
 import { defineUserConfig } from "vuepress";
-import { addViteOptimizeDepsInclude } from "@vuepress/helper";
 import theme from "./theme.js";
 import { viteBundler } from '@vuepress/bundler-vite'
 import { getDirname, path } from "vuepress/utils";
 const __dirname = getDirname(import.meta.url);
-<<<<<<< HEAD:src/.vuepress/config.ts
 const base = (process.env["BASE"] as "/" | `/${string}/`) || "/";
 
-=======
->>>>>>> ca70720fe4d31c6ae1d52bfe6b185608c0555e56:docs/.vuepress/config.ts
 export default defineUserConfig({
   base,
   dest: "./dist",
@@ -30,18 +26,18 @@ export default defineUserConfig({
     "/en/": {
       lang: "en-US",
       title: "VIPTV",
-      description: " the most valuable video chain",
+      description: " VIPTV is the highest quality IPTV service",
     },
   },
   alias: {
     db: path.resolve(__dirname, "./lib/dexie"),
     cpn: path.resolve(__dirname, "./components"),
     cps: path.resolve(__dirname, "./composables"),
-<<<<<<< HEAD:src/.vuepress/config.ts
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
       __dirname,
       "./components/BlogHero.vue"
     ),
+  
   },
   
 
@@ -67,12 +63,7 @@ export default defineUserConfig({
         },
       },
     },
-    // vuePluginOptions: {},
   }),
-=======
-  },
-
->>>>>>> ca70720fe4d31c6ae1d52bfe6b185608c0555e56:docs/.vuepress/config.ts
   theme,
   shouldPrefetch: false,
 });

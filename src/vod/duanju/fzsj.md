@@ -9,7 +9,7 @@ tag:
   - 短剧
 ---
 
-<ArtPlayer :src="state.src" :config="artPlayerConfig" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
 
 ::: tabs
 @tab:active 鱼乐资源
@@ -17,10 +17,9 @@ tag:
 @click="vodylurl(k)" />
 :::
 
-<script setup lang="ts">
-  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
+<script setup>
   import { vod } from 'db'
-  import { poster, Hls } from 'cps/artConst'
+  import { hlsConfig } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
 
@@ -41,20 +40,5 @@ tag:
     const { vodyl } = state.value
     state.value.PlayList = vodyl
     state.value.src = vodyl[key].url
-  }
-  const artPlayerConfig = {
-    poster,
-    fullscreen: true,
-    fullscreenWeb: true,
-    autoplay: true,
-    muted: true,
-    type: "Hls",
-    customType: { Hls },
-    plugins: [
-      artplayerPlaylist({
-        autoNext: true,
-        playlist: state.value.PlayList
-      })
-    ],
   }
 </script>

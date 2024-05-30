@@ -9,16 +9,16 @@ tag:
   - 熊猫
 ---
 
-<ArtPlayer :src="state.Src" :config="artPlayerConfig" />
+<ArtPlayer :src="state.Src" :config="hlsConfig(state.PlayList)" />
 
 ::: tip 熊猫直播
 全面汇聚央视、卫视频道，您的专属 全面聚合高清资源 旗舰平台，品质首选！
 :::
 
-<script setup lang="ts">
+<script setup>
   import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
   import { iptv } from 'db'
-  import { poster, Hls } from 'cps/artConst'
+  import { hlsConfig } from 'cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
   const vodId = "xiongmao"
@@ -38,22 +38,4 @@ tag:
       state.value.Src = data[0].url
     })
   });
-
-  const artPlayerConfig = {
-    poster,
-    fullscreen: true,
-    fullscreenWeb: true,
-    autoplay: true,
-    muted: true, // Hls默认静音才能自动播放即可
-    type: "Hls",
-    customType: { Hls },
-    plugins: [
-      artplayerPlaylist({
-        rebuildPlayer: true,
-        autoNext: true,
-        showText: false,
-        playlist: state.value.PlayList
-      })
-    ],
-  }
 </script>

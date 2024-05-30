@@ -9,14 +9,13 @@ tag:
   - 小姐姐
 ---
 
-<ArtPlayer :src :config="artPlayerConfig" />
+<ArtPlayer :src :config="mpConfig(state.PlayList)" />
 
 ::: tip TikTok 小姐姐|福利小视频
 :::
 
-<script setup lang="ts">
-  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
-  import { poster } from 'cps/artConst'
+<script setup>
+  import { mpConfig } from 'cps/artConst'
   import { vod } from 'db'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
@@ -39,17 +38,4 @@ tag:
     })
   });
 
-  const artPlayerConfig = {
-    poster,
-    fullscreen: true,
-    fullscreenWeb: true,
-    muted: true,
-    autoplay: true,
-    plugins: [
-      artplayerPlaylist({
-        autoNext: true,
-        playlist: state.value.PlayList
-      })
-    ],
-  }
 </script>

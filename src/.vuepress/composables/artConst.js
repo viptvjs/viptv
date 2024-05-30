@@ -1,10 +1,9 @@
-import hlsjs from "hls.js/dist/hls.min.js";
+import { artplayerPlaylist } from "./artplayer-plugin-playlist";
+const poster = "https://img.viptv.work/iptv/ads.png";
+const Src = "https://vp-demo.u2sb.com/video/caminandes_03_llamigos_720p.mp4";
 
-export const poster = "https://img.viptv.work/iptv/ads.png";
-export const Src =
-  "https://vp-demo.u2sb.com/video/caminandes_03_llamigos_720p.mp4";
-
-export const Hls = (video, url, art) => {
+const Hls = async (video, url, art) => {
+  const hlsjs = (await import("hls.js")).default;
   if (hlsjs.isSupported()) {
     if (art.hls) art.hls.destroy();
     let hls = new hlsjs();
@@ -21,9 +20,8 @@ export const Hls = (video, url, art) => {
     art.notice.show = "Unsupported playback format: m3u8";
   }
 };
-<<<<<<< HEAD:src/.vuepress/composables/artConst.js
 
-export const Flv = async (video, url, art) => {
+ const Flv = async (video, url, art) => {
   const mpegts = (await import("mpegts.js")).default;
   if (mpegts.isSupported()) {
     if (art.flv) art.flv.destroy();
@@ -37,7 +35,7 @@ export const Flv = async (video, url, art) => {
   }
 };
 
-export const Dash = async (video, url, art) => {
+ const Dash = async (video, url, art) => {
   const dashjs = (await import("dashjs")).default;
   if (dashjs.supportsMediaSource()) {
     if (art.dash) art.dash.destroy();
@@ -50,19 +48,54 @@ export const Dash = async (video, url, art) => {
   }
 };
 
-export const artConfig = (type, playlist) => {
+export const hlsConfig = (playlist) => {
   return {
     poster,
     fullscreen: true,
     fullscreenWeb: true,
     autoplay: true,
-    customType: { type },
+    type: "Hls",
+    customType: { Hls },
     muted: true,
     plugins: [
       artplayerPlaylist({
         autoNext: true,
         playlist,
-      })      
+      }),
+    ],
+  };
+};
+export const flvConfig = (playlist) => {
+  return {
+    poster,
+    fullscreen: true,
+    fullscreenWeb: true,
+    autoplay: true,
+    type: "Flv",
+    customType: { Flv },
+    muted: true,
+    plugins: [
+      artplayerPlaylist({
+        autoNext: true,
+        playlist,
+      }),
+    ],
+  };
+};
+export const dashConfig = (playlist) => {
+  return {
+    poster,
+    fullscreen: true,
+    fullscreenWeb: true,
+    autoplay: true,
+    type: "Dash",
+    customType: { Dash },
+    muted: true,
+    plugins: [
+      artplayerPlaylist({
+        autoNext: true,
+        playlist,
+      }),
     ],
   };
 };
@@ -83,5 +116,3 @@ export const mpConfig = (playlist) => {
 };
 
 //https://api.bilibili.com/x/web-interface/ranking
-=======
->>>>>>> ca70720fe4d31c6ae1d52bfe6b185608c0555e56:docs/.vuepress/composables/artConst.js
