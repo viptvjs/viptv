@@ -24,16 +24,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          
-      - name: Install deps
-        run: pnpm dlx vp-update
 
-      - name: update bing wallpaper
-        run: pnpm run tsup 
-
-      - name: Build Docs
-        run: pnpm run build   
-        
       - name: Deploy to viptv-work/viptv
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -50,3 +41,12 @@ jobs:
           external_repository: hefung/docs
           publish_dir: ./dist
           publish_branch: main   
+          
+      - name: Install deps
+        run: pnpm dlx vp-update
+  
+      - name: update bing wallpaper
+        run: pnpm run tsup 
+  
+      - name: Build Docs
+        run: pnpm run build   

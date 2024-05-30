@@ -3,10 +3,8 @@ import theme from "./theme.js";
 import { viteBundler } from '@vuepress/bundler-vite'
 import { getDirname, path } from "vuepress/utils";
 const __dirname = getDirname(import.meta.url);
-const base = (process.env["BASE"] as "/" | `/${string}/`) || "/";
 
 export default defineUserConfig({
-  base,
   dest: "./dist",
   head: [
     ["link", { rel: "icon", href: "/logo.svgs" }],
