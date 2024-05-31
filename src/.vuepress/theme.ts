@@ -1,12 +1,11 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { AVAILABLE_SERVICES } from "vuepress-plugin-components";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
 import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
 
 export default hopeTheme(
   {
-    hostname:"https://viptv.work",
+    hostname: "https://viptv.work",
     author: {
       name: "Mr.Hefung",
       url: "/",
@@ -19,7 +18,7 @@ export default hopeTheme(
     repoLabel: "GitHub", // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
     repo: "viptv-work/viptv",  // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     repoDisplay: true,  //是否在导航栏显示仓库链接，默认为 `true`
-    fullscreen: true,  //全屏按钮 
+    fullscreen: true,  //全屏按钮
     pageInfo: ["ReadingTime", "Category", "Tag"],
     extraLocales: {
       主站: "https://www.viptv.work",
@@ -135,16 +134,7 @@ export default hopeTheme(
       },
       copyCode: {},
       components: {
-        components: ["Badge", "VPCard", "ArtPlayer", "VPBanner", "SiteInfo"],
-        componentOptions: {
-          share: {
-            services: AVAILABLE_SERVICES,
-          },
-          artPlayer: {
-            fastForward: true,
-            screenshot: true,
-          },
-        },
+        components: ["Badge", "VPCard", "ArtPlayer", "VPBanner", "SiteInfo"]
       },
       mdEnhance: {
         align: true, // 启用自定义对齐

@@ -1,16 +1,18 @@
 {
-    "cSpell.words": [
-      "codeship",
-      "codeql",
-      "fastcgi",
-      "gitee",
-      "mrhope",
-      "oppo",
-      "pnpm",
-      "slidestart",
-      "slideend",
-      "squoosh",
-      "vite"
-    ],
-    "typescript.tsdk": "node_modules/typescript/lib"
-  }
+  "cSpell.words": [
+    "codeship",
+    "codeql",
+    "fastcgi",
+    "gitee",
+    "mrhope",
+    "oppo",
+    "pnpm",
+    "slidestart",
+    "slideend",
+    "squoosh",
+    "vite"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true
+}
