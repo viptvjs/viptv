@@ -1,4 +1,8 @@
-node_modules/
+# Node modules
+node_modules/**
+# lib
 lib/
-.cache/
-.temp/
+# Vuepress cache
+**/.vuepress/.cache/**
+# Vuepress Temp
+**/.vuepress/.temp/**
