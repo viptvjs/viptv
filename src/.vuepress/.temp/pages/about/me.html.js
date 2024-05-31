@@ -1,3 +1,16 @@
 import comp from "D:/Administrator/Desktop/viptv-private/src/.vuepress/.temp/pages/about/me.html.vue"
-const data = JSON.parse("{\"path\":\"/about/me.html\",\"title\":\"档案主页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"portfolio\":true,\"title\":\"档案主页\",\"icon\":\"user-tag\",\"welcome\":\"👋 你好，我是\",\"name\":\"何锋\",\"avatar\":\"https://theme-hope-assets.vuejs.press/hero/conan.png\",\"titles\":[\"善于学习\",\"积极向上\",\"团结友爱\"],\"footer\":false,\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://viptv.work/about/me.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"VIPTV 云视听\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"档案主页\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-05-26T13:24:40.000Z\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"Mr.Hefung\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-05-26T13:24:40.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"WebPage\\\",\\\"name\\\":\\\"档案主页\\\"}\"]]},\"headers\":[],\"git\":{\"createdTime\":1715685040000,\"updatedTime\":1716729880000,\"contributors\":[{\"name\":\"viptv\",\"email\":\"mail@viptv.work\",\"commits\":8}]},\"readingTime\":{\"minutes\":0.13,\"words\":40},\"filePathRelative\":\"about/me.md\",\"localizedDate\":\"2024年5月14日\",\"excerpt\":\"\"}")
+const data = JSON.parse("{\"path\":\"/about/me.html\",\"title\":\"档案主页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"portfolio\":true,\"title\":\"档案主页\",\"icon\":\"home\",\"welcome\":\"👋 你好，我是\",\"name\":\"VIPTV 云视听\",\"avatar\":\"https://theme-hope-assets.vuejs.press/hero/conan.png\",\"titles\":[\"善于学习\",\"积极向上\",\"团结友爱\"],\"medias\":[{\"icon\":\"envelope\",\"name\":\"微软邮箱\",\"link\":\"mailto:qq2236639958@iis.u-tokyo.ac.jp\"},{\"icon\":\"envelope\",\"name\":\"QQ 邮箱\",\"link\":\"mailto:2236639958@qq.com\"}],\"description\":\"简介\",\"gitInclude\":[]},\"headers\":[{\"level\":2,\"title\":\"简介\",\"slug\":\"简介\",\"link\":\"#简介\",\"children\":[]}],\"readingTime\":{\"minutes\":0.21,\"words\":62},\"filePathRelative\":\"about/me.md\",\"excerpt\":\"\",\"autoDesc\":true}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

@@ -1,16 +1,17 @@
 import { defineClientConfig } from "vuepress/client";
 
 
-import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.46_@vuepress+plugin-prismjs@2.0.0-rc.32_vuepress@2.0.0-rc.12_@vu_6qs3d6ehvh4h4q6iyzr2pnvlkm/node_modules/vuepress-theme-hope/lib/client/export.js";
+import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.47_@vuepress+plugin-prismjs@2.0.0-rc.33_vuepress@2.0.0-rc.12_@vu_lubejybvqvii4v6bbeqz5ruhkq/node_modules/vuepress-theme-hope/lib/client/export.js";
 
-import { defineCatalogInfoGetter } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/@vuepress+plugin-catalog@2.0.0-rc.31_typescript@4.9.5_vuepress@2.0.0-rc.12_@vuepress+bundler-_nlrxn4tqrtndmcnxh2ytklsyki/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
+import { defineCatalogInfoGetter } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/@vuepress+plugin-catalog@2.0.0-rc.33_typescript@4.9.5_vuepress@2.0.0-rc.12_@vuepress+bundler-_efkxs36ckuepmzyzam2gu7vie4/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, SocialMedias, Timeline, setupBlog } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.46_@vuepress+plugin-prismjs@2.0.0-rc.32_vuepress@2.0.0-rc.12_@vu_6qs3d6ehvh4h4q6iyzr2pnvlkm/node_modules/vuepress-theme-hope/lib/client/modules/blog/export.js";
-import "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.46_@vuepress+plugin-prismjs@2.0.0-rc.32_vuepress@2.0.0-rc.12_@vu_6qs3d6ehvh4h4q6iyzr2pnvlkm/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/layout.scss";
-import { GlobalEncrypt, LocalEncrypt } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.46_@vuepress+plugin-prismjs@2.0.0-rc.32_vuepress@2.0.0-rc.12_@vu_6qs3d6ehvh4h4q6iyzr2pnvlkm/node_modules/vuepress-theme-hope/lib/client/modules/encrypt/export.js";
-import Slide from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.45_markdown-it@14.1.0_reveal.js@5.1.0_sass-loader@14.2.1__loek4huwl7z7rh2lwmpjqbfqcm/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, SocialMedias, Timeline, setupBlog } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.47_@vuepress+plugin-prismjs@2.0.0-rc.33_vuepress@2.0.0-rc.12_@vu_lubejybvqvii4v6bbeqz5ruhkq/node_modules/vuepress-theme-hope/lib/client/modules/blog/export.js";
+import "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.47_@vuepress+plugin-prismjs@2.0.0-rc.33_vuepress@2.0.0-rc.12_@vu_lubejybvqvii4v6bbeqz5ruhkq/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/layout.scss";
+import { GlobalEncrypt, LocalEncrypt } from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.47_@vuepress+plugin-prismjs@2.0.0-rc.33_vuepress@2.0.0-rc.12_@vu_lubejybvqvii4v6bbeqz5ruhkq/node_modules/vuepress-theme-hope/lib/client/modules/encrypt/export.js";
+import Slide from "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-plugin-md-enhance@2.0.0-rc.47_markdown-it@14.1.0_reveal.js@5.1.0_sass-loader@14.2.1__pe4sxompuuetpgxpxrd5hawipi/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
 
-import "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.46_@vuepress+plugin-prismjs@2.0.0-rc.32_vuepress@2.0.0-rc.12_@vu_6qs3d6ehvh4h4q6iyzr2pnvlkm/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
+import "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.33_typescript@4.9.5_vuepress@2.0.0-rc.12_@vuepress+bundler-vite@2.0_y4exy6xpflr7mw7jmchapk2oxu/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
+import "D:/Administrator/Desktop/viptv-private/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.47_@vuepress+plugin-prismjs@2.0.0-rc.33_vuepress@2.0.0-rc.12_@vu_lubejybvqvii4v6bbeqz5ruhkq/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.t;

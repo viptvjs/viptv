@@ -7,4 +7,5 @@ export const zhSidebar = sidebar({
   "/archives/": archives,
   "/tutorial/":"structure",
   "/posts/":"structure",
+  "/about/":"structure",
 });

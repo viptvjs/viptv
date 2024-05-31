@@ -30,4 +30,6 @@ jobs:
         run: pnpm run tsup 
   
       - name: Build Docs
-        run: pnpm run build   
+        run: |-
+          pnpm run build
+          > dist/.nojekyll
