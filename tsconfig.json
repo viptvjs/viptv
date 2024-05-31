@@ -3,24 +3,6 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "target": "ES2022",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "paths": {
-      "@theme-hope/*": [
-        "node_modules/vuepress-theme-hope/lib/client/*.js"
-      ],
-      "vuepress-theme-hope/*": [
-        "node_modules/vuepress-theme-hope/lib/*"
-      ],
-      "vuepress-shared/*": [
-        "node_modules/vuepress-shared/lib/*"
-      ]
-    },
-    "types": [
-      "vuepress/client-types"
-    ],
   },
   "include": [
     "**/*.ts",
@@ -28,9 +10,4 @@
     "src/.vuepress/**/*.js",
     "src/.vuepress/**/*.vue"
   ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "__private"
-  ]
 }
