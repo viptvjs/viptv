@@ -1,7 +1,4 @@
 node_modules/
 lib/
-.idea/
-.npmrc
-# VuePress
-**/.vuepress/.cache/
-**/.vuepress/.temp/
+src/.vuepress/.cache/
+src/.vuepress/.temp/
