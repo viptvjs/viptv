@@ -7,10 +7,10 @@ export interface MenuRoute {
   title?: string;
   name?: string;
   icon?:
-    | string
-    | {
-        render: () => void;
-      };
+  | string
+  | {
+    render: () => void;
+  };
   redirect?: string;
   children: MenuRoute[];
   meta: any;

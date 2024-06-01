@@ -16,9 +16,8 @@ tag:
 :::
 
 <script setup>
-  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
-  import { vod } from 'db'
-  import { mpConfig } from 'cps/artConst'
+  import { vod } from '@db'
+  import { mpConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
   const vodId = "ks-meitui"

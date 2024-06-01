@@ -14,12 +14,12 @@ export default hopeTheme(
     favicon: "/favicon.ico",
     logo: "/logo.svg",
     docsRepo: "viptv-work/viptv",
+    pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
     docsDir: "src",
     repoLabel: "GitHub", // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
     repo: "viptv-work/viptv",  // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     repoDisplay: true,  //是否在导航栏显示仓库链接，默认为 `true`
     fullscreen: true,  //全屏按钮
-    pageInfo: ["ReadingTime", "Category", "Tag"],
     extraLocales: {
       主站: "https://www.viptv.work",
       镜像1: "https://dns1.viptv.work",
@@ -100,7 +100,7 @@ export default hopeTheme(
       notice: [
         {
           path: "/",
-          title: "欢迎光临 : VIPTV - 云视听",
+          title: "温馨提示",
           content: "便捷 、高效 、最有价值的视听链",
           actions: [
             {
@@ -118,7 +118,7 @@ export default hopeTheme(
             },
           ],
           fullscreen: false,
-          showOnce: true,
+          showOnce: false,
         },
       ],
       shiki: {

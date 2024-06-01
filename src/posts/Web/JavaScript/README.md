@@ -10,8 +10,9 @@ dir:
 ---
 
 :::info
-这里放置javascript相关的内容
+这里放置 javascript 相关的内容
 :::
 
---- 
+---
+
 <Catalog />

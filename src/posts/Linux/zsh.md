@@ -48,6 +48,7 @@ zsh 和 shell 有什么关系呢?
 ```
 
 ## 安装 **oh my zsh**
+
 ::: code-tabs
 @tab crul
 使用 `crul` 安装：
@@ -55,12 +56,14 @@ zsh 和 shell 有什么关系呢?
 ```shell
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
 @tab wget
 使用 `wget` 安装：
 
 ```shell
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
+
 :::
 
 安装成功：
@@ -131,7 +134,7 @@ README.md       lib             plugins         tools
 - `alias -s html=vi`，意思就是你在命令行输入 `hello.html`，`zsh`会为你自动打开`vim`并读取`hello.html`；
 - `alias -s gz='tar -xzvf'`，表示自动解压后缀为`gz`的压缩包。
 
-``` sh
+```sh
 alias cls='clear'
 alias ll='ls -l'
 alias la='ls -a'

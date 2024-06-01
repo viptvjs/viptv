@@ -21,11 +21,11 @@ tag:
 :::
 
 <script setup>
-  import { vod } from 'db'
-  import { hlsConfig } from 'cps/artConst'
+  import { vod } from '@db'
+  import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
-  
+
   const state = useStorage(
     "vod-lanqiu",
     {
@@ -35,7 +35,7 @@ tag:
       PlayList: []
     }
   )
-  
+
   onMounted(() => {
     nextTick(async () => {
       const suonizy = await vod.find({ "name": "snzy-49" })

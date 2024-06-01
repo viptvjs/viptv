@@ -57,12 +57,12 @@ AT&T licensed Unix to outside parties(第三方) from the late 1970s, leading to
 
 - #### NeXTSTEP
 
-  An **object-oriented**, multitasking OS. Low-level C but High-level OC language and runtime the first time, combined with an **OO aplication layer** and including several "kits".  
+  An **object-oriented**, multitasking OS. Low-level C but High-level OC language and runtime the first time, combined with an **OO aplication layer** and including several "kits".
   大家都知道 NeXT 是 Steve Jobs 被 forced out of Apple 后和 a few of his coworkers 创办的，所以 **NeXTSTEP 绝对是证明 Jobs 实力的作品。**
 
 - #### Darwin
 
-  [Darwin](http://en.wikipedia.org/wiki/Darwin_(operating_system\)), the core set of components upon which Mac OS X and iOS based, mostly POSIX compatible, but has never, by itself, been certified as being compatible with any version of **POSIX**. (OS X, since Leopard, has been certified as compatible with the Single UNIX Specification version 3)  
+  [Darwin](http://en.wikipedia.org/wiki/Darwin_(operating_system\)), the core set of components upon which Mac OS X and iOS based, mostly POSIX compatible, but has never, by itself, been certified as being compatible with any version of **POSIX**. (OS X, since Leopard, has been certified as compatible with the Single UNIX Specification version 3)
   **所以说 Mac OS X 算是很正统 Unix 的了**
 
 - #### POSIX
@@ -74,7 +74,7 @@ AT&T licensed Unix to outside parties(第三方) from the late 1970s, leading to
 
 > A Unix-like (sometimes referred to as UN*X or *nix) operating system is one that behaves in a manner similar to a Unix system, while not necessarily conforming to or being certified to any version of the **Single UNIX Specification**.
 
-There is no standard for defining the term.  
+There is no standard for defining the term.
 其实 Unix-like 是个相对模糊的概念：
 
 - 最狭义的 Unix 单指 Bell Labs's Unix

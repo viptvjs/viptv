@@ -5,7 +5,7 @@ category:
   - iOS
 tag:
   - iOS
-  - Objectiv-C语法  
+  - Objectiv-C语法
 ---
 
 >进入正题，今天介绍一下objective-c中的枚举
@@ -14,16 +14,16 @@ tag:
 - 首先要知道的是,枚举值 它是一个整形(int) 并且,它不参加内存的占用和释放 枚举定义变量即可直接使用,不用初始化
 - 三种类型的枚举
   - **enum** 在iOS6之前一般我们采用C风格的enum关键字可以定义枚举类型
- 
+
   在iOS6之后引入两个宏来定义枚举实际上是将enum定义和typedef合二为一，并且采用不同的宏来从代码角度来区分。
-  
+
   - **NS_ENUM**  普通枚举定义可参见UIKit.Framework中
-  
+
   - **NS_OPTIONS**  位运算及特殊枚举的定义。什么时候要用到这种方式呢? 那就是一个枚举变量可能要代表多个枚举值的时候. 其实给一个枚举变量赋予多个枚举值的时候,原理只是把各个枚举值加起来罢了. 当加起来以后,就获取了一个新的值,那么为了保证这个值的唯一性,这个时候就体现了位运算的重要作用. 位运算可以确保枚举值组合的唯一性. 因为位运算的计算方式是将二进制转换成十进制,也就是说,枚举值里面存取的是 计算后的十进制值. 打个比方: 通过上面的位运算方式设定好枚举以后,打印出来的枚举值分别是: 1 2 4 8 16 这5个数字,无论你如何组合在一起,也不会产生两个同样的数字.
 
   这两个宏的定义在Foundation.framework的NSObjCRuntime.h中：
 
-``` objc 
+``` objc
   		#if (__cplusplus && __cplusplus >= 201103L && (__has_extension(cxx_strong_enums) || __has_feature(objc_fixed_enum))) || (!__cplusplus && __has_feature(objc_fixed_enum))
 		#define NS_ENUM(_type, _name) enum _name : _type _name; enum _name : _type
 		#if (__cplusplu 
@@ -41,16 +41,16 @@ tag:
 ``` objc
     //推荐的定义枚举类型的方式
     typedef NS_ENUM(NSInteger, RWTLeftMenuTopItemType) {
-     RWTLeftMenuTopItemMain, 
+     RWTLeftMenuTopItemMain,
      RWTLeftMenuTopItemShows,
-     RWTLeftMenuTopItemSchedule 
-    }; 
-    typedef NS_ENUM(NSInteger, RWTGlobalConstants) { 
-    RWTPinSizeMin = 1, 
-    RWTPinSizeMax = 5, 
-    RWTPinCountMin = 100, 
+     RWTLeftMenuTopItemSchedule
+    };
+    typedef NS_ENUM(NSInteger, RWTGlobalConstants) {
+    RWTPinSizeMin = 1,
+    RWTPinSizeMax = 5,
+    RWTPinCountMin = 100,
     RWTPinCountMax = 500
-    }; 
+    };
     typedef NS_OPTIONS(NSInteger, Test) {
 
     TestA = 1, //1 1 1等于号后面必须等于1
@@ -65,8 +65,8 @@ tag:
 
     };
     //不推荐的方式
-    enum GlobalConstants { 
-    kMaxPinSize = 5, 
+    enum GlobalConstants {
+    kMaxPinSize = 5,
     kMaxPinCount = 500
     };
 ```

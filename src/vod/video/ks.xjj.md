@@ -16,8 +16,8 @@ tag:
 :::
 
 <script setup>
-  import { mpConfig } from 'cps/artConst'
-  import { vod } from 'db'
+  import { mpConfig } from '@cps/artConst'
+  import { vod } from '@db'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
   const vodId = "ks-xjj"

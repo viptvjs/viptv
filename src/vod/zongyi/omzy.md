@@ -19,8 +19,8 @@ tag:
 :::
 
 <script setup>
-  import { vod } from 'db'
-  import { hlsConfig } from 'cps/artConst'
+  import { vod } from '@db'
+  import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
   const state = useStorage(

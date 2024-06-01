@@ -22,8 +22,8 @@ tag:
 :::
 
 <script setup>
-  import { vod } from 'db'
-  import { hlsConfig } from 'cps/artConst'
+  import { vod } from '@db'
+  import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick } from "vue";
   const state = useStorage(
@@ -35,7 +35,7 @@ tag:
       PlayList: []
     }
   )
- 
+
   onMounted(async () => {
     const lzcaiji = await vod.find({ "name": "lzzy-13" })
     const ylzy = await vod.find({ "name": "ylzy-13" })

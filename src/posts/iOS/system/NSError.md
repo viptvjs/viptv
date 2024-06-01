@@ -1,6 +1,6 @@
 ---
-title:      "NSError"
-date:       2018-05-31
+title: "NSError"
+date: 2018-05-31
 category:
   - iOS
 tag:
@@ -8,44 +8,42 @@ tag:
 ---
 
 > 前言
-> 
-> 整理一下在iOS开发中NSError的错误代码
+>
+> 整理一下在 iOS 开发中 NSError 的错误代码
 
 ## NSError
 
-NSError是系统错误信息类
+NSError 是系统错误信息类
 
 初始化方法两个
 
 ```objc
   // domain 不能为空 dict可以为空
-  
+
   - (instancetype)initWithDomain:(NSErrorDomain)domain code:(NSInteger)code userInfo:(nullable NSDictionary *)dict;
 
   + (instancetype)errorWithDomain:(NSErrorDomain)domain code:(NSInteger)code userInfo:(nullable NSDictionary *)dict;
 ```
 
-
-
 ### 属性
 
 - @property (readonly) NSInteger code;//错误代码
 
-- @property (readonly, copy) NSDictionary *userInfo;//错误信息
+- @property (readonly, copy) NSDictionary \*userInfo;//错误信息
 
-- @property (readonly, copy) NSString *localizedDescription;//获取本地化描述
+- @property (readonly, copy) NSString \*localizedDescription;//获取本地化描述
 
-- @property (nullable, readonly, copy) NSString *localizedFailureReason;//获取失败原因
+- @property (nullable, readonly, copy) NSString \*localizedFailureReason;//获取失败原因
 
-- @property (nullable, readonly, copy) NSString *localizedRecoverySuggestion;//获取恢复建议
+- @property (nullable, readonly, copy) NSString \*localizedRecoverySuggestion;//获取恢复建议
 
 - @property (nullable, readonly, copy) NSArray<NSString *> *localizedRecoveryOptions;本地恢复建议
 
 - @property (nullable, readonly, strong) id recoveryAttempter;
 
-- @property (nullable, readonly, copy) NSString *helpAnchor;
+- @property (nullable, readonly, copy) NSString \*helpAnchor;
 
-### NSError错误code对照表
+### NSError 错误 code 对照表
 
 ```objc
 NSError codes in the Cocoa error domain.

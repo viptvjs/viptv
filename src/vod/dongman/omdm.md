@@ -17,12 +17,12 @@ tag:
 :preview="item.vod_pic" url="" @click="vodlzurl(k)" />
 @tab 暴风资源
 <SiteInfo v-for="(item,k) in state.vodbf" :name="item.vod_name" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodbfurl(k)" />  
+:preview="item.vod_pic" url="" @click="vodbfurl(k)" />
 :::
 
 <script setup>
-  import { vod } from 'db'
-  import { hlsConfig } from 'cps/artConst'
+  import { vod } from '@db'
+  import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
 
@@ -30,12 +30,12 @@ tag:
     "vod-omdm",
     {
       src:"",
-      vodlz: [],      
+      vodlz: [],
       vodbf: [],
       PlayList: []
     }
   )
- 
+
   onMounted(async () => {
     const lzcaiji = await vod.find({ "name": "lzzy-31" })
     const bfzy = await vod.find({ "name": "bfzy-42" })

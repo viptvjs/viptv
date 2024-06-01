@@ -14,16 +14,17 @@ tag:
 ---
 
 :::info
-这是一个利用`GitHub Actions`自动触发的工作流进行解析更新的url并推送到搜索引擎的python脚本,除了之前介绍过的bing api之外，还增加了百度和Google的相关内容
+这是一个利用`GitHub Actions`自动触发的工作流进行解析更新的 url 并推送到搜索引擎的 python 脚本,除了之前介绍过的 bing api 之外，还增加了百度和 Google 的相关内容
 
-关于`GitHub Actions`的介绍可以看这里👉[GitHub Actions](/tutorial/github/github-action)
+关于`GitHub Actions`的介绍可以看这里 👉[GitHub Actions](/tutorial/github/github-action)
 
-关于`GitHub Actions`的配置可以看这里👉[如何利用GitHub Actions推送URL到搜索引擎](/blog/auto-push)
+关于`GitHub Actions`的配置可以看这里 👉[如何利用 GitHub Actions 推送 URL 到搜索引擎](/blog/auto-push)
 :::
+
 <!-- more -->
 
-
 ## 流程图
+
 ```mermaid
 ---
 title: 流程解读
@@ -46,11 +47,13 @@ flowchart TB
    class A Yellowtag
    class B,C Orangetag
    class D Bluetag
-    
+
 ```
 
 ## 代码
+
 ::: details 代码
+
 ```python
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
@@ -189,8 +192,10 @@ if __name__ == '__main__':
     else:
         print("✨未发现要更新的url")
 ```
+
 :::
 依赖库
+
 ```text
 google_api_python_client==2.85.0
 oauth2client==4.1.3
@@ -198,10 +203,12 @@ requests==2.28.2
 ```
 
 ## 注意点
-1. 此脚本不可直接使用，需配合GitHub Action，如果想要直接使用，请替换其中的环境变量为你的内容 
-   - `os.environ["BAIDU_KEY"]` 百度推送token
-   - `os.environ["BING_KEY"]`  bing_api_key
-   - `os.environ["GOOGLE_JSON"]` google indexing api 认证json
+
+1. 此脚本不可直接使用，需配合 GitHub Action，如果想要直接使用，请替换其中的环境变量为你的内容
+
+   - `os.environ["BAIDU_KEY"]` 百度推送 token
+   - `os.environ["BING_KEY"]` bing_api_key
+   - `os.environ["GOOGLE_JSON"]` google indexing api 认证 json
    - 取消 `从命令行参数提取sitemap`的步骤，直接赋值
 
-2. google indexing api参考这里👉[Indexing API 快速入门](https://developers.google.com/search/apis/indexing-api/v3/quickstart?hl=zh_CN)
+2. google indexing api 参考这里 👉[Indexing API 快速入门](https://developers.google.com/search/apis/indexing-api/v3/quickstart?hl=zh_CN)

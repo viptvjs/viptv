@@ -130,8 +130,8 @@ tag:
 实际上对于非根元素来讲，包含块还有一种可能，那就是如果 position 属性是 absolute 或 fixed，包含块也可能是由满足以下条件的最近父级元素的内边距区的边缘组成的：
 
 - transform 或 perspective 的值不是 none
--  will-change 的值是 transform 或 perspective 
-- filter 的值不是 none 或 will-change 的值是 filter(只在 Firefox 下生效). 
+-  will-change 的值是 transform 或 perspective
+- filter 的值不是 none 或 will-change 的值是 filter(只在 Firefox 下生效).
 - contain 的值是 paint (例如: contain: paint;)
 
 我们还是来看一个示例：
@@ -228,9 +228,9 @@ tag:
 接下来添加如下的 CSS：
 
 ```css
-#div1 { 
-  position: absolute; 
-  left: 50px; top: 50px 
+#div1 {
+  position: absolute;
+  left: 50px; top: 50px
 }
 ```
 
@@ -258,15 +258,15 @@ tag:
 接下来我们继续修改我们的 CSS：
 
 ```css
-#div1 { 
-  position: absolute; 
-  left: 50px; 
-  top: 50px 
+#div1 {
+  position: absolute;
+  left: 50px;
+  top: 50px
 }
-#em1  { 
-  position: absolute; 
-  left: 100px; 
-  top: 100px 
+#em1  {
+  position: absolute;
+  left: 100px;
+  top: 100px
 }
 ```
 

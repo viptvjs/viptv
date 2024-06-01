@@ -20,8 +20,8 @@ https://www.yangshipin.cn/#/tv/home
 
 <script setup>
  import axios from"axios"
-  import { iptv } from 'db'
-  import { mpConfig } from 'cps/artConst'
+  import { iptv } from '@db'
+  import { mpConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
   const vodId = "ss_itv"

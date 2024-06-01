@@ -18,12 +18,11 @@ tag:
 :::
 
 <script setup>
-  import { artplayerPlaylist } from 'cps/artplayer-plugin-playlist'
-  import { vod } from 'db'
-  import { hlsConfig } from 'cps/artConst'
+  import { vod } from '@db'
+  import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
-  
+
   const state = useStorage(
     "vod-taiqiu",
     {
@@ -32,7 +31,7 @@ tag:
       PlayList: []
     }
   )
-  
+
   onMounted(() => {
     nextTick(async () => {
       const bfzy = await vod.find({ "name": "lzzy-40" })

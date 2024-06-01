@@ -23,15 +23,15 @@ tag:
 :preview="item.vod_pic" url="" @click="vodtmurl(k)" />
 @tab 蜜桃传媒
 <SiteInfo v-for="(item,k) in state.vodmt" :name="item.title" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodmturl(k)" />  
+:preview="item.vod_pic" url="" @click="vodmturl(k)" />
 @tab 玩偶姐姐
 <SiteInfo v-for="(item,k) in state.vodwo" :name="item.title" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="vodwourl(k)" />
 :::
 
 <script setup>
-  import { vod } from 'db'
-  import { hlsConfig } from 'cps/artConst'
+  import { vod } from '@db'
+  import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";
   const state = useStorage(
@@ -46,7 +46,7 @@ tag:
       PlayList: []
     }
   )
- 
+
   onMounted(async () => {
     const md = await vod.find({ "name": "mdsp-1" })
     const gd = await vod.find({ "name": "mdsp-2" })

@@ -6,9 +6,9 @@ index: false
 timeline: false
 article: false
 ---
-:::info
-这里放置 python相关 内容
-:::
 
+:::info
+这里放置 python 相关 内容
+:::
 
 <Catalog />
