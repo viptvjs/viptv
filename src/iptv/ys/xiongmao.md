@@ -16,7 +16,7 @@ tag:
 :::
 
 <script setup>
-  import { iptv } from '@db'
+  import iptv from '@db/iptv.js'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted, nextTick, onDeactivated } from "vue";

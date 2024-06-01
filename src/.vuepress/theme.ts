@@ -65,7 +65,6 @@ export default hopeTheme(
     },
     editLink: false,
     plugins: {
-
       searchPro: {
         indexContent: true,
         hotReload: true,
