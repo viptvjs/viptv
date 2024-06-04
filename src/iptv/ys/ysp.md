@@ -1,5 +1,5 @@
 ---
-title: 央视频测试
+title: 央视直播
 icon: fa-solid fa-user-graduate
 date: 2020-01-01
 order: 4
@@ -9,7 +9,7 @@ tag:
   - 测试
 ---
 
-<ArtPlayer :src="state.Src" :config="mpConfig(state.PlayList)" />
+<ArtPlayer :src="state.src" :config="mpConfig(state.p)" />
 
 ::: tip 央视频直播
 全面汇聚央视、卫视频道，您的专属 全面聚合高清资源 旗舰平台，品质首选！
@@ -23,18 +23,17 @@ https://www.yangshipin.cn/#/tv/home
   import { iptv } from '@db'
   import { mpConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
-  import { onMounted, nextTick, onDeactivated } from "vue";
-  const vodId = "ss_itv"
+  import { onMounted } from "vue";
   const state = useStorage(
-    vodId,
+    "iptv-ysp",
     {
-      Src: "",
-      PlayList: []
+      src: "",
+      p: []
     }
   )
   onMounted(async () => {
-    axios.get("/cors/https://api.zxz.ee/api/bilibili/?url=BV1MH4y1p7Mk").then((res)=>{
-      state.value.Src= res.data.url
+    axios.get("https://cors.eu.org/https://api.zxz.ee/api/bilibili/?url=BV1MH4y1p7Mk").then((res)=>{
+      state.value.src= res.data.url
     })
   });
 

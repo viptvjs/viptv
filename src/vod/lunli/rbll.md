@@ -9,36 +9,35 @@ tag:
   - 日本
 ---
 
-<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
-::: tabs
-@tab:active 索尼资源
-<SiteInfo v-for="(item,k) in state.vodsn" :name="item.vod_name" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodsnurl(k)" />
+::: tabs #vod-rbll
+@tab:active 索尼资源 #vod-rbll-a
+<SiteInfo v-for="(item,k) in state.a" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="a(k)" />
 :::
 
 <script setup>
   import { vod } from '@db'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
-  import { onMounted, nextTick, onDeactivated } from "vue";
+  import { onMounted } from "vue";
   const state = useStorage(
     "vod-rbll",
     {
       src:"",
-      vodsn: [],
-      PlayList: []
+      a: [],
+      p: []
     }
   )
 
   onMounted(async () => {
-    const sn = await vod.find({ "name": "snzy-59" })
-    state.value.vodsn = sn.data
-    vodmdurl(0)
+    state.value.a = (await vod.find({ "name": "snzy-59" })).data
+    a(0)
   });
-  const vodsnurl = (key) => {
-    const { vodsn } = state.value
-    state.value.PlayList =vodsn
-    state.value.src = vodsn[key].url
+  const a = (key) => {
+    const { a } = state.value
+    state.value.p = a
+    state.value.src = a[key].url
   }
 </script>

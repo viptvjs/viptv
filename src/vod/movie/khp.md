@@ -9,40 +9,46 @@ tag:
 - 科幻
 ---
 
-<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
-::: tabs
-@tab:active 鱼乐资源
-<SiteInfo v-for="(item,k) in state.vodbf" :name="item.title" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
-  @click="vodbfurl(k)" />
+::: tabs #vod-khp
+@tab:active 鱼乐资源 #vod-khp-a
+<SiteInfo v-for="(item,k) in state.a" :name="item.title" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
+  @click="a(k)" />
+@tab 优质资源 #vod-khp-b
+<SiteInfo v-for="(item,k) in state.b" :name="item.title" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
+  @click="b(k)" />
 :::
 
 <script setup>
   import { vod } from '@db'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
-  import { onMounted, nextTick, onDeactivated } from "vue";
+  import { onMounted } from "vue";
 
   const state = useStorage(
     "vod-khp",
     {
       src: "",
-      vodbf: [],
-      PlayList: []
+      a: [],
+      p: []
     }
   )
 
-  onMounted(() => {
-    nextTick(async () => {
-      const bfzy = await vod.find({ "name": "ylzy-9" })
-      state.value.vodbf = bfzy.data
-      vodbfurl(0)
-    })
+  onMounted(async () => {
+    state.value.a = (await vod.find({ "name": "ylzy-9" })).data
+    state.value.b = (await vod.find({ "name": "yzzy-8" })).data
+    a(0)
   });
 
-  const vodbfurl = (key) => {
-    const { vodbf } = state.value
-    state.value.PlayList = vodbf
-    state.value.src = vodbf[key].url
+  const a = (key) => {
+    const { a } = state.value
+    state.value.p = a
+    state.value.src = a[key].url
+  }
+  const b = (key) => {
+    const { b } = state.value
+    state.value.p = b
+    state.value.src = b[key].url
   }
 </script>

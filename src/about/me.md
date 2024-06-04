@@ -1,10 +1,6 @@
 ---
-home: true
-portfolio: true
-title: 档案主页
-icon: home
-welcome: 👋 你好，我是
-name: VIPTV 云视听
+title: VIPTV 简介
+icon: circle-info
 avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
 titles:
   - 善于学习

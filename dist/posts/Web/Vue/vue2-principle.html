@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="generator" content="VuePress 2.0.0-rc.12" />
+    <meta name="generator" content="VuePress 2.0.0-rc.13" />
     <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.47" />
     <style>
       html {
@@ -29,8 +29,8 @@
       }
     </script>
     <meta property="og:url" content="https://viptv.work/posts/Web/Vue/vue2-principle.html"><meta property="og:site_name" content="VIPTV 云视听"><meta property="og:title" content="Vue2响应式原理解析"><meta property="og:description" content="前言 首先要知道vue2 是2013年 基于 ES5开发出来的，我们常说的重渲染就是重新运行render函数 vue2 的响应式原理是利⽤ES5 的⼀个 API ，Object.defineProperty()对数据进⾏劫持结合发布订阅模式的⽅式来实现的。"><meta property="og:type" content="article"><meta property="og:image" content="https://files.codelife.cc/wallhaven/full/5w/wallhaven-5wmyo8.jpg?x-oss-process=image/resize,limit_0,m_fill,w_1366,h_768/quality,Q_92/format,webp"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2024-06-01T07:22:05.000Z"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image:src" content="https://files.codelife.cc/wallhaven/full/5w/wallhaven-5wmyo8.jpg?x-oss-process=image/resize,limit_0,m_fill,w_1366,h_768/quality,Q_92/format,webp"><meta name="twitter:image:alt" content="Vue2响应式原理解析"><meta property="article:author" content="Mr.Hefung"><meta property="article:tag" content="Vue响应式"><meta property="article:published_time" content="2023-05-16T00:00:00.000Z"><meta property="article:modified_time" content="2024-06-01T07:22:05.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Vue2响应式原理解析","image":["https://v2.cn.vuejs.org/images/data.png","https://s3.bmp.ovh/imgs/2023/05/16/6ebf6f55fe1cd59e.webp"],"datePublished":"2023-05-16T00:00:00.000Z","dateModified":"2024-06-01T07:22:05.000Z","author":[{"@type":"Person","name":"Mr.Hefung","url":"/"}]}</script><link rel="icon" href="/logo.svgs"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="baidu-site-verification" content="codeva-4N5cviFcWA"><meta name="msvalidate.01" content="60990E7826770BD82AE9B5EFB468E0BB"><link rel="icon" href="/favicon.ico"><title>Vue2响应式原理解析 | VIPTV 云视听</title><meta name="description" content="前言 首先要知道vue2 是2013年 基于 ES5开发出来的，我们常说的重渲染就是重新运行render函数 vue2 的响应式原理是利⽤ES5 的⼀个 API ，Object.defineProperty()对数据进⾏劫持结合发布订阅模式的⽅式来实现的。">
-    <link rel="preload" href="/assets/style-CbLHsLrP.css" as="style"><link rel="stylesheet" href="/assets/style-CbLHsLrP.css">
-    <link rel="modulepreload" href="/assets/app-CjGFIATa.js"><link rel="modulepreload" href="/assets/vue2-principle.html-4D7eIRNp.js">
+    <link rel="preload" href="/assets/style-B2uGM6Gm.css" as="style"><link rel="stylesheet" href="/assets/style-B2uGM6Gm.css">
+    <link rel="modulepreload" href="/assets/app-Bk2aM6Ya.js"><link rel="modulepreload" href="/assets/vue2-principle.html-BluHZccA.js">
     
   </head>
   <body>
@@ -276,6 +276,6 @@
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#ABB2BF;">    }</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#ABB2BF;">  }</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#ABB2BF;">&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#E06C75;">script</span><span style="--shiki-light:#24292E;--shiki-dark:#ABB2BF;">&gt;</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_9-总流程图" tabindex="-1"><a class="header-anchor" href="#_9-总流程图"><span>9. 总流程图</span></a></h2><figure><img src="https://s3.bmp.ovh/imgs/2023/05/16/6ebf6f55fe1cd59e.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure></div><!----><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="update-time"><span class="vp-meta-label">上次编辑于: </span><!----></div><div class="contributors"><span class="vp-meta-label">贡献者: </span><!--[--><!--[--><span class="vp-meta-info" title="email: mail@viptv.work">viptv</span><!--]--><!--]--></div></div></footer><nav class="vp-page-nav"><!----><a class="route-link auto-link next" href="/posts/Web/Vue/optimization.html" aria-label="Vue常见优化手段"><div class="hint">下一页<span class="arrow end"></span></div><div class="link">Vue常见优化手段<span class="font-icon icon fa-fw fa-sm fas fa-support" style=""></span></div></a></nav><!----><!----><!--]--></main><!--]--><footer class="vp-footer-wrapper"><div class="vp-footer">极速 、 高清 、 无广告</div><div class="vp-copyright">MIT 协议 | 版权所有 © 2024-至今 Mr.Hefung</div></footer></div><!--]--><!--[--><!----><!--[--><!--]--><!----><!--]--><!--]--></div>
-    <script type="module" src="/assets/app-CjGFIATa.js" defer></script>
+    <script type="module" src="/assets/app-Bk2aM6Ya.js" defer></script>
   </body>
 </html>

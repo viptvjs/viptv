@@ -6,39 +6,38 @@ order: 4
 category:
   - 影视点播
 tag:
-  - 韩国
+  - 港台
 ---
 
-<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
-::: tabs
-@tab:active 索尼资源
-<SiteInfo v-for="(item,k) in state.vodsn" :name="item.vod_name" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodsnurl(k)" />
+::: tabs #vod-hgll
+@tab:active 索尼资源 #vod-hgll-a
+<SiteInfo v-for="(item,k) in state.a" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="a(k)" />
 :::
 
 <script setup>
   import { vod } from '@db'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
-  import { onMounted, nextTick, onDeactivated } from "vue";
+  import { onMounted } from "vue";
   const state = useStorage(
     "vod-hgll",
     {
       src:"",
-      vodsn: [],
-      PlayList: []
+      a: [],
+      p: []
     }
   )
 
   onMounted(async () => {
-    const sn = await vod.find({ "name": "snzy-57" })
-    state.value.vodsn = sn.data
-    vodmdurl(0)
+    state.value.vodsn = (await vod.find({ "name": "snzy-57" })).data
+    a(0)
   });
-  const vodsnurl = (key) => {
-    const { vodsn } = state.value
-    state.value.PlayList =vodsn
-    state.value.src = vodsn[key].url
+  const a = (key) => {
+    const { a } = state.value
+    state.value.p =a
+    state.value.src = a[key].url
   }
 </script>

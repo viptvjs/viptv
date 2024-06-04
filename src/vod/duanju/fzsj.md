@@ -9,12 +9,12 @@ tag:
   - 短剧
 ---
 
-<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
-::: tabs
-@tab:active 鱼乐资源
-<SiteInfo v-for="(item,k) in state.vodyl" :name="item.title" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
-@click="vodylurl(k)" />
+::: tabs #vod-fzsj
+@tab:active 鱼乐资源 #vod-fzsj-a
+<SiteInfo v-for="(item,k) in state.a" :name="item.title" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
+@click="a(k)" />
 :::
 
 <script setup>
@@ -27,18 +27,17 @@ tag:
     "vod-fzsj",
     {
       src: "",
-      vodyl: [],
-      PlayList: []
+      a: [],
+      p: []
     }
   )
   onMounted(async () => {
-    const ylzy = await vod.find({ "name": "ylzy-65" })
-    state.value.vodyl = ylzy.data
-    vodylurl(0)
+    state.value.a =( await vod.find({ "name": "ylzy-65" })).data
+    a(0)
   });
-  const vodylurl = (key) => {
-    const { vodyl } = state.value
-    state.value.PlayList = vodyl
-    state.value.src = vodyl[key].url
+  const a = (key) => {
+    const { a } = state.value
+    state.value.p = a
+    state.value.src = a[key].url
   }
 </script>

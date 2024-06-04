@@ -9,40 +9,36 @@ tag:
   - 伦理片
 ---
 
-<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
-::: tabs
-@tab:active 最近更新
-<SiteInfo v-for="(item,k) in state.vod" :name="item.vod_name" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="url(k)" />
-@tab 资源出处
-资源链来自量子资源站,感谢提供！
+::: tabs #vod-lunli
+@tab:active 最近更新 #vod-lunli-a
+<SiteInfo v-for="(item,k) in state.a" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="a(k)" />
 :::
 
 <script setup>
   import { vod } from '@db'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
-  import { onMounted, nextTick, onDeactivated } from "vue";
+  import { onMounted } from "vue";
 
   const state = useStorage(
     "vod-lunli",
     {
       src:"",
-      vod: [],
-      PlayList: []
+      a: [],
+      p: []
     }
   )
 
   onMounted(async () => {
-    const { data } = await vod.find({ "name": "lzzy-34" })
-    state.value.vod = data
-    url(0)
+    state.value.a = (await vod.find({ "name": "lzzy-34" })).data
+    a(0)
   });
- const url = (key) => {
-    const { vod } = state.value
-    state.value.PlayList =vod[key].play_list
-    state.value.tip = vod[key].vod_content
-    state.value.src = vod[key].play_list[0].url
+ const a = (key) => {
+    const { a } = state.value
+    state.value.p = a[key].play_list
+    state.value.src = a[key].play_list[0].url
   }
 </script>

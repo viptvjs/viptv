@@ -29,4 +29,5 @@ jobs:
           personal_token: ${{ secrets.PUBLISH_DOCS }}
           external_repository: hefung/docs
           publish_dir: ./dist
-          publish_branch: main   
+          publish_branch: main
+

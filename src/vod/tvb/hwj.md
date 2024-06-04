@@ -9,48 +9,45 @@ tag:
   - 海外剧
 ---
 
-<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
-::: tabs
-@tab:active 量子资源
-
-<SiteInfo v-for="(item,k) in state.vodlz" :name="item.vod_name" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodlzurl(k)" />
-@tab 暴风资源
-<SiteInfo v-for="(item,k) in state.vodbf" :name="item.vod_name" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodbf(k)" />
+::: tabs #vod-hwj
+@tab:active 量子资源 #vod-hwj-a
+<SiteInfo v-for="(item,k) in state.a" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="a(k)" />
+@tab 暴风资源 #vod-hwj-b
+<SiteInfo v-for="(item,k) in state.b" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="b(k)" />
 :::
 
 <script setup>
   import { vod } from '@db'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
-  import { onMounted, nextTick, onDeactivated } from "vue";
+  import { onMounted } from "vue";
   const state = useStorage(
     "vod-hwj",
     {
       src:"",
-      vodlz: [],
-      vodbf: [],
-      PlayList: []
+      a: [],
+      b: [],
+      p: []
     }
   )
 
   onMounted(async () => {
-    const lzcaiji = await vod.find({ "name": "lzzy-23" })
-    const bfzy = await vod.find({ "name": "bfzy-37" })
-    state.value.vodlz = lzcaiji.data
-    state.value.vodbf = bfzy.data
-    vodlzurl(0)
+    state.value.a = (await vod.find({ "name": "lzzy-23" })).data
+    state.value.b = (await vod.find({ "name": "bfzy-37" })).data
+    a(0)
   });
-  const vodlzurl = (key) => {
-    const { vodlz } = state.value
-    state.value.PlayList =vodlz[key].play_list
-    state.value.src = vodlz[key].play_list[0].url
+  const a = (key) => {
+    const { a } = state.value
+    state.value.p = a[key].play_list
+    state.value.src = a[key].play_list[0].url
   }
-  const vodbfurl = (key) => {
-    const { vodbf } = state.value
-    state.value.PlayList =vodbf[key].play_list
-    state.value.src = vodbf[key].play_list[0].url
+  const burl = (key) => {
+    const { b } = state.value
+    state.value.p = b[key].play_list
+    state.value.src = b[key].play_list[0].url
   }
 </script>

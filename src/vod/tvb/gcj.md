@@ -9,48 +9,55 @@ tag:
   - 国产剧
 ---
 
-<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
-::: tabs
-@tab:active 量子资源
-
-<SiteInfo v-for="(item,k) in state.vodlz" :name="item.vod_name" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodlzurl(k)" />
-@tab 鱼乐资源
-<SiteInfo v-for="(item,k) in state.vodyl" :name="item.vod_name" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodylurl(k)" />
+::: tabs #vod-gcj
+@tab:active 量子资源 #vod-gcj-a
+<SiteInfo v-for="(item,k) in state.a" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="a(k)" />
+@tab 鱼乐资源 #vod-gcj-b
+<SiteInfo v-for="(item,k) in state.b" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="b(k)" />
+@tab 优质资源 #vod-gcj-c
+<SiteInfo v-for="(item,k) in state.c" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="c(k)" />
 :::
 
 <script setup>
   import { vod } from '@db'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
-  import { onMounted, nextTick } from "vue";
+  import { onMounted } from "vue";
   const state = useStorage(
     "vod-gcj",
     {
       src:"",
-      vodlz: [],
-      vodyl: [],
-      PlayList: []
+      a: [],
+      b: [],
+      c: [],
+      p: []
     }
   )
 
   onMounted(async () => {
-    const lzcaiji = await vod.find({ "name": "lzzy-13" })
-    const ylzy = await vod.find({ "name": "ylzy-13" })
-    state.value.vodlz = lzcaiji.data
-    state.value.vodyl = ylzy.data
-    vodlzurl(0)
+    state.value.a = (await vod.find({ "name": "lzzy-13" })).data
+    state.value.b = (await vod.find({ "name": "ylzy-13" })).data
+    state.value.c = (await vod.find({ "name": "yzzy-12" })).data
+    a(0)
   });
-  const vodlzurl = (key) => {
-    const { vodlz } = state.value
-    state.value.PlayList =vodlz[key].play_list
-    state.value.src = vodlz[key].play_list[0].url
+  const a = (key) => {
+    const { a } = state.value
+    state.value.p = a[key].play_list
+    state.value.src = a[key].play_list[0].url
   }
-  const vodylurl = (key) => {
-    const { vodyl } = state.value
-    state.value.PlayList =vodyl[key].play_list
-    state.value.src = vodyl[key].play_list[0].url
+  const b = (key) => {
+    const { b } = state.value
+    state.value.p = b[key].play_list
+    state.value.src = b[key].play_list[0].url
+  }
+  const c = (key) => {
+    const { c } = state.value
+    state.value.p = c[key].play_list
+    state.value.src = c[key].play_list[0].url
   }
 </script>

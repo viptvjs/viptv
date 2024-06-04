@@ -9,36 +9,45 @@ tag:
   - 日本剧
 ---
 
-<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
-::: tabs
-@tab:active 暴风资源
-<SiteInfo v-for="(item,k) in state.vodbf" :name="item.vod_name" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodbf(k)" />
+::: tabs #vod-rbj
+@tab:active 暴风资源 #vod-rbj-a
+<SiteInfo v-for="(item,k) in state.a" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="a(k)" />
+@tab 暴风资源 #vod-rbj-b
+<SiteInfo v-for="(item,k) in state.b" :name="item.vod_name" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="b(k)" />
 :::
 
 <script setup>
   import { vod } from '@db'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
-  import { onMounted, nextTick, onDeactivated } from "vue";
+  import { onMounted } from "vue";
   const state = useStorage(
     "vod-rbj",
     {
       src:"",
-      vodbf: [],
-      PlayList: []
+      a: [],
+      b: [],
+      p: []
     }
   )
 
   onMounted(async () => {
-    const bfzy = await vod.find({ "name": "bfzy-36" })
-    state.value.vodbf = bfzy.data
-    vodbfurl(0)
+    state.value.a = (await vod.find({ "name": "bfzy-36" })).data
+    state.value.b = (await vod.find({ "name": "yzzy-18" })).data
+    a(0)
   });
-  const vodbfurl = (key) => {
-    const { vodbf } = state.value
-    state.value.PlayList =vodbf[key].play_list
-    state.value.src = vodbf[key].play_list[0].url
+  const a = (key) => {
+    const { a } = state.value
+    state.value.p = a[key].play_list
+    state.value.src = a[key].play_list[0].url
+  }
+  const b = (key) => {
+    const { b } = state.value
+    state.value.p = b[key].play_list
+    state.value.src = b[key].play_list[0].url
   }
 </script>

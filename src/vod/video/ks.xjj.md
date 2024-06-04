@@ -9,7 +9,7 @@ tag:
   - 小姐姐
 ---
 
-<ArtPlayer :src :config="mpConfig(state.PlayList)" />
+<ArtPlayer :src :config="mpConfig(state.p)" />
 
 ::: tip 快手小姐姐|福利小视频
 赚钱累了，工作烦了，可以来看看美女视频，不仅养眼，还可以让人心情愉悦；
@@ -24,12 +24,12 @@ tag:
   const state = useStorage(
     vodId,
     {
-      PlayList: []
+      p: []
     }
   )
-  const src = state.value.PlayList[0] ? state.value.PlayList[0].url : ""
+  const src = state.value.p[0] ? state.value.p[0].url : ""
   onMounted(async () => {
     const { data } = await vod.find({ "name": vodId })
-    state.value.PlayList = data.slice(0, 99)
+    state.value.p = data.slice(0, 99)
   });
 </script>

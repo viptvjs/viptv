@@ -9,7 +9,7 @@ tag:
   - 小姐姐
 ---
 
-<ArtPlayer :src :config="mpConfig(state.PlayList)" />
+<ArtPlayer :src :config="mpConfig(state.p)" />
 
 ::: tip 美腿小姐姐|福利小视频
 据不知道哪里的砖家说过，每天看美女可以长寿，秉着宁可信其有不可信其无的原则，每天都来看一看，长不长寿不知道，但是养眼养心是确实的！
@@ -24,12 +24,12 @@ tag:
   const state = useStorage(
     vodId,
     {
-      PlayList: []
+      p: []
     }
   )
-  const src = state.value.PlayList[0] ? state.value.PlayList[0].url : ""
+  const src = state.value.p[0] ? state.value.p[0].url : ""
   onMounted(async () => {
     const { data } = await vod.find({ "name": vodId })
-    state.value.PlayList = data.slice(0, 99)
+    state.value.p = data.slice(0, 99)
   });
 </script>

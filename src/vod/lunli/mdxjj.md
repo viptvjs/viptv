@@ -9,80 +9,75 @@ tag:
   - 动漫
 ---
 
-<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
-::: tabs
-@tab:active 麻豆视频
-<SiteInfo v-for="(item,k) in state.vodmd" :name="item.title" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodmdurl(k)" />
-@tab 果冻传媒
-<SiteInfo v-for="(item,k) in state.vodgd" :name="item.title" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodgdurl(k)" />
-@tab 天美传媒
-<SiteInfo v-for="(item,k) in state.vodtm" :name="item.title" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodtmurl(k)" />
-@tab 蜜桃传媒
-<SiteInfo v-for="(item,k) in state.vodmt" :name="item.title" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodmturl(k)" />
-@tab 玩偶姐姐
-<SiteInfo v-for="(item,k) in state.vodwo" :name="item.title" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodwourl(k)" />
+::: tabs #vod-mdxjj
+@tab:active 麻豆视频 #vod-mdxjj-a
+<SiteInfo v-for="(item,k) in state.a" :name="item.title" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="a(k)" />
+@tab 果冻传媒 #vod-mdxjj-b
+<SiteInfo v-for="(item,k) in state.b" :name="item.title" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="b(k)" />
+@tab 天美传媒 #vod-mdxjj-c
+<SiteInfo v-for="(item,k) in state.c" :name="item.title" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="c(k)" />
+@tab 蜜桃传媒 #vod-mdxjj-d
+<SiteInfo v-for="(item,k) in state.d" :name="item.title" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="d(k)" />
+@tab 玩偶姐姐 #vod-mdxjj-e
+<SiteInfo v-for="(item,k) in state.e" :name="item.title" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="e(k)" />
 :::
 
 <script setup>
   import { vod } from '@db'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
-  import { onMounted, nextTick, onDeactivated } from "vue";
+  import { onMounted } from "vue";
   const state = useStorage(
     "vod-mdxjj",
     {
       src:"",
-      vodmd: [],
-      vodgd: [],
-      vodtm: [],
-      vodmt: [],
-      vodwo: [],
-      PlayList: []
+      a: [],
+      b: [],
+      c: [],
+      d: [],
+      e: [],
+      p: []
     }
   )
 
   onMounted(async () => {
-    const md = await vod.find({ "name": "mdsp-1" })
-    const gd = await vod.find({ "name": "mdsp-2" })
-    const tm = await vod.find({ "name": "mdsp-3" })
-    const mt = await vod.find({ "name": "mdsp-4" })
-    const wo = await vod.find({ "name": "mdsp-22" })
-    state.value.vodmd = md.data
-    state.value.vodgd = gd.data
-    state.value.vodtm = tm.data
-    state.value.vodmt = mt.data
-    state.value.vodwo = wo.data
-    vodmdurl(0)
+    state.value.a = (await vod.find({ "name": "mdsp-1" })).data
+    state.value.b = (await vod.find({ "name": "mdsp-2" })).data
+    state.value.c = (await vod.find({ "name": "mdsp-3" })).data
+    state.value.d = (await vod.find({ "name": "mdsp-4" })).data
+    state.value.e = (await vod.find({ "name": "mdsp-22" })).data
+    a(0)
   });
-  const vodmdurl = (key) => {
-    const { vodmd } = state.value
-    state.value.PlayList =vodmd
-    state.value.src = vodmd[key].url
+  const a = (key) => {
+    const { a } = state.value
+    state.value.p = a
+    state.value.src = a[key].url
   }
-  const vodgdurl = (key) => {
-    const { vodgd } = state.value
-    state.value.PlayList =vodgd
-    state.value.src = vodgd[key].url
+  const b = (key) => {
+    const { b } = state.value
+    state.value.p = b
+    state.value.src = b[key].url
   }
-  const vodtmurl = (key) => {
-    const { vodtm } = state.value
-    state.value.PlayList =vodtm
-    state.value.src = vodtm[key].url
+  const c = (key) => {
+    const { c } = state.value
+    state.value.p = c
+    state.value.src = c[key].url
   }
-  const vodmturl = (key) => {
-    const { vodmt } = state.value
-    state.value.PlayList =vodmt
-    state.value.src = vodmt[key].url
+  const d = (key) => {
+    const { d } = state.value
+    state.value.p = d
+    state.value.src = d[key].url
   }
-   const vodwourl = (key) => {
-    const { vodwo } = state.value
-    state.value.PlayList =vodwo
-    state.value.src = vodwo[key].url
+   const e = (key) => {
+    const { e } = state.value
+    state.value.p = e
+    state.value.src = e[key].url
   }
 </script>

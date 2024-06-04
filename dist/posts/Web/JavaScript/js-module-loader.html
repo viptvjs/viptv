@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="generator" content="VuePress 2.0.0-rc.12" />
+    <meta name="generator" content="VuePress 2.0.0-rc.13" />
     <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.47" />
     <style>
       html {
@@ -29,8 +29,8 @@
       }
     </script>
     <meta property="og:url" content="https://viptv.work/posts/Web/JavaScript/js-module-loader.html"><meta property="og:site_name" content="VIPTV 云视听"><meta property="og:title" content="CommonJS，RequireJS，SeaJS 归纳笔记"><meta property="og:description" content="Foreword Here comes Module! 随着网站逐渐变成「互联网应用程序」，嵌入网页的 JavaScript 代码越来越庞大，越来越复杂。网页越来越像桌面程序，需要一个团队分工协作、进度管理、单元测试……我们不得不使用软件工程的方法，来管理网页的业务逻辑。 于是，JavaScript 的模块化成为迫切需求。在 ES6 Module 来临..."><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2024-05-26T13:19:32.000Z"><meta property="article:author" content="Mr.Hefung"><meta property="article:tag" content="前端开发"><meta property="article:tag" content="JavaScript"><meta property="article:published_time" content="2015-05-25T00:00:00.000Z"><meta property="article:modified_time" content="2024-05-26T13:19:32.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"CommonJS，RequireJS，SeaJS 归纳笔记","image":[""],"datePublished":"2015-05-25T00:00:00.000Z","dateModified":"2024-05-26T13:19:32.000Z","author":[{"@type":"Person","name":"Mr.Hefung","url":"/"}]}</script><link rel="icon" href="/logo.svgs"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="baidu-site-verification" content="codeva-4N5cviFcWA"><meta name="msvalidate.01" content="60990E7826770BD82AE9B5EFB468E0BB"><link rel="icon" href="/favicon.ico"><title>CommonJS，RequireJS，SeaJS 归纳笔记 | VIPTV 云视听</title><meta name="description" content="Foreword Here comes Module! 随着网站逐渐变成「互联网应用程序」，嵌入网页的 JavaScript 代码越来越庞大，越来越复杂。网页越来越像桌面程序，需要一个团队分工协作、进度管理、单元测试……我们不得不使用软件工程的方法，来管理网页的业务逻辑。 于是，JavaScript 的模块化成为迫切需求。在 ES6 Module 来临...">
-    <link rel="preload" href="/assets/style-CbLHsLrP.css" as="style"><link rel="stylesheet" href="/assets/style-CbLHsLrP.css">
-    <link rel="modulepreload" href="/assets/app-CjGFIATa.js"><link rel="modulepreload" href="/assets/js-module-loader.html-Dvu-Pthu.js">
+    <link rel="preload" href="/assets/style-B2uGM6Gm.css" as="style"><link rel="stylesheet" href="/assets/style-B2uGM6Gm.css">
+    <link rel="modulepreload" href="/assets/app-Bk2aM6Ya.js"><link rel="modulepreload" href="/assets/js-module-loader.html-LKiYggK_.js">
     
   </head>
   <body>
@@ -123,6 +123,6 @@
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#C678DD;">  var</span><span style="--shiki-light:#24292E;--shiki-dark:#E06C75;"> b</span><span style="--shiki-light:#D73A49;--shiki-dark:#56B6C2;"> =</span><span style="--shiki-light:#6F42C1;--shiki-dark:#61AFEF;"> require</span><span style="--shiki-light:#24292E;--shiki-dark:#ABB2BF;">(</span><span style="--shiki-light:#032F62;--shiki-dark:#98C379;">&quot;./b&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#ABB2BF;">); </span><span style="--shiki-light:#6A737D;--shiki-dark:#7F848E;--shiki-light-font-style:inherit;--shiki-dark-font-style:italic;">// 依赖就近，延迟执行</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E5C07B;">  b</span><span style="--shiki-light:#24292E;--shiki-dark:#ABB2BF;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#61AFEF;">doSomething</span><span style="--shiki-light:#24292E;--shiki-dark:#ABB2BF;">();</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#ABB2BF;">});</span></span></code></pre></div><h2 id="webpack" tabindex="-1"><a class="header-anchor" href="#webpack"><span>WebPack</span></a></h2><blockquote><p>working...</p></blockquote></div><!----><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="update-time"><span class="vp-meta-label">上次编辑于: </span><!----></div><div class="contributors"><span class="vp-meta-label">贡献者: </span><!--[--><!--[--><span class="vp-meta-info" title="email: mail@viptv.work">viptv</span><!--]--><!--]--></div></div></footer><nav class="vp-page-nav"><a class="route-link auto-link prev" href="/posts/Web/JavaScript/judgment.html" aria-label="通过UserAgent判断设备"><div class="hint"><span class="arrow start"></span>上一页</div><div class="link"><span class="font-icon icon fa-fw fa-sm fas fa-mobile" style=""></span>通过UserAgent判断设备</div></a><a class="route-link auto-link next" href="/posts/Web/JavaScript/js-version.html" aria-label="JavaScript ES6"><div class="hint">下一页<span class="arrow end"></span></div><div class="link">JavaScript ES6<span class="font-icon icon fa-fw fa-sm fas fa-es6" style=""></span></div></a></nav><!----><!----><!--]--></main><!--]--><footer class="vp-footer-wrapper"><div class="vp-footer">极速 、 高清 、 无广告</div><div class="vp-copyright">MIT 协议 | 版权所有 © 2024-至今 Mr.Hefung</div></footer></div><!--]--><!--[--><!----><!--[--><!--]--><!----><!--]--><!--]--></div>
-    <script type="module" src="/assets/app-CjGFIATa.js" defer></script>
+    <script type="module" src="/assets/app-Bk2aM6Ya.js" defer></script>
   </body>
 </html>

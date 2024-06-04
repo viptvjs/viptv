@@ -9,61 +9,56 @@ tag:
   - 足球
 ---
 
-<ArtPlayer :src="state.src" :config="hlsConfig(state.PlayList)" />
+<ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
-::: tabs
-@tab:active 索尼资源
-<SiteInfo v-for="(item,k) in state.vodsn" :name="item.title" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodsnurl(k)" />
-@tab 鱼乐资源
-<SiteInfo v-for="(item,k) in state.vodyl" :name="item.title" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodylurl(k)" />
-@tab 暴风资源
-<SiteInfo v-for="(item,k) in state.vodbf" :name="item.title" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="vodbfurl(k)" />
+::: tabs #vod-zuqiu
+@tab:active 索尼资源 #vod-zuqiu-a
+<SiteInfo v-for="(item,k) in state.a" :name="item.title" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="a(k)" />
+@tab 鱼乐资源 #vod-zuqiu-b
+<SiteInfo v-for="(item,k) in state.b" :name="item.title" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="b(k)" />
+@tab 暴风资源 #vod-zuqiu-c
+<SiteInfo v-for="(item,k) in state.c" :name="item.title" desc="" :logo="item.vod_pic"
+:preview="item.vod_pic" url="" @click="c(k)" />
 :::
 
 <script setup>
   import { vod } from '@db'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
-  import { onMounted, nextTick } from "vue";
+  import { onMounted } from "vue";
 
   const state = useStorage(
     "vod-zuqiu",
     {
       src:"",
-      vodsn: [],
-      vodyl: [],
-      vodbf: [],
-      PlayList: []
+      a: [],
+      b: [],
+      c: [],
+      p: []
     }
   )
 
-  onMounted(() => {
-    nextTick(async () => {
-      const suonizy = await vod.find({ "name": "snzy-50" })
-      const ylzy = await vod.find({ "name": "ylzy-50" })
-      const bfzy = await vod.find({ "name": "bfzy-54" })
-      state.value.vodsn = suonizy.data
-      state.value.vodyl = ylzy.data
-      state.value.vodbf = bfzy.data
-      vodsnurl(0)
-    })
+  onMounted(async () => {
+    state.value.a = (await vod.find({ "name": "snzy-50" })).data
+    state.value.b = (await vod.find({ "name": "ylzy-50" })).data
+    state.value.c = (await vod.find({ "name": "bfzy-54" })).data
+    a(0)
   });
-   const vodsnurl = (key) => {
-    const { vodsn } = state.value
-    state.value.PlayList =vodsn
-    state.value.src = vodsn[key].url
+   const a = (key) => {
+    const { a } = state.value
+    state.value.p = a
+    state.value.src = a[key].url
   }
-  const vodylurl = (key) => {
-    const { vodyl } = state.value
-    state.value.PlayList =vodyl
-    state.value.src = vodyl[key].url
+  const b = (key) => {
+    const { b } = state.value
+    state.value.p = b
+    state.value.src = b[key].url
   }
-  const vodbfurl = (key) => {
-    const { vodbf } = state.value
-    state.value.PlayList =vodbf
-    state.value.src = vodbf[key].url
+  const c = (key) => {
+    const { c } = state.value
+    state.value.p = c
+    state.value.src = c[key].url
   }
 </script>

@@ -9,7 +9,7 @@ tag:
   - 小姐姐
 ---
 
-<ArtPlayer :src :config="mpConfig(state.PlayList)" />
+<ArtPlayer :src="state.src" :config="mpConfig(state.p)" />
 
 ::: tip TikTok 小姐姐|福利小视频
 :::
@@ -18,24 +18,20 @@ tag:
   import { mpConfig } from '@cps/artConst'
   import { vod } from '@db'
   import { useStorage } from '@vueuse/core'
-  import { onMounted, nextTick, onDeactivated } from "vue";
-
-  const vodId = "tiktok"
+  import { onMounted } from "vue";
 
   const state = useStorage(
-    vodId,
+    "tiktok",
     {
-      PlayList: []
+      src:"",
+      p: []
     }
   )
 
-  const src = state.value.PlayList[0] ? state.value.PlayList[0].url : ""
-
-  onMounted(() => {
-    nextTick(async () => {
-      const { data } = await vod.find({ "name": vodId })
-      state.value.PlayList = data.slice(0, 100)
-    })
+  onMounted( async () => {
+    const { data } = await vod.find({ "name": "tiktok" })
+    state.value.p = data.slice(0, 100)
+    state.value.src = data[0].url
   });
 
 </script>

@@ -1,6 +1,6 @@
 import { artplayerPlaylist } from "./artplayer-plugin-playlist";
+//import artplayerPluginDanmuku from "artplayer-plugin-danmuku";
 const poster = "https://img.viptv.work/iptv/ads.png";
-const Src = "https://vp-demo.u2sb.com/video/caminandes_03_llamigos_720p.mp4";
 
 const Hls = async (video, url, art) => {
   const hlsjs = (await import("hls.js")).default;
@@ -21,11 +21,11 @@ const Hls = async (video, url, art) => {
   }
 };
 
- const Flv = async (video, url, art) => {
+const Flv = async (video, url, art) => {
   const mpegts = (await import("mpegts.js")).default;
   if (mpegts.isSupported()) {
     if (art.flv) art.flv.destroy();
-    const flv = flvjs.createPlayer({ type: "flv", url });
+    const flv = mpegts.createPlayer({ type: "flv", url });
     flv.attachMediaElement(video);
     flv.load();
     art.flv = flv;
@@ -35,7 +35,7 @@ const Hls = async (video, url, art) => {
   }
 };
 
- const Dash = async (video, url, art) => {
+const Dash = async (video, url, art) => {
   const dashjs = (await import("dashjs")).default;
   if (dashjs.supportsMediaSource()) {
     if (art.dash) art.dash.destroy();
@@ -48,71 +48,55 @@ const Hls = async (video, url, art) => {
   }
 };
 
-export const hlsConfig = (playlist) => {
-  return {
-    poster,
-    fullscreen: true,
-    fullscreenWeb: true,
-    autoplay: true,
-    type: "Hls",
-    customType: { Hls },
-    muted: true,
-    plugins: [
-      artplayerPlaylist({
-        autoNext: true,
-        playlist,
-      }),
-    ],
-  };
-};
-export const flvConfig = (playlist) => {
-  return {
-    poster,
-    fullscreen: true,
-    fullscreenWeb: true,
-    autoplay: true,
-    type: "Flv",
-    customType: { Flv },
-    muted: true,
-    plugins: [
-      artplayerPlaylist({
-        autoNext: true,
-        playlist,
-      }),
-    ],
-  };
-};
-export const dashConfig = (playlist) => {
-  return {
-    poster,
-    fullscreen: true,
-    fullscreenWeb: true,
-    autoplay: true,
-    type: "Dash",
-    customType: { Dash },
-    muted: true,
-    plugins: [
-      artplayerPlaylist({
-        autoNext: true,
-        playlist,
-      }),
-    ],
-  };
-};
 export const mpConfig = (playlist) => {
   return {
     poster,
     fullscreen: true,
     fullscreenWeb: true,
     autoplay: true,
+    autoMini: true,
+    lock: true,
+    setting: false,
     muted: true,
+    moreVideoAttr: {
+      'webkit-playsinline': true,
+      playsInline: true,
+    },
     plugins: [
       artplayerPlaylist({
+        rebuildPlayer: true, // 换P时重建播放器，默认false
+        onchanged: () => { // 换P后的回调函数
+
+        },
         autoNext: true,
         playlist,
       }),
     ],
+  }
+
+}
+
+export const hlsConfig = (playlist) => {
+  return {
+    ...mpConfig(playlist),
+    type: "Hls",
+    customType: { Hls },
   };
 };
+export const flvConfig = (playlist) => {
+  return {
+    ...mpConfig(playlist),
+    type: "Flv",
+    customType: { Flv },
+  };
+};
+export const dashConfig = (playlist) => {
+  return {
+    ...mpConfig(playlist),
+    type: "Dash",
+    customType: { Dash },
+  };
+};
+
 
 //https://api.bilibili.com/x/web-interface/ranking
