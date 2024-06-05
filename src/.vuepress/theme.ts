@@ -61,6 +61,7 @@ export default hopeTheme(
     encrypt: {
       config: {
         "/vod/lunli/": ["3.1415926", "8.8888888", "9.9999999"],
+        "/iptv/sm/": ["3.1415926", "8.8888888", "9.9999999"],
       },
     },
     editLink: false,

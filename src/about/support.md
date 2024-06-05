@@ -18,13 +18,10 @@ order: 4
 :::tabs
 @tab 支付宝
 ![](https://img.viptv.work/viptv/ali_pay.jpeg)
-
 @tab 微信支付
 ![](https://img.viptv.work/viptv/wx_pay.png)
-
 @tab qq 支付
 ![](https://img.viptv.work/viptv/qq_pay.png)
-
 :::
 
 感谢以下赞助者，以及[爱发电](https://afdian.net/a/viptv)的朋友们

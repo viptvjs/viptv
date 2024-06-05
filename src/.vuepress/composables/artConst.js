@@ -57,17 +57,14 @@ export const mpConfig = (playlist) => {
     autoMini: true,
     lock: true,
     setting: false,
-    muted: true,
     moreVideoAttr: {
       'webkit-playsinline': true,
       playsInline: true,
     },
     plugins: [
       artplayerPlaylist({
-        rebuildPlayer: true, // 换P时重建播放器，默认false
-        onchanged: () => { // 换P后的回调函数
-
-        },
+        rebuildPlayer: false, // 换P时重建播放器，默认false
+        onchanged: () => { }, // 换P后的回调函数
         autoNext: true,
         playlist,
       }),

@@ -13,20 +13,20 @@ tag:
 
 ::: tabs #vod-gcdm
 @tab:active 魔都资源 #vod-gcdm-a
-<SiteInfo v-for="(item,k) in state.a" :name="item.title" desc="" :logo="item.vod_pic" :preview="item.vod_pic"
-  url="" @click="a(k)" />
+<SiteInfo v-for="(item,k) in state.a" :name="item.title" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
+  @click="a(k)" />
 @tab 索尼资源 #vod-gcdm-b
-<SiteInfo v-for="(item,k) in state.b" :name="item.vod_name" desc="" :logo="item.vod_pic" :preview="item.vod_pic"
-  url="" @click="b(k)" />
+<SiteInfo v-for="(item,k) in state.b" :name="item.vod_name" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
+  @click="b(k)" />
 @tab 量子资源 #vod-gcdm-c
-<SiteInfo v-for="(item,k) in state.c" :name="item.vod_name" desc="" :logo="item.vod_pic" :preview="item.vod_pic"
-  url="" @click="c(k)" />
+<SiteInfo v-for="(item,k) in state.c" :name="item.vod_name" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
+  @click="c(k)" />
 @tab 暴风资源 #vod-gcdm-d
-<SiteInfo v-for="(item,k) in state.d" :name="item.vod_name" desc="" :logo="item.vod_pic" :preview="item.vod_pic"
-  url="" @click="d(k)" />
+<SiteInfo v-for="(item,k) in state.d" :name="item.vod_name" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
+  @click="d(k)" />
 @tab 优质资源 #vod-gcdm-d
-<SiteInfo v-for="(item,k) in state.e" :name="item.vod_name" desc="" :logo="item.vod_pic" :preview="item.vod_pic"
-  url="" @click="e(k)" />
+<SiteInfo v-for="(item,k) in state.e" :name="item.vod_name" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
+  @click="e(k)" />
 :::
 
 <script setup>
