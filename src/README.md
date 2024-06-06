@@ -2,12 +2,9 @@
 home: true
 icon: home
 title: 首页
-heroImage: https://img.viptv.work/viptv/VIP-TV-LOGO-FINAL-600x600.png
+heroImage: /logo.svg
 heroFullScreen: true
 bgImage: /assets/png/banner.png
-bgImageDark: /assets/svg/6-dark.svg
-bgImageStyle:
-background-attachment: fixed
 actions:
 
   - text: 热门短剧
@@ -18,23 +15,25 @@ actions:
     type: primary
     link: ./vod/movie/dzp
 
-features:
+highlights:
+  - header: 做更好的IPTV
+    description: 我们致力于做比昨天更好的 IPTV 服务，享受广泛的本地和国际频道，包括体育、新闻、影视、戏剧等！
+    image: /assets/webp/vip-tv-logo.webp
+    features:
+      - title: 通道范围广
+        icon: person-chalkboard
+        details: 享受来自世界各地的数千个高质量频道。
 
-  - title: 成长学习
-    icon: person-chalkboard
-    details: 学习、进步、经历、成长
+      - title: 高质量的流媒体
+        icon: book
+        details: 通过我们的IPTV服务享受高质量的流媒体
 
-  - title: 知识管理
-    icon: book
-    details: 结构化知识体系，构建数字大脑
+      - title: 24/7 客户支持
+        icon: object-group
+        details: 随时随地获得帮助，全天候为您提供支持。
 
-  - title: 技术沉淀
-    icon: object-group
-    details: 积跬步以至千里，积小流以成江海
-
-  - title: 协作交流
-    icon: comment-dots
-    details: 海内存知己，天涯若比邻
-
+      - title: 定期更新
+        icon: comment-dots
+        details: 我们会定期更新我们的频道阵容和功能，以确保您获得最佳的观看体验。
 ---
 

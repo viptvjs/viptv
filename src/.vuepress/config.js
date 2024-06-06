@@ -10,10 +10,6 @@ export default defineUserConfig({
   head: [
     ["link", { rel: "icon", href: "/logo.svgs" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
-    [
-      "meta",
-      { name: "apple-mobile-web-app-status-bar-style", content: "default" },
-    ],
     ["meta", { name: "baidu-site-verification", content: "codeva-4N5cviFcWA" }],
     [
       "meta",

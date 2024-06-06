@@ -13,7 +13,7 @@ export const zhNavbar = navbar([
   {
     text: "博客",
     icon: "blog",
-    link: "/blog",
+    link: "/blog/",
     activeMatch: "^/archives/$",
   },
 ]);

@@ -14,7 +14,6 @@ export default hopeTheme(
     favicon: "/favicon.ico",
     logo: "/logo.svg",
     docsRepo: "viptv-work/viptv",
-    pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
     docsDir: "src",
     repoLabel: "GitHub", // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
     repo: "viptv-work/viptv",  // 自定义仓库链接文字。默认从 `repo` 中自动推断为
@@ -36,15 +35,19 @@ export default hopeTheme(
         sidebar: zhSidebar,
         displayFooter: true,
         footer: "极速 、 高清 、 无广告", // 页脚
-        copyright: "MIT 协议 | 版权所有 © 2024-至今 Mr.Hefung",
+        copyright: "MIT 协议 | 版权所有 © 2020-至今 Mr.Hefung",
       },
       "/en/": {
         navbar: enNavbar,
         sidebar: enSidebar,
         displayFooter: true,
         footer: "Best IPTV Subscription Provider.", // 页脚
-        copyright: "MIT Licensed | Copyright © 2024-present Mr.Hefung",
+        copyright: "MIT Licensed | Copyright © 2020-present Mr.Hefung",
       },
+    },
+    blogLocales: {
+      slide: "幻灯片",
+      original: "原创",
     },
     blog: {
       description: "专心致志做事，大气温和待人。",
