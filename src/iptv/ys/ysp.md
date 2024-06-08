@@ -20,7 +20,7 @@ https://www.yangshipin.cn/#/tv/home
 
 <script setup>
  import axios from"axios"
-  import { iptv } from '@db'
+  import iptv from '@db/iptv.js'
   import { mpConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";

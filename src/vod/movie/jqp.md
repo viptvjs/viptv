@@ -21,7 +21,7 @@ tag:
 :::
 
 <script setup>
-  import { vod } from '@db'
+  import vod from '@db/vod.js'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
