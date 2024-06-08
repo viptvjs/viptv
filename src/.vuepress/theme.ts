@@ -45,10 +45,6 @@ export default hopeTheme(
         copyright: "MIT Licensed | Copyright © 2020-present Mr.Hefung",
       },
     },
-    blogLocales: {
-      slide: "幻灯片",
-      original: "原创",
-    },
     blog: {
       description: "专心致志做事，大气温和待人。",
       intro: "/",
@@ -135,7 +131,6 @@ export default hopeTheme(
       watermark: {
         enabled: false,
       },
-      copyCode: {},
       components: {
         components: ["Badge", "VPCard", "ArtPlayer", "VPBanner", "SiteInfo"]
       },
