@@ -8,21 +8,26 @@ tag:
 sticky: true
 star: true
 order: 4
+cover: /assets/jpg/zanzhu.jpg
 ---
+
+## 说明
 
 如果你觉得这个项目对你有帮助，不妨考虑给我买杯奶茶 😄。
 
 - 赞助我 : <https://afdian.net/a/viptv>
-- 支付宝/微信支付/QQ 支付:
+- 支付宝 , 微信 , QQ 打赏:
 
 :::tabs
 @tab 支付宝
 ![](https://img.viptv.work/viptv/ali_pay.jpeg)
-@tab 微信支付
+@tab 微信
 ![](https://img.viptv.work/viptv/wx_pay.png)
-@tab qq 支付
+@tab QQ
 ![](https://img.viptv.work/viptv/qq_pay.png)
 :::
+
+## 打赏记录
 
 感谢以下赞助者，以及[爱发电](https://afdian.net/a/viptv)的朋友们
 

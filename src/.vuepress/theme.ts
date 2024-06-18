@@ -2,27 +2,32 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
 import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
+const hostname =
+  process.env["HOSTNAME"] ?? "https://viptv.work";
 
 export default hopeTheme(
   {
-    hostname: "https://viptv.work",
+    hostname,
     author: {
       name: "Mr.Hefung",
-      url: "/",
+      url: "/about",
     },
     iconAssets: "fontawesome-with-brands",
     favicon: "/favicon.ico",
     logo: "/logo.svg",
     docsRepo: "viptv-work/viptv",
     docsDir: "src",
+    pageInfo: ["ReadingTime", "Category", "Tag"],
     repoLabel: "GitHub", // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
     repo: "viptv-work/viptv",  // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     repoDisplay: true,  //是否在导航栏显示仓库链接，默认为 `true`
     fullscreen: true,  //全屏按钮
+    navbarTitle: "",
     extraLocales: {
-      主站: "https://www.viptv.work",
-      镜像1: "https://dns1.viptv.work",
-      镜像2: "https://dns2.viptv.work",
+      官网主站: "https://www.viptv.work/:route",
+      官网镜像1: "https://dns1.viptv.work/:route",
+      官网镜像2: "https://dns2.viptv.work/:route",
+      官网镜像3: "https://dns3.viptv.work/:route",
     },
     navbarLayout: {
       start: ["Brand"],
@@ -65,6 +70,14 @@ export default hopeTheme(
     },
     editLink: false,
     plugins: {
+      /* comment: {
+        provider: "Giscus",
+        repo: "viptv-work/viptv",
+        repoId: "R_kgDOKdyFzg",
+        category: "Q&A",
+        categoryId: "DIC_kwDOKdyFzs4CeLSD",
+        mapping: "url",
+      }, */
       searchPro: {
         indexContent: true,
         hotReload: true,
@@ -107,14 +120,7 @@ export default hopeTheme(
               link: "https://www.viptv.work/",
               type: "primary",
             },
-            {
-              text: "镜像1→",
-              link: "https://dns1.viptv.work/",
-            },
-            {
-              text: "镜像2→",
-              link: "https://dns2.viptv.work/",
-            },
+
           ],
           fullscreen: false,
           showOnce: false,

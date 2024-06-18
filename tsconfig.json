@@ -14,7 +14,6 @@
     "strict": true,
     "verbatimModuleSyntax": true,
     // Modules
-    "baseUrl": "./",
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,

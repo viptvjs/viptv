@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: 问答
 icon: circle-question
 tag:
 - Changelog

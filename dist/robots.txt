@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://viptv.work/sitemap.xml
+Sitemap: https://DESKTOP-BB2QNSK/sitemap.xml

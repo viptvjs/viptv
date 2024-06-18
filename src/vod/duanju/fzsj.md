@@ -21,7 +21,7 @@ tag:
   import vod from '@db/vod.js'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
-  import { onMounted, nextTick, onDeactivated } from "vue";
+  import { onMounted } from "vue";
 
   const state = useStorage(
     "vod-fzsj",
