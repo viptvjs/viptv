@@ -8,6 +8,8 @@ const base = (process.env["BASE"] as "/" | `/${string}/`) || "/";
 export default defineUserConfig({
   base,
   dest: "./dist",
+  host: '0.0.0.0',
+  port: 80,
   head: [
     ["link", { rel: "icon", href: "/logo.svgs" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
@@ -30,18 +32,28 @@ export default defineUserConfig({
     },
   },
   alias: {
-    "@db": path.resolve(__dirname, "./lib/dexie"),
-    "@cpn": path.resolve(__dirname, "./components"),
-    "@cps": path.resolve(__dirname, "./composables"),
+    '@src': path.resolve(__dirname, '../'),
+    "@db": path.resolve(__dirname, "lib/dexie"),
+    "@cpn": path.resolve(__dirname, "components"),
+    "@cps": path.resolve(__dirname, "composables"),
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
       __dirname,
       "./layouts/BlogHero.vue"
+    ),
+    "@theme-hope/modules/info/components/TOC": path.resolve(
+      __dirname,
+      "./components/toc.vue"
+    ),
+    '@theme-hope': path.resolve(
+      __dirname,
+      '../../node_modules/vuepress-theme-hope/lib/client'
     ),
   },
 
   bundler: viteBundler({
     viteOptions: {
       server: {
+        host: true,
         proxy: {
           "/bing": {
             target: "https://cn.bing.com",
@@ -63,5 +75,8 @@ export default defineUserConfig({
     },
   }),
   theme,
-  shouldPrefetch: false,
+  shouldPrefetch: true,
+  //https://vuepress.vuejs.org/zh/reference/config.html#shouldpreload
+  shouldPreload: true,
+
 });

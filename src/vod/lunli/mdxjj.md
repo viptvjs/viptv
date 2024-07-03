@@ -1,12 +1,13 @@
 ---
-title: 麻豆视频
+title: 麻豆视频🔞🈲
 icon: person-falling-burst
 date: 2020-01-01
 order: 4
 category:
   - 影视点播
 tag:
-  - 动漫
+  - 麻豆视频
+containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />

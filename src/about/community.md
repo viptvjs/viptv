@@ -5,6 +5,7 @@ comment: false
 icon: comment
 order: 2
 description: 在这里你可以加入相关社区，交流方方面面的话题。
+watermark: true
 ---
 
 # 社区

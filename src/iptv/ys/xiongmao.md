@@ -7,6 +7,7 @@ category:
   - 直播
 tag:
   - 熊猫
+containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />

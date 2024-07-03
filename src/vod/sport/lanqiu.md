@@ -7,6 +7,7 @@ category:
   - 影视点播
 tag:
   - 篮球
+containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />

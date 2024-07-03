@@ -1,5 +1,5 @@
 ---
-title: 成人直播
+title: 成人直播🔞🈲
 icon: https://assets.strpst.com/assets/common/components/ui/CountryFlag/images/ug.svg
 date: 2020-01-01
 order: 4
@@ -7,6 +7,7 @@ category:
   - IPTV
 tag:
   - 成人直播
+containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />

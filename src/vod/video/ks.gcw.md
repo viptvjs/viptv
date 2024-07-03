@@ -8,6 +8,7 @@ category:
 tag:
   - 快手
   - 广场舞
+containerClass: toc-false
 ---
 
 <ArtPlayer :src :config="mpConfig(state.p)" />

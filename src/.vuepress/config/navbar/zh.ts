@@ -12,22 +12,23 @@ export const zhNavbar = navbar([
     activeMatch: "^/archives/$",
   },
   {
-    text: "博客",
-    icon: "blog",
-    link: "/blog/",
-    activeMatch: "^/archives/$",
-  },
-  {
-    text: version,
-    icon: "book",
+    text: "关于",
+    icon: "circle-info",
     children: [
       {
-        text: "更新日志",
-        link: "blog/auto-push",
+        text: "博客文章",
+        icon: "blog",
+        link: "blog/",
       },
       {
         text: "友情打赏",
-        link: "about/support",
+        icon: "heart",
+        link: "about/donate",
+      },
+      {
+        text: version + "版本",
+        icon: "fa-brands fa-vuejs",
+        link: "blog/auto-push",
       },
     ],
   },

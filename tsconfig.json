@@ -1,55 +1,37 @@
 {
   "compilerOptions": {
-    // types
-    "allowArbitraryExtensions": false,
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "exactOptionalPropertyTypes": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitOverride": true,
-    "noImplicitReturns": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "strict": true,
-    "verbatimModuleSyntax": true,
-    // Modules
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "resolveJsonModule": true,
-    // Emit
-    "downlevelIteration": false,
-    "importHelpers": true,
-    "inlineSources": true,
-    "inlineSourceMap": false,
-    "newLine": "lf",
-    "noEmitOnError": true,
-    "removeComments": false,
-    "sourceMap": true,
-    // JavaScript
-    "allowJs": false,
-    "checkJs": false,
-    // Interop Constraints
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    // output formatting
-    "pretty": true,
-    // lib
     "lib": [
       "DOM",
-      "ESNext"
+      "ES2020"
     ],
-    // minimal node 18 support
-    "target": "ES2022",
-    // Compiler Diagnostics
-    "diagnostics": false,
-    "listEmittedFiles": false,
-    "skipLibCheck": true
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "target": "ES2020",
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "jsx": "preserve",
+    "paths": {
+      "@theme-hope/*": [
+        "./node_modules/vuepress-theme-hope/lib/client/*.js"
+      ],
+    },
+    "types": [
+      "vuepress/client-types"
+    ]
   },
   "include": [
     "scripts/**/*.d.ts",
-    "src/.vuepress/**/*.d.ts",
+    "src/.vuepress/**/*.ts",
+    "src/.vuepress/**/*.js",
     "src/.vuepress/**/*.vue"
-  ]
+  ],
+  "exclude": [
+    "node_modules",
+    ".temp",
+    "dist"
+  ],
 }

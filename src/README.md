@@ -18,7 +18,9 @@ actions:
 highlights:
   - header: 做更好的IPTV
     description: 我们致力于做比昨天更好的 IPTV 服务，享受广泛的本地和国际频道，包括体育、新闻、影视、戏剧等！
-    image: /assets/webp/vip-tv-logo.webp
+    image: /assets/png/VIPTV-LOGO-LONG@1x.png
+    bgImage: /assets/svg/bg.svg
+
     features:
       - title: 通道范围广
         icon: person-chalkboard

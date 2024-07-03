@@ -1,12 +1,13 @@
 ---
-title: 日本伦理
+title: 日本伦理🔞🈲
 icon: person-falling-burst
 date: 2020-01-01
 order: 4
 category:
   - 影视点播
 tag:
-  - 日本
+  - 日本伦理
+containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />

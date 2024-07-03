@@ -1,5 +1,5 @@
 ---
-title: 伦理片
+title: 伦理片🔞🈲
 icon: hat-cowboy
 date: 2020-01-01
 order: 4
@@ -7,6 +7,7 @@ category:
   - 影视点播
 tag:
   - 伦理片
+containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />

@@ -4,7 +4,9 @@ icon: clock
 tag:
   - Changelog
 star: true
+isOriginal: true
 sticky: 1
+watermark: true
 ---
 
 ## 2.3.7

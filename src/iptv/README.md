@@ -1,7 +1,54 @@
 ---
 title: 网络电视
 index: true
+star: true
+isOriginal: true
 icon: tv
 category:
   - 网络电视
+dns:
+  - name: VIPTV - 主站
+    desc: 极速 、 高清 、 无广告
+    logo: /logo.svg
+    url: https://viptv.work/
+    preview: /assets/png/4h-transparent-file.png
+
+  - name: VIPTV - DNS1
+    desc: 极速 、 高清 、 无广告
+    logo: /logo.svg
+    url: https://dns1.viptv.work/
+    preview: /assets/png/4h-transparent-file.png
+
+  - name: VIPTV - DNS2
+    desc: 极速 、 高清 、 无广告
+    logo: /logo.svg
+    url: https://dns2.viptv.work/
+    preview: /assets/png/4h-transparent-file.png
+
+  - name: VIPTV - DNS3
+    desc: 极速 、 高清 、 无广告
+    logo: /logo.svg
+    url: https://dns3.viptv.work/
+    preview: /assets/png/4h-transparent-file.png
 ---
+
+```component VPBanner
+title: 相关服务
+content: 利用Cloudflare 、Github 提供DNS缓存以及代码托管服务。
+logo: /logo.svg
+background: var(--bg-2)
+color: var(--banner-text)
+actions:
+  - text: 网站DNS托管平台
+    link: https://www.cloudflare.com/
+  - text: 网站代码托管平台
+    link: https://github.com/viptv-work/viptv/tree/gh-pages
+```
+
+## VIPTV - 官网镜像
+
+<SiteInfo
+  v-for="item in $frontmatter.dns"
+  :key="item.link"
+  v-bind="item"
+/>
