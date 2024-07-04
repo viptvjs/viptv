@@ -22,7 +22,7 @@ url="" @click="b(k)" />
 :::
 
 <script setup>
-  import vod from '@db/vod.js'
+  import { vod } from '@db'
   import { hlsConfig } from '@cps/artConst'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";

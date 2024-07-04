@@ -17,7 +17,7 @@ containerClass: toc-false
 
 <script setup>
   import { mpConfig } from '@cps/artConst'
-  import vod from '@db/vod.js'
+  import { vod } from '@db'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
 
