@@ -33,7 +33,7 @@ export default defineUserConfig({
   },
   alias: {
     '@src': path.resolve(__dirname, '../'),
-    "@db": path.resolve(__dirname, "lib/dexie"),
+    "@db/*": path.resolve(__dirname, "composables/dexie/*.js"),
     "@cpn": path.resolve(__dirname, "components"),
     "@cps": path.resolve(__dirname, "composables"),
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
