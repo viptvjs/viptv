@@ -57,11 +57,3 @@ jobs:
           external_repository: hefung/docs
           publish_dir: ./dist
           publish_branch: main
-
-      - name: 提交更改
-        run: |
-          git config --local user.email "qq2236639958@outlook.com"
-          git config --local user.name "qq2236639958"
-          git add .
-          git commit -m "Update Source OF ${{ env.DATE}}"
-          git push -f
