@@ -4,10 +4,9 @@ icon: person-falling-burst
 date: 2020-01-01
 order: 4
 category:
-- 影视点播
+  - 影视点播
 tag:
-- 动漫
-containerClass: toc-false
+  - 动漫
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
@@ -25,7 +24,7 @@ containerClass: toc-false
 @tab 暴风资源 #vod-gcdm-d
 <SiteInfo v-for="(item,k) in state.d" :name="item.vod_name" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
   @click="d(k)" />
-@tab 优质资源 #vod-gcdm-d
+@tab 优质资源 #vod-gcdm-e
 <SiteInfo v-for="(item,k) in state.e" :name="item.vod_name" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""
   @click="e(k)" />
 :::
@@ -33,7 +32,7 @@ containerClass: toc-false
 <script setup>
 
   import { vod } from '@db'
-  import { hlsConfig } from '@cps/artConst'
+  import { hlsConfig } from '@act'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
   const state = useStorage(

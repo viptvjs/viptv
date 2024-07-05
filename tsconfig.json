@@ -12,7 +12,6 @@
     "skipLibCheck": true,
     "target": "ES2020",
     "baseUrl": ".",
-    "rootDir": "./src",
     "jsx": "preserve",
     "paths": {
       "@theme-hope/*": [

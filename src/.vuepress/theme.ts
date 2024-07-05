@@ -2,6 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
 import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
+import { dateSorter } from "@vuepress/helper";
 const hostname =
   process.env["HOSTNAME"] ?? "https://viptv.work";
 
@@ -12,7 +13,6 @@ export default hopeTheme(
       name: "Mr.Hefung",
       url: "/about/us",
     },
-    license: "sffsdf",
     iconAssets: "fontawesome-with-brands",
     favicon: "favicon.ico",
     breadcrumb: false, // 面包屑导航
@@ -27,7 +27,7 @@ export default hopeTheme(
     fullscreen: true,  //全屏按钮
     lastUpdated: true,
     contributors: true, //全局禁用是否显示页面贡献者
-    navbarTitle: "",
+    navbarTitle: 'VIPTV',
     extraLocales: {
       官网主站: "https://www.viptv.work/:route",
       官网社区: "https://github.com/viptv-work/viptv/discussions",
@@ -40,6 +40,7 @@ export default hopeTheme(
       center: ["Links"],
       end: ["Language", "SocialLink", "Repo", "Outlook", "Search"],
     },
+
     locales: {
       "/": {
         navbar: zhNavbar,
@@ -109,9 +110,11 @@ export default hopeTheme(
           }),
         ],
       },
+
       copyCode: {
         showInMobile: true // 手机端显示代码复制
       },
+
       notice: [
         {
           path: "/",
@@ -157,14 +160,20 @@ export default hopeTheme(
         enabled: true,
       },
       components: {
-        components: ["Badge", "VPCard", "ArtPlayer", "VPBanner", "SiteInfo"]
+        components: ["PDF", "Share", "Badge", "VPCard", "ArtPlayer", "VPBanner", "SiteInfo"]
       },
-      copyright: {
-        global: true,
-        license: "私有版权协议：本站点所有内容，版权私有，除非明确授权，否则禁止一切形式的转载",
-        canonical: "https://viptv.work/",
-        author: "viptv(https://viptv.work)",
-        triggerLength: 20
+      comment: {
+        provider: 'Giscus',
+        comment: true,
+        repo: 'viptv-work/viptv',
+        repoId: 'R_kgDOKdyFzg',
+        category: 'Q&A',
+        categoryId: 'DIC_kwDOKdyFzs4CeLSD',
+        mapping: 'pathname',
+        reactionsEnabled: true,
+        inputPosition: 'top',
+        darkTheme: 'dark_protanopia',
+        lightTheme: 'light_protanopia',
       },
       mdEnhance: {
         align: true, // 启用自定义对齐
@@ -177,7 +186,7 @@ export default hopeTheme(
         gfm: true, //是否支持完整的 GFM 语法
         codetabs: true,
         spoiler: true, //是否启用剧透支持。
-        component: true,
+        component: true, //Markdown 中添加组件
         figure: true, // 图像添加描述
         imgLazyload: true, // 启用图片懒加载
         imgMark: true, // 启用图片标记
@@ -185,8 +194,11 @@ export default hopeTheme(
         include: true, //是否启用 Markdown 导入支持
         mark: true, //是否启用标记格式支持。
         footnote: true, //是否启用脚注格式支持
-        stylize: [
-          //样式化
+        sub: true, //是否启用下角标格式支持
+        sup: true, //是否启用上角标格式支持。
+        tabs: true, // 添加选项卡支持
+        tasklist: true, //是否启用任务列表格式支持
+        stylize: [  //样式化
           {
             matcher: "Recommended",
             replacer: ({
@@ -205,10 +217,6 @@ export default hopeTheme(
             },
           },
         ],
-        sub: true, //是否启用下角标格式支持
-        sup: true, //是否启用上角标格式支持。
-        tabs: true, // 添加选项卡支持
-        tasklist: true, //是否启用任务列表格式支持
         revealJs: {
           plugins: ["highlight", "math", "search", "notes", "zoom"],
           themes: [
@@ -230,8 +238,6 @@ export default hopeTheme(
     },
   },
   {
-    check: false,
-    compact: false,
     custom: true
   }
 );

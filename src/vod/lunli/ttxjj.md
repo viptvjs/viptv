@@ -7,7 +7,6 @@ category:
   - 影视点播
 tag:
   - TikTok
-containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="mpConfig(state.p)" />
@@ -16,7 +15,7 @@ containerClass: toc-false
 :::
 
 <script setup>
-  import { mpConfig } from '@cps/artConst'
+  import { mpConfig } from '@act'
   import { vod } from '@db'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";

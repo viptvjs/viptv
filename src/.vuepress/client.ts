@@ -2,8 +2,6 @@ import { defineClientConfig } from "vuepress/client";
 import SocialLink from "./composables/SocialLink";
 import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
-//import CustomBlogHome from "./layouts/BlogHero.vue";
-//const HeroBG = defineAsyncComponent(() => import('./components/HeroBG.vue'));
 
 export default defineClientConfig({
   enhance: ({ app }) => {
@@ -20,5 +18,4 @@ export default defineClientConfig({
     );
     setupTransparentNavbar({ type: "blog-homepage", light: "#333", dark: "#bbb" });
   },
-  layouts: {},
 });

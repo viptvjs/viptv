@@ -7,7 +7,6 @@ category:
   - 直播
 tag:
   - 测试
-containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="mpConfig(state.p)" />
@@ -22,7 +21,7 @@ https://www.yangshipin.cn/#/tv/home
 <script setup>
  import axios from"axios"
   import { iptv } from '@db'
-  import { mpConfig } from '@cps/artConst'
+  import { mpConfig } from '@act'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
   const state = useStorage(

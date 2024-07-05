@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions about viptv
+    url: https://github.com/viptv-work/viptv
+    about: Please ask questions in Discussion.
+  - name: 官方 QQ 群
+    url: https://qm.qq.com/q/jHDv3RLK9y
+    about: "加入主题官方 QQ 群: 171418618"

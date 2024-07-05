@@ -4,10 +4,9 @@ icon: photo-film
 date: 2020-01-01
 order: 4
 category:
-- 影视点播
+  - 影视点播
 tag:
-- 科幻
-containerClass: toc-false
+  - 科幻
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
@@ -23,7 +22,7 @@ containerClass: toc-false
 
 <script setup>
   import { vod } from '@db'
-  import { hlsConfig } from '@cps/artConst'
+  import { hlsConfig } from '@act'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
 

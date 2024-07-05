@@ -7,7 +7,6 @@ category:
   - 直播
 tag:
   - 熊猫
-containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
@@ -18,7 +17,7 @@ containerClass: toc-false
 
 <script setup>
   import { iptv } from '@db'
-  import { hlsConfig } from '@cps/artConst'
+  import { hlsConfig } from '@act'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
 

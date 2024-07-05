@@ -7,7 +7,6 @@ category:
   - 影视点播
 tag:
   - 爱情
-containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
@@ -19,14 +18,14 @@ containerClass: toc-false
 @tab 暴风资源 #vod-aqp-b
 <SiteInfo v-for="(item,k) in state.b" :name="item.title" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="b(k)" />
-@tab 优质资源 #vod-aqp-b
+@tab 优质资源 #vod-aqp-c
 <SiteInfo v-for="(item,k) in state.c" :name="item.title" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="c(k)" />
 :::
 
 <script setup>
   import { vod } from '@db'
-  import { hlsConfig } from '@cps/artConst'
+  import { hlsConfig } from '@act'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
 

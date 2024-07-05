@@ -22,7 +22,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "VIPTV 云视听",
+      title: "VIPTV - 云视听",
       description: "便捷 、高效 、最有价值的视听链",
     },
     "/en/": {
@@ -32,28 +32,15 @@ export default defineUserConfig({
     },
   },
   alias: {
-    '@src': path.resolve(__dirname, '../'),
     "@db": path.resolve(__dirname, "composables/dexie/index.js"),
-    "@cpn": path.resolve(__dirname, "components"),
-    "@cps": path.resolve(__dirname, "composables"),
-    "@theme-hope/modules/blog/components/BlogHero": path.resolve(
-      __dirname,
-      "./layouts/BlogHero.vue"
-    ),
-    "@theme-hope/modules/info/components/TOC": path.resolve(
-      __dirname,
-      "./components/toc.vue"
-    ),
-    '@theme-hope': path.resolve(
-      __dirname,
-      '../../node_modules/vuepress-theme-hope/lib/client'
-    ),
+    "@act": path.resolve(__dirname, "composables/artConst.js"),
+    "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./layouts/BlogHero.vue"),
+    "@theme-hope/modules/info/components/TOC": path.resolve(__dirname, "./components/toc.vue"),
   },
 
   bundler: viteBundler({
     viteOptions: {
       server: {
-        host: true,
         proxy: {
           "/bing": {
             target: "https://cn.bing.com",
@@ -73,10 +60,8 @@ export default defineUserConfig({
         },
       },
     },
+    vuePluginOptions: {},
   }),
   theme,
-  shouldPrefetch: true,
-  //https://vuepress.vuejs.org/zh/reference/config.html#shouldpreload
-  shouldPreload: true,
-
+  shouldPrefetch: false,
 });

@@ -7,7 +7,6 @@ category:
   - 影视点播
 tag:
   - 韩国伦理
-containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
@@ -20,7 +19,7 @@ containerClass: toc-false
 
 <script setup>
   import { vod } from '@db'
-  import { hlsConfig } from '@cps/artConst'
+  import { hlsConfig } from '@act'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
   const state = useStorage(

@@ -7,20 +7,19 @@ category:
   - 影视点播
 tag:
   - 台湾剧
-containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
 ::: tabs #vod-twj
-@tab:active优质资源 #vod-twj-c
+@tab:active优质资源 #vod-twj-a
 <SiteInfo v-for="(item,k) in state.a" :name="item.vod_name" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="a(k)" />
 :::
 
 <script setup>
   import { vod } from '@db'
-  import { hlsConfig } from '@cps/artConst'
+  import { hlsConfig } from '@act'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
   const state = useStorage(

@@ -1,0 +1,67 @@
+name: Build And Deploy Docs
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,8 * * *"
+env:
+  TZ: Asia/Shanghai
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: GetTime
+        run: echo "DATE=$(TZ='Asia/Shanghai' date +%Y-%m-%d\ %H:%M\ %Z)" >> $GITHUB_ENV
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies update
+        run: pnpm dlx vp-update
+
+      - name: update bing wallpaper
+        run: pnpm run tsup
+
+      - name: Build Docs
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          pnpm run build
+          > dist/.nojekyll
+
+      - name: Deploy to viptv-work/viptv
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PUBLISH_DOCS }}
+          external_repository: viptv-work/viptv
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          cname: viptv.work
+
+      - name: Deploy to hefung/docs
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PUBLISH_DOCS }}
+          external_repository: hefung/docs
+          publish_dir: ./dist
+          publish_branch: main
+
+      - name: 提交更改
+        run: |
+          git config --local user.email "qq2236639958@outlook.com"
+          git config --local user.name "qq2236639958"
+          git add .
+          git commit -m "Update Source OF ${{ env.DATE}}"
+          git push -f

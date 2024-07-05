@@ -29,7 +29,7 @@ containerClass: toc-false
 
 <script setup>
   import  { iptv } from '@db'
-  import { hlsConfig } from '@cps/artConst'
+  import { hlsConfig } from '@act'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
   const state = useStorage(

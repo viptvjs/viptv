@@ -6,7 +6,6 @@ index: false
 article: false
 dir:
   order: 23
-containerClass: toc-false
 ---
 
 <Catalog />

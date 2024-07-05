@@ -8,7 +8,6 @@ category:
 tag:
   - 快手
   - 广场舞
-containerClass: toc-false
 ---
 
 <ArtPlayer :src :config="mpConfig(state.p)" />
@@ -19,7 +18,7 @@ containerClass: toc-false
 
 <script setup>
   import { vod } from '@db'
-  import { mpConfig } from '@cps/artConst'
+  import { mpConfig } from '@act'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
   const vodId = "vod-gcw"

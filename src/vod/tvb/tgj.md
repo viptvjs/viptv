@@ -7,20 +7,19 @@ category:
   - 影视点播
 tag:
   - 泰国剧
-containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
 ::: tabs #vod-hkj
-@tab:active 优质资源 #vod-hkj-c
+@tab:active 优质资源 #vod-hkj-a
 <SiteInfo v-for="(item,k) in state.a" :name="item.vod_name" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="a(k)" />
 :::
 
 <script setup>
   import { vod } from '@db'
-  import { hlsConfig } from '@cps/artConst'
+  import { hlsConfig } from '@act'
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
   const state = useStorage(
