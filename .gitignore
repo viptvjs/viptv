@@ -2,6 +2,7 @@
 node_modules/
 # lib
 lib/
+dist/
 # Vuepress cache
 **/.vuepress/.cache/
 # Vuepress Temp
