@@ -57,3 +57,9 @@ jobs:
           external_repository: hefung/docs
           publish_dir: ./dist
           publish_branch: main
+
+      - name: Push changes 🚀
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PUBLISH_DOCS }}
+          branch: main

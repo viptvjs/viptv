@@ -4,9 +4,41 @@ import {
   writeFileSync,
   writeFile,
   readFileSync,
+  rmSync,
   mkdirSync,
-} from "fs";
-import { dirname } from "path";
+} from "node:fs";
+import { dirname } from "node:path";
+
+
+type PictureInfo = {
+  hsh: string
+  date: string
+  title: string
+  copyright: string
+  url_preview: string
+  url_1080: string
+  url_4k: string
+}
+
+type ArchivesInfo = {
+  date: string
+  previewPath: string
+  mapPath: string
+}
+
+type JSONMap = {
+  images: PictureInfo[]
+  archives: ArchivesInfo[]
+}
+
+type SidebarItem = {
+  text: string
+  link?: string
+  collapsible?: boolean
+  icon?: string
+  children?: SidebarItem[]
+}
+
 
 const option = {
   bingUrl: "https://cn.bing.com",
@@ -25,15 +57,11 @@ async function getBingPictures() {
     const URL =
       option.pictureURL +
       `?idx=${idx}&n=${n}&format=${format}&mkt=${mkt}&uhd=1&uhdwidth=1920&uhdheight=1080`;
-    console.log(`Request url: ${URL}`);
     const response = await fetch(URL);
     const data: any = await response.json();
-    // console.log(data)
     const pictures = data.images;
-    // console.log(picture)
     return pictures;
   } catch (e) {
-    console.log(e);
     throw e;
   }
 }
@@ -65,8 +93,33 @@ async function main() {
       });
     }
   } catch (e) {
-    console.log(e);
     throw e;
+  }
+}
+
+/** 根据已有的 map.json，重写所有文件 */
+function rewrite() {
+  try {
+    const buffer = readFileSync('./map.json')
+    const stringData = buffer.toString()
+    const JSONData = JSON.parse(stringData) as JSONMap
+    const images = JSONData.images
+
+      ;[
+        './map.json',
+        './README.md',
+        './archives',
+        './docs/archives',
+        './docs/index.md',
+        './docs/.vitepress/sidebar.ts'
+      ].forEach(path => rmSync(path, { recursive: true, force: true }))
+
+    images.forEach(item => {
+      writeMap(item)
+    })
+  } catch (e) {
+    console.log(e)
+    throw e
   }
 }
 
@@ -83,8 +136,6 @@ function writeMap(info: PictureInfo) {
     const isRepeat = images.some((v) => v.date === info.date);
     if (isRepeat) {
       // 防止写入重复的
-      console.log("Warning: Duplicate data, not written! ↓");
-      console.log(info);
       return;
     }
     images.unshift(info);
@@ -111,13 +162,9 @@ function writeMap(info: PictureInfo) {
         (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime() // 按日期从大到小排序
       );
     }
-
     writeFileSync("./map.json", JSON.stringify(JSONData));
-    console.log("Done: Write map.json completed! ↓");
-    console.log(info);
     writeDocs(info, images, archives);
   } catch (e) {
-    console.log(e);
     throw e;
   }
 }
@@ -143,8 +190,6 @@ function writeArchive(
     );
 
     writeFileSync(mapPath, JSON.stringify(images));
-    console.log(`Done: Write '${mapPath}' completed!`);
-
     const writeDataList = [
       `# ${dateMonth} Bing Daily Wallpaper\n\n`,
       `|      |      |      |\n`,
@@ -162,9 +207,7 @@ function writeArchive(
     });
 
     writeFileSync(previewPath, writeDataList.join(""));
-    console.log(`Done: Write ${previewPath} completed!`);
   } catch (e) {
-    console.log(e);
     throw e;
   }
 }
@@ -187,10 +230,8 @@ function writeDocs(
   });
   writeFile("./src/archives/README.md", writeDataList.join(""), (err) => {
     if (err) {
-      console.log(err);
       throw err;
     }
-    console.log(`Done: Write ./src/archives/README.md completed!`);
   });
   writeDocsArchive(info, archives);
   writeSidebar(archives);
@@ -198,7 +239,6 @@ function writeDocs(
 
 function writeDocsArchive(info: PictureInfo, archives: ArchivesInfo[]) {
   if (!archives.length) {
-    console.log("Warnning: no archives!");
     return;
   }
   let targerArchive: ArchivesInfo | null = null;
@@ -208,8 +248,6 @@ function writeDocsArchive(info: PictureInfo, archives: ArchivesInfo[]) {
     }
   });
   if (!targerArchive) {
-    console.log(`Error: cannot find picture's archive! ↓`);
-    console.log(info);
     return;
   }
   const { date, mapPath } = targerArchive as ArchivesInfo;
@@ -233,10 +271,8 @@ function writeDocsArchive(info: PictureInfo, archives: ArchivesInfo[]) {
   }
   writeFile(path, writeDataList.join(""), (err) => {
     if (err) {
-      console.log(err);
       throw err;
     }
-    console.log(`Done: Write ${path} completed!`);
   });
 }
 
@@ -271,14 +307,11 @@ function writeSidebar(archives: ArchivesInfo[]) {
     sidebarDate,
     (err) => {
       if (err) {
-        console.log(err);
         throw err;
       }
-      console.log(
-        `Done: Write ./src/.vuepress/config/sidebar/archives.ts completed!`
-      );
     }
   );
 }
 
 main();
+//rewrite();
