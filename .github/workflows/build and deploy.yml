@@ -37,8 +37,8 @@ jobs:
       - name: Build Docs
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: |
-          - pnpm run build
+        run: |-
+          pnpm run build
           > dist/.nojekyll
 
       - name: Deploy to viptv
