@@ -1,5 +1,5 @@
 ---
-title: 打赏我们
+title: 打赏
 icon: heart
 article: false
 timeline: false

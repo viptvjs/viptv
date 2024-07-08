@@ -1,5 +1,5 @@
 {
-  "name": "@viptv-work/docs",
+  "name": "viptv-work",
   "version": "3.0.0",
   "description": "VIPTV-工作室,组件开发,文档编辑",
   "private": true,
@@ -11,7 +11,7 @@
     "update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@types/node": "^20.14.9",
+    "@types/node": "^20.14.10",
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "@vuepress/helper": "2.0.0-rc.31",
     "@vuepress/plugin-prismjs": "2.0.0-rc.37",

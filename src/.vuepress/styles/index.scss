@@ -21,8 +21,8 @@
 }
 
 :root {
-    --banner-text: #111;
-    --bg: url("/assets/svg/bg.svg");
+    --banner-text: #000;
+    --bg: url("/assets/png/bg.png");
     --bg-1: url("/assets/svg/1-light.svg");
     --bg-2: url("/assets/svg/2-light.svg");
     --bg-9: url("/assets/svg/9-light.svg") no-repeat center/cover;
@@ -31,8 +31,8 @@
 }
 
 html[data-theme="dark"] {
-    --banner-text: #eee;
-    --bg: url("/assets/svg/bg.svg");
+    --banner-text: #fff;
+    --bg: url("/assets/png/bg.png");
     --bg-1: url("/assets/svg/1-dark.svg");
     --bg-2: url("/assets/svg/2-dark.svg");
     --bg-9: url("/assets/svg/9-dark.svg") no-repeat center/cover;

@@ -119,7 +119,7 @@ export default hopeTheme(
         {
           path: "/",
           title: "欢迎访问VIPTV",
-          content: "努力打造便捷 、高效 、最有价值的视听链",
+          content: "<b>周知：</b>原 3 个 QQ 群成员活跃状态差异较大，且分布较分散，现停止新人加群，为了方便大家的交流，请移步 QQ 频道。</div>",
           actions: [
             {
               text: "打赏作者→",
