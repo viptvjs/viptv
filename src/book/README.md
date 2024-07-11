@@ -1,14 +1,14 @@
 ---
-title: 音乐舞蹈
+title: 小说书城
 index: false
-icon: circle-play
+icon: book
 order: 1
 star: true
 isOriginal: true
 category:
-  - 音乐舞蹈
+  - 小说书城
 tag:
-  - 音乐舞蹈
+  - 小说
 dns:
   - name: VIPTV - 主站
     desc: 极速 、 高清 、 无广告

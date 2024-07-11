@@ -1,6 +1,7 @@
 ---
 title: 影视点播
 icon: file-video
+index: false
 date: 2020-01-01
 order: 1
 star: true

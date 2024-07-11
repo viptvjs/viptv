@@ -2,7 +2,6 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
 import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
-import { dateSorter } from "@vuepress/helper";
 const hostname =
   process.env["HOSTNAME"] ?? "https://viptv.work";
 
@@ -160,21 +159,21 @@ export default hopeTheme(
         enabled: true,
       },
       components: {
-        components: ["PDF", "Share", "Badge", "VPCard", "ArtPlayer", "VPBanner", "SiteInfo"]
+        components: ["PDF", "Share", "Badge", "VPCard", "ArtPlayer", "VPBanner", "SiteInfo", "VidStack"]
       },
-      comment: {
-        provider: 'Giscus',
-        comment: true,
-        repo: 'viptv-work/viptv',
-        repoId: 'R_kgDOKdyFzg',
-        category: 'Q&A',
-        categoryId: 'DIC_kwDOKdyFzs4CeLSD',
-        mapping: 'pathname',
-        reactionsEnabled: true,
-        inputPosition: 'top',
-        darkTheme: 'dark_protanopia',
-        lightTheme: 'light_protanopia',
-      },
+      /*  comment: {
+         provider: 'Giscus',
+         comment: true,
+         repo: 'viptv-work/viptv',
+         repoId: 'R_kgDOKdyFzg',
+         category: 'Q&A',
+         categoryId: 'DIC_kwDOKdyFzs4CeLSD',
+         mapping: 'pathname',
+         reactionsEnabled: true,
+         inputPosition: 'top',
+         darkTheme: 'dark_protanopia',
+         lightTheme: 'light_protanopia',
+       }, */
       mdEnhance: {
         align: true, // 启用自定义对齐
         hint: true, // 启用提示容器info,note,tip,warning,caution,details

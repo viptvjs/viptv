@@ -19,7 +19,7 @@
     "artplayer": "^5.1.6",
     "axios": "^1.7.2",
     "dashjs": "^4.7.4",
-    "dexie": "^4.0.7",
+    "dexie": "^4.0.8",
     "hls.js": "^1.5.13",
     "mpegts.js": "^1.7.3",
     "node-fetch": "^3.3.2",
@@ -27,11 +27,15 @@
     "sass-loader": "^14.2.1",
     "tsup": "^8.1.0",
     "typescript": "^4.9.5",
+    "vidstack": "^1.11.28",
     "vue": "^3.4.31",
     "vuepress": "2.0.0-rc.14",
     "vuepress-plugin-components": "2.0.0-rc.50",
     "vuepress-plugin-reward": "1.0.2",
     "vuepress-plugin-search-pro": "2.0.0-rc.50",
     "vuepress-theme-hope": "2.0.0-rc.50"
+  },
+  "dependencies": {
+    "sass": "^1.77.7"
   }
 }

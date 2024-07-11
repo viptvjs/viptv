@@ -1,4 +1,4 @@
-import { artplayerPlaylist } from "./artplayer-plugin-playlist";
+import { artplayerPlaylist } from "./artplayer-plugin-playlist.js";
 //import artplayerPluginDanmuku from "artplayer-plugin-danmuku";
 const poster = "https://img.viptv.work/iptv/ads.png";
 
@@ -106,7 +106,8 @@ export const mpConfig = (playlist) => {
       }), */
       artplayerPlaylist({
         rebuildPlayer: false, // 换P时重建播放器，默认false
-        onchanged: () => { }, // 换P后的回调函数
+        onchanged: () => {
+         }, // 换P后的回调函数
         autoNext: true,
         playlist,
       }),

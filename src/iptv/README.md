@@ -1,6 +1,6 @@
 ---
 title: 网络电视
-index: true
+index: false
 star: true
 isOriginal: true
 icon: tv

@@ -59,8 +59,7 @@ export default defineUserConfig({
           },
         },
       },
-    },
-    vuePluginOptions: {},
+    }
   }),
   theme,
   shouldPrefetch: false,
