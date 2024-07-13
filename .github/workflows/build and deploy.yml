@@ -41,34 +41,20 @@ jobs:
           pnpm run build
           > dist/.nojekyll
 
-      - name: Deploy to viptv
+      - name: Deploy to viptv.work
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PUBLISH_DOCS }}
-          external_repository: viptv-work/viptv
-          publish_dir: ./dist
-          publish_branch: gh-pages
-          cname: viptv.work
-
-      - name: Deploy to docs
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          personal_token: ${{ secrets.PUBLISH_DOCS }}
-          external_repository: hefung/docs
+          external_repository: viptv-js/viptv.work
           publish_dir: ./dist
           publish_branch: main
+          cname: viptv.work
 
-      - name: Deploy to viptv-work.github.io
+      - name: Deploy to hefung/docs
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          repository-name: viptv-work/viptv-work.github.io
+          repository-name: hefung/docs
           branch: main
           folder: ./dist
           token: ${{ secrets.PUBLISH_DOCS }}
           single-commit: true
-
-      - name: Push changes 🚀
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.PUBLISH_DOCS }}
-          branch: main
