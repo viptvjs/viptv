@@ -29,7 +29,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Install dependencies update
-        run: pnpm dlx vp-update
+        run: pnpm dlx vt-update
 
       - name: update bing wallpaper
         run: pnpm run tsup

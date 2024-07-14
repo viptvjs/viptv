@@ -11,8 +11,23 @@ export default defineUserConfig({
   host: '0.0.0.0',
   port: 80,
   head: [
-    ["link", { rel: "icon", href: "/logo.svgs" }],
-    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "link",
+      {
+        rel: "icon",
+        href: `/logo.png`,
+        type: "image/png",
+        sizes: "600x600",
+      },
+    ],
+    ["meta", { name: "theme-color", content: "#46bd87" }],
+    [
+      "meta",
+      {
+        name: "apple-mobile-web-app-status-bar-style",
+        content: "black",
+      },
+    ],
     ["meta", { name: "baidu-site-verification", content: "codeva-4N5cviFcWA" }],
     [
       "meta",

@@ -234,6 +234,10 @@ export default hopeTheme(
           ],
         },
       },
+      seo:
+        hostname === "https://viptv.work"
+          ? {}
+          : { canonical: "https://viptv.work" },
     },
   },
   {
