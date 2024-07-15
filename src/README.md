@@ -8,7 +8,7 @@ bgImage: /assets/png/banner.png
 head:
   - - meta
     - name: baidu-site-verification
-      content: codeva-4N5cviFcWA
+      content: codeva-iazwBEuOEA
   - - meta
     - name: msvalidate.01
       content: 60990E7826770BD82AE9B5EFB468E0BB

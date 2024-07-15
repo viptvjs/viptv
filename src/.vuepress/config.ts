@@ -28,7 +28,7 @@ export default defineUserConfig({
         content: "black",
       },
     ],
-    ["meta", { name: "baidu-site-verification", content: "codeva-4N5cviFcWA" }],
+    ["meta", { name: "baidu-site-verification", content: "codeva-iazwBEuOEA" }],
     [
       "meta",
       { name: "msvalidate.01", content: "60990E7826770BD82AE9B5EFB468E0BB" },
