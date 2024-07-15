@@ -9,7 +9,11 @@ sticky: true
 star: true
 isOriginal: true
 order: 4
-watermark: true
+watermark: truez
+copy:
+  triggerLength: 10
+  disableCopy: ture
+  disableSelection: ture
 ---
 ## 玩赚打赏
 
@@ -19,7 +23,6 @@ watermark: true
 @tab 支付宝红包
 ![](/assets/png/aliqr.png)
 :::
-
 
 ## 扫码打赏
 

@@ -11,6 +11,8 @@ tag:
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />
 
+
+
 ::: tabs #vod-gcdm
 @tab:active 魔都资源 #vod-gcdm-a
 <SiteInfo v-for="(item,k) in state.a" :name="item.title" desc="" :logo="item.vod_pic" :preview="item.vod_pic" url=""

@@ -22,11 +22,12 @@
 
 :root {
     --banner-text: #000;
-    --bg: url("/assets/png/bg.png");
+    --bg: url("/assets/svg/bg.svg");
     --bg-1: url("/assets/svg/1-light.svg");
     --bg-2: url("/assets/svg/2-light.svg");
     --bg-9: url("/assets/svg/9-light.svg") no-repeat center/cover;
     --bg-10: url("/assets/svg/10-light.svg") no-repeat center/cover;
+    --bg-20: url("/assets/svg/20-light.svg") no-repeat center/cover;
     --bg-10-inverse: url("/assets/svg/10-dark.svg") no-repeat center/cover;
 }
 

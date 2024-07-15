@@ -8,7 +8,7 @@
     "tsup": "tsup && node ./lib/index.js",
     "build": "vuepress build src",
     "dev": "vuepress dev src --clean-cache --clean-temp",
-    "update": "pnpm dlx vp-update"
+    "update": "pnpm dlx vt-update"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",

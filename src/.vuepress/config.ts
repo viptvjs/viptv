@@ -52,7 +52,7 @@ export default defineUserConfig({
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./layouts/BlogHero.vue"),
     "@theme-hope/modules/info/components/TOC": path.resolve(__dirname, "./components/toc.vue"),
   },
-
+  pagePatterns: ["**/*.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"],
   bundler: viteBundler({
     viteOptions: {
       server: {

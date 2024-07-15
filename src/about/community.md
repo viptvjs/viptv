@@ -7,6 +7,23 @@ icon: comment
 order: 2
 description: 在这里你可以加入相关社区，交流方方面面的话题。
 watermark: true
+github:
+  - title: GitHub issues
+    desc: 代码库讨论版块始终开放
+    logo: /assets/svg/github.svg
+    background: var(--bg-20)
+    link: "https://github.com/viptv-js/viptv-work/issues"
+  - title: GitHub  Discussion
+    desc: 代码库讨论版块始终开放
+    logo: /assets/svg/github.svg
+    background: var(--bg-20)
+    link: "https://github.com/viptv-js/viptv-work/discussions"
+qun:
+  - title: VIPTV QQ 用户群
+    desc: 171418618
+    logo: /assets/svg/qq.svg
+    background: rgba(228, 0, 54, 0.15)
+    link: "https://qm.qq.com/q/jHDv3RLK9y"
 ---
 
 ## 用户社区
@@ -17,32 +34,9 @@ watermark: true
 
 ::: tabs
 @tab issues 和 discussions 联系
-<div class="vp-card-container">
-<VPCard
-    title="GitHub issues"
-    desc="代码库讨论版块始终开放"
-    logo="/assets/svg/github.svg"
-    link="https://github.com/viptv-work/viptv/issues"
-    background="rgba(155, 233, 168, 0.15)"
-  />
- <VPCard
-    title="GitHub Discussion"
-    desc="代码库讨论版块始终开放"
-    logo="/assets/svg/github.svg"
-    link="https://github.com/viptv-work/viptv/discussions"
-    background="rgba(155, 233, 168, 0.15)"
-  />
-</div>
+<div class="vp-card-container"><VPCard v-for="item in $frontmatter.github" :key="item.link" v-bind="item" /></div>
 @tab QQ 群号: 171418618
-<div class="vp-card-container">
- <VPCard
-    title="VIPTV QQ 用户群"
-    desc="171418618"
-    logo="/assets/svg/qq.svg"
-    link="https://qm.qq.com/q/jHDv3RLK9y"
-    background="rgba(228, 0, 54, 0.15)"
-  />
-</div>
+<div class="vp-card-container"><VPCard v-for="item in $frontmatter.qun" :key="item.link" v-bind="item" /></div>
 :::
 
 ## 加入贡献
@@ -69,7 +63,7 @@ type: "default",
 },
 ]' />
 @tab 社区管理
-<VPBanner title="负责内容：" content="<b>. 维护社区秩序 ；</br>. 收集社区中用户提出的问题并与开发团队合作以处理常见问题 ;</b>" logo="https://hut.ao/images/202312/community.svg" :actions='[
+<VPBanner title="负责内容：" content="<b>. 维护社区秩序 ；</br>. 收集社区中用户提出的问题并与开发团队合作以处理常见问题</b>" logo="https://hut.ao/images/202312/community.svg" :actions='[
 {
 text: "加入开发者交流群",
 link:"https://qm.qq.com/q/jHDv3RLK9y",

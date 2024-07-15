@@ -2,6 +2,8 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
 import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
+import { getDirname, path } from "vuepress/utils";
+const __dirname = getDirname(import.meta.url);
 const hostname =
   process.env["HOSTNAME"] ?? "https://viptv.work";
 
@@ -114,6 +116,8 @@ export default hopeTheme(
         showInMobile: true // 手机端显示代码复制
       },
 
+      copyright: true,
+
       notice: [
         {
           path: "/",
@@ -190,13 +194,20 @@ export default hopeTheme(
         imgLazyload: true, // 启用图片懒加载
         imgMark: true, // 启用图片标记
         imgSize: true, // 启用图片大小
-        include: true, //是否启用 Markdown 导入支持
         mark: true, //是否启用标记格式支持。
         footnote: true, //是否启用脚注格式支持
         sub: true, //是否启用下角标格式支持
         sup: true, //是否启用上角标格式支持。
         tabs: true, // 添加选项卡支持
         tasklist: true, //是否启用任务列表格式支持
+        include: {  //是否启用 Markdown 导入支持
+          resolvePath: (file) => {
+            if (file.startsWith("@src"))
+              return file.replace("@src", path.resolve(__dirname, ".."));
+
+            return file;
+          },
+        },
         stylize: [  //样式化
           {
             matcher: "Recommended",
@@ -234,10 +245,8 @@ export default hopeTheme(
           ],
         },
       },
-      seo:
-        hostname === "https://viptv.work"
-          ? {}
-          : { canonical: "https://viptv.work" },
+      sitemap: true,
+      seo: true,
     },
   },
   {

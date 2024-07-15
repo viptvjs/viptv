@@ -18,9 +18,9 @@ export const zhNavbar = navbar([
     icon: "circle-info",
     children: [
       {
-        text: "博客文章",
+        text: "我的博客",
         icon: "blog",
-        link: "blog/",
+        link: "about/blog",
       },
       {
         text: "友情打赏",
@@ -30,7 +30,7 @@ export const zhNavbar = navbar([
       {
         text: version + "版本",
         icon: "fa-brands fa-vuejs",
-        link: "blog/auto-push",
+        link: "about/changelog",
       },
     ],
   },

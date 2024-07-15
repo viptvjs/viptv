@@ -42,7 +42,7 @@ flowchart LR
    style A fill:#f77062,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
    style B fill:#00cdac,stroke:#00cdac,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
    style C fill:#209cff,stroke:#209cff,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
-    
+
 ```
 
 
@@ -111,7 +111,7 @@ workflow 文件的配置字段非常多，详见[官方文档](https://help.gith
  ```yaml
  on:
    push:
-     branches:    
+     branches:
        - master
  ```
 
@@ -227,6 +227,3 @@ on:
 :::
 
 [^first]: 可以使用 [crontab guru](https://crontab.guru/) 帮助生成 cron 语法并确认其运行时间。 为了帮助入门，还提供了 [crontab guru 示例](https://crontab.guru/examples.html)列表。计划工作流程的通知将发送给最后修改工作流程文件中的 cron 语法的用户。 有关详细信息，请参阅“[工作流程运行通知](https://docs.github.com/zh/actions/monitoring-and-troubleshooting-workflows/notifications-for-workflow-runs)”。
-
-## 实例
-<!-- @include: ../../blog/auto-push.md{14-} -->

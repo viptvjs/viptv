@@ -1,5 +1,5 @@
 ---
-title: 更新日志
+title: 日志
 icon: clock
 tag:
   - Changelog

@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: blog
-title: 我的博客
+title: 博客
 heroText: Mr. HeFung
 tagline: Where there is light, there is HeFung
 heroImage: /logo.svg
