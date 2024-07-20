@@ -14,7 +14,7 @@
     "@types/node": "^20.14.10",
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "@vuepress/helper": "2.0.0-rc.31",
-    "@vuepress/plugin-prismjs": "2.0.0-rc.37",
+    "@vuepress/plugin-prismjs": "2.0.0-rc.39",
     "@vueuse/core": "^10.11.0",
     "artplayer": "^5.1.6",
     "axios": "^1.7.2",
@@ -27,16 +27,10 @@
     "tsup": "^8.1.0",
     "typescript": "^4.9.5",
     "vidstack": "^1.11.29",
-    "vue": "^3.4.31",
+    "vue": "^3.4.33",
     "vuepress": "2.0.0-rc.14",
-    "vuepress-plugin-components": "2.0.0-rc.51",
-    "vuepress-plugin-reward": "1.0.2",
-    "vuepress-plugin-search-pro": "2.0.0-rc.51",
-    "vuepress-theme-hope": "2.0.0-rc.51"
-  },
-  "pnpm": {
-    "overrides": {
-      "sass": "^1.77.6"
-    }
+    "vuepress-plugin-components": "2.0.0-rc.52",
+    "vuepress-plugin-search-pro": "2.0.0-rc.52",
+    "vuepress-theme-hope": "2.0.0-rc.52"
   }
 }

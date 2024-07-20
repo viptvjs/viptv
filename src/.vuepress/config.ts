@@ -1,9 +1,15 @@
-import { defineUserConfig } from "vuepress";
+import { defineUserConfig
+} from "vuepress";
 import theme from "./theme.js";
-import { viteBundler } from '@vuepress/bundler-vite'
-import { getDirname, path } from "vuepress/utils";
+import { viteBundler
+} from '@vuepress/bundler-vite'
+import { getDirname, path
+} from "vuepress/utils";
 const __dirname = getDirname(import.meta.url);
-const base = (process.env["BASE"] as "/" | `/${string}/`) || "/";
+const base = (process.env[
+  "BASE"
+] as "/" | `/${string
+}/`) || "/";
 
 export default defineUserConfig({
   base,
@@ -12,26 +18,14 @@ export default defineUserConfig({
   port: 80,
   head: [
     [
-      "link",
-      {
-        rel: "icon",
-        href: `/logo.png`,
-        type: "image/png",
-        sizes: "600x600",
-      },
+      "meta",
+      { name: "baidu-site-verification", content: "codeva-iazwBEuOEA"
+      }
     ],
-    ["meta", { name: "theme-color", content: "#46bd87" }],
     [
       "meta",
-      {
-        name: "apple-mobile-web-app-status-bar-style",
-        content: "black",
-      },
-    ],
-    ["meta", { name: "baidu-site-verification", content: "codeva-iazwBEuOEA" }],
-    [
-      "meta",
-      { name: "msvalidate.01", content: "60990E7826770BD82AE9B5EFB468E0BB" },
+      { name: "msvalidate.01", content: "60990E7826770BD82AE9B5EFB468E0BB"
+      }
     ],
   ],
   locales: {
@@ -47,12 +41,21 @@ export default defineUserConfig({
     },
   },
   alias: {
-    "@db": path.resolve(__dirname, "composables/dexie/index.js"),
-    "@act": path.resolve(__dirname, "composables/artConst.js"),
-    "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./layouts/BlogHero.vue"),
-    "@theme-hope/modules/info/components/TOC": path.resolve(__dirname, "./components/toc.vue"),
+    "@db": path.resolve(__dirname,
+    "composables/dexie/index.js"),
+    "@act": path.resolve(__dirname,
+    "composables/artConst.js"),
+    "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname,
+    "./layouts/BlogHero.vue"),
+    "@theme-hope/modules/info/components/TOC": path.resolve(__dirname,
+    "./components/toc.vue"),
   },
-  pagePatterns: ["**/*.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"],
+  pagePatterns: [
+    "**/*.md",
+    "!**/*.snippet.md",
+    "!.vuepress",
+    "!node_modules"
+  ],
   bundler: viteBundler({
     viteOptions: {
       server: {
@@ -60,17 +63,20 @@ export default defineUserConfig({
           "/bing": {
             target: "https://cn.bing.com",
             changeOrigin: true,
-            rewrite: (path) => path.replace(/^\/bing/, ""),
+            rewrite: (path) => path.replace(/^\/bing/,
+            ""),
           },
           "/raw": {
             target: "https://raw.viptv.work/",
             changeOrigin: true,
-            rewrite: (path) => path.replace(/^\/raw/, ""),
+            rewrite: (path) => path.replace(/^\/raw/,
+            ""),
           },
           "/cors": {
             target: "https://cors.eu.org/",
             changeOrigin: true,
-            rewrite: (path) => path.replace(/^\/cors/, ""),
+            rewrite: (path) => path.replace(/^\/cors/,
+            ""),
           },
         },
       },

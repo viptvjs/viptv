@@ -5,13 +5,6 @@ title: 首页
 heroImage: /logo.svg
 heroFullScreen: true
 bgImage: /assets/png/banner.png
-head:
-  - - meta
-    - name: baidu-site-verification
-      content: codeva-iazwBEuOEA
-  - - meta
-    - name: msvalidate.01
-      content: 60990E7826770BD82AE9B5EFB468E0BB
 
 actions:
 

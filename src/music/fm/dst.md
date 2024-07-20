@@ -20,7 +20,6 @@ tag:
 <script setup>
   import { useStorage } from '@vueuse/core'
   import { onMounted } from "vue";
-
   const state = useStorage(
     "fm-dst",
     {
