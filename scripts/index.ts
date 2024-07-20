@@ -107,11 +107,10 @@ function rewrite() {
 
       ;[
         './map.json',
-        './README.md',
         './archives',
-        './docs/archives',
-        './docs/index.md',
-        './docs/.vitepress/sidebar.ts'
+        './src/archives',
+        './src/archives/README',
+        './src/.vuepress/config/sidebar/archives.ts'
       ].forEach(path => rmSync(path, { recursive: true, force: true }))
 
     images.forEach(item => {
