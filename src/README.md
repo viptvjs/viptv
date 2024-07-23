@@ -4,10 +4,9 @@ icon: home
 title: 首页
 heroImage: /logo.svg
 heroFullScreen: true
-bgImage: /assets/png/banner.png
+bgImage: /assets/png/bg-1.png
 
 actions:
-
   - text: 热门短剧
     icon: file-video
     link: ./vod/duanju/remen
@@ -20,7 +19,7 @@ highlights:
   - header: 做更好的IPTV
     description: 我们致力于做比昨天更好的 IPTV 服务，享受广泛的本地和国际频道，包括体育、新闻、影视、戏剧等！
     image: /assets/png/VIPTV-LOGO-LONG@1x.png
-    bgImage: /assets/svg/bg.svg
+    bgImage: /assets/svg/13-light.svg
 
     features:
       - title: 通道范围广
@@ -39,4 +38,3 @@ highlights:
         icon: comment-dots
         details: 我们会定期更新我们的频道阵容和功能，以确保您获得最佳的观看体验。
 ---
-

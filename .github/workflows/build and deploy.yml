@@ -14,9 +14,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: GetTime
-        run: echo "DATE=$(TZ='Asia/Shanghai' date +%Y-%m-%d\ %H:%M\ %Z)" >> $GITHUB_ENV
-
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
@@ -45,7 +42,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PUBLISH_DOCS }}
-          external_repository: viptv-js/viptv.work
+          external_repository: viptv-work/viptv
           publish_dir: ./dist
           publish_branch: main
           cname: viptv.work

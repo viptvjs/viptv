@@ -12,7 +12,7 @@ export default hopeTheme(
     hostname,
     author: {
       name: "Mr.Hefung",
-      url: "/about/us",
+      url: "/about/",
     },
     iconAssets: "fontawesome-with-brands",
     favicon: "favicon.ico",
@@ -60,7 +60,7 @@ export default hopeTheme(
     },
     blog: {
       description: "专心致志做事，大气温和待人。",
-      intro: "/blog/",
+      intro: "/about/blog",
       timeline: "简单快乐，理应如此。",
       medias: {
         Email: "mailto:vodtvx@gmail.com",
