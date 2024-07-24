@@ -40,10 +40,12 @@ copy:
 
 ## 其它打赏
 
-::: tip 您可以进入以下网站打赏赞助我！ ໒( ” ¤ ‿ ¤ ” )७
+::: tip 您可以打开以下链接打赏赞助我！ ໒( ” ¤ ‿ ¤ ” )७
 :::
 ::: tabs
-@tab 爱发电（不推荐）
+@tab PayPal（推荐）
+PayPal 打赏地址 : <https://paypal.me/hefung>
+@tab 爱发电
 爱发电打赏地址 : <https://afdian.com/a/viptv>
 :::
 
