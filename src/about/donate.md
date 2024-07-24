@@ -15,6 +15,7 @@ copy:
   disableCopy: ture
   disableSelection: ture
 ---
+
 ## 玩赚打赏
 
 ::: tip 您可以用扫到的红包来打赏赞助我！ ໒( ” ¤ ‿ ¤ ” )७
@@ -38,12 +39,14 @@ copy:
 :::
 
 ## 其它打赏
+
 ::: tip 您可以进入以下网站打赏赞助我！ ໒( ” ¤ ‿ ¤ ” )७
 :::
 ::: tabs
 @tab 爱发电（不推荐）
 爱发电打赏地址 : <https://afdian.com/a/viptv>
 :::
+
 ## 打赏记录
 
 感谢以下赞助者，以及[爱发电](https://afdian.com/a/viptv)的朋友们,祝你们早日升职加薪，登临人生绝颠 ❤️❤️❤️

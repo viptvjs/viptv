@@ -7,7 +7,6 @@ category:
   - IPTV
 tag:
   - 成人直播
-containerClass: toc-false
 ---
 
 <ArtPlayer :src="state.src" :config="hlsConfig(state.p)" />

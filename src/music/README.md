@@ -1,14 +1,14 @@
 ---
-title: 音乐舞蹈
+title: 音乐电台
 index: false
 icon: circle-play
 order: 1
 star: true
 isOriginal: true
 category:
-  - 音乐舞蹈
+  - 音乐电台
 tag:
-  - 音乐舞蹈
+  - 音乐电台
 dns:
   - name: VIPTV - 主站
     desc: 极速 、 高清 、 无广告
