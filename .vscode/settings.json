@@ -14,5 +14,10 @@
   ],
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.formatOnType": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  // avoid example code format auto lint
+  "editor.tabSize": 2,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "none"
 }
