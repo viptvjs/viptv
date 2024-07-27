@@ -49,9 +49,9 @@
     "skipLibCheck": true
   },
   "include": [
-    "src/.vuepress/*.ts",
-    "src/.vuepress/**/*.ts",
-    "src/.vuepress/**/*.js",
-    "src/.vuepress/**/*.vue"
+    "docs/.vuepress/*.ts",
+    "docs/.vuepress/**/*.ts",
+    "docs/.vuepress/**/*.js",
+    "docs/.vuepress/**/*.vue"
   ]
 }

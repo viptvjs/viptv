@@ -6,14 +6,15 @@
   "type": "module",
   "scripts": {
     "tsup": "tsup && node ./lib/index.js",
-    "build": "vuepress build src",
-    "dev": "vuepress dev src --clean-cache --clean-temp",
+    "build": "vuepress build docs",
+    "dev": "vuepress dev docs --clean-cache --clean-temp",
     "update": "pnpm dlx vt-update"
   },
   "devDependencies": {
     "@types/node": "^20.14.12",
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "@vuepress/helper": "2.0.0-rc.31",
+    "@vuepress/plugin-google-analytics": "2.0.0-rc.37",
     "@vuepress/plugin-prismjs": "2.0.0-rc.40",
     "@vueuse/core": "^10.11.0",
     "artplayer": "^5.1.6",
@@ -32,5 +33,10 @@
     "vuepress-plugin-components": "2.0.0-rc.52",
     "vuepress-plugin-search-pro": "2.0.0-rc.52",
     "vuepress-theme-hope": "2.0.0-rc.52"
+  },
+  "dependencies": {
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@moefe/vue-aplayer": "2.0.0-beta.5",
+    "aplayer": "^1.10.1"
   }
 }
