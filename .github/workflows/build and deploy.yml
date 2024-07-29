@@ -8,7 +8,7 @@ on:
 env:
   TZ: Asia/Shanghai
 jobs:
-  Build:
+  build-project:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -16,8 +16,6 @@ jobs:
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
