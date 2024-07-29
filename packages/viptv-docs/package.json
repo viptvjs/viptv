@@ -11,9 +11,10 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "vuepress dev docs --clean-cache",
     "build": "vuepress build docs",
     "preview": "vitepress preview docs",
-    "dev": "vuepress dev docs --clean-cache"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
