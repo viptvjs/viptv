@@ -1,0 +1,33 @@
+// place your custom styles here
+@use "vuepress-theme-hope/presets/bounce-icon";
+@use "vuepress-theme-hope/presets/shinning-feature-panel";
+@use "vuepress-theme-hope/presets/round-blogger-avatar";
+@use "vuepress-theme-hope/presets/hr-driving-car";
+
+
+:root {
+    --banner-text: #000;
+    --bg-1: url("/assets/svg/1-light.svg");
+    --bg-2: url("/assets/svg/2-light.svg");
+    --bg-3: url("/assets/svg/3-light.svg");
+    --bg-4: url("/assets/svg/4-light.svg");
+    --bg-5: url("/assets/svg/5-light.svg");
+    --bg-6: url("/assets/svg/6-light.svg");
+    --bg-7: url("/assets/svg/7-light.svg");
+    --bg-8: url("/assets/svg/8-light.svg") no-repeat center/cover;
+    --bg-9: url("/assets/svg/9-light.svg") no-repeat center/cover;
+    --bg-10: url("/assets/svg/10-light.svg") no-repeat center/cover;
+    --bg-7-inverse: url("/assets/svg/7-dark.svg") no-repeat center/cover;
+}
+
+html[data-theme="dark"] {
+    --banner-text: #fff;
+    --bg-1: url("/assets/svg/1-dark.svg");
+    --bg-2: url("/assets/svg/2-dark.svg");
+    --bg-3: url("/assets/svg/3-dark.svg");
+    --bg-4: url("/assets/svg/4-dark.svg");
+    --bg-5: url("/assets/svg/5-dark.svg");
+    --bg-6: url("/assets/svg/6-dark.svg");
+    --bg-7: url("/assets/svg/7-dark.svg");
+    --bg-7-inverse: url("/assets/svg/7-light.svg") no-repeat center/cover;
+}

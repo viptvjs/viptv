@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "./docs"
+  },
+  "include": [
+    "./docs/.vuepress/**/*.d.ts",
+    "./docs/.vuepress/**/*.vue"
+  ]
+}

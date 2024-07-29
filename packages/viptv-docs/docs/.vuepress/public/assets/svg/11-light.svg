@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="570px" viewBox="0 0 1920 570" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>矩形备份 7</title>
+    <defs>
+        <linearGradient x1="96.3190736%" y1="53.2583175%" x2="7.64486092%" y2="46.0945947%" id="linearGradient-1">
+            <stop stop-color="#5A84FF" offset="0%"></stop>
+            <stop stop-color="#2C1FD4" offset="99.0813384%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="-2.96635401e-13 0 1920 0 1920 409.666831 1920 570 0 570"></polygon>
+        <linearGradient x1="21.0430251%" y1="58.8906442%" x2="85.9998247%" y2="42.3696105%" id="linearGradient-4">
+            <stop stop-color="#0012EB" stop-opacity="0.403049709" offset="0%"></stop>
+            <stop stop-color="#050F97" stop-opacity="0.0107703576" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="21.0430251%" y1="56.5504714%" x2="85.9998247%" y2="44.3780622%" id="linearGradient-5">
+            <stop stop-color="#010B7D" stop-opacity="0.772057166" offset="0%"></stop>
+            <stop stop-color="#050F97" stop-opacity="0.0107703576" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="矩形备份-7">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="蒙版" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <polygon id="矩形" fill="url(#linearGradient-4)" opacity="0.201871324" mask="url(#mask-3)" points="1206 1.20013873e-12 1832.15237 2 1460 571 833.847628 569"></polygon>
+            <polygon id="矩形备份-2" fill="url(#linearGradient-5)" opacity="0.201871324" mask="url(#mask-3)" points="-52.197385 1.19803691e-12 676 1.99649737 243.197385 570 -485 568.003503"></polygon>
+        </g>
+    </g>
+</svg>
