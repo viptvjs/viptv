@@ -4,7 +4,7 @@
   "description": "VIPTV-工作室,组件开发,文档编辑",
   "private": true,
   "type": "module",
-  "scripts": {    
+  "scripts": {
     "dev": "npx cross-env NODE_ENV=development pnpm run -r dev",
     "build": "cross-env NODE_ENV=production pnpm run --stream -r build",
     "commit": "pnpm git-cz",
