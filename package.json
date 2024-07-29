@@ -5,38 +5,48 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "tsup": "tsup && node ./lib/index.js",
-    "build": "vuepress build docs",
-    "dev": "vuepress dev docs --clean-cache --clean-temp",
-    "update": "pnpm dlx vt-update"
+    "build": "cross-env NODE_ENV=production pnpm run --stream -r build",
+    "commit": "pnpm git-cz",
+    "clean": "pnpm run --stream -r clean",
+    "check-update": "pnpm dlx npm-check-updates -u --deep --timeout 600000",
+    "update": "pnpm up -r",
+    "lint": "eslint . --ext .js,.ts",
+    "lint-fix": "eslint . --ext .js,.ts --fix",
+    "format": "prettier **/*.{ts,js,json,yml,md} --check",
+    "format-fix": "prettier **/*.{ts,js,json,yml,md} --write",
+    "build:docs": "pnpm run -r build:docs",
+    "build:iptv": "pnpm run -r build:iptv",
+    "build:bing": "npx cross-env NODE_ENV=production pnpm run -r build:bing",
+    "dev:docs": "npx cross-env NODE_ENV=development pnpm run -r dev:docs"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-git",
+      "useEmoji": true
+    }
+  },
+  "nano-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "*.vue": "eslint --fix",
+    "*.{cjs,mjs,js,ts}": [
+      "eslint --fix"
+    ],
+    "*.md": "markdownlint-cli2 --fix",
+    "*.scss": "stylelint --fix",
+    "package.json": "sort-package-json"
   },
   "devDependencies": {
-    "@types/node": "^20.14.12",
-    "@vuepress/bundler-vite": "2.0.0-rc.14",
-    "@vuepress/helper": "2.0.0-rc.31",
-    "@vuepress/plugin-google-analytics": "2.0.0-rc.37",
-    "@vuepress/plugin-prismjs": "2.0.0-rc.40",
-    "@vueuse/core": "^10.11.0",
-    "artplayer": "^5.1.6",
-    "axios": "^1.7.2",
-    "dashjs": "^4.7.4",
-    "dexie": "^4.0.8",
-    "hls.js": "^1.5.13",
-    "mpegts.js": "^1.7.3",
-    "node-fetch": "^3.3.2",
-    "reveal.js": "^5.1.0",
-    "tsup": "^8.2.3",
-    "typescript": "^4.9.5",
-    "vidstack": "^1.11.30",
-    "vue": "^3.4.34",
-    "vuepress": "2.0.0-rc.14",
-    "vuepress-plugin-components": "2.0.0-rc.52",
-    "vuepress-plugin-search-pro": "2.0.0-rc.52",
-    "vuepress-theme-hope": "2.0.0-rc.52"
+    "cross-env": "7.0.3",
+    "cross-spawn": "^7.0.3",
+    "cz-git": "1.9.4",
+    "husky": "9.1.4",
+    "nano-staged": "0.8.0"
   },
-  "dependencies": {
-    "@fortawesome/vue-fontawesome": "^3.0.8",
-    "@moefe/vue-aplayer": "2.0.0-beta.5",
-    "aplayer": "^1.10.1"
+  "packageManager": "pnpm@9.5.0",
+  "engines": {
+    "node": ">=20"
   }
 }

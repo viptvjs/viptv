@@ -42,6 +42,13 @@
   },
   "dependencies": {
     "@fortawesome/vue-fontawesome": "^3.0.8",
+    "cross-env": "7.0.3",
+    "eslint-plugin-vue": "9.27.0",
+    "exlint": "0.1.6",
+    "markdownlint-cli2": "0.13.0",
+    "nano-staged": "0.8.0",
+    "prettier": "3.3.3",
+    "stylelint": "16.7.0",
     "vue-router": "^4.4.0"
   }
 }

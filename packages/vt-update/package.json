@@ -1,0 +1,51 @@
+{
+  "name": "vt-update",
+  "version": "2.0.5",
+  "description": "Update helper for Viptv",
+  "keywords": [
+    "viptv",
+    "update"
+  ],
+  "homepage": "https://github.com/viptv-work",
+  "bugs": {
+    "url": "https://github.com/viptv-work/vt-update/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viptv-work/vt-update.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Mr.HeFung",
+    "email": "qq2236639958@outlook.com",
+    "url": "https://viptv.work"
+  },
+  "type": "module",
+  "exports": {
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "vt-update": "lib/index.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.json"
+  },
+  "dependencies": {
+    "cac": "^6.7.14",
+    "semver": "^7.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/semver": "7.5.8"
+  },
+  "packageManager": "pnpm@9.5.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

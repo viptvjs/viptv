@@ -1,0 +1,1 @@
+cp -r ./dist ./public && pnpm tsup && rm -rf ./public
