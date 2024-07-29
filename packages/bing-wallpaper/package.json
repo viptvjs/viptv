@@ -6,7 +6,6 @@
   "types": "types/index.d.ts",
   "main": "dist/index.js",
   "scripts": {
-    "tsup": "tsup",
     "build": "tsup && node ./lib/index.js"
   },
   "devDependencies": {

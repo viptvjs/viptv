@@ -4,7 +4,8 @@
   "description": "VIPTV-工作室,组件开发,文档编辑",
   "private": true,
   "type": "module",
-  "scripts": {
+  "scripts": {    
+    "dev": "npx cross-env NODE_ENV=development pnpm run -r dev",
     "build": "cross-env NODE_ENV=production pnpm run --stream -r build",
     "commit": "pnpm git-cz",
     "clean": "pnpm run --stream -r clean",
@@ -13,11 +14,7 @@
     "lint": "eslint . --ext .js,.ts",
     "lint-fix": "eslint . --ext .js,.ts --fix",
     "format": "prettier **/*.{ts,js,json,yml,md} --check",
-    "format-fix": "prettier **/*.{ts,js,json,yml,md} --write",
-    "build:docs": "pnpm run -r build:docs",
-    "build:iptv": "pnpm run -r build:iptv",
-    "build:bing": "npx cross-env NODE_ENV=production pnpm run -r build:bing",
-    "dev:docs": "npx cross-env NODE_ENV=development pnpm run -r dev:docs"
+    "format-fix": "prettier **/*.{ts,js,json,yml,md} --write"
   },
   "workspaces": [
     "packages/*"

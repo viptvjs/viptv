@@ -13,7 +13,7 @@
   "scripts": {
     "build": "vuepress build docs",
     "preview": "vitepress preview docs",
-    "dev:docs": "vuepress dev docs --clean-cache"
+    "dev": "vuepress dev docs --clean-cache"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

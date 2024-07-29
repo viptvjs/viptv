@@ -17,7 +17,7 @@
   },
   "type": "module",
   "scripts": {
-    "build:iptv": "tsup && node ./lib/main.js"
+    "build": "tsup && node ./lib/main.js"
   },
   "devDependencies": {
     "@types/node": "^20.14.13",
