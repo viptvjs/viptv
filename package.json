@@ -23,7 +23,7 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-git",
-      "useEmoji": true
+      "czConfig": "./config/cz.config.js"
     }
   },
   "nano-staged": {
