@@ -1,56 +1,26 @@
 {
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "vue"
+  "markdown.validate.enabled": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.vuepress/public/assets/lib/**": true,
+    "**/.vuepress/.cache/**": true,
+    "**/.vuepress/.temp/**": true,
+    "**/dist/**": true,
+    "packages/*/lib/**": true
+  },
+  "prettier.prettierPath": "./node_modules/prettier",
+  "stylelint.validate": ["css", "scss"],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.words": [
+    "iptv",
+    "opencc",
+    "VIPTV",
+    "vuepress"
   ],
-  "stylelint.validate": [
-    "css",
-    "scss",
-    "less",
-    "acss"
+  "cSpell.enableFiletypes": [
+    "!yaml"
   ],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.fixAll.stylelint": "explicit",
-    "source.fixAll.markdownlint": "explicit"
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[less]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.formatOnSave": true,
-  "files.eol": "\r\n"
+  "yaml.schemas": {
+    "file:///c%3A/Users/Administrator/.vscode/extensions/davidanson.vscode-markdownlint-0.55.0/markdownlint-cli2-config-schema.json": "file:///d%3A/Administrator/Documents/GitHub/dev/pnpm-lock.yaml"
+  }
 }

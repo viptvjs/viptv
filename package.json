@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "VIPTV-工作室,组件开发,文档编辑",
   "private": true,
-  "type": "module",
+  "type": "module",  
   "scripts": {
     "dev": "npx cross-env NODE_ENV=development pnpm run -r dev",
     "build": "cross-env NODE_ENV=production pnpm run --stream -r build",
@@ -23,7 +23,7 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-git",
-      "czConfig": "./config/cz.config.js"
+      "useEmoji": true
     }
   },
   "nano-staged": {
@@ -33,7 +33,7 @@
       "eslint --fix"
     ],
     "*.md": "markdownlint-cli2 --fix",
-    "*.scss": "stylelint --fix",
+    "*.scss": "stylet --fix",
     "package.json": "sort-package-json"
   },
   "devDependencies": {

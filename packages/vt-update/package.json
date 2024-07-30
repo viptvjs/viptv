@@ -6,14 +6,11 @@
     "viptv",
     "update"
   ],
-  "homepage": "https://github.com/viptv-work",
-  "bugs": {
-    "url": "https://github.com/viptv-work/vt-update/issues"
-  },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/viptv-work/vt-update.git"
+    "url": "https://github.com/viptv-work/dev",
+    "directory": "packages/vt-update"
   },
+  "homepage": "https://github.com/viptv-work",
   "license": "MIT",
   "author": {
     "name": "Mr.HeFung",

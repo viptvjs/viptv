@@ -1,7 +1,12 @@
 {
   "recommendations": [
+    "vue.volar",
+    "mrmlnc.vscode-scss",
     "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "davidanson.vscode-markdownlint",
     "stylelint.vscode-stylelint",
-    "esbenp.prettier-vscode"
+    "bierner.markdown-yaml-preamble",
+    "streetsidesoftware.code-spell-checker"
   ]
 }
