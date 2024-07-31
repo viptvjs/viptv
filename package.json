@@ -26,22 +26,9 @@
       "useEmoji": true
     }
   },
-  "nano-staged": {
-    "**/*": "prettier --write --ignore-unknown",
-    "*.vue": "eslint --fix",
-    "*.{cjs,mjs,js,ts}": [
-      "eslint --fix"
-    ],
-    "*.md": "markdownlint-cli2 --fix",
-    "*.scss": "stylet --fix",
-    "package.json": "sort-package-json"
-  },
   "devDependencies": {
     "cross-env": "7.0.3",
-    "cross-spawn": "^7.0.3",
-    "cz-git": "1.9.4",
-    "husky": "9.1.4",
-    "nano-staged": "0.8.0"
+    "cz-git": "1.9.4"
   },
   "packageManager": "pnpm@9.5.0",
   "engines": {
