@@ -24,7 +24,7 @@ jobs:
           cache: "pnpm"
 
       - name: Install deps
-        run: pnpm install --frozen-lockfile
+        run: pnpm dlx vt-update
 
       - name: Build project
         env:
