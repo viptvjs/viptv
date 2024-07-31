@@ -3,19 +3,13 @@
   "version": "3.0.0",
   "description": "VIPTV-工作室,组件开发,文档编辑",
   "private": true,
-  "type": "module",  
+  "type": "module",
   "scripts": {
     "dev": "npx cross-env NODE_ENV=development pnpm run -r dev",
     "build": "cross-env NODE_ENV=production pnpm run --stream -r build",
     "commit": "pnpm git-cz",
     "clean": "pnpm run --stream -r clean",
-    "check-update": "pnpm dlx npm-check-updates -u --deep --timeout 600000",
-    "update": "pnpm up -r",
-    "lint": "eslint . --ext .js,.ts",
-    "lint-fix": "eslint . --ext .js,.ts --fix",
-    "format": "prettier **/*.{ts,js,json,yml,md} --check",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && pnpm run -r --stream changelog",
-    "format-fix": "prettier **/*.{ts,js,json,yml,md} --write"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && pnpm run -r --stream changelog"
   },
   "workspaces": [
     "packages/*"
