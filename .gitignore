@@ -6,5 +6,3 @@ packages/*/dist/
 **/.vuepress/.cache/
 # Vuepress Temp
 **/.vuepress/.temp/
-# npm config
-.npmrc

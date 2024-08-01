@@ -1,0 +1,20 @@
+{
+  "name": "bing-wallpaper",
+  "version": "3.0.0",
+  "description": "auto fetch bing daily pictures",
+  "repository": {
+    "url": "https://github.com/viptv-work/dev",
+    "directory": "packages/vt-bing"
+  },
+  "type": "module",
+  "types": "type/index.d.ts",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsup && node ./lib/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "node-fetch": "^3.3.2",
+    "tsup": "^8.2.3"
+  }
+}

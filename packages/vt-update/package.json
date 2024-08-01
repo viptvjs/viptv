@@ -28,9 +28,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsc -b tsconfig.json",
-    "clean": "rimraf lib",
-    "release": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "build": "tsc -b tsconfig.json"
   },
   "dependencies": {
     "cac": "^6.7.14",
@@ -40,10 +38,6 @@
   "devDependencies": {
     "@types/node": "^22.0.0",
     "@types/semver": "7.5.8"
-  },
-  "packageManager": "pnpm@9.5.0",
-  "engines": {
-    "node": ">=20"
   },
   "publishConfig": {
     "access": "public"

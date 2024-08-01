@@ -1,0 +1,36 @@
+{
+  "name": "iptv-source",
+  "version": "3.4.18",
+  "keywords": [
+    "iptv",
+    "update"
+  ],
+  "repository": {
+    "url": "https://github.com/viptv-work/dev",
+    "directory": "packages/vt-iptv"
+  },
+  "homepage": "https://github.com/iptv-js",
+  "bugs": {
+    "url": "https://github.com/iptv-js/iptv/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Mr.HeFung",
+    "email": "qq2236639958@outlook.com",
+    "url": "https://iptv.vodtv.cn"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsup && node ./lib/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.13",
+    "@types/opencc-js": "^1.0.3",
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "opencc-js": "^1.0.5"
+  }
+}
