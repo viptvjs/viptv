@@ -24,7 +24,7 @@ Content-Type: ${c.type||"application/octet-stream"}\r
 
 `),s.push(`[Download 1920 * 1080](${c.url_1080}) | [Download 3840 * 2160](${c.url_4k})
 
-`)}),hn("../viptv-docs/docs/archives/README.md",s.join(""),c=>{if(c)throw c}),Hs(a,o),Vs(o)}function Hs(a,n){if(!n.length)return;let o=null;if(n.forEach(S=>{a.date.includes(S.date)&&(o=S)}),!o)return;let{date:l,mapPath:s}=o,b=mn(s).toString(),_=JSON.parse(b),p=[];_.forEach(S=>{p.push(`## ${S.date} ${S.title}
+`)}),hn("../viptv-docs/src/archives/README.md",s.join(""),c=>{if(c)throw c}),Hs(a,o),Vs(o)}function Hs(a,n){if(!n.length)return;let o=null;if(n.forEach(S=>{a.date.includes(S.date)&&(o=S)}),!o)return;let{date:l,mapPath:s}=o,b=mn(s).toString(),_=JSON.parse(b),p=[];_.forEach(S=>{p.push(`## ${S.date} ${S.title}
 
 `),p.push(S.copyright+`
 
@@ -32,7 +32,7 @@ Content-Type: ${c.type||"application/octet-stream"}\r
 
 `),p.push(`[Download 1920 * 1080](${S.url_1080}) | [Download 3840 * 2160](${S.url_4k})
 
-`)});let m=`../viptv-docs/docs/archives/${l.split("-")[0]}/${l}.md`,k=hi(m);dn(k)||di(k,{recursive:!0}),hn(m,p.join(""),S=>{if(S)throw S})}function Vs(a){let n=[{text:"\u6700\u8FD1\u66F4\u65B0 31",link:"/archives/"}],o={};a.forEach(s=>{let c=s.date.split("-")[0];s.date.includes(c)&&(o[c]||(o[c]=[]),o[c].push({text:s.date,icon:"images",link:`/archives/${c}/${s.date}.md`}))}),Object.keys(o).forEach(s=>{n.push({text:s,collapsible:!0,icon:"lock-open",children:o[s]})}),n.sort((s,c)=>+c.text-+s.text);let l="export default "+JSON.stringify(n);hn("../viptv-docs/docs/.vuepress/config/sidebar/archives.ts",l,s=>{if(s)throw s})}Ms();
+`)});let m=`../viptv-docs/src/archives/${l.split("-")[0]}/${l}.md`,k=hi(m);dn(k)||di(k,{recursive:!0}),hn(m,p.join(""),S=>{if(S)throw S})}function Vs(a){let n=[{text:"\u6700\u8FD1\u66F4\u65B0 31",link:"/archives/"}],o={};a.forEach(s=>{let c=s.date.split("-")[0];s.date.includes(c)&&(o[c]||(o[c]=[]),o[c].push({text:s.date,icon:"images",link:`/archives/${c}/${s.date}.md`}))}),Object.keys(o).forEach(s=>{n.push({text:s,collapsible:!0,icon:"lock-open",children:o[s]})}),n.sort((s,c)=>+c.text-+s.text);let l="export default "+JSON.stringify(n);hn("../viptv-docs/src/.vuepress/config/sidebar/archives.ts",l,s=>{if(s)throw s})}Ms();
 /*! Bundled license information:
 
 web-streams-polyfill/dist/ponyfill.es2018.js:

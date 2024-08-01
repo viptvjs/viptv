@@ -15,9 +15,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vuepress-vite dev docs --clean-cache",
-    "build": "vuepress-vite build docs",
-    "preview": "vuepress-vite preview docs"
+    "dev": "vuepress-vite dev src --clean-cache",
+    "build": "vuepress-vite build src",
+    "preview": "vuepress-vite preview src"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

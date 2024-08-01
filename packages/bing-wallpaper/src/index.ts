@@ -203,7 +203,7 @@ function writeDocs(
       `[Download 1920 * 1080](${item.url_1080}) | [Download 3840 * 2160](${item.url_4k})\n\n`
     );
   });
-  writeFile("../viptv-docs/docs/archives/README.md", writeDataList.join(""), (err) => {
+  writeFile("../viptv-docs/src/archives/README.md", writeDataList.join(""), (err) => {
     if (err) {
       throw err;
     }
@@ -239,7 +239,7 @@ function writeDocsArchive(info: PictureInfo, archives: ArchivesInfo[]) {
     );
   });
   const year = date.split("-")[0];
-  const path = `../viptv-docs/docs/archives/${year}/${date}.md`;
+  const path = `../viptv-docs/src/archives/${year}/${date}.md`;
   const dir = dirname(path);
   if (!existsSync(dir)) {
     mkdirSync(dir, { recursive: true });
@@ -278,7 +278,7 @@ function writeSidebar(archives: ArchivesInfo[]) {
   sidebar.sort((a, b) => +b.text - +a.text);
   const sidebarDate = "export default " + JSON.stringify(sidebar);
   writeFile(
-    `../viptv-docs/docs/.vuepress/config/sidebar/archives.ts`,
+    `../viptv-docs/src/.vuepress/config/sidebar/archives.ts`,
     sidebarDate,
     (err) => {
       if (err) {
