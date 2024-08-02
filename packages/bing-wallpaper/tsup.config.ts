@@ -2,7 +2,7 @@ import { defineConfig } from "tsup";
 
 export const tsup = defineConfig({
     entry: ["src/index.ts"],
-    outDir: "lib",
+    outDir: "dist",
     splitting: false,
     clean: true,
     format: ["esm"],

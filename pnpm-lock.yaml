@@ -47,6 +47,12 @@ importers:
       '@fortawesome/vue-fontawesome':
         specifier: ^3.0.8
         version: 3.0.8(@fortawesome/fontawesome-svg-core@6.6.0)(vue@3.4.35(typescript@5.5.4))
+      artplayer-plugin-danmuku:
+        specifier: ^5.1.4
+        version: 5.1.4
+      artplayer-plugin-hls-quality:
+        specifier: ^2.0.0
+        version: 2.0.0
       vue-router:
         specifier: ^4.4.0
         version: 4.4.0(vue@3.4.35(typescript@5.5.4))
@@ -1139,6 +1145,12 @@ packages:
   array-union@2.1.0:
     resolution: {integrity: sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==}
     engines: {node: '>=8'}
+
+  artplayer-plugin-danmuku@5.1.4:
+    resolution: {integrity: sha512-f2gJ9HsvSmOwg6UdNcWCUkSI6WmfkTiQKVDWr+pRJF9jQ2wK8c4YjNJ11SY63H5OGlaJBSvWWyNVdFHOX7pUbg==}
+
+  artplayer-plugin-hls-quality@2.0.0:
+    resolution: {integrity: sha512-+/tiLXi2BNOuw7z2ayI6cYlZBZEP/ujS01bTtanRi2P0zl8wHafPEk0bAA8VbXxpP9gYT0/DjBIifNR9W0xqhA==}
 
   artplayer@5.1.6:
     resolution: {integrity: sha512-cqnVVLKCKWCryKl6Pmop50/Di9IQwOeNNQs5qWGzJDPiM0qTC7Q/Enusa+8JQid8p09fvp4Vc32ViSSYutdEeQ==}
@@ -3400,6 +3412,10 @@ snapshots:
   argparse@2.0.1: {}
 
   array-union@2.1.0: {}
+
+  artplayer-plugin-danmuku@5.1.4: {}
+
+  artplayer-plugin-hls-quality@2.0.0: {}
 
   artplayer@5.1.6:
     dependencies:

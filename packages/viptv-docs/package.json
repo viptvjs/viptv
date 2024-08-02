@@ -42,6 +42,8 @@
   },
   "dependencies": {
     "@fortawesome/vue-fontawesome": "^3.0.8",
+    "artplayer-plugin-danmuku": "^5.1.4",
+    "artplayer-plugin-hls-quality": "^2.0.0",
     "vue-router": "^4.4.0"
   }
 }

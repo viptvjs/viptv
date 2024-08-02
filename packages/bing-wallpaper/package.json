@@ -7,10 +7,9 @@
     "directory": "packages/vt-bing"
   },
   "type": "module",
-  "types": "type/index.d.ts",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsup && node ./lib/index.js"
+    "build": "tsup && node ./dist/index.js"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

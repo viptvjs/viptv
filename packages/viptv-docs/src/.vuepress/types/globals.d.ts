@@ -14,6 +14,16 @@ declare module "aplayer" {
   export = aplayer;
 }
 
+declare module "artplayer-plugin-danmuku" {
+  import artplayerPluginDanmuku from "artplayer-plugin-danmuku";
+  export = artplayerPluginDanmuku;
+}
+
+declare module "artplayer-plugin-hls-quality" {
+  import artplayerPluginHlsQuality from "artplayer-plugin-hls-quality";
+  export = artplayerPluginHlsQuality;
+}
+
 declare module "mpegts.js/dist/mpegts.js" {
   import mpegts from "mpegts.js";
   export = mpegts;

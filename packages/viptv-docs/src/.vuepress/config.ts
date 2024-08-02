@@ -39,7 +39,7 @@ export default defineUserConfig({
   },
   alias: {
     "@db": path.resolve(__dirname, "composables/dexie/index.js"),
-    "@act": path.resolve(__dirname, "composables/artConst.js"),
+    "@act": path.resolve(__dirname, "composables/artConst.ts"),
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
       __dirname,
       "./components/BlogHero.vue"
