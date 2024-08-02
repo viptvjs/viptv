@@ -1,14 +1,9 @@
 ---
-title: "Python"
-icon: "python"
-date: 1978-01-09
-index: false
+title: "python"
+icon: python
+date: 2024-01-09
 timeline: false
+index: false
 article: false
 ---
 
-:::info
-这里放置 python 相关 内容
-:::
-
-<Catalog />
