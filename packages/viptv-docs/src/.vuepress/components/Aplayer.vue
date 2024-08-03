@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import "aplayer/dist/APlayer.min.css";
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-
 import { useRouter } from "vue-router";
 import { ref, onMounted, nextTick } from "vue";
 import axios from "axios";
@@ -155,7 +153,7 @@ onMounted(() => {
     <div class="MyMusic">
       <div class="MyMusic_Play" :class="{ hide: !IsShow }">
         <div class="close" @click="CloseStatus">
-          <font-awesome-icon :icon="['fas', 'xmark']" />
+          <FontIcon icon="xmark" />
         </div>
         <div id="GlobalAPlayer">
           <h1>加载中..</h1>

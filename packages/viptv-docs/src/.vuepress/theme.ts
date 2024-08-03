@@ -163,7 +163,7 @@ export default hopeTheme(
         enabled: true,
       },
       components: {
-        components: ["PDF", "Share", "Badge", "VPCard", "ArtPlayer", "VPBanner", "SiteInfo", "VidStack"]
+        components: ["PDF", "Share", "FontIcon","Badge", "VPCard", "ArtPlayer", "VPBanner", "SiteInfo", "VidStack"]
       },
       /*  comment: {
          provider: 'Giscus',

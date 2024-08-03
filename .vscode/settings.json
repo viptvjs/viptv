@@ -22,5 +22,11 @@
   ],
   "yaml.schemas": {
     "file:///c%3A/Users/Administrator/.vscode/extensions/davidanson.vscode-markdownlint-0.55.0/markdownlint-cli2-config-schema.json": "file:///d%3A/Administrator/Documents/GitHub/dev/pnpm-lock.yaml"
-  }
+  },
+  "markdown.validate.ignoredLinks": [
+    "/assets/png/aliqr.png",
+    "/assets/png/alipay.png",
+    "/assets/png/wxpay.png",
+    "/assets/png/qqpay.png"
+  ]
 }
