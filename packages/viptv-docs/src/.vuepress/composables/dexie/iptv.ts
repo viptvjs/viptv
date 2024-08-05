@@ -1,5 +1,5 @@
-import db from "./dexie.js";
-const { iptv } =db
+import db from "./dexie";
+const { iptv } = db;
 export default {
   async all() {
     return await iptv.toArray();
@@ -10,22 +10,22 @@ export default {
   async add(doc) {
     return await iptv.add(doc);
   },
-  async bulkAdd(doc) {
+  async bulkAdd(doc: any) {
     return await iptv.bulkAdd(doc);
   },
-  async find(doc) {
+  async find(doc: any) {
     return await iptv.get(doc);
   },
-  async get(id) {
+  async get(id: any) {
     return await iptv.get(id);
   },
-  async update(id, docs) {
-    return await iptv.update(id, docs);
+  async update(docs: any, id: any) {
+    return await iptv.update(docs, id);
   },
-  async remove(id) {
+  async remove(id: number) {
     return await iptv.delete(id);
   },
-  async pagination(keyword) {
+  async pagination(keyword: string) {
     let list = await iptv.toArray();
     if (keyword) list = list.filter((item) => item.name.includes(keyword));
     const total = list.length;

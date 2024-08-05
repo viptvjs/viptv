@@ -1,9 +1,18 @@
-import Dexie from "dexie";
+import Dexie, { type EntityTable } from "dexie";
 
-import { getTxt, getTxtt, getJson, getJsonx, raw ,xgsp} from "./init/getAjax.js";
-import { vodId, vodIdx, tvId, movieId, xgspId,movieIdx } from "./init/api.js";
+interface type {
+  id?: number;
+  name: string;
+  data: any;
+}
 
-const db = new Dexie("viptv");
+import { getTxt, getTxtt, getJson, getJsonx, raw, xgsp } from "./init/getAjax";
+import { vodId, vodIdx, tvId, movieId, xgspId, movieIdx } from "./init/api";
+
+const db = new Dexie("viptv") as Dexie & {
+  vod: EntityTable<type, "id">;
+  iptv: EntityTable<type, "id">;
+};
 
 db.version(1).stores({
   vod: "++id, name, data",
@@ -80,7 +89,6 @@ db.on("populate", () => {
     ]);
   });
 });
-
 
 db.open();
 

@@ -1,4 +1,4 @@
-export const getTxt = async (url) => {
+export const getTxt = async (url: string) => {
   const res = await (await fetch(url)).text();
   let raw = res.split("\n").filter((item, key, arr) => !key == false);
   const data = raw.map((red, k) => {
@@ -10,7 +10,7 @@ export const getTxt = async (url) => {
   });
   return data;
 };
-export const getTxtt = async (url) => {
+export const getTxtt = async (url: string) => {
   const res = await (await fetch(url)).text();
   let raw = res.split("\n").filter((item, key, arr) => !key == false);
   const data = raw.map((red, k) => {
@@ -21,7 +21,7 @@ export const getTxtt = async (url) => {
   });
   return data;
 };
-export const getJson = async (url) => {
+export const getJson = async (url: string) => {
   const res = await (await fetch(url)).json();
   return res.list.map((red) => {
     return {
@@ -31,7 +31,7 @@ export const getJson = async (url) => {
     };
   });
 };
-export const getJsonx = async (url) => {
+export const getJsonx = async (url: string) => {
   const res = await (await fetch(url)).json();
   return res.list.map((red) => {
     return {
@@ -46,15 +46,15 @@ export const getJsonx = async (url) => {
     };
   });
 };
-export const xgsp = async (url) => {
+export const xgsp = async (url: string) => {
   const data = await (await fetch(url)).json();
   return data.models.map((res) => {
     return {
       title: res.username,
       url: res.hlsPlaylist,
       avatar: res.avatarUrl,
-      preview: res.previewUrlThumbBig
-    }
+      preview: res.previewUrlThumbBig,
+    };
   });
 };
 

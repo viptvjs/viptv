@@ -38,7 +38,7 @@ export default defineUserConfig({
     },
   },
   alias: {
-    "@db": path.resolve(__dirname, "composables/dexie/index.js"),
+    "@db": path.resolve(__dirname, "composables/dexie"),
     "@act": path.resolve(__dirname, "composables/artConst.ts"),
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
       __dirname,
@@ -83,12 +83,11 @@ export default defineUserConfig({
         type: "playlist",
         mid: "851947617",
         aplayerOptions: {
-          lrcDisplay: 'hide'
-        }
+          lrcDisplay: "hide",
+        },
       },
-    })    
+    }),
   ],
-  
+
   shouldPrefetch: false,
-  
 });
