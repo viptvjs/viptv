@@ -1,7 +1,7 @@
 ---
 title: "提交URL到搜索引擎（百度、Bing、Google）"
 shortTitle: "提交URL到主流搜索引擎"
-icon: "result"
+icon: "square-poll-vertical"
 subtitle: "python"
 date: 2023-04-17
 isOriginal: true

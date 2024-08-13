@@ -1,6 +1,6 @@
 ---
 title: "使用Bing API提交网站URL"
-icon: "tool"
+icon: "wrench"
 subtitle: "python"
 date: 2023-03-24 10:52:27
 isOriginal: true

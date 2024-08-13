@@ -1,6 +1,6 @@
 ---
 title: "Unix/Linux 扫盲笔记"
-icon: "linux"
+icon: "https://th.bing.com/th/id/R.876dc1a8279d82f21d1254a992e30e48?rik=2deANHjXjOYS6A&pid=ImgRaw&r=0"
 date: 2015-04-14
 category:
   - Linux
@@ -17,17 +17,17 @@ tag:
 - [Catagory](#catagory)
 - [Unix](#unix)
 - [Unix-like](#unix-like)
-    - [Single UNIX Specification](#single-unix-specification)
-    - [Apple iOS](#apple-ios)
-    - [XNU Kernel](#xnu-kernel)
+  - [Single UNIX Specification](#single-unix-specification)
+  - [Apple iOS](#apple-ios)
+  - [XNU Kernel](#xnu-kernel)
 - [Linux](#linux)
-    - [Linux Kernel](#linux-kernel)
-    - [GNU Project](#gnu-project)
-    - [Android](#android)
-    - [Android Kernel](#android-kernel)
-    - [Android ROM](#android-rom)
-    - [Chrome OS](#chrome-os)
-    - [Chromium OS](#chromium-os)
+  - [Linux Kernel](#linux-kernel)
+  - [GNU Project](#gnu-project)
+  - [Android](#android)
+  - [Android Kernel](#android-kernel)
+  - [Android ROM](#android-rom)
+  - [Chrome OS](#chrome-os)
+  - [Chromium OS](#chromium-os)
 
 ---
 

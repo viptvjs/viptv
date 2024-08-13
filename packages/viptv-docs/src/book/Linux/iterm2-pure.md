@@ -1,6 +1,6 @@
 ---
 title: "终端究极美化iTerm2+Pure"
-icon: "hk-zsh"
+icon: "https://static.vecteezy.com/system/resources/previews/009/021/595/large_2x/zsh-logo-zsh-letter-zsh-letter-logo-design-initials-zsh-logo-linked-with-circle-and-uppercase-monogram-logo-zsh-typography-for-technology-business-and-real-estate-brand-vector.jpg"
 subtitle: "Pure"
 date: 2023-03-24 16:40:37
 star: true
@@ -11,14 +11,14 @@ tag:
   - Linux
 ---
 
-
 :::tip
-之前介绍了ZSH的安装和使用，这次把最终成果介绍一下，就是ZSH + iTerm2 + Pure
+之前介绍了 ZSH 的安装和使用，这次把最终成果介绍一下，就是 ZSH + iTerm2 + Pure
 
-前置工作：安装ZSH，请参照之前的文章👉[zsh安装](./zsh.html)
+前置工作：安装 ZSH，请参照之前的文章 👉[zsh 安装](./zsh.html)
 :::
 
 <!-- more -->
+
 ## 目录
 
 [[toc]]
@@ -31,27 +31,32 @@ tag:
 
 ![流输出](https://s3.bmp.ovh/imgs/2023/03/24/052c26b51ecde528.png)
 
-## 安装pure
+## 安装 pure
+
 👉[官方文档](https://github.com/sindresorhus/pure)
 
 可以使用 npm 或手动安装。需要 Git 2.15.2+ 和 ZSH 5.2+。已知旧版本的 ZSH 可以工作，但不推荐使用。
 ::: code-tabs
 @tab npm
+
 ```bash
 npm install --global pure-prompt
 ```
 
 @tab Homebrew
+
 ```bash
 brew install pure
 ```
 
 @tab 手动
+
 ```bash
 # 在某处克隆此 repo。在这里我们将使用 $HOME/.zsh/pure
 mkdir -p "$HOME/.zsh"
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ```
+
 :::
 
 如果是手动安装的，将克隆的 repo 的路径添加到 $HOME/.zshrc 中的 $fpath 。
@@ -60,6 +65,7 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 # .zshrc
 fpath+=($HOME/.zsh/pure)
 ```
+
 将以下内容复制到 `.zshrc`文件中
 
 ```bash
@@ -69,17 +75,19 @@ prompt pure
 
 在 .zshrc 中设置 ZSH_THEME="" 以禁用 oh-my-zsh 主题。
 
-到这里就基本完成了，如果要基于pure做详细定制，请参考文档
+到这里就基本完成了，如果要基于 pure 做详细定制，请参考文档
 
 ## iTerm2
-👉戳这里下载 [官方下载地址](https://iterm2.com/downloads.html)
 
-效果图我自用的配置文件在这里 👉 [链接](https://pan.baidu.com/s/1cG-gSwoPouYXeZ-P2pjmAg)  密码:74aq
+👉 戳这里下载 [官方下载地址](https://iterm2.com/downloads.html)
+
+效果图我自用的配置文件在这里 👉 [链接](https://pan.baidu.com/s/1cG-gSwoPouYXeZ-P2pjmAg) 密码:74aq
 
 ### 1.主题配置
-访问iTerm2主题网站👉[iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
 
-可以下载zip包并解压到本地，进入解压缩的文件目录，找到schemes文件夹，里边全是主题配置，可以对照github上的效果图来选择
+访问 iTerm2 主题网站 👉[iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
+
+可以下载 zip 包并解压到本地，进入解压缩的文件目录，找到 schemes 文件夹，里边全是主题配置，可以对照 github 上的效果图来选择
 
 ![导入](https://s3.bmp.ovh/imgs/2023/03/24/2eee92812c17fc48.png)
 
@@ -89,7 +97,7 @@ prompt pure
 
 ![默认](https://s3.bmp.ovh/imgs/2023/03/24/9995b0382a76bba8.png)
 
-打开iTerm2，打开Preferences配置界面，Appearence -> General，将 Theme 改为 Minimal
+打开 iTerm2，打开 Preferences 配置界面，Appearence -> General，将 Theme 改为 Minimal
 
 ![](https://s3.bmp.ovh/imgs/2023/03/24/411e917c7fb3d2b9.png)
 
@@ -99,16 +107,18 @@ iTerm2 提供了不少的 Status bar，开启后我们可以在终端的最上�
 
 ![](https://s3.bmp.ovh/imgs/2023/03/24/d93a133dcd5fe00c.png)
 
-打开iTerm2，打开Preferences配置界面，Profiles -> session-> 勾选 Status bar enable-> configure Status bar，选择自己想要的展示内容即可。向下托动放入Active Components 中即可,我这里只选了CPU、内存、网络
+打开 iTerm2，打开 Preferences 配置界面，Profiles -> session-> 勾选 Status bar enable-> configure Status bar，选择自己想要的展示内容即可。向下托动放入 Active Components 中即可,我这里只选了 CPU、内存、网络
 
 ![](https://s3.bmp.ovh/imgs/2023/03/24/918522902136668f.png)
 
 ### 4. 光标选择
-iterm提供了三种光标可供选择：_、|、[]。
 
-打开iTerm2，打开Preferences配置界面，Profiles -> text-> cursor，选择自己想要的光标即可。
+iterm 提供了三种光标可供选择：\_、|、[]。
 
-### 5.配置SSH快速连接
+打开 iTerm2，打开 Preferences 配置界面，Profiles -> text-> cursor，选择自己想要的光标即可。
+
+### 5.配置 SSH 快速连接
+
 ```bash
 #首先在/Users目录下按照如下命令创建sh脚本
 cd /Users/
@@ -126,9 +136,9 @@ touch myserver.sh
 vi myserver.sh
 ```
 
-如果出现没有权限，就命令前面加上sudo
+如果出现没有权限，就命令前面加上 sudo
 
-键盘输入i编辑文件，插入以下内容：
+键盘输入 i 编辑文件，插入以下内容：
 
 ```bash
 #!/usr/bin/expect
@@ -142,41 +152,44 @@ expect {
 }
 interact
 ```
-myserver.sh文件中变量解释：
+
+myserver.sh 文件中变量解释：
+
 ```bash
 [lindex $argv 0]：端口号
 [lindex $argv 1]：服务器用户名
 [lindex $argv 2]：服务器IP地址
 [lindex $argv 3]：服务器密码
 ```
-插入完成后键盘esc 然后输入:wq退出，接下来给文件赋权
+
+插入完成后键盘 esc 然后输入:wq 退出，接下来给文件赋权
 
 chmod 777 myserver.sh
-打开iTerm2，打开Preferences配置界面，Profiles -> general，左下角点击+号，新建profile，参考下面图片在对应位置输入内容即可。
+打开 iTerm2，打开 Preferences 配置界面，Profiles -> general，左下角点击+号，新建 profile，参考下面图片在对应位置输入内容即可。
 
 ![](https://s3.bmp.ovh/imgs/2023/03/24/349fdd06e7bc428d.png)
 
-Name:根据需求输入，通常选择标识性较强的内容便于区分，例如服务器的IP地址
+Name:根据需求输入，通常选择标识性较强的内容便于区分，例如服务器的 IP 地址
 
-Command：这里选择login Shell
+Command：这里选择 login Shell
 
-Send text at start ：填写格式形如A B C D E这样，每一个部分之间用空格隔开，根据自己实际情况填写,下面是对每一部分内容的解释
+Send text at start ：填写格式形如 A B C D E 这样，每一个部分之间用空格隔开，根据自己实际情况填写,下面是对每一部分内容的解释
 
 :::info
-A 代表咱们上面写的本机保存sh脚本的路径：/Users/iterm/myserver.sh
+A 代表咱们上面写的本机保存 sh 脚本的路径：/Users/iterm/myserver.sh
 
 B 代表服务器端口号一般远程连接端口为：22
 
 C 代表服务器用户名一般为：root
 
-D 代表服务器IP：公网IP填写
+D 代表服务器 IP：公网 IP 填写
 
 E 代表服务器密码：根据自己实际的服务器密码填写
-设置好之后打开iTerm2，点击profiles，点击前面自己新增的连接远程服务器的profile的名字
+设置好之后打开 iTerm2，点击 profiles，点击前面自己新增的连接远程服务器的 profile 的名字
 
 首次连接需要输入一次服务器密码，之后再连接就免密码登陆了
 :::
 
-
 ## 结语
+
 当然这里只介绍一部分，还有很多高级玩法，需要用到的时候自己去研究一下了

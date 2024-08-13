@@ -1,5 +1,5 @@
 ---
-icon: "engine"
+icon: "https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/engine.svg"
 date: 2023-04-26
 cover: "https://files.codelife.cc/wallhaven/full/4v/wallhaven-4vp2x3.png?x-oss-process=image/resize,limit_0,m_fill,w_1366,h_768/quality,Q_92/format,webp"
 category:
@@ -9,6 +9,7 @@ tag:
 ---
 
 # Flutter 工作原理
+
 本文档解释了使 Flutter API 正常工作的 Flutter 工具包内部工作原理。由于 Flutter widget 是以积极组合的形式构建的，所以使用 Flutter 构建的用户界面含有大量 widget。为了支撑这些负载，Flutter 使用了次线性算法来布局和构建 widget，这些数据结构使树形结构优化更加高效，并且具有很多常量因子优化。通过一些额外的机制，该设计也允许开发者利用回调（用于构建用户可见的 widget）来轻松创建无限滚动列表。
 
 ## 积极可组合性
@@ -203,13 +204,10 @@ Flutter 一切都是 widget 的口号是围绕着通过组合 widget 来构建�
 **脚注：**
 
 [^1]: 至少对于布局来说。它可能会重新审视绘制、在必要时构建辅助功能树、以及必要时的命中测试。
-
 [^2]: 现实情况当然更复杂一些。有些布局涉及内部维度及基线测量，这涉及到相关子树的额外遍历 （在最坏的情况下，使用积极缓存来降低潜在的二次性能）。但是，这些情况非常罕见。特别是在常见的 shrink-wrapping 情况下，根本不需要内部尺寸。
 [^3]: 严格来说，子节点的位置不是其 RenderBox 几何体的一部分，因此无需在布局期间进行实际计算。许多渲染对象隐式地将它们的单个子节点相对于它们自身的原点定位在 0,0 处，这根本不需要进行计算或存储。一些渲染对象避免计算它们子节点的位置直到最后可能需要的时刻（比如，在绘制过程中），以避免以后没有被绘制时的计算。
 [^4]: 该规则有一个例外。正如 [按需构建 widget](https://flutter.cn/docs/resources/inside-flutter#building-widgets-on-demand) 中所描述的，由于布局约束的变化，一些 widget 可以被重建。如果 widget 在同一帧中因与此无关的原因被标记为脏，同时也由于它受布局约束的影响，该 widget 将会被构建两次。该次冗余构建仅限于 widget 自身，并不会影响其后代节点。
 [^5]: 键是一个可选的与 widget 相关联的不透明对象，它的相等操作符用于影响协调算法。
 [^6]: 对于可访问性，并在 widget 构建及在窗口显示的过程中为应用提供几毫米的时间，视窗口会在可见 widget 的前后为几百个像素构建（但不进行绘制）widget。
-
 [^7]: 该方法首次在 Facebook 的 React 框架中得到了广泛使用。
-
 [^8]: 实际上，允许 **t** 值超过 0.0-1.0 的范围，这同样适用于某些曲线。比如 elastic 缓动曲线通过短暂的过冲来表示弹跳效应。插值逻辑通常可以在适当情况下推算出起始或结束点。对于某些类型，比如在插入颜色时，**t** 值被有效地固定到 0.0-1.0 的范围。

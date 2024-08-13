@@ -1,33 +1,29 @@
-# Telegram的注册及使用
+---
+title: Telegram的注册及使用
+icon: "user-plus"
+---
 
 > 更新时间：2021-10-18
 
-
 ## 简介
 
-俗称TG，作为聊天软件中的翘楚，自然是微信无法企及的高度
+俗称 TG，作为聊天软件中的翘楚，自然是微信无法企及的高度
 
 ::: tip 说明
-全程需要翻墙使用，[☛科学上网工具及使用方法](../gfw/proxy.md)
+全程需要翻墙使用，[☛ 科学上网工具及使用方法](../gfw/proxy.md)
 :::
 
 官网：https://telegram.org/
 
-
 ![](/tg/tg.png)
 
-
-
-
 ## 注册
-
 
 根据自己的客户端下载软件，[在官网下载](https://telegram.org/apps)
 
 ![](/tg/tg-01.png)
 
-
-打开App 点下一步啊
+打开 App 点下一步啊
 
 ::: tip 说明
 开梯子啊，不然不跳转！
@@ -35,64 +31,47 @@
 
 ![](/tg/tg-02.png)
 
-
 输入自己的手机号，注册账号
 
 ![](/tg/tg-03.png)
-
 
 输入验证码
 
 ![](/tg/tg-04.png)
 
-
 名字随便，反正后面可以改
 
 ![](/tg/tg-05.png)
-
 
 这样就注册成功了
 
 ![](/tg/tg-06.png)
 
-
 加群链接一般是 `https://t.me/***`
 
 ::: tip 说明
-TG里使用直接 `@***` 即可 
+TG 里使用直接 `@***` 即可
 :::
 
 ![](/tg/tg-07.png)
 
-
-
-
-
-
 ## 使用
-
 
 聊天软件感觉没什么好教的，摸索几下就会了
 
+- [Telegram 限制](https://limits.tginfo.me/zh-CN)
 
-* [Telegram限制](https://limits.tginfo.me/zh-CN)
-
-* [Telegram新手指南/使用教程及频道推荐](https://tingtalk.me/telegram)
-
-
+- [Telegram 新手指南/使用教程及频道推荐](https://tingtalk.me/telegram)
 
 ::: details 汉化
 
 系统自带的语言没有，用翻译包即可
 
-APP搜索 `zh_CN` 或者 跳群：[https://t.me/zh_CN](https://t.me/zh_CN)
+APP 搜索 `zh_CN` 或者 跳群：[https://t.me/zh_CN](https://t.me/zh_CN)
 
 ![](/tg/tg-10.png)
 
 :::
-
-
-
 
 ::: details 隐私
 
@@ -102,11 +81,6 @@ APP搜索 `zh_CN` 或者 跳群：[https://t.me/zh_CN](https://t.me/zh_CN)
 
 :::
 
-
-
-
-
-
 :::: details 解除敏感群
 
 情况如下：
@@ -115,18 +89,15 @@ APP搜索 `zh_CN` 或者 跳群：[https://t.me/zh_CN](https://t.me/zh_CN)
 
 打开登入网页版：[https://web.telegram.org](https://web.telegram.org)
 
-设置Settings-Privacy and Security - 下拉底部 勾选 `Disable filtering`
+设置 Settings-Privacy and Security - 下拉底部 勾选 `Disable filtering`
 
 ::: tip 说明
-关掉网页，重新打开APP即可恢复正常
+关掉网页，重新打开 APP 即可恢复正常
 :::
 
 ![](/tg/tg-09.png)
 
 ::::
-
-
-
 
 ::: details 解除私聊限制
 
@@ -136,17 +107,13 @@ APP搜索 `zh_CN` 或者 跳群：[https://t.me/zh_CN](https://t.me/zh_CN)
 
 :::
 
-
-
-
-
 :::: details 注销账号
 
 ::: danger 警告
 注销后账号群组消息，全部消失！请确保无其他损失！
 :::
 
-加群后有些群有防机器人验证，超时后会永久踢出，可以注销ID后重新加入
+加群后有些群有防机器人验证，超时后会永久踢出，可以注销 ID 后重新加入
 
 > 建议还是直接找管理解除省事
 
@@ -156,13 +123,11 @@ APP搜索 `zh_CN` 或者 跳群：[https://t.me/zh_CN](https://t.me/zh_CN)
 
 ![](/tg/tg-12.png)
 
-
-打开电报APP，官方有个英文code验证码消息，复制
+打开电报 APP，官方有个英文 code 验证码消息，复制
 
 ![](/tg/tg-13.png)
 
-
-在 `Confirmation Code` 栏粘贴收到的验证码，再点 Sign In登录
+在 `Confirmation Code` 栏粘贴收到的验证码，再点 Sign In 登录
 
 ![](/tg/tg-14.png)
 
@@ -170,30 +135,18 @@ APP搜索 `zh_CN` 或者 跳群：[https://t.me/zh_CN](https://t.me/zh_CN)
 
 ![](/tg/tg-15.png)
 
-
 点 `Delete My Account` 删除账户，YES
 
 ![](/tg/tg-16.png)
 
-
-注销成功会提示，APP的账号也自动退出登录，重新注册即可
+注销成功会提示，APP 的账号也自动退出登录，重新注册即可
 
 ![](/tg/tg-17.png)
 
 ::::
 
-
-
-
-
 ## 常见问题
 
 1.不使用账号是否会注销
 
-会，默认6个月不发消息自动注销，可以在设置 - 隐私和安全里延长为1年
-
-
-
-
-
-
+会，默认 6 个月不发消息自动注销，可以在设置 - 隐私和安全里延长为 1 年

@@ -1,6 +1,6 @@
 ---
 title: "ReactNative"
-icon: "react"
+icon: "https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/react.svg"
 date: 1978-01-09
 index: false
 timeline: false

@@ -1,6 +1,6 @@
 ---
-title: "网站"
-icon: globe
+title: "前端开发"
+icon: subscript
 date: 2024-01-09
 timeline: false
 index: false

@@ -1,6 +1,6 @@
 ---
 title: "更优雅强大的终端ZSH"
-icon: "hk-zsh"
+icon: "https://static.vecteezy.com/system/resources/previews/009/021/595/large_2x/zsh-logo-zsh-letter-zsh-letter-logo-design-initials-zsh-logo-linked-with-circle-and-uppercase-monogram-logo-zsh-typography-for-technology-business-and-real-estate-brand-vector.jpg"
 subtitle: "Linux"
 date: 2019-07-24
 star: true

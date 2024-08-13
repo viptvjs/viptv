@@ -4,8 +4,7 @@ import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentU
 import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
 import { getDirname, path } from "vuepress/utils";
 const __dirname = getDirname(import.meta.url);
-const hostname =
-  process.env["HOSTNAME"] ?? "https://viptv.work";
+const hostname = process.env["HOSTNAME"] ?? "https://viptv.work";
 
 export default hopeTheme(
   {
@@ -20,15 +19,23 @@ export default hopeTheme(
     logo: "logo.svg",
     docsRepo: "viptv-work/viptv",
     docsDir: "src",
-    docsBranch: "main",// 文档源文件的仓库分支
-    pageInfo: ["Original", "Date", "Category", "Tag", "ReadingTime", "Word", "PageView"],
+    docsBranch: "main", // 文档源文件的仓库分支
+    pageInfo: [
+      "Original",
+      "Date",
+      "Category",
+      "Tag",
+      "ReadingTime",
+      "Word",
+      "PageView",
+    ],
     repoLabel: "GitHub", // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
-    repo: "viptv-work/viptv",  // 自定义仓库链接文字。默认从 `repo` 中自动推断为
-    repoDisplay: true,  //是否在导航栏显示仓库链接，默认为 `true`
-    fullscreen: true,  //全屏按钮
+    repo: "viptv-work/viptv", // 自定义仓库链接文字。默认从 `repo` 中自动推断为
+    repoDisplay: true, //是否在导航栏显示仓库链接，默认为 `true`
+    fullscreen: true, //全屏按钮
     lastUpdated: true,
     contributors: true, //全局禁用是否显示页面贡献者
-    navbarTitle: 'VIPTV',
+    navbarTitle: "VIPTV",
     extraLocales: {
       官网主站: "https://www.viptv.work/:route",
       官网社区: "https://github.com/viptv-work/viptv/discussions",
@@ -95,12 +102,12 @@ export default hopeTheme(
               "/en/": "Tag: $content",
               "/": "标签：$content",
             },
-          }
-        ]
+          },
+        ],
       },
       blog: {
         hotReload: true, // 启用热更新
-        excerpt: true,//是否生成摘要。
+        excerpt: true, //是否生成摘要。
         excerptLength: 200,
         type: [
           getRecentUpdatedArticles({
@@ -113,7 +120,7 @@ export default hopeTheme(
       },
 
       copyCode: {
-        showInMobile: true // 手机端显示代码复制
+        showInMobile: true, // 手机端显示代码复制
       },
 
       copyright: true,
@@ -122,7 +129,8 @@ export default hopeTheme(
         {
           path: "/",
           title: "欢迎访问VIPTV",
-          content: "<b>周知：</b>原 3 个 QQ 群成员活跃状态差异较大，且分布较分散，现停止新人加群，为了方便大家的交流，请移步 QQ 频道。</div>",
+          content:
+            "<b>周知：</b>原 3 个 QQ 群成员活跃状态差异较大，且分布较分散，现停止新人加群，为了方便大家的交流，请移步 QQ 频道。</div>",
           actions: [
             {
               text: "打赏作者→",
@@ -130,7 +138,6 @@ export default hopeTheme(
               type: "primary",
             },
             { text: "默认动作" },
-
           ],
           fullscreen: false,
           showOnce: false,
@@ -163,7 +170,17 @@ export default hopeTheme(
         enabled: true,
       },
       components: {
-        components: ["PDF", "Share", "FontIcon","Badge", "VPCard", "ArtPlayer", "VPBanner", "SiteInfo", "VidStack"]
+        components: [
+          "PDF",
+          "Share",
+          "FontIcon",
+          "Badge",
+          "VPCard",
+          "ArtPlayer",
+          "VPBanner",
+          "SiteInfo",
+          "VidStack",
+        ],
       },
       /*  comment: {
          provider: 'Giscus',
@@ -200,7 +217,8 @@ export default hopeTheme(
         sup: true, //是否启用上角标格式支持。
         tabs: true, // 添加选项卡支持
         tasklist: true, //是否启用任务列表格式支持
-        include: {  //是否启用 Markdown 导入支持
+        include: {
+          //是否启用 Markdown 导入支持
           resolvePath: (file) => {
             if (file.startsWith("@src"))
               return file.replace("@src", path.resolve(__dirname, ".."));
@@ -208,7 +226,8 @@ export default hopeTheme(
             return file;
           },
         },
-        stylize: [  //样式化
+        stylize: [
+          //样式化
           {
             matcher: "Recommended",
             replacer: ({
@@ -250,6 +269,6 @@ export default hopeTheme(
     },
   },
   {
-    custom: true
+    custom: true,
   }
 );

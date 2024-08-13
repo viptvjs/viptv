@@ -44,6 +44,10 @@ export default defineUserConfig({
       __dirname,
       "./components/BlogHero.vue"
     ),
+    "@theme-hope/components/NormalPage": path.resolve(
+      __dirname,
+      "./components/NormalPage.vue"
+    ),
     "@theme-hope/modules/info/components/TOC": path.resolve(
       __dirname,
       "./components/toc.vue"
