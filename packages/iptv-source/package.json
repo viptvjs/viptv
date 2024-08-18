@@ -7,7 +7,7 @@
   ],
   "repository": {
     "url": "https://github.com/viptv-work/dev",
-    "directory": "packages/vt-iptv"
+    "directory": "packages/iptv-source"
   },
   "homepage": "https://github.com/iptv-js",
   "bugs": {

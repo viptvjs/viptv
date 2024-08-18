@@ -1,34 +1,34 @@
 import fetch from "node-fetch";
 type PictureInfo = {
-  hsh: string
-  date: string
-  title: string
-  copyright: string
-  url_preview: string
-  url_1080: string
-  url_4k: string
-}
+  hsh: string;
+  date: string;
+  title: string;
+  copyright: string;
+  url_preview: string;
+  url_1080: string;
+  url_4k: string;
+};
 
 type ArchivesInfo = {
-  date: string
-  previewPath: string
-  mapPath: string
-}
+  date: string;
+  previewPath: string;
+  mapPath: string;
+};
 
 type JSONMap = {
-  images: PictureInfo[]
-  archives: ArchivesInfo[]
-}
+  images: PictureInfo[];
+  archives: ArchivesInfo[];
+};
 
 type SidebarItem = {
-  text: string
-  link?: string
-  icon?: string
-  collapsible?: boolean
-  collapsed?: boolean
-  children?: SidebarItem[]
-  items?: SidebarItem[]
-}
+  text: string;
+  link?: string;
+  icon?: string;
+  collapsible?: boolean;
+  collapsed?: boolean;
+  children?: SidebarItem[];
+  items?: SidebarItem[];
+};
 
 import {
   existsSync,
@@ -36,9 +36,9 @@ import {
   writeFile,
   readFileSync,
   mkdirSync,
+  rmSync,
 } from "node:fs";
 import { dirname } from "node:path";
-
 
 const option = {
   bingUrl: "https://cn.bing.com",
@@ -54,26 +54,26 @@ const option = {
 /** 根据已有的 map.json，重写所有文件 */
 function rewrite() {
   try {
-    const buffer = readFileSync('./map.json')
-    const stringData = buffer.toString()
-    const JSONData = JSON.parse(stringData) as JSONMap
-    const images = JSONData.images
+    const buffer = readFileSync("./map.json");
+    const stringData = buffer.toString();
+    const JSONData = JSON.parse(stringData) as JSONMap;
+    const images = JSONData.images;
 
-    ;[
-      './map.json',
-      './README.md',
-      './archives',
-      './docs/archives',
-      './docs/index.md',
-      './docs/.vitepress/sidebar.ts'
-    ].forEach(path => rmSync(path, { recursive: true, force: true }))
+    [
+      "./map.json",
+      "./README.md",
+      "./archives",
+      "./docs/archives",
+      "./docs/index.md",
+      "./docs/.vitepress/sidebar.ts",
+    ].forEach((path) => rmSync(path, { recursive: true, force: true }));
 
-    images.forEach(item => {
-      writeMap(item)
-    })
+    images.forEach((item) => {
+      writeMap(item);
+    });
   } catch (e) {
-    console.log(e)
-    throw e
+    console.log(e);
+    throw e;
   }
 }
 
@@ -163,12 +163,12 @@ function writeMap(info: PictureInfo) {
       );
     }
     writeFileSync("./map.json", JSON.stringify(JSONData));
-    console.log('Done: Write map.json completed! ↓')
-    console.log(info)
-    writeReadme(images, archives)
+    console.log("Done: Write map.json completed! ↓");
+    console.log(info);
+    writeReadme(images, archives);
     writeDocs(info, images, archives);
   } catch (e) {
-    console.log(e)
+    console.log(e);
     throw e;
   }
 }
@@ -176,39 +176,39 @@ function writeMap(info: PictureInfo) {
 async function writeReadme(images: PictureInfo[], archives: ArchivesInfo[]) {
   try {
     // 展示最新的31条
-    const imageList = images.slice(0, 31)
-    const today = imageList.shift()
+    const imageList = images.slice(0, 31);
+    const today = imageList.shift();
 
-    const { date, title, url_4k } = today!
+    const { date, title, url_4k } = today!;
     const writeDataList = [
       `# Bing Daily Wallpaper\n\n`,
       `### ${date} ${title}\n\n`,
       `![](${url_4k})\n\n`,
       `|      |      |      |\n`,
-      `|:----:|:----:|:----:|\n`
-    ]
+      `|:----:|:----:|:----:|\n`,
+    ];
 
     imageList.forEach((v, i) => {
-      const cell = `![](${v.url_preview})<br> ${v.date} [4K 版本](${v.url_4k}) <br> ${v.title}`
+      const cell = `![](${v.url_preview})<br> ${v.date} [4K 版本](${v.url_4k}) <br> ${v.title}`;
       if ((i + 1) % 3 === 0) {
         // 一行3个
-        writeDataList.push(`| ${cell} |\n`)
+        writeDataList.push(`| ${cell} |\n`);
       } else {
-        writeDataList.push(`| ${cell}`)
+        writeDataList.push(`| ${cell}`);
       }
-    })
+    });
 
-    writeDataList.push('\n\n### 历史归档\n\n')
+    writeDataList.push("\n\n### 历史归档\n\n");
     const archivesStr = archives
-      .map(v => `[${v.date}](${v.previewPath})`)
-      .join(' | ')
-    writeDataList.push(archivesStr)
+      .map((v) => `[${v.date}](${v.previewPath})`)
+      .join(" | ");
+    writeDataList.push(archivesStr);
 
-    writeFileSync('./README.md', writeDataList.join(''))
-    console.log('Done: Write README.md completed!')
+    writeFileSync("./README.md", writeDataList.join(""));
+    console.log("Done: Write README.md completed!");
   } catch (e) {
-    console.log(e)
-    throw e
+    console.log(e);
+    throw e;
   }
 }
 
@@ -271,11 +271,15 @@ function writeDocs(
       `[Download 1920 * 1080](${item.url_1080}) | [Download 3840 * 2160](${item.url_4k})\n\n`
     );
   });
-  writeFile("../viptv-docs/src/archives/README.md", writeDataList.join(""), (err) => {
-    if (err) {
-      throw err;
+  writeFile(
+    "../viptv-docs/src/archives/README.md",
+    writeDataList.join(""),
+    (err) => {
+      if (err) {
+        throw err;
+      }
     }
-  });
+  );
   writeDocsArchive(info, archives);
   writeSidebar(archives);
 }
