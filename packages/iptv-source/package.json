@@ -24,9 +24,9 @@
     "build": "tsup && node ./lib/main.js"
   },
   "devDependencies": {
-    "@types/node": "^20.14.13",
+    "@types/node": "^20.15.0",
     "@types/opencc-js": "^1.0.3",
-    "tsup": "^8.2.3",
+    "tsup": "^8.2.4",
     "typescript": "^5.5.4"
   },
   "dependencies": {

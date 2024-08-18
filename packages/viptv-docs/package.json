@@ -20,21 +20,21 @@
     "preview": "vuepress-vite preview src"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "@types/node": "^22.4.0",
+    "@vuepress/bundler-vite": "2.0.0-rc.15",
     "@vuepress/helper": "2.0.0-rc.31",
-    "@vueuse/core": "^10.11.0",
+    "@vueuse/core": "^10.11.1",
     "aplayer": "^1.10.1",
-    "artplayer": "^5.1.6",
-    "axios": "^1.7.2",
+    "artplayer": "^5.1.7",
+    "axios": "^1.7.4",
     "dashjs": "^4.7.4",
     "dexie": "^4.0.8",
-    "hls.js": "^1.5.13",
+    "hls.js": "^1.5.14",
     "mpegts.js": "^1.7.3",
     "reveal.js": "^5.1.0",
-    "vidstack": "^1.11.30",
-    "vue": "^3.4.34",
-    "vuepress": "2.0.0-rc.14",
+    "vidstack": "^1.12.9",
+    "vue": "^3.4.38",
+    "vuepress": "2.0.0-rc.15",
     "vuepress-plugin-components": "2.0.0-rc.52",
     "vuepress-plugin-meting2": "1.4.2",
     "vuepress-plugin-search-pro": "2.0.0-rc.52",
@@ -44,7 +44,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "artplayer-plugin-danmuku": "^5.1.4",
     "artplayer-plugin-hls-quality": "^2.0.0",
-    "pinia": "^2.2.0",
-    "vue-router": "^4.4.0"
+    "pinia": "^2.2.2",
+    "vue-router": "^4.4.3"
   }
 }
