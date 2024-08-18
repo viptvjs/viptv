@@ -21,14 +21,16 @@ const ProjectLink: FunctionalComponent<
   return h(
     "a",
     {
-      href: `https://${IS_NETLIFY
-        ? `${type ?? "plugin"}-${name}.vuejs.press${ensureLeadingSlash(path)}`
-        : `vuepress-theme-hope.${IS_GITEE ? "gitee" : "github"
-        }.io/v2${base}${ensureLeadingSlash(path)}`
-        }`,
+      href: `https://${
+        IS_NETLIFY
+          ? `${type ?? "plugin"}-${name}.vuejs.press${ensureLeadingSlash(path)}`
+          : `vuepress-theme-hope.${
+              IS_GITEE ? "gitee" : "github"
+            }.io/v2${base}${ensureLeadingSlash(path)}`
+      }`,
       target: "_blank",
     },
-    [slots.default(), h(resolveComponent("ExternalLinkIcon"))],
+    [slots.default(), h(resolveComponent("ExternalLinkIcon"))]
   );
 };
 
