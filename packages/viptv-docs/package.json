@@ -38,6 +38,7 @@
     "vuepress-plugin-components": "2.0.0-rc.52",
     "vuepress-plugin-meting2": "1.4.2",
     "vuepress-plugin-search-pro": "2.0.0-rc.52",
+    "vue-router": "^4.4.3",
     "vuepress-theme-hope": "2.0.0-rc.52"
   }
 }
