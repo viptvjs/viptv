@@ -7,7 +7,6 @@
     "davidanson.vscode-markdownlint",
     "stylelint.vscode-stylelint",
     "bierner.markdown-yaml-preamble",
-    "streetsidesoftware.code-spell-checker",
     "github.vscode-github-actions"
   ]
 }
