@@ -24,6 +24,43 @@ export default defineUserConfig({
         content: "60990E7826770BD82AE9B5EFB468E0BB",
       },
     ],
+    [
+      "meta",
+      {
+        name: "apple-mobile-web-app-status-bar-style",
+        content: "black",
+      },
+    ],
+    ["meta", { name: "theme-color", content: "#46bd87" }],
+
+    [
+      "link",
+      {
+        rel: "icon",
+        href: `/assets/png/VIPTV-LOGO-600x600.png`,
+        type: "image/png",
+        sizes: "600x600",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "icon",
+        href: `/assets/png/VIPTV-LOGO-512x512.png`,
+        type: "image/png",
+        sizes: "512x512",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "apple-touch-icon",
+        href: `/assets/png/VIPTV-LOGO-192x192.png`,
+        type: "image/png",
+        sizes: "192x192",
+      },
+    ],
+
   ],
   locales: {
     "/": {

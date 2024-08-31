@@ -72,6 +72,9 @@ export default hopeTheme(
       medias: {
         Email: "mailto:vodtvx@gmail.com",
         Gitee: "https://gitee.com/viptv-work",
+        Discord: "https://discord.gg/K7azvhYv",
+        Twitter:  "https://x.com/viptv_work",
+        Telegram: "https://t.me/viptv_work",
         GitHub: "https://github.com/viptv-work",
         Gitlab: "https://gitlab.com/viptv",
       },
@@ -79,8 +82,8 @@ export default hopeTheme(
     // 加密配置
     encrypt: {
       config: {
-        "/vod/lunli/": ["3.1415926", "8.8888888", "9.9999999"],
-        "/iptv/sm/": ["3.1415926", "8.8888888", "9.9999999"],
+        "/private/lunli/": ["3.1415926", "8.8888888", "9.9999999"],
+        "/private/sm/": ["3.1415926", "8.8888888", "9.9999999"],
       },
     },
     editLink: false,
