@@ -43,9 +43,7 @@ copy:
 ::: tip 您可以打开以下链接打赏赞助我！ ໒( ” ¤ ‿ ¤ ” )७
 :::
 ::: tabs
-@tab PayPal（推荐）
-PayPal 打赏地址 : <https://paypal.me/hefung>
-@tab 爱发电
+@tab 爱发电（推荐）
 爱发电打赏地址 : <https://afdian.com/a/viptv>
 :::
 

@@ -1,7 +1,6 @@
 ---
 title: "Flutter 基础大集合"
 description: Flutter初学，demo
-icon: "https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/flutter.svg"
 date: 2023-03-20
 star: true
 category:

@@ -3,7 +3,6 @@ title: GitHub Actions 使用介绍
 icon: fa-brands fa-github
 date: 2023-04-14
 star: true
-cover: "https://files.codelife.cc/wallhaven/full/j3/wallhaven-j3zvvp.jpg?x-oss-process=image/resize,limit_0,m_fill,w_1366,h_768/quality,Q_92/format,webp"
 category:
   - GitHub
 tag:

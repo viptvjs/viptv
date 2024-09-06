@@ -3,7 +3,6 @@ title: "Vue常见优化手段"
 icon: support
 date: 2023-05-17
 star: true
-cover: 'https://w.wallhaven.cc/full/57/wallhaven-577og5.jpg'
 category:
   - Vue
 tag:

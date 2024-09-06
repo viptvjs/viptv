@@ -2,7 +2,6 @@
 title: "Dart 中的并发"
 icon: "asynchronous"
 date: 2023-04-26
-cover: "https://w.wallhaven.cc/full/72/wallhaven-7286w9.png"
 category:
   - Flutter
   - Dart
