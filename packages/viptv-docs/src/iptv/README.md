@@ -40,7 +40,7 @@ vpb:
       - text: DNS托管平台
         link: https://www.cloudflare.com/
       - text: 代码托管平台
-        link: https://github.com/viptv-work/viptv/tree/gh-pages
+        link: https://github.com/viptv-work/viptv
 ---
 
 <VPBanner v-for="item in $frontmatter.vpb" :key="item.link" v-bind="item" />
