@@ -15,7 +15,7 @@ tag:
 @tab:active 量子资源 #vod-gcj-a
 <SiteInfo v-for="(item,k) in state.a" :name="item.vod_name" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="a(k)" />
-@tab 优质资源 #vod-gcj-b
+@tab 暴风资源 #vod-gcj-b
 <SiteInfo v-for="(item,k) in state.b" :name="item.vod_name" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="b(k)" />
 :::
@@ -38,7 +38,7 @@ tag:
 
   onMounted(async () => {
     state.value.a = (await vod.find({ "name": "lzzy-13" })).data
-    state.value.b = (await vod.find({ "name": "yzzy-12" })).data
+    state.value.b = (await vod.find({ "name": "bfzy-31" })).data
     a(0)
   });
   const a = (key) => {

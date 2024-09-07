@@ -18,9 +18,6 @@ tag:
 @tab 暴风资源 #vod-hkj-b
 <SiteInfo v-for="(item,k) in state.b" :name="item.vod_name" desc="" :logo="item.vod_pic"
 :preview="item.vod_pic" url="" @click="b(k)" />
-@tab 优质资源 #vod-hkj-c
-<SiteInfo v-for="(item,k) in state.c" :name="item.vod_name" desc="" :logo="item.vod_pic"
-:preview="item.vod_pic" url="" @click="c(k)" />
 :::
 
 <script setup>
@@ -34,7 +31,6 @@ tag:
       src:"",
       a: [],
       b: [],
-      c: [],
       p: []
     }
   )
@@ -42,7 +38,6 @@ tag:
   onMounted(async () => {
     state.value.a = (await vod.find({ "name": "lzzy-14" })).data
     state.value.b = (await vod.find({ "name": "bfzy-33" })).data
-    state.value.c = (await vod.find({ "name": "yzzy-16" })).data
     a(0)
   });
   const a = (key) => {
@@ -54,10 +49,5 @@ tag:
     const { b } = state.value
     state.value.p = b[key].play_list
     state.value.src = b[key].play_list[0].url
-  }
-  const c = (key) => {
-    const { c } = state.value
-    state.value.p = c[key].play_list
-    state.value.src = c[key].play_list[0].url
   }
 </script>

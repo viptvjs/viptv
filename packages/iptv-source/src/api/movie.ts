@@ -427,6 +427,56 @@ export const ApiJson: DSource[] = [
   },
   {
     name: "暴风资源-bfzy.tv",
+    f_name: "bfzy-31.json",
+    url: "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/at/json/?ac=videolist&t=31",
+  },
+  {
+    name: "暴风资源-bfzy.tv",
+    f_name: "bfzy-32.json",
+    url: "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/at/json/?ac=videolist&t=32",
+  },
+  {
+    name: "暴风资源-bfzy.tv",
+    f_name: "bfzy-33.json",
+    url: "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/at/json/?ac=videolist&t=33",
+  },
+  {
+    name: "暴风资源-bfzy.tv",
+    f_name: "bfzy-34.json",
+    url: "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/at/json/?ac=videolist&t=34",
+  },
+  {
+    name: "暴风资源-bfzy.tv",
+    f_name: "bfzy-35.json",
+    url: "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/at/json/?ac=videolist&t=35",
+  },
+  {
+    name: "暴风资源-bfzy.tv",
+    f_name: "bfzy-36.json",
+    url: "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/at/json/?ac=videolist&t=36",
+  },
+  {
+    name: "暴风资源-bfzy.tv",
+    f_name: "bfzy-37.json",
+    url: "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/at/json/?ac=videolist&t=37",
+  },
+  {
+    name: "暴风资源-bfzy.tv",
+    f_name: "bfzy-38.json",
+    url: "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/at/json/?ac=videolist&t=38",
+  },
+  {
+    name: "暴风资源-bfzy.tv",
+    f_name: "bfzy-40.json",
+    url: "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/at/json/?ac=videolist&t=40",
+  },
+  {
+    name: "暴风资源-bfzy.tv",
+    f_name: "bfzy-41.json",
+    url: "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/at/json/?ac=videolist&t=41",
+  },
+  {
+    name: "暴风资源-bfzy.tv",
     f_name: "bfzy-54.json",
     url: "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/at/json/?ac=videolist&t=54",
   },

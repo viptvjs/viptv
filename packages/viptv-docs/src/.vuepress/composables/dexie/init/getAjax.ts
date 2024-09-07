@@ -58,6 +58,6 @@ export const xgsp = async (url: string) => {
   });
 };
 
-export const raw = "https://raw.viptv.work/";
+export const raw = "https://iptv.viptv.work/";
 export const cf = "https://cf.viptv.work/";
 export const cors = "https://cors.eu.org/";
