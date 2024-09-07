@@ -1,13 +1,13 @@
 {
   "name": "vt-update",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Update helper for Viptv",
   "keywords": [
     "viptv",
     "update"
   ],
   "repository": {
-    "url": "https://github.com/viptv-work/dev",
+    "url": "git+https://github.com/viptv-work/dev.git",
     "directory": "packages/vt-update"
   },
   "homepage": "https://github.com/viptv-work",
