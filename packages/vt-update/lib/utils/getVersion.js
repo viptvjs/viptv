@@ -4,11 +4,13 @@ import { getRegistry } from './registry.js';
 export const getVersion = async (packageManager, packageName, tag = 'auto', retries = 3) => {
     const registry = getRegistry(packageManager);
     const infoUrl = `${registry}-/package/${packageName}/dist-tags`;
-    const getVersionInfo = () => new Promise((resolve, reject) => {
+    const getVersionInfo = async () => new Promise((resolve, reject) => {
         get(infoUrl, (res) => {
             if (res.statusCode === 200) {
                 let body = '';
-                res.on('data', (data) => (body += data));
+                res.on('data', (data) => {
+                    body += data;
+                });
                 res.on('end', () => {
                     resolve(JSON.parse(body));
                 });
@@ -18,9 +20,9 @@ export const getVersion = async (packageManager, packageName, tag = 'auto', retr
             }
         }).on('error', reject);
     });
-    let times = 1;
-    do {
+    for (let times = 1; times <= retries; times++) {
         const versionInfo = await getVersionInfo().catch(() => {
+            // eslint-disable-next-line no-console
             console.log(`Get ${packageName} version failed, [${times}/${retries}]`);
         });
         if (versionInfo) {
@@ -33,8 +35,7 @@ export const getVersion = async (packageManager, packageName, tag = 'auto', retr
                         ? next
                         : latest;
         }
-        times++;
-    } while (times <= retries);
+    }
     throw new Error(`Failed to get ${packageName} version!\n Can not get version info from ${infoUrl}`);
 };
 //# sourceMappingURL=getVersion.js.map

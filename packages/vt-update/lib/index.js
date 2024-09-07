@@ -1,15 +1,17 @@
 #!/usr/bin/env node
+/* eslint-disable no-console */
 import { spawnSync } from 'node:child_process';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { cac } from 'cac';
-import { version } from './config/index.js';
+import { VERSION } from './config/index.js';
 import { checkTaobaoRegistry, getPackageManager, updatePackages, } from './utils/index.js';
 const cli = cac('vt-update');
 cli
-    .command('[dir]', 'Update Viptv project')
+    .command('[dir]', 'Update VIPTV project')
     .usage('pnpm dlx vt-update [dir] / npx vt-update [dir] / bunx vt-update [dir]')
     .example('docs')
+    // eslint-disable-next-line @typescript-eslint/no-inferrable-types
     .action(async (targetDir = '') => {
     console.log('Bumping deps...');
     const dir = resolve(process.cwd(), targetDir);
@@ -29,12 +31,12 @@ cli
             : Promise.resolve(),
     ]);
     writeFileSync(packageJSON, `${JSON.stringify(packageJSONContent, null, 2)}\n`);
-    console.log('Install deps...');
+    console.info('Install deps...');
     spawnSync(`${packageManager} install`, {
         shell: true,
         stdio: 'inherit',
     });
-    console.log('Upgrading deps...');
+    console.info('Upgrading deps...');
     spawnSync(packageManager === 'pnpm'
         ? `pnpm update`
         : packageManager === 'yarn1'
@@ -51,9 +53,9 @@ cli
 cli.help(() => [
     {
         title: 'pnpm dlx vt-update [dir] / npx vt-update [dir] / bunx vt-update [dir]',
-        body: 'Update VipTV project in [dir]',
+        body: 'Update VIPTV project in [dir]',
     },
 ]);
-cli.version(version);
+cli.version(VERSION);
 cli.parse();
 //# sourceMappingURL=index.js.map

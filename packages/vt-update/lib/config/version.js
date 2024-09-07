@@ -1,3 +1,3 @@
 import { createRequire } from 'node:module';
-export const { version } = createRequire(import.meta.url)('vt-update/package.json');
+export const VERSION = createRequire(import.meta.url)('vt-update/package.json').version;
 //# sourceMappingURL=version.js.map

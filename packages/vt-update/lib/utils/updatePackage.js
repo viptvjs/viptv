@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { DEPRECATED_PACKAGES, OFFICIAL_PACKAGES, OFFICIAL_PLUGINS_AND_THEMES_REGEXP, REMOVED_PACKAGES, THIRD_PARTY_PLUGINS, THIRD_PARTY_THEMES, VUE_RELATED_PACKAGES, } from '../config/index.js';
 import { getVersion } from './getVersion.js';
 export const updatePackages = async (packageManager, dependencies) => {
