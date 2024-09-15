@@ -38,4 +38,3 @@ export const getVersion = async (packageManager, packageName, tag = 'auto', retr
     }
     throw new Error(`Failed to get ${packageName} version!\n Can not get version info from ${infoUrl}`);
 };
-//# sourceMappingURL=getVersion.js.map

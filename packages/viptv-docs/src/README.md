@@ -4,8 +4,8 @@ icon: home
 title: 首页
 heroImage: /logo.svg
 heroFullScreen: true
-bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
+bgImage: /assets/svg/4-light.svg
+bgImageDark: /assets/svg/4-dark.svg
 bgImageStyle:
   background-attachment: fixed
 

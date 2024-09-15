@@ -1,7 +1,13 @@
 <template>
   <TOC>
+    <template #before>
+      <a href="/about/donate" target="_blank">
+        <div style="text-align: center; "><img src="/assets/jpg/zanzhu.jpg" alt="红杏IEPL专线机场" width="100%">
+        </div>
+      </a>
+    </template>
     <template #after>
-      <a href="/about/donate">
+      <a href="">
         <div id="flip-wrapper">
           <div id="flip-content">
             <div class="face"></div>

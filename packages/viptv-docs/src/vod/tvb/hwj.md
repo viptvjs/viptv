@@ -45,7 +45,7 @@ tag:
     state.value.p = a[key].play_list
     state.value.src = a[key].play_list[0].url
   }
-  const burl = (key) => {
+  const b = (key) => {
     const { b } = state.value
     state.value.p = b[key].play_list
     state.value.src = b[key].play_list[0].url

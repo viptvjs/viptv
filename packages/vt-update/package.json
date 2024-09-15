@@ -1,7 +1,7 @@
 {
   "name": "vt-update",
   "version": "2.0.6",
-  "description": "Update helper for Viptv",
+  "description": "Update Helper For VIPTV",
   "keywords": [
     "viptv",
     "update"
@@ -22,7 +22,7 @@
     "./package.json": "./package.json"
   },
   "bin": {
-    "vt-update": "lib/index.js"
+    "vt-update": "lib/main.js"
   },
   "files": [
     "lib"
@@ -37,6 +37,9 @@
   "devDependencies": {
     "@types/node": "^22.5.4",
     "@types/semver": "7.5.8"
+  },
+  "engines": {
+    "node": ">=18.19.0"
   },
   "publishConfig": {
     "access": "public"

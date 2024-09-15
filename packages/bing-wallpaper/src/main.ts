@@ -1,5 +1,4 @@
 import fetch from "node-fetch";
-
 import {
   existsSync,
   writeFileSync,
@@ -9,6 +8,38 @@ import {
   rmSync,
 } from "node:fs";
 import { dirname } from "node:path";
+
+type PictureInfo = {
+  hsh: string;
+  date: string;
+  title: string;
+  copyright: string;
+  url_preview: string;
+  url_1080: string;
+  url_4k: string;
+};
+
+type ArchivesInfo = {
+  date: string;
+  previewPath: string;
+  mapPath: string;
+};
+
+type JSONMap = {
+  images: PictureInfo[];
+  archives: ArchivesInfo[];
+};
+
+type SidebarItem = {
+  text: string;
+  link?: string;
+  icon?: string;
+  collapsible?: boolean;
+  collapsed?: boolean;
+  children?: SidebarItem[];
+  items?: SidebarItem[];
+};
+
 
 const option = {
   bingUrl: "https://cn.bing.com",
@@ -33,9 +64,9 @@ function rewrite() {
       "./map.json",
       "./README.md",
       "./archives",
-      "./docs/archives",
-      "./docs/index.md",
-      "./docs/.vitepress/sidebar.ts",
+      "../viptv-docs/src/archives",
+      "../viptv-docs/src/archives/README.md",
+      "../viptv-docs/src/.vuepress/config/sidebar/archives.ts",
     ].forEach((path) => rmSync(path, { recursive: true, force: true }));
 
     images.forEach((item) => {

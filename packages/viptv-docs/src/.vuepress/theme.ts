@@ -15,7 +15,7 @@ export default hopeTheme(
     },
     iconAssets: "fontawesome-with-brands",
     favicon: "favicon.ico",
-    breadcrumb: false, // 面包屑导航
+    breadcrumb: true, // 面包屑导航
     logo: "logo.svg",
     docsRepo: "viptv-work/viptv",
     docsDir: "src",
@@ -35,7 +35,7 @@ export default hopeTheme(
     fullscreen: true, //全屏按钮
     lastUpdated: true,
     contributors: true, //全局禁用是否显示页面贡献者
-    navbarTitle: "VIPTV",
+    navbarTitle: "VIPTV - 工作室",
     extraLocales: {
       官网主站: "https://www.viptv.work/:route",
       官网社区: "https://github.com/viptv-work/viptv/discussions",
@@ -73,7 +73,7 @@ export default hopeTheme(
         Email: "mailto:vodtvx@gmail.com",
         Gitee: "https://gitee.com/viptv-work",
         Discord: "https://discord.gg/K7azvhYv",
-        Twitter:  "https://x.com/viptv_work",
+        Twitter: "https://x.com/viptv_work",
         Telegram: "https://t.me/viptv_work",
         GitHub: "https://github.com/viptv-work",
         Gitlab: "https://gitlab.com/viptv",
@@ -122,10 +122,6 @@ export default hopeTheme(
         ],
       },
 
-      copyCode: {
-        showInMobile: true, // 手机端显示代码复制
-      },
-
       copyright: true,
 
       notice: [
@@ -136,11 +132,9 @@ export default hopeTheme(
             "<b>周知：</b>原 3 个 QQ 群成员活跃状态差异较大，且分布较分散，现停止新人加群，为了方便大家的交流，请移步 QQ 频道。</div>",
           actions: [
             {
-              text: "打赏作者→",
-              link: "/about/donate.html",
-              type: "primary",
+              text: "立即体验",
+              type: "default",
             },
-            { text: "默认动作" },
           ],
           fullscreen: false,
           showOnce: false,
@@ -161,14 +155,6 @@ export default hopeTheme(
           showOnce: false,
         },
       ],
-      shiki: {
-        lineNumbers: 15,
-        notationDiff: true,
-        themes: {
-          light: "github-light",
-          dark: "one-dark-pro",
-        },
-      },
       watermark: {
         enabled: true,
       },

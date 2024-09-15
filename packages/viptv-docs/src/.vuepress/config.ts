@@ -1,6 +1,5 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-import { viteBundler } from "@vuepress/bundler-vite";
 import { getDirname, path } from "vuepress/utils";
 import metingPlugin from "vuepress-plugin-meting2";
 const __dirname = getDirname(import.meta.url);
@@ -65,7 +64,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "VIPTV - 云视听",
+      title: "VIPTV - 工作室",
       description: "便捷 、高效 、最有价值的视听链",
     },
     "/en/": {
@@ -77,44 +76,11 @@ export default defineUserConfig({
   alias: {
     "@db": path.resolve(__dirname, "composables/dexie"),
     "@act": path.resolve(__dirname, "composables/artConst.ts"),
-    "@theme-hope/modules/blog/components/BlogHero": path.resolve(
-      __dirname,
-      "./components/BlogHero.vue"
-    ),
-    "@theme-hope/components/NormalPage": path.resolve(
-      __dirname,
-      "./components/NormalPage.vue"
-    ),
-    "@theme-hope/modules/info/components/TOC": path.resolve(
-      __dirname,
-      "./components/toc.vue"
-    ),
+    "@theme-hope/components/NormalPage": path.resolve(__dirname, "./components/NormalPage.vue"),
+    "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./components/BlogHome.vue"),
   },
   theme,
   port: 80,
-  bundler: viteBundler({
-    viteOptions: {
-      server: {
-        proxy: {
-          "/bing": {
-            target: "https://cn.bing.com",
-            changeOrigin: true,
-            rewrite: (path) => path.replace(/^\/bing/, ""),
-          },
-          "/raw": {
-            target: "https://raw.viptv.work/",
-            changeOrigin: true,
-            rewrite: (path) => path.replace(/^\/raw/, ""),
-          },
-          "/cors": {
-            target: "https://cors.eu.org/",
-            changeOrigin: true,
-            rewrite: (path) => path.replace(/^\/cors/, ""),
-          },
-        },
-      },
-    },
-  }),
   plugins: [
     metingPlugin({
       metingOptions: {

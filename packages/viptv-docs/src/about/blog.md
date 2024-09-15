@@ -22,4 +22,29 @@ projects:
     name: KMS.CX
     desc: 一键激活 windows/office
     link: https://kms.cx/
+
+  - icon: https://cdn.cookielaw.org/logos/6b10d640-dc80-4fbf-a462-ae81dbad56e4/8596cb00-a06f-4131-bbaa-509b45573acf/3a070200-a811-4c47-88b4-f35732a17771/Logo.png
+    name: 优选IP段
+    desc: cloudflare官方公布的优选IP段
+    link: https://www.cloudflare-cn.com/ips-v4/    
+
+  - icon: https://www.itdog.cn/frame/images/logo_2023.png
+    name: IP存活检
+    desc: IP存活检测网站
+    link: https://www.itdog.cn/find_ping/
+
+  - icon: https://ipchaxun.com/static/www/image/public/logo.png
+    name: 优选域名
+    desc: 查找优选域名
+    link: https://ipchaxun.com/ 
+
+  - icon: file
+    name: 身份证生成
+    desc: 美国身份证生成，美国人地址信息生成-世界各国身份信息、地址、信用卡生成器
+    link: https://www.ssnzk.com/ 
+
+  - icon: file
+    name: 生成器
+    desc: 美国地址生成器 - 美国身份生成器 - 美国信用卡生成器
+    link: https://www.meiguodizhi.com/
 ---

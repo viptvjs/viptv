@@ -26,4 +26,3 @@ export const updatePackages = async (packageManager, dependencies) => {
         }
     }));
 };
-//# sourceMappingURL=updatePackage.js.map

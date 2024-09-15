@@ -24,7 +24,7 @@ tag:
   import { vod } from '@db'
   import { hlsConfig } from '@act'
   import { useStorage } from '@vueuse/core'
-  import { onMounted,onUnmounted } from "vue";
+  import { onMounted,onBeforeUnmount,computed } from "vue";
   const state = useStorage(
     "vod-gcj",
     {
@@ -35,23 +35,30 @@ tag:
     }
   )
 
-
-  onMounted(async () => {
-    state.value.a = (await vod.find({ "name": "lzzy-13" })).data
-    state.value.b = (await vod.find({ "name": "bfzy-31" })).data
-    a(0)
-  });
-  const a = (key) => {
-    const { a } = state.value
+  const p = computed(() => {
+    const { a } = state.value 
     state.value.p = a[key].play_list
     state.value.src = a[key].play_list[0].url
-  }
-  const b = (key) => {
-    const { b } = state.value
+  })
+
+  onMounted(async() => {    
+    state.value.a = (await vod.find({ "name": "lzzy-13" })).data 
+    state.value.b = (await vod.find({ "name": "bfzy-31" })).data 
+    a(0)
+  });
+  const a = computed((key) => {
+    const { a } = state.value 
+    state.value.p = a[key].play_list
+    state.value.src = a[key].play_list[0].url
+  })
+  const b = computed((key) => {
+    const { b } = state.value 
     state.value.p = b[key].play_list
     state.value.src = b[key].play_list[0].url
-  }
-  onUnmounted(async () => {
-    state.value = null
-  });
+  })
+  onBeforeUnmount(() => {
+    if (state.value) {
+      state.value = null
+    }
+});
 </script>

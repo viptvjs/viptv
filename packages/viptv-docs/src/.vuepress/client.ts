@@ -1,9 +1,8 @@
 import { defineClientConfig } from "vuepress/client";
 import SocialLink from "./composables/SocialLink";
-import ProjectLink from "./composables/ProjectLink.js";
-import Aplayer from "./components/Aplayer.vue";
-import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
+import ProjectLink from "./composables/ProjectLink";
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
+
 
 export default defineClientConfig({
   enhance: ({ app }) => {
@@ -20,11 +19,5 @@ export default defineClientConfig({
       },
       false
     );
-    setupTransparentNavbar({
-      type: "blog-homepage",
-      light: "#333",
-      dark: "#bbb",
-    });
-  },
-  rootComponents: [Aplayer],
+  }
 });

@@ -33,14 +33,14 @@ tag:
   )
 
 
-  onMounted(() => {
+  onMounted(async() => {
+    state.value.a = (await iptv.find({ "name": "xiongmao" })).data
     a(0)
   });
 
   const a = async (k) => {
-    const { data } = await iptv.find({ "name": "xiongmao" })
-    state.value.a = data
-    state.value.p = data
-    state.value.src = data[k].url
+    const { a } = state.value
+    state.value.p = a
+    state.value.src =a[k].url
   };
 </script>
