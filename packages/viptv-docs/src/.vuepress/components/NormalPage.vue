@@ -4,24 +4,13 @@ import NormalPage from "vuepress-theme-hope/components/NormalPage.js";
 <template>
   <NormalPage>
     <template #contentAfter>
-      <div style="text-align: center; "><img src="/assets/png/VIPTV-LOGO-1001x251.png" alt="红杏IEPL专线机场" width="100%">
-      </div>
-    </template>
-    <template #tocBefore>
       <a href="/about/donate" target="_blank">
-        <div style="text-align: center; "><img src="/assets/jpg/zanzhu.jpg" alt="红杏IEPL专线机场" width="100%">
+        <div style=" position: relative;text-align: center; "><img src="/assets/jpg/zanzhu.jpg" alt="赞助支持" width="85%"
+            height="125px">
         </div>
       </a>
     </template>
-    <template #tocAfter>
 
-      <div class="flip-wrapper">
-        <div class="flip-content">
-          <div class="face"></div>
-          <div class="back face"></div>
-        </div>
-      </div>
-    </template>
   </NormalPage>
 
 </template>

@@ -1,6 +1,6 @@
 {
   "name": "iptv-source",
-  "version": "3.4.18",
+  "version": "3.4.20",
   "keywords": [
     "iptv",
     "update"
@@ -24,12 +24,7 @@
     "build": "tsup && node ./lib/main.js"
   },
   "devDependencies": {
-    "@types/node": "^20.16.5",
-    "@types/opencc-js": "^1.0.3",
     "tsup": "^8.2.4",
-    "typescript": "^5.5.4"
-  },
-  "dependencies": {
     "dotenv": "^16.4.5",
     "opencc-js": "^1.0.5"
   }
