@@ -8,6 +8,7 @@ import {
   mergeTxts,
   writeEpgXML,
   writeMovieJson,
+  writeSub,
   writeM3u,
   writeM3uToTxt,
   writeSources,
@@ -21,7 +22,7 @@ import {
   updateDATAByRollback,
 } from "./components/rollback";
 import { epgs_sources } from "./api/epgs";
-import { ApiJson } from "./api/movie";
+import { ApiJson, v2ray_sub } from "./api/movie";
 import { writeTvBoxJson } from "./components/tvbox";
 import { Collector } from "./utils";
 import { runCustomTask } from "./task/custom";
@@ -173,6 +174,53 @@ Promise.allSettled(
           const text = await updateDATAByRollback(data_sr);
           if (!!text) {
             writeMovieJson(data_sr.f_name, text as string);
+            return ["rollback"];
+          } else {
+            // rollback failed
+            console.log(`[WARNING] DATA ${data_sr.name} get failed!`);
+            return [void 0];
+          }
+        }
+      })
+    );
+    return {
+      sources: result,
+      movie: movie,
+    };
+  })
+
+  .then(async (result) => {
+    const movie = await Promise.allSettled(
+      v2ray_sub.map(async (data_sr) => {
+        console.log(`[TASK] Fetch DATA ${data_sr.name}`);
+        try {
+          const [ok, text, now] = await getContent(data_sr);
+
+          if (ok && !!text) {
+            console.log(
+              `Fetch DATA from ${data_sr.name} finished, cost ${(parseInt(hrtime.bigint().toString()) -
+                parseInt(now.toString())) /
+              10e6
+              } ms`
+            );
+            writeSub(data_sr.f_name, text as string);
+            return ["normal"];
+          } else {
+            // rollback
+            const text = await updateDATAByRollback(data_sr);
+            if (!!text) {
+              writeMovieJson(data_sr.f_name, text as string);
+              return ["rollback"];
+            } else {
+              // rollback failed
+              console.log(`[WARNING] DATA ${data_sr.name} get failed!`);
+              return [void 0];
+            }
+          }
+        } catch (e) {
+          const text = await updateDATAByRollback(data_sr);
+          if (!!text) {
+            writeSub(data_sr.f_name, text as string);
             return ["rollback"];
           } else {
             // rollback failed

@@ -24,7 +24,7 @@ tag:
   import { vod } from '@db'
   import { hlsConfig } from '@act'
   import { useStorage } from '@vueuse/core'
-  import { onMounted,onBeforeUnmount,computed } from "vue";
+  import { onMounted } from "vue";
   const state = useStorage(
     "vod-gcj",
     {
@@ -35,11 +35,6 @@ tag:
     }
   )
 
-  const p = computed(() => {
-    const { a } = state.value 
-    state.value.p = a[key].play_list
-    state.value.src = a[key].play_list[0].url
-  })
 
   onMounted(async() => {    
     state.value.a = (await vod.find({ "name": "lzzy-13" })).data 
@@ -55,10 +50,5 @@ tag:
     const { b } = state.value 
     state.value.p = b[key].play_list
     state.value.src = b[key].play_list[0].url
-  })
-  onBeforeUnmount(() => {
-    if (state.value) {
-      state.value = null
-    }
-});
+  })  
 </script>

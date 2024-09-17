@@ -19,7 +19,7 @@ import {
   qwerttvv_bj_iptv_sources,
   joevess_iptv_sources,
   ss_sources,
-  cn_sources,
+  cn_sources
 } from ".";
 
 export const sources = [

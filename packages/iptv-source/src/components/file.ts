@@ -20,6 +20,7 @@ export const writeM3u = (name: string, m3u: string) => {
   fs.writeFileSync(path.join(path.resolve(), "dist", `${name}.m3u`), m3u);
 };
 
+
 export const writeSources = (
   name: string,
   f_name: string,
@@ -96,6 +97,13 @@ export const writeMovieJson = (f_name: string, json: string) => {
     fs.mkdirSync(path.join(path.resolve(), "dist", "movie"));
   }
   fs.writeFileSync(path.resolve("dist", "movie", `${f_name}`), json);
+};
+
+export const writeSub = (f_name: string, txt: string) => {
+  if (!fs.existsSync(path.join(path.resolve(), "dist", "sub"))) {
+    fs.mkdirSync(path.join(path.resolve(), "dist", "sub"));
+  }
+  fs.writeFileSync(path.resolve("dist", "sub", `${f_name}.txt`), txt);
 };
 
 const cleanDir = (p: string) => {
