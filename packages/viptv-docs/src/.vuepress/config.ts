@@ -1,12 +1,10 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { getDirname, path } from "vuepress/utils";
-import metingPlugin from "vuepress-plugin-meting2";
 const __dirname = getDirname(import.meta.url);
 const base = (process.env["BASE"] as "/" | `/${string}/`) || "/";
 
 export default defineUserConfig({
-  base,
   dest: "./dist",
   head: [
     [
@@ -73,6 +71,7 @@ export default defineUserConfig({
       description: " VIPTV Is The Highest Quality IPTV Service",
     },
   },
+  pagePatterns: ["**/*.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"],
   alias: {
     "@db": path.resolve(__dirname, "composables/dexie"),
     "@act": path.resolve(__dirname, "composables/artConst.ts"),
@@ -80,21 +79,5 @@ export default defineUserConfig({
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./components/BlogHome.vue"),
   },
   theme,
-  port: 80,
-  plugins: [
-    metingPlugin({
-      metingOptions: {
-        global: false,
-        server: "tencent",
-        api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
-        type: "playlist",
-        mid: "851947617",
-        aplayerOptions: {
-          lrcDisplay: "hide",
-        },
-      },
-    }),
-  ],
-
-  shouldPrefetch: false,
+  port: 80
 });
