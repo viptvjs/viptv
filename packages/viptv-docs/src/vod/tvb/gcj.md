@@ -41,14 +41,14 @@ tag:
     state.value.b = (await vod.find({ "name": "bfzy-31" })).data 
     a(0)
   });
-  const a = computed((key) => {
+  const a =(key) => {
     const { a } = state.value 
     state.value.p = a[key].play_list
     state.value.src = a[key].play_list[0].url
-  })
-  const b = computed((key) => {
+  }
+  const b =(key) => {
     const { b } = state.value 
     state.value.p = b[key].play_list
     state.value.src = b[key].play_list[0].url
-  })  
+  }  
 </script>
