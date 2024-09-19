@@ -63,7 +63,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add .
           git commit -m "update viptv dev project"
-          git push origin main
 
       - name: Push changes 🚀
         uses: ad-m/github-push-action@master
