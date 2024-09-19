@@ -38,7 +38,7 @@ jobs:
           external_repository: viptv-work/viptv
           publish_dir: ./packages/viptv-docs/dist
           publish_branch: main
-          cname: viptv.work
+          cname: www.viptv.work
 
       - name: Deploy to hefung/docs
         uses: JamesIves/github-pages-deploy-action@v4
