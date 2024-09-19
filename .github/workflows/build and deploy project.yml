@@ -2,7 +2,9 @@ name: Build And Deploy Docs
 on:
   push:
     branches: [main]
-  workflow_dispatch: # 允许手动触发
+  workflow_dispatch:
+  schedule:
+    - cron: '0 21 * * *' # UTC时间21点（北京时间早上5点）
 env:
   TZ: Asia/Shanghai
 jobs:
@@ -11,6 +13,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
 
       - name: 安装 pnpm
         uses: pnpm/action-setup@v4
