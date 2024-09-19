@@ -5,6 +5,7 @@ const __dirname = getDirname(import.meta.url);
 const base = (process.env["BASE"] as "/" | `/${string}/`) || "/";
 
 export default defineUserConfig({
+  base,
   dest: "./dist",
   head: [
     [
@@ -20,44 +21,7 @@ export default defineUserConfig({
         name: "msvalidate.01",
         content: "60990E7826770BD82AE9B5EFB468E0BB",
       },
-    ],
-    [
-      "meta",
-      {
-        name: "apple-mobile-web-app-status-bar-style",
-        content: "black",
-      },
-    ],
-    ["meta", { name: "theme-color", content: "#46bd87" }],
-
-    [
-      "link",
-      {
-        rel: "icon",
-        href: `/assets/png/VIPTV-LOGO-600x600.png`,
-        type: "image/png",
-        sizes: "600x600",
-      },
-    ],
-    [
-      "link",
-      {
-        rel: "icon",
-        href: `/assets/png/VIPTV-LOGO-512x512.png`,
-        type: "image/png",
-        sizes: "512x512",
-      },
-    ],
-    [
-      "link",
-      {
-        rel: "apple-touch-icon",
-        href: `/assets/png/VIPTV-LOGO-192x192.png`,
-        type: "image/png",
-        sizes: "192x192",
-      },
-    ],
-
+    ]
   ],
   locales: {
     "/": {
@@ -72,6 +36,7 @@ export default defineUserConfig({
     },
   },
   pagePatterns: ["**/*.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"],
+  shouldPrefetch: false,
   alias: {
     "@db": path.resolve(__dirname, "composables/dexie"),
     "@act": path.resolve(__dirname, "composables/artConst.ts"),

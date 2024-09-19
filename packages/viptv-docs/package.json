@@ -23,6 +23,7 @@
     "@types/node": "^22.5.4",
     "@vuepress/bundler-vite": "2.0.0-rc.15",
     "@vuepress/helper": "2.0.0-rc.31",
+    "@vuepress/plugin-pwa": "^1.9.10",
     "@vueuse/core": "^10.11.1",
     "aplayer": "^1.10.1",
     "artplayer": "^5.1.7",

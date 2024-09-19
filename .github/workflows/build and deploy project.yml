@@ -4,7 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 16 * * *"
 env:
   TZ: Asia/Shanghai
 jobs:
@@ -13,20 +13,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
 
-      - name: Setup pnpm
+      - name: 安装 pnpm
         uses: pnpm/action-setup@v4
+        with:
+          run_install: true
 
-      - name: Setup Node.js
+      - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: "pnpm"
 
-      - name: Install deps
-        run: pnpm install --no-frozen-lockfile
+     
 
-      - name: Build project
+      - name: 构建 project
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: pnpm run build
@@ -56,3 +61,17 @@ jobs:
           external_repository: iptv-js/iptv
           publish_dir: ./packages/iptv-source/dist
           publish_branch: main   
+
+      - name: Commit files 🐱‍🏍
+        run: | 
+          git config --local user.email "28900094+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git pull
+          git add .
+          git commit -m "update viptv dev obj"
+
+      - name: Push changes 🚀
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PUBLISH_DOCS }}
+          branch: main     

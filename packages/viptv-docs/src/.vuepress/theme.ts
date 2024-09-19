@@ -1,10 +1,11 @@
+import { dateSorter } from "@vuepress/helper";
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
 import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
 import { getDirname, path } from "vuepress/utils";
 const __dirname = getDirname(import.meta.url);
-const hostname = process.env["HOSTNAME"] ?? "https://viptv.work";
+const hostname = process.env["HOSTNAME"] ?? "https://www.viptv.work";
 
 export default hopeTheme(
   {
@@ -67,7 +68,7 @@ export default hopeTheme(
     },
     blog: {
       description: "专心致志做事，大气温和待人。",
-      intro: "/blog/",
+      intro: "/about/blog",
       timeline: "简单快乐，理应如此。",
       medias: {
         Email: "mailto:vodtvx@gmail.com",
@@ -93,20 +94,20 @@ export default hopeTheme(
         hotReload: true,
         customFields: [
           {
-            getter: (page: any) => page.frontmatter.category,
+            getter: ({ frontmatter }): string[] => frontmatter["category"] as string[],
             formatter: {
               "/en/": "Category: $content",
               "/": "分类：$content",
             },
           },
           {
-            getter: (page: any) => page.frontmatter.tag,
+            getter: ({ frontmatter }): string[] => frontmatter["tag"] as string[],
             formatter: {
               "/en/": "Tag: $content",
               "/": "标签：$content",
             },
           },
-        ],
+        ]
       },
       blog: {
         hotReload: true, // 启用热更新
@@ -119,6 +120,14 @@ export default hopeTheme(
           getSlides({
             locales: { "/en": "Slides", "/": "幻灯片" },
           }),
+          {
+            key: "tutorial",
+            filter: (page): boolean =>
+              Boolean(page.filePathRelative?.includes("/")),
+            sorter: (pageA, pageB): number =>
+              dateSorter(pageA.frontmatter.date, pageB.frontmatter.date),
+            layout: "BlogType",
+          },
         ],
       },
 
@@ -206,15 +215,6 @@ export default hopeTheme(
         sup: true, //是否启用上角标格式支持。
         tabs: true, // 添加选项卡支持
         tasklist: true, //是否启用任务列表格式支持
-        include: {
-          //是否启用 Markdown 导入支持
-          resolvePath: (file) => {
-            if (file.startsWith("@src"))
-              return file.replace("@src", path.resolve(__dirname, ".."));
-
-            return file;
-          },
-        },
         stylize: [
           //样式化
           {
@@ -253,8 +253,66 @@ export default hopeTheme(
           ],
         },
       },
+      pwa: {
+        favicon: "/favicon.ico",
+        cacheHTML: true,
+        cacheImage: true,
+        appendBase: true,
+        apple: {
+          icon: "/assets/png/VIPTV-LOGO-192x192.png",
+          statusBarColor: "black",
+        },
+        msTile: {
+          image: "/assets/png/VIPTV-LOGO-192x192.png",
+          color: "#ffffff",
+        },
+        manifest: {
+          icons: [
+            {
+              src: "/assets/png/VIPTV-LOGO-512x512.png",
+              sizes: "512x512",
+              purpose: "maskable",
+              type: "image/png",
+            },
+            {
+              src: "/assets/png/VIPTV-LOGO-192x192.png",
+              sizes: "192x192",
+              purpose: "maskable",
+              type: "image/png",
+            },
+            {
+              src: "/assets/png/VIPTV-LOGO-512x512.png",
+              sizes: "512x512",
+              type: "image/png",
+            },
+            {
+              src: "/assets/png/VIPTV-LOGO-192x192.png",
+              sizes: "192x192",
+              type: "image/png",
+            },
+          ],
+          shortcuts: [
+            {
+              name: "VIPTV",
+              // eslint-disable-next-line @typescript-eslint/naming-convention
+              short_name: "VIPTV",
+              url: "/",
+              icons: [
+                {
+                  src: "/assets/png/VIPTV-LOGO-192x192.png",
+                  sizes: "192x192",
+                  purpose: "maskable",
+                  type: "image/png",
+                },
+              ],
+            },
+          ],
+        },
+      },
       sitemap: true,
-      seo: true,
+      seo: hostname === "https://www.viptv.work"
+        ? {}
+        : { canonical: "https://www.viptv.work" },
     },
   },
   {

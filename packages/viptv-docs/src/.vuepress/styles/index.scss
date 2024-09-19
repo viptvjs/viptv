@@ -3,6 +3,36 @@
 @use "vuepress-theme-hope/presets/shinning-feature-panel";
 @use "vuepress-theme-hope/presets/round-blogger-avatar";
 @use "vuepress-theme-hope/presets/hr-driving-car";
+@use "vuepress-theme-hope/presets/left-blog-info";
+@use "@sass-palette/hope-config";
+
+.vp-portfolio {
+
+  // expand media icons
+  .vp-portfolio-medias .vp-portfolio-media {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    .icon {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.vp-portfolio-welcome,
+.vp-portfolio-title {
+  color: var(--black);
+}
+
+.vp-portfolio-mask::after {
+  background-color: rgba(255, 255, 255);
+  opacity: 0.15;
+
+  html[data-theme="dark"] & {
+    background-color: rgba(0, 0, 0);
+    opacity: 0.1;
+  }
+}
 
 
 :root {
