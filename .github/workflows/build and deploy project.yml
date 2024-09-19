@@ -3,8 +3,7 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron:  '30 16,17 * * *'
+    
 env:
   TZ: Asia/Shanghai
 jobs:
