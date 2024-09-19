@@ -4,7 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron:  '30 5,17 * * *'
+    - cron:  '30 16,17 * * *'
 env:
   TZ: Asia/Shanghai
 jobs:
