@@ -152,3 +152,4 @@ export const getPackageManager = (cwd = process.cwd(), deep = true) => getPackag
             : isPackageManagerInstalled('bun')
                 ? 'bun'
                 : 'npm');
+//# sourceMappingURL=packageManager.js.map
