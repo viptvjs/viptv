@@ -58,3 +58,4 @@ cli.help(() => [
 ]);
 cli.version(VERSION);
 cli.parse();
+//# sourceMappingURL=index.js.map

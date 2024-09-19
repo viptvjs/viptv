@@ -50,3 +50,4 @@ export const checkTaobaoRegistry = (packageManager) => {
         }
     }
 };
+//# sourceMappingURL=registry.js.map
