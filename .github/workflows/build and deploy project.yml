@@ -2,7 +2,9 @@ name: Build And Deploy Docs
 on:
   push:
     branches: [main]
-  workflow_dispatch:    
+  workflow_dispatch:  
+  schedule:
+    - cron: "0 16 * * *"  
 env:
   TZ: Asia/Shanghai
 jobs:
@@ -22,8 +24,6 @@ jobs:
         with:
           node-version: 22
           cache: "pnpm"
-
-     
 
       - name: 构建 project
         env:
