@@ -1,12 +1,8 @@
-import { dateSorter } from "@vuepress/helper";
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
 import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
-import { getDirname, path } from "vuepress/utils";
-const __dirname = getDirname(import.meta.url);
 const hostname = process.env["HOSTNAME"] ?? "https://www.viptv.work";
-
 export default hopeTheme(
   {
     hostname,
@@ -57,6 +53,19 @@ export default hopeTheme(
         displayFooter: true,
         footer: "极速 、 高清 、 无广告", // 页脚
         copyright: "MIT 协议 | 版权所有 © 2020-至今 Mr.Hefung",
+        blog: {
+          description: "一个前端开发者",
+          intro: "/zh/intro.html",
+        },
+
+        blogLocales: {
+          tutorial: "教程",
+        },
+
+        // Page meta
+        metaLocales: {
+          editLink: "在 GitHub 上编辑此页",
+        },
       },
       "/en/": {
         navbar: enNavbar,
@@ -64,6 +73,18 @@ export default hopeTheme(
         displayFooter: true,
         footer: "Best IPTV Subscription Provider.", // 页脚
         copyright: "MIT Licensed | Copyright © 2020-present Mr.Hefung",
+        blog: {
+          description: "A FrontEnd programmer",
+          intro: "/intro.html",
+        },
+
+        blogLocales: {
+          tutorial: "Tutorial",
+        },
+
+        metaLocales: {
+          editLink: "Edit this page on GitHub",
+        },
       },
     },
     blog: {
@@ -89,10 +110,20 @@ export default hopeTheme(
     },
     editLink: false,
     plugins: {
+
       searchPro: {
+        searchDelay: 800,
+        suggestDelay: 300,
         indexContent: true,
         hotReload: true,
         customFields: [
+          {
+            getter: ({ frontmatter }): string[] => frontmatter["author"] as string[],
+            formatter: {
+              "/en/": "Author: $content",
+              "/": "作者：$content",
+            },
+          },
           {
             getter: ({ frontmatter }): string[] => frontmatter["category"] as string[],
             formatter: {
@@ -107,27 +138,27 @@ export default hopeTheme(
               "/": "标签：$content",
             },
           },
-        ]
+          {
+            getter: ({ frontmatter }): string[] => frontmatter["updateTime"] as string[],
+            formatter: {
+              "/en/": "Update time: $content",
+              "/": "更新时间：$content",
+            },
+          },
+        ],
       },
+
       blog: {
         hotReload: true, // 启用热更新
         excerpt: true, //是否生成摘要。
-        excerptLength: 200,
+        excerptLength: 0,
         type: [
           getRecentUpdatedArticles({
             locales: { "/en/": "Recent Updated", "/": "最近更新" },
           }),
           getSlides({
             locales: { "/en": "Slides", "/": "幻灯片" },
-          }),
-          {
-            key: "tutorial",
-            filter: (page): boolean =>
-              Boolean(page.filePathRelative?.includes("/")),
-            sorter: (pageA, pageB): number =>
-              dateSorter(pageA.frontmatter.date, pageB.frontmatter.date),
-            layout: "BlogType",
-          },
+          })
         ],
       },
 
@@ -164,6 +195,14 @@ export default hopeTheme(
           showOnce: false,
         },
       ],
+      shiki: {
+        lineNumbers: 15,
+        notationDiff: true,
+        themes: {
+          light: "one-light",
+          dark: "one-dark-pro",
+        },
+      },
       watermark: {
         enabled: true,
       },
@@ -193,22 +232,23 @@ export default hopeTheme(
          darkTheme: 'dark_protanopia',
          lightTheme: 'light_protanopia',
        }, */
+
+      markdownImage: {
+        figure: true,
+        lazyload: true,
+        size: true,
+      },
+
       mdEnhance: {
         align: true, // 启用自定义对齐
-        hint: true, // 启用提示容器info,note,tip,warning,caution,details
+        attrs: true, //属性支持
         vPre: true, //是否启用 v-pre 容器。
         breaks: true, //是否将段落中的 \n 转换为 <br>
         linkify: true, //是否将文字中的链接格式文字转换为链接
-        attrs: true, //属性支持
-        alert: true, // 启用 GFM 警告
         gfm: true, //是否支持完整的 GFM 语法
         codetabs: true,
         spoiler: true, //是否启用剧透支持。
-        component: true, //Markdown 中添加组件
-        figure: true, // 图像添加描述
-        imgLazyload: true, // 启用图片懒加载
-        imgMark: true, // 启用图片标记
-        imgSize: true, // 启用图片大小
+        component: true, //是否启用组件支持
         mark: true, //是否启用标记格式支持。
         footnote: true, //是否启用脚注格式支持
         sub: true, //是否启用下角标格式支持
@@ -250,62 +290,6 @@ export default hopeTheme(
             "sky",
             "solarized",
             "white",
-          ],
-        },
-      },
-      pwa: {
-        favicon: "/favicon.ico",
-        cacheHTML: true,
-        cacheImage: true,
-        appendBase: true,
-        apple: {
-          icon: "/assets/png/VIPTV-LOGO-192x192.png",
-          statusBarColor: "black",
-        },
-        msTile: {
-          image: "/assets/png/VIPTV-LOGO-192x192.png",
-          color: "#ffffff",
-        },
-        manifest: {
-          icons: [
-            {
-              src: "/assets/png/VIPTV-LOGO-512x512.png",
-              sizes: "512x512",
-              purpose: "maskable",
-              type: "image/png",
-            },
-            {
-              src: "/assets/png/VIPTV-LOGO-192x192.png",
-              sizes: "192x192",
-              purpose: "maskable",
-              type: "image/png",
-            },
-            {
-              src: "/assets/png/VIPTV-LOGO-512x512.png",
-              sizes: "512x512",
-              type: "image/png",
-            },
-            {
-              src: "/assets/png/VIPTV-LOGO-192x192.png",
-              sizes: "192x192",
-              type: "image/png",
-            },
-          ],
-          shortcuts: [
-            {
-              name: "VIPTV",
-              // eslint-disable-next-line @typescript-eslint/naming-convention
-              short_name: "VIPTV",
-              url: "/",
-              icons: [
-                {
-                  src: "/assets/png/VIPTV-LOGO-192x192.png",
-                  sizes: "192x192",
-                  purpose: "maskable",
-                  type: "image/png",
-                },
-              ],
-            },
           ],
         },
       },

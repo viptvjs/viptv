@@ -3,7 +3,6 @@ import theme from "./theme.js";
 import { getDirname, path } from "vuepress/utils";
 const __dirname = getDirname(import.meta.url);
 const base = (process.env["BASE"] as "/" | `/${string}/`) || "/";
-
 export default defineUserConfig({
   base,
   dest: "./dist",
@@ -35,14 +34,14 @@ export default defineUserConfig({
       description: " VIPTV Is The Highest Quality IPTV Service",
     },
   },
-  pagePatterns: ["**/*.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"],
+  theme,
   shouldPrefetch: false,
+  shouldPreload: false,
   alias: {
     "@db": path.resolve(__dirname, "composables/dexie"),
     "@act": path.resolve(__dirname, "composables/artConst.ts"),
     "@theme-hope/components/NormalPage": path.resolve(__dirname, "./components/NormalPage.vue"),
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./components/BlogHome.vue"),
   },
-  theme,
   port: 80
 });

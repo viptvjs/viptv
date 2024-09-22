@@ -1,19 +1,20 @@
 {
   "compilerOptions": {
     // types
-    "allowSyntheticDefaultImports": true,
+    "allowArbitraryExtensions": false,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "exactOptionalPropertyTypes": true,
     "noFallthroughCasesInSwitch": true,
-    "strict": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
-    "noUncheckedIndexedAccess": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "strict": true,
+    "verbatimModuleSyntax": true,
     // Modules
+    "baseUrl": "./",
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
@@ -22,7 +23,7 @@
     "importHelpers": true,
     "inlineSources": true,
     "inlineSourceMap": false,
-    "newLine": "crlf",
+    "newLine": "lf",
     "noEmitOnError": true,
     "removeComments": false,
     "sourceMap": true,
@@ -30,6 +31,7 @@
     "allowJs": false,
     "checkJs": false,
     // Interop Constraints
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     // output formatting

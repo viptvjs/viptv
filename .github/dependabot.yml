@@ -1,6 +1,17 @@
 version: 2
+
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: 'npm'
+    directories:
+      - '/'
+      - '/packages/*'
     schedule:
-      interval: "weekly"
+      interval: 'daily'
+      timezone: 'Asia/Shanghai'
+      time: '09:00'
+    groups:
+      all:
+        patterns:
+          - '*'
+    commit-message:
+      prefix: 'fix(Dependabot)'

@@ -5,6 +5,9 @@ import Experiences from "./components/Experiences.vue";
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
 
+
+
+
 export default defineClientConfig({
   enhance: ({ app }) => {
     app.component("SocialLink", SocialLink);

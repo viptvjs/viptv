@@ -76,9 +76,8 @@
 代码最后有说明max最大1068px
 :::
 
-```https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e4/bd/99/e4bd99ee-afda-3b81-cf17-5faa2960849e/AppIcon-0-1x_U007emarketing-0-4-0-sRGB-0-85-220.png/246x0w.png // [!code --]
-
-https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e4/bd/99/e4bd99ee-afda-3b81-cf17-5faa2960849e/AppIcon-0-1x_U007emarketing-0-4-0-sRGB-0-85-220.png/1068x0w.png // [!code ++]
+```
+https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e4/bd/99/e4bd99ee-afda-3b81-cf17-5faa2960849e/AppIcon-0-1x_U007emarketing-0-4-0-sRGB-0-85-220.png/1068x0w.png 
 ```
 
 ![Alternate text](/icon/icon-07.png)
