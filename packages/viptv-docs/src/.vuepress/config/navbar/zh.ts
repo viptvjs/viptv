@@ -6,7 +6,7 @@ export const zhNavbar = navbar([
   "/iptv/",
   "/vod/",
   "/music/",
-  "/book/",
+  "/tutorial/",
   {
     text: "必应壁纸",
     icon: "images",

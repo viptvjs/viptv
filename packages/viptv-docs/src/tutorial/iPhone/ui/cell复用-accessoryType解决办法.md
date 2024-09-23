@@ -59,6 +59,7 @@ tag:
 	 [self.tableView reloadData];
 
    // 4.在 cellForRow里：
+   
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
 	cell.textLabel.text = _dataArray[indexPath.row];
 	NSInteger selected = [self.selectionArray[indexPath.row] IntegerValue];

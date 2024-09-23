@@ -136,8 +136,8 @@ onMounted(() => {
         window.document.body.onclick = () => {
           CloseStatus();
         };
-      });
-      router.beforeEach(() => {
+      })
+      router.afterEach(() => {
         setTimeout(() => {
           InsertMenu();
           NewPlayer();

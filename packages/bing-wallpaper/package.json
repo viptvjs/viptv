@@ -12,9 +12,9 @@
     "build": "tsup && node ./lib/main.js"
   },
   "devDependencies": {
-    "@types/node": "^20.16.5",
+    "@types/node": "^22.5.5",
     "@types/node-fetch": "^2.6.11",
     "node-fetch": "^3.3.2",
-    "tsup": "^8.2.4"
+    "tsup": "^8.3.0"
   }
 }

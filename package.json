@@ -5,22 +5,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "cross-env NODE_ENV=production pnpm run  --stream -r build",
-    "commit": "pnpm git-cz"
+    "build": "pnpm run --stream -r build"
   },
   "workspaces": [
     "packages/*"
   ],
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-git",
-      "useEmoji": true
-    }
-  },
-  "devDependencies": {
-    "cross-env": "7.0.3",
-    "cz-git": "1.9.4"
-  },
   "packageManager": "pnpm@9.11.0",
   "engines": {
     "node": ">=20"

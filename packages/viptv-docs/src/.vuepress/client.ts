@@ -1,13 +1,11 @@
 import { defineClientConfig } from "vuepress/client";
+import { defineAsyncComponent } from 'vue';
 import SocialLink from "./composables/SocialLink";
 import ProjectLink from "./composables/ProjectLink";
 import Experiences from "./components/Experiences.vue";
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
-
-
-
-
+const NavMusic = defineAsyncComponent(() => import('./components/NavMusic.vue'));
 export default defineClientConfig({
   enhance: ({ app }) => {
     app.component("SocialLink", SocialLink);
@@ -25,5 +23,9 @@ export default defineClientConfig({
       true,
     );
     setupTransparentNavbar();
-  }
+  },
+  rootComponents: [
+    NavMusic,
+    // ...
+  ],
 });

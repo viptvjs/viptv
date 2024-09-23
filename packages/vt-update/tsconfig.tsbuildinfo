@@ -1,1 +1,1 @@
-{"root":["./src/index.ts","./src/config/index.ts","./src/config/packages.ts","./src/config/version.ts","./src/utils/getVersion.ts","./src/utils/index.ts","./src/utils/packageManager.ts","./src/utils/registry.ts","./src/utils/updatePackage.ts"],"version":"5.6.2"}
+{"root":["./src/index.ts","./src/config/index.ts","./src/config/packages.ts","./src/config/version.ts","./src/utils/getversion.ts","./src/utils/index.ts","./src/utils/packagemanager.ts","./src/utils/registry.ts","./src/utils/updatepackage.ts"],"version":"5.6.2"}

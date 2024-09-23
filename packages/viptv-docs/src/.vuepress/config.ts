@@ -43,5 +43,5 @@ export default defineUserConfig({
     "@theme-hope/components/NormalPage": path.resolve(__dirname, "./components/NormalPage.vue"),
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./components/BlogHome.vue"),
   },
-  port: 80
+  port: 80,
 });

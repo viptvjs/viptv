@@ -24,8 +24,8 @@
     "build": "tsup && node ./lib/main.js"
   },
   "devDependencies": {
-    "tsup": "^8.2.4",
     "dotenv": "^16.4.5",
-    "opencc-js": "^1.0.5"
+    "opencc-js": "^1.0.5",
+    "tsup": "^8.3.0"
   }
 }

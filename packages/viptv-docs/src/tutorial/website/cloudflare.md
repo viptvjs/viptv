@@ -37,7 +37,7 @@ CDN 的全称是 Content Delivery Network，即内容分发网络
 在 [官网注册](https://dash.cloudflare.com/sign-up) 账号就行
 
 ::: warning 说明
-虽然有中国站点，但访问还是要 [科学上网](/book/gfw/proxy) ，否则无法跳转
+虽然有中国站点，但访问还是要 [科学上网](/tutorial/gfw/proxy) ，否则无法跳转
 :::
 
 ![](/cloudflare/cloudflare-02.png)
@@ -213,7 +213,7 @@ WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比
 
 * Warp+：付费订阅版，有限流量，可以隐藏源IP
 
-* Zero Trust：Team团队版，[需自行注册Cloudflare](/book/website/cloudflare) ，无限流量，50人以内免费，可以隐藏源IP
+* Zero Trust：Team团队版，[需自行注册Cloudflare](/tutorial/website/cloudflare) ，无限流量，50人以内免费，可以隐藏源IP
 :::
 
 ![](/cloudflare/cloudflare-01.png)
@@ -270,7 +270,7 @@ WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比
 
 * QQ邮箱后缀：`@qq.com`，必须用QQ邮箱注册方可加入团队
 
-* /book. (以此类推)
+* /tutorial. (以此类推)
 
 注：非当前填写的邮箱类型，注册将无法接收到验证码！
 :::
@@ -304,14 +304,14 @@ Zero Trust - Settings - Custom Pages - Team domain
 而后官方集成了WARP，推出了这款应用程序
 :::
 
-官网：[https://1.1.1.1/](https://one.one.one.one/zh-Hans/)，网站打开需要 [科学上网](/book/gfw/proxy.md)
+官网：[https://1.1.1.1/](https://one.one.one.one/zh-Hans/)，网站打开需要 [科学上网](/tutorial/gfw/proxy.md)
 
 ![](/cloudflare/warp/warp-14.png)
 
 下载完成点安装
 
 ::: tip 关于手机端的使用
-使用方式基本一致，是在搞不懂可以参照 [WARP的使用教程](/book/gfw/warp.md)
+使用方式基本一致，是在搞不懂可以参照 [WARP的使用教程](/tutorial/gfw/warp.md)
 :::
 
 ![](/cloudflare/warp/warp-15.png)
@@ -830,7 +830,7 @@ const cn_hostnames = [''];
 | 域名 | 非必须提供 | 必须提供 |
 
 
-使用任意一款，支持Vless协议的 [科学上网工具](/book/gfw/proxy.md) 使用，比如 V2rayN
+使用任意一款，支持Vless协议的 [科学上网工具](/tutorial/gfw/proxy.md) 使用，比如 V2rayN
 
 复制第一个没有tls， `Vless://` 开头的那一长串，从剪切板导入
 
@@ -943,7 +943,7 @@ const cn_hostnames = [''];
 
 :::: details 搭建节点补充：优选域名（iOS端）
 
-iOS端可以使用 [小火箭](/book/gfw/shadowrocket.md) 或者 [Karing](/book/gfw/Karing.md)
+iOS端可以使用 [小火箭](/tutorial/gfw/shadowrocket.md) 或者 [Karing](/tutorial/gfw/Karing.md)
 
 我用小火箭演示，复制节点打开小火箭添加
 
@@ -1006,7 +1006,7 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh -o CFcdnym.
 
 :::: details 搭建节点补充：优选域名（Android端）
 
-安卓端可以使用 [NekoBox](/book/gfw/NekoBox.md) 或 [V2ray](/book/gfw/v2ray.md)
+安卓端可以使用 [NekoBox](/tutorial/gfw/NekoBox.md) 或 [V2ray](/tutorial/gfw/v2ray.md)
 
 我用 NekoBox 演示，复制搭建好的节点，从剪切板导入
 
@@ -1173,7 +1173,7 @@ IP查询：https://ipw.cn/
 :::: details 搭建节点补充：优选官方IP（Android端）
 
 
-安卓端可以使用 [NekoBox](/book/gfw/NekoBox) 或 [V2ray](/book/gfw/v2ray)
+安卓端可以使用 [NekoBox](/tutorial/gfw/NekoBox) 或 [V2ray](/tutorial/gfw/v2ray)
 
 我用 NekoBox 演示，复制搭建好的节点，从剪切板导入
 
