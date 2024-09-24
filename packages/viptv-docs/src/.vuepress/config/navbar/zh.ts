@@ -11,7 +11,6 @@ export const zhNavbar = navbar([
     text: "必应壁纸",
     icon: "images",
     link: "/archives/",
-    activeMatch: "^/archives/$",
   },
   {
     text: "关于",
