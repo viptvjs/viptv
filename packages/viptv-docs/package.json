@@ -16,7 +16,7 @@
   "type": "module",
   "scripts": {
     "dev": "vuepress-vite dev src --clean-cache",
-    "build": "cross-env NODE_OPTIONS=--max-old-space-size=8192 vuepress-vite build src",
+    "build": "vuepress-vite build src --clean-cache",
     "preview": "vuepress-vite preview src"
   },
   "devDependencies": {

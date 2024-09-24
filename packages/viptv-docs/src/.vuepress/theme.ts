@@ -191,18 +191,9 @@ export default hopeTheme(
         },
       ],
       searchPro: {
-        searchDelay: 800,
-        suggestDelay: 300,
         indexContent: true,
         hotReload: true,
         customFields: [
-          {
-            getter: ({ frontmatter }): string[] => frontmatter["author"] as string[],
-            formatter: {
-              "/en/": "Author: $content",
-              "/": "作者：$content",
-            },
-          },
           {
             getter: ({ frontmatter }): string[] => frontmatter["category"] as string[],
             formatter: {
@@ -215,13 +206,6 @@ export default hopeTheme(
             formatter: {
               "/en/": "Tag: $content",
               "/": "标签：$content",
-            },
-          },
-          {
-            getter: ({ frontmatter }): string[] => frontmatter["updateTime"] as string[],
-            formatter: {
-              "/en/": "Update time: $content",
-              "/": "更新时间：$content",
             },
           },
         ],

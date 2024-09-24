@@ -35,7 +35,7 @@ jobs:
         run: |
           git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT  
 
-      - name: Deploy to viptv.work
+      - name: Deploy to www.viptv.work
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PUBLISH_DOCS }}
@@ -43,6 +43,16 @@ jobs:
           publish_dir: ./packages/viptv-docs/dist
           publish_branch: main
           cname: www.viptv.work
+
+      - name: Deploy to img.viptv.work
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PUBLISH_DOCS }}
+          external_repository: viptv-work/img
+          publish_dir: ./packages/img
+          publish_branch: main
+          cname: img.viptv.work
+
 
       - name: Deploy to hefung/docs
         uses: JamesIves/github-pages-deploy-action@v4
