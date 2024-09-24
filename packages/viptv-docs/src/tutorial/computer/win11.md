@@ -11,7 +11,7 @@
 
 * 系统：Win11
 
-![](/win11/lenovo.png)
+![](https://img.viptv.work/viptv/win11/lenovo.png)
 
 
 
@@ -38,7 +38,7 @@
 :::
 
 
-![](/win11/win11-01.png)
+![](https://img.viptv.work/viptv/win11/win11-01.png)
 
 ::::
 
@@ -62,7 +62,7 @@
 
 关闭方法：设置-隐私和安全-设备加密关闭即可
 
-![](/win11/win11-02.png)
+![](https://img.viptv.work/viptv/win11/win11-02.png)
 
 如果想彻底删掉，[登录微软官网](https://www.microsoft.com/zh-cn/) - 头像 我的Microsoft账户 - 设备 `查看详细信息` - Btilocker数据保护 - 删除两个秘钥即可
 
@@ -70,7 +70,7 @@
 不知道是哪一台电脑，在设置-系统里查看电脑名
 :::
 
-![](/win11/win11-03.png)
+![](https://img.viptv.work/viptv/win11/win11-03.png)
 
 ::::
 
@@ -92,7 +92,7 @@
 其他电脑可以自己看看，哪个键位上有这个Fnlock
 :::
 
-![](/win11/win11-04.png)
+![](https://img.viptv.work/viptv/win11/win11-04.png)
 
 ::::
 
@@ -108,11 +108,11 @@
 
 关闭方法：开机不停按F2直到进入BIOS设置，将语言先改成 `简体中文`
 
-![](/win11/win11-05.png)
+![](https://img.viptv.work/viptv/win11/win11-05.png)
 
 然后系统设置-下拉到 `开盖开机` ，选择关闭即可
 
-![](/win11/win11-06.png)
+![](https://img.viptv.work/viptv/win11/win11-06.png)
 
 :::
 
@@ -134,7 +134,7 @@
 
 > 这里我也就发现了他们是啥，不要勾选 `在锁屏界面上获取花絮、提示、技巧等`
 
-![](/win11/win11-07.png)
+![](https://img.viptv.work/viptv/win11/win11-07.png)
 
 另外屏幕超时锁屏也很快，可以自己改长一点
 
@@ -157,7 +157,7 @@
 关闭方法：浏览器标签页 - 设置 - 自定义 - 内容关闭
 
 
-![](/win11/win11-08.png)
+![](https://img.viptv.work/viptv/win11/win11-08.png)
 
 :::
 
@@ -178,7 +178,7 @@
 
 可能原因：使用过Clash等代理工具，没有断开直接关机了
 
-![](/win11/win11-09.png)
+![](https://img.viptv.work/viptv/win11/win11-09.png)
 
 ::::
 
@@ -196,7 +196,7 @@
 我把任务视图和搜索都去除了，反正开始键里也可以搜
 :::
 
-![](/win11/win11-10.png)
+![](https://img.viptv.work/viptv/win11/win11-10.png)
 
 ::::
 
@@ -223,7 +223,7 @@ pause
 ```
 
 
-![](/win11/win11-11.png)
+![](https://img.viptv.work/viptv/win11/win11-11.png)
 
 那又如何恢复呢
 
@@ -238,7 +238,7 @@ start explorer
 pause
 ```
 
-![](/win11/win11-12.png)
+![](https://img.viptv.work/viptv/win11/win11-12.png)
 
 :::
 
@@ -260,23 +260,23 @@ pause
 跨版本系统就容易出问题
 :::
 
-![](/win11/win11-13.png)
+![](https://img.viptv.work/viptv/win11/win11-13.png)
 
 鼠标右键 - 不能删除的文件夹 - 属性
 
-![](/win11/win11-14.png)
+![](https://img.viptv.work/viptv/win11/win11-14.png)
 
 安全选项卡 - 高级
 
-![](/win11/win11-15.png)
+![](https://img.viptv.work/viptv/win11/win11-15.png)
 
 所有者这里 点 `更改`
 
-![](/win11/win11-16.png)
+![](https://img.viptv.work/viptv/win11/win11-16.png)
 
 点击下方的 `高级`
 
-![](/win11/win11-17.png)
+![](https://img.viptv.work/viptv/win11/win11-17.png)
 
 立即查找，选择 `Administrators` ，确定
 
@@ -288,17 +288,17 @@ Administrators：是超级用户组，包含了Administrator
 Administrator：是超级用户
 :::
 
-![](/win11/win11-18.png)
+![](https://img.viptv.work/viptv/win11/win11-18.png)
 
 
 对象名称里就是你选择的用户组，然后确定
 
-![](/win11/win11-19.png)
+![](https://img.viptv.work/viptv/win11/win11-19.png)
 
 
 勾选 `替换子容器和对象的所有者`
 
-![](/win11/win11-20.png)
+![](https://img.viptv.work/viptv/win11/win11-20.png)
 
 回到属性卡，点编辑，选中 `Administrators` 用户组，并勾选 `完全控制`权限，确定
 
@@ -306,7 +306,7 @@ Administrator：是超级用户
 属性页卡的 `确定` 也要点，否则不生效
 :::
 
-![](/win11/win11-21.png)
+![](https://img.viptv.work/viptv/win11/win11-21.png)
 
 最后尝试文件夹删除即可
 
@@ -325,7 +325,7 @@ win键+R键打开运行，输入 `services.msc` 回车进入Windows服务
 
 常规 - 启动类型选择 `禁用` - 应用即可
 
-![](/win11/win11-22.png)
+![](https://img.viptv.work/viptv/win11/win11-22.png)
 
 :::
 
@@ -343,7 +343,7 @@ win键+R键打开运行，输入 `services.msc` 回车进入Windows服务
 
 解决：依次关闭桌面上打开的软件，直到关掉引起的软件后会自动消失
 
-![](/win11/win11-23.png)
+![](https://img.viptv.work/viptv/win11/win11-23.png)
 
 :::
 
@@ -353,15 +353,15 @@ win键+R键打开运行，输入 `services.msc` 回车进入Windows服务
 
 ::: details CAD弹窗 Nonvalid Software Detected 无法使用
 
-![](/win11/win11-24.png)
+![](https://img.viptv.work/viptv/win11/win11-24.png)
 
 解决：CAD图标右键 `打开文件所在的位置`，找到 `AcWebBrowser` 文件夹
 
-![](/win11/win11-25.png)
+![](https://img.viptv.work/viptv/win11/win11-25.png)
 
 找到`AcWebBrowser.exe` - 重命名，将exe后缀名删掉，或者直接将这个文件删除
 
-![](/win11/win11-26.png)
+![](https://img.viptv.work/viptv/win11/win11-26.png)
 
 :::
 

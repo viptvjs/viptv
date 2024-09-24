@@ -9,7 +9,7 @@
 
 官网：https://juicessh.com/
 
-![](/shell/JuiceSSH/JuiceSSH-01.png)
+![](https://img.viptv.work/viptv/shell/JuiceSSH/JuiceSSH-01.png)
 
 
 
@@ -22,7 +22,7 @@
 官网下载并安装 [JuiceSSH](https://juicessh.com/changelog)
 
 
-![](/shell/JuiceSSH/JuiceSSH-02.png)
+![](https://img.viptv.work/viptv/shell/JuiceSSH/JuiceSSH-02.png)
 
 
 
@@ -38,7 +38,7 @@
 密码：(你设置的服务器密码)
 :::
 
-![](/shell/JuiceSSH/JuiceSSH-03.png)
+![](https://img.viptv.work/viptv/shell/JuiceSSH/JuiceSSH-03.png)
 
 
 
@@ -52,7 +52,7 @@
 认证：(选择刚才的认证)
 :::
 
-![](/shell/JuiceSSH/JuiceSSH-04.png)
+![](https://img.viptv.work/viptv/shell/JuiceSSH/JuiceSSH-04.png)
 
 
 

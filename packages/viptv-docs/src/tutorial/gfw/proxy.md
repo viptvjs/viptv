@@ -67,7 +67,7 @@
 > 此处引用了 [@不良林 的视频](https://youtu.be/JfSJmPFiL_s?si=ZULTATzJN55H4on4) 截图
 
 
-![](/proxy/proxy-01.png)
+![](https://img.viptv.work/viptv/proxy/proxy-01.png)
 
 
 

@@ -8,7 +8,7 @@
 
 官网：https://letsencrypt.osfipin.com/
 
-![](/ssl/laici/laici-01.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-01.png)
 
 
 
@@ -62,20 +62,20 @@
 
 在官网点击 立即开始 [注册账号](https://letsencrypt.osfipin.com/user-0408/user/register)
 
-![](/ssl/laici/laici-02.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-02.png)
 
-![](/ssl/laici/laici-03.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-03.png)
 
 
 ## 申请
 
 左侧菜单栏 - 申请证书
 
-![](/ssl/laici/laici-04.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-04.png)
 
 输入域名，勾选泛解析，仅二级域名就不要勾选
 
-![](/ssl/laici/laici-05.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-05.png)
 
 默认使用 ECC 即可，下一步
 
@@ -87,37 +87,37 @@
 * RSA：非对称加密算法，普及率最高，但密钥较长安全性一般
 :::
 
-![](/ssl/laici/laici-06.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-06.png)
 
 默认是Let's Encrypt，其他证书需要到小程序签到解锁
 
-![](/ssl/laici/laici-07.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-07.png)
 
 提交申请后，去验证
 
-![](/ssl/laici/laici-08.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-08.png)
 
 等加载出来后，方式只能选手动DNS验证，自动的需要开VIP
 
-![](/ssl/laici/laici-09.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-09.png)
 
 我们需要在DNS解析处，添加这一条TXT记录
 
-![](/ssl/laici/laici-10.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-10.png)
 
 我的域名在 [腾讯云的DNSPod](https://www.dnspod.cn/)，添加 `TXT记录` ，复制粘贴对应的值
 
-![](/ssl/laici/laici-11.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-11.png)
 
-![](/ssl/laici/laici-12.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-12.png)
 
 点击 验证全部，提交
 
-![](/ssl/laici/laici-13.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-13.png)
 
 稍等一会证书就申请好了，在证书部署中可以看到
 
-![](/ssl/laici/laici-14.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-14.png)
 
 ## 部署
 
@@ -125,13 +125,13 @@
 
 点击 `查看密钥(KEY)`，复制，粘贴到宝塔的 `密钥(KEY)` 框中
 
-![](/ssl/laici/laici-15.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-15.png)
 
 点击保存，并开启 `强制HTTPS`
 
-![](/ssl/laici/laici-16.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-16.png)
 
 
 打开网站已经有小锁了，顺便查看证书
 
-![](/ssl/laici/laici-17.png)
+![](https://img.viptv.work/viptv/ssl/laici/laici-17.png)

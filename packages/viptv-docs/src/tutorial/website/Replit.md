@@ -13,7 +13,7 @@ Replit是一个基于浏览器的云端协同开发平台，可用于构建开�
 
 GitHub：https://github.com/replit
 
-![](/replit/replit-01.png)
+![](https://img.viptv.work/viptv/replit/replit-01.png)
 
 
 
@@ -29,30 +29,30 @@ GitHub：https://github.com/replit
 
 ## 注册
 
-点击 `Log in` 注册，可以用第三方关联注册，我选择 [GitHub](/book/website/pages/github)
+点击 `Log in` 注册，可以用第三方关联注册，我选择 [GitHub](https://img.viptv.work/viptv/book/website/pages/github)
 
 ::: details 网站打不开？
-那有可能你需要 [挂一个梯子](/book/gfw/channel)
+那有可能你需要 [挂一个梯子](https://img.viptv.work/viptv/book/gfw/channel)
 :::
 
-![](/replit/replit-02.png)
+![](https://img.viptv.work/viptv/replit/replit-02.png)
 
 注册好，进入主界面，可以修改你的昵称，问你用于何处和多少开发经验
 
-![](/replit/replit-03.png)
+![](https://img.viptv.work/viptv/replit/replit-03.png)
 
-![](/replit/replit-04.png)
+![](https://img.viptv.work/viptv/replit/replit-04.png)
 
 
 最后，根据上方提示邮箱验证一下即可
 
-![](/replit/replit-05.png)
+![](https://img.viptv.work/viptv/replit/replit-05.png)
 
-![](/replit/replit-06.png)
+![](https://img.viptv.work/viptv/replit/replit-06.png)
 
 还可以在 `Account - Profile - through the CLI` 修改用户名
 
-![](/replit/replit-07.png)
+![](https://img.viptv.work/viptv/replit/replit-07.png)
 
 
 
@@ -72,11 +72,11 @@ GitHub：https://github.com/replit
 [@misaka-blog：生成Wireguard配置](https://replit.com/@misaka-blog/warpgo-profile-generator)
 :::
 
-![](/replit/replit-08.png)
+![](https://img.viptv.work/viptv/replit/replit-08.png)
 
 名称可改可不改，点 `Fork Repl`
 
-![](/replit/replit-09.png)
+![](https://img.viptv.work/viptv/replit/replit-09.png)
 
 Fork成功会自动进入仓库运行
 
@@ -86,7 +86,7 @@ Fork成功会自动进入仓库运行
 未运行点击顶部的 `RUN`
 :::
 
-![](/replit/replit-10.png)
+![](https://img.viptv.work/viptv/replit/replit-10.png)
 
 我这里就以 [CloudFare的 Zero Trust](./cloudflare.md#使用) 演示
 
@@ -100,39 +100,39 @@ Fork成功会自动进入仓库运行
 * warp api：官方申请api，有几率失败
 :::
 
-![](/replit/replit-11.png)
+![](https://img.viptv.work/viptv/replit/replit-11.png)
 
 点击链接获取 [Teams团队Token](https://web--public--warp-team-api--coia-mfs4.code.run/)
 
-![](/replit/replit-12.png)
+![](https://img.viptv.work/viptv/replit/replit-12.png)
 
 输入你在 [CloudFare中注册的团队名](./cloudflare.md#使用)
 
-![](/replit/replit-13.png)
+![](https://img.viptv.work/viptv/replit/replit-13.png)
 
 使用的邮箱 (与注册时填入的邮箱后缀保持一致)
 
-![](/replit/replit-14.png)
+![](https://img.viptv.work/viptv/replit/replit-14.png)
 
 填入验证码
 
-![](/replit/replit-15.png)
+![](https://img.viptv.work/viptv/replit/replit-15.png)
 
 获取到ey开头的token
 
-![](/replit/replit-16.png)
+![](https://img.viptv.work/viptv/replit/replit-16.png)
 
 复制这一长串token
 
-![](/replit/replit-17.png)
+![](https://img.viptv.work/viptv/replit/replit-17.png)
 
 回到Replit 右键，Paste 粘贴，回车
 
-![](/replit/replit-18.png)
+![](https://img.viptv.work/viptv/replit/replit-18.png)
 
-申请成功后WireGuard配置，可以导入 [WireGuard使用](/book/gfw/wireguard)
+申请成功后WireGuard配置，可以导入 [WireGuard使用](https://img.viptv.work/viptv/book/gfw/wireguard)
 
-![](/replit/replit-19.png)
+![](https://img.viptv.work/viptv/replit/replit-19.png)
 
 ::::
 
@@ -144,39 +144,39 @@ Fork成功会自动进入仓库运行
 
 这里使用 [@甬哥](https://github.com/yonggekkk/Replit-Xray) 的脚本包 [vmvltrssso.zip](https://raw.githubusercontent.com/yonggekkk/Replit-Xray/main/vmvltrssso.zip)，并解压
 
-![](/replit/replit-20.png)
+![](https://img.viptv.work/viptv/replit/replit-20.png)
 
 左上角 `+ Create Repl`
 
-![](/replit/replit-21.png)
+![](https://img.viptv.work/viptv/replit/replit-21.png)
 
 选择 `Blank Repl`
 
-![](/replit/replit-22.png)
+![](https://img.viptv.work/viptv/replit/replit-22.png)
 
 名称Title随意，但不要出现代理协议的字眼，点击创建Create Repl
 
-![](/replit/replit-23.png)
+![](https://img.viptv.work/viptv/replit/replit-23.png)
 
 等待创建完成即可
 
-![](/replit/replit-24.png)
+![](https://img.viptv.work/viptv/replit/replit-24.png)
 
 然后将解压后的4个文件，全部拖到左侧文件栏内进行覆盖
 
-![](/replit/replit-25.png)
+![](https://img.viptv.work/viptv/replit/replit-25.png)
 
 会提示是否覆盖，点Yes
 
-![](/replit/replit-26.png)
+![](https://img.viptv.work/viptv/replit/replit-26.png)
 
 上传完成，左侧文件栏显示 `√ saved` 即可，点 `Run` 运行
 
-![](/replit/replit-27.png)
+![](https://img.viptv.work/viptv/replit/replit-27.png)
 
 多等一会运行起来后，点 `New Tab`
 
-![](/replit/replit-28.png)
+![](https://img.viptv.work/viptv/replit/replit-28.png)
 
 
 复制这个网址，一会要用到，去掉 `https://` 和尾部的 `/` 
@@ -187,26 +187,26 @@ https://123456.pike.replit.dev/ // [!code --]
 123456.pike.replit.dev // [!code ++]
 ```
 
-![](/replit/replit-29.png)
+![](https://img.viptv.work/viptv/replit/replit-29.png)
 
 
 然后再左侧 `Secret`，右侧点 `+ New Secret`
 
-![](/replit/replit-30.png)
+![](https://img.viptv.work/viptv/replit/replit-30.png)
 
 key输入 `ym`，值 `Value` 输入刚才不带http斜杠的网址，添加 `Add Secret`
 
-![](/replit/replit-31.png)
+![](https://img.viptv.work/viptv/replit/replit-31.png)
 
 然后点击顶部停止 `stop`，重新 `Run`
 
-![](/replit/replit-32.png)
+![](https://img.viptv.work/viptv/replit/replit-32.png)
 
 等待生成，方案一要手搓，我们可以直接点击方案2的链接
 
-![](/replit/replit-33.png)
+![](https://img.viptv.work/viptv/replit/replit-33.png)
 
-挑你喜欢的协议导入 [科学上网工具](/book/gfw/proxy) ，不知道选哪个就选Vmess / Vless
+挑你喜欢的协议导入 [科学上网工具](https://img.viptv.work/viptv/book/gfw/proxy) ，不知道选哪个就选Vmess / Vless
 
 ::: tip 说明
 默认是443端口，不可以更改
@@ -214,12 +214,12 @@ key输入 `ym`，值 `Value` 输入刚才不带http斜杠的网址，添加 `Add
 默认开启TLS，不可以关闭
 :::
 
-![](/replit/replit-34.png)
+![](https://img.viptv.work/viptv/replit/replit-34.png)
 
 我这里使用V2ray演示，复制VMess节点，剪切板导入
 
 
-![](/replit/replit-35.png)
+![](https://img.viptv.work/viptv/replit/replit-35.png)
 
 导入成功后，右键 - 测试服务器真连接延迟
 
@@ -227,9 +227,9 @@ key输入 `ym`，值 `Value` 输入刚才不带http斜杠的网址，添加 `Add
 Replit主页头像 - Account - Your server location，将原先的 Asia 改成 `North America`
 :::
 
-![](/replit/replit-36.png)
+![](https://img.viptv.work/viptv/replit/replit-36.png)
 
-![](/replit/replit-37.png)
+![](https://img.viptv.work/viptv/replit/replit-37.png)
 
 然后下方，选择 `自动配置系统代理`，访问 [谷歌](https://www.google.com/) 看看
 
@@ -237,7 +237,7 @@ Replit主页头像 - Account - Your server location，将原先的 Asia 改成 `
 双击节点，在节点配置中，将 `TLS` 关闭，再重新开启 `TLS` 看看是否恢复正常
 :::
 
-![](/replit/replit-38.png)
+![](https://img.viptv.work/viptv/replit/replit-38.png)
 
 ::::
 
@@ -263,19 +263,19 @@ Replit主页头像 - Account - Your server location，将原先的 Asia 改成 `
 
 进入 Cloudflare - Zero Trust
 
-![](/replit/replit-39.png)
+![](https://img.viptv.work/viptv/replit/replit-39.png)
 
 然后再 Networks - Tunnels - Add a tunnel
 
-![](/replit/replit-40.png)
+![](https://img.viptv.work/viptv/replit/replit-40.png)
 
 选择 Cloudflared，下一步
 
-![](/replit/replit-41.png)
+![](https://img.viptv.work/viptv/replit/replit-41.png)
 
 自己取一个隧道名，保存
 
-![](/replit/replit-42.png)
+![](https://img.viptv.work/viptv/replit/replit-42.png)
 
 然后自动生成了token，我们复制出来，一会要用，下一步
 
@@ -291,7 +291,7 @@ eyJhIjoiYmVjNjVjODk5NzVhN2JhYTM5ODA5OWExM2UwNDYyNWEiLCJ0IjoiOTZiNWYyYjgtZWVmMS00
 
 :::
 
-![](/replit/replit-43.png)
+![](https://img.viptv.work/viptv/replit/replit-43.png)
 
 然后给隧道添加一个域名，保存
 
@@ -309,11 +309,11 @@ eyJhIjoiYmVjNjVjODk5NzVhN2JhYTM5ODA5OWExM2UwNDYyNWEiLCJ0IjoiOTZiNWYyYjgtZWVmMS00
 :::
 
 
-![](/replit/replit-44.png)
+![](https://img.viptv.work/viptv/replit/replit-44.png)
 
 这样我们就得到了一个二级域名的隧道网址
 
-![](/replit/replit-45.png)
+![](https://img.viptv.work/viptv/replit/replit-45.png)
 
 返回Replit，根据 [@甬哥的文档](https://github.com/yonggekkk/Replit-Xray) 分别添加密钥 `argotoken` 和 `argoym`
 
@@ -327,11 +327,11 @@ eyJhIjoiYmVjNjVjODk5NzVhN2JhYTM5ODA5OWExM2UwNDYyNWEiLCJ0IjoiOTZiNWYyYjgtZWVmMS00
 | ver<br>`可选` | 任意字符 | Xray1.4.3版支持苹果oneclick免费客户端 |
 
 
-![](/replit/replit-46.png)
+![](https://img.viptv.work/viptv/replit/replit-46.png)
 
 重新 `Run` 即可看到固定的隧道名
 
-![](/replit/replit-47.png)
+![](https://img.viptv.work/viptv/replit/replit-47.png)
 
 重新订阅节点，或者双击节点修改 `伪装域名host` 和 `SNI` 为伪装域名
 
@@ -343,7 +343,7 @@ eyJhIjoiYmVjNjVjODk5NzVhN2JhYTM5ODA5OWExM2UwNDYyNWEiLCJ0IjoiOTZiNWYyYjgtZWVmMS00
 | 域名 | 非必须提供 | 必须提供 |
 
 
-![](/replit/replit-48.png)
+![](https://img.viptv.work/viptv/replit/replit-48.png)
 
 ::::
 

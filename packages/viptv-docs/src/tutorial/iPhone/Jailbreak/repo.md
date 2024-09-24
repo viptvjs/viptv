@@ -54,11 +54,11 @@
 如果你就准备放服务器上，不用新建，直接放域名文件夹里
 :::
 
-![](/repo/repo-01.png)
+![](https://img.viptv.work/viptv/repo/repo-01.png)
 
 不要着急新建，我会逐一的分开讲解
 
-![](/repo/repo-02.png)
+![](https://img.viptv.work/viptv/repo/repo-02.png)
 
 
 
@@ -71,7 +71,7 @@
 
 新建插件文件夹，以 [BHTikTok-Plus](https://github.com/dayanch96/BHTikTok-Plus/releases) 为例
 
-![](/repo/repo-03.png)
+![](https://img.viptv.work/viptv/repo/repo-03.png)
 
 ::: tip 说明
 `iphoneos-arm` 为 有根插件rootful，unc0ver越狱等专用
@@ -171,7 +171,7 @@ Debian/Ubuntu系统自带dpkg-dev和dpkg-scanpackages命令，无需安装
 yum install -y dpkg-dev
 ```
 
-![](/repo/repo-04.png)
+![](https://img.viptv.work/viptv/repo/repo-04.png)
 
 
 进 插件目录，根据刚开始 [自己建立的文件夹名](#目录结构) 来
@@ -405,7 +405,7 @@ Description: 自用搬运源，随缘更新
 
 对着服务器右键 `属性 - 隧道 - 取消勾选 转发X11连接到`，再点连接，确保重新连接后生效
 
-![](/repo/repo-06.png)
+![](https://img.viptv.work/viptv/repo/repo-06.png)
 
 生成一个密钥
 
@@ -446,7 +446,7 @@ Is this correct? (y/N) y
 
 输入两次密码完成创建
 
-![](/repo/repo-07.png)
+![](https://img.viptv.work/viptv/repo/repo-07.png)
 
 ```sh{3-5,9}:no-line-numbers
 GnuPG needs to construct a user ID to identify your key.
@@ -519,7 +519,7 @@ File `Release.gpg' exists. Overwrite? (y/N) y
 
 目录下自动生成 `Release.gpg`，结束
 
-![](/repo/repo-08.png)
+![](https://img.viptv.work/viptv/repo/repo-08.png)
 
 ::: details 删除秘钥
 ```sh
@@ -542,16 +542,16 @@ gpg --delete-key "你的Real name"
 
 我们将所有文件打包下载到桌面
 
-![](/repo/repo-09.png)
+![](https://img.viptv.work/viptv/repo/repo-09.png)
 
 
 上传到github仓库
 
-![](/repo/repo-10.png)
+![](https://img.viptv.work/viptv/repo/repo-10.png)
 
 如果你弄了主页，就在设置中将 Github Page 开启
 
-![](/repo/repo-11.png)
+![](https://img.viptv.work/viptv/repo/repo-11.png)
 
 
 
@@ -563,11 +563,11 @@ gpg --delete-key "你的Real name"
 deb插件中也有control信息，作者没有区分就只有1个
 :::
 
-![](/repo/repo-12.png)
+![](https://img.viptv.work/viptv/repo/repo-12.png)
 
 正常来说是2个都有的，可以尝试手动编写
 
-![](/repo/repo-13.png)
+![](https://img.viptv.work/viptv/repo/repo-13.png)
 
 
 

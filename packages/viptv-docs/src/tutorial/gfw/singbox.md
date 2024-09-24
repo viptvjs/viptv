@@ -20,7 +20,7 @@
 仓库：https://github.com/SagerNet/sing-box
 
 
-![](/singbox/singbox.png)
+![](https://img.viptv.work/viptv/singbox/singbox.png)
 
 
 ## 协议
@@ -51,7 +51,7 @@
 
 注册一个 [美区苹果ID](../iPhone/Apple_ID.md) ，然后在Appstore下载 [sing-box](https://apps.apple.com/us/app/sing-box/id6451272673)
 
-![](/singbox/ios/ios-01.png)
+![](https://img.viptv.work/viptv/singbox/ios/ios-01.png)
 
 :::
 
@@ -68,7 +68,7 @@
 不知道版本下载 foss开源版 或者 universal通用版
 :::
 
-![](/singbox/android/android-01.png)
+![](https://img.viptv.work/viptv/singbox/android/android-01.png)
 
 ::::
 
@@ -85,16 +85,16 @@
 
 在仪表盘 `Dashboard` 点击安装网络插件 `Install Network Extension`
 
-![](/singbox/ios/ios-02.png)
+![](https://img.viptv.work/viptv/singbox/ios/ios-02.png)
 
 安装好后，点击底部 `Profile` - `New Profile`
 
-![](/singbox/ios/ios-03.png)
+![](https://img.viptv.work/viptv/singbox/ios/ios-03.png)
 
 找一个 [免费送流量的机场注册](./channel.md)，一键订阅 - 复制订阅地址
 
 
-![](/singbox/ios/ios-04.png)
+![](https://img.viptv.work/viptv/singbox/ios/ios-04.png)
 
 ::: tip 订阅格式转换
 sing-box有独特的格式，无法直接填入订阅
@@ -122,7 +122,7 @@ https://sing-box-xxx.app/config/订阅链接
 
 然后在 `Deployments` 报错的那条 `Deploy` 重新部署即可
 
-![](/singbox/ios/ios-05.png)
+![](https://img.viptv.work/viptv/singbox/ios/ios-05.png)
 
 链接一共三个，复制其中一个即可
 :::
@@ -141,7 +141,7 @@ https://sing-box-subscribe-pink-two.vercel.app/config/订阅链接
 
 机场名随便输，Type类型选择 `Remote` 远程，URL处粘贴组合好的订阅链接，点 `Create` 创建
 
-![](/singbox/ios/ios-06.png)
+![](https://img.viptv.work/viptv/singbox/ios/ios-06.png)
 
 这样就添加成功了，回到仪表盘 `Dashboard` 开启 `Enabled` 开关
 
@@ -149,16 +149,16 @@ https://sing-box-subscribe-pink-two.vercel.app/config/订阅链接
 由于vercel生成的网址被墙，可能需要开梯子才能加载进去
 :::
 
-![](/singbox/ios/ios-07.png)
+![](https://img.viptv.work/viptv/singbox/ios/ios-07.png)
 
 开启成功了就能到到流量使用信息，点击 `Groups`，展开这个收纳图标
 
-![](/singbox/ios/ios-08.png)
+![](https://img.viptv.work/viptv/singbox/ios/ios-08.png)
 
 这样就能看到我们的节点了，点击 `闪电`图标测速
 
 
-![](/singbox/ios/ios-09.png)
+![](https://img.viptv.work/viptv/singbox/ios/ios-09.png)
 
 选择一个延迟低的节点，访问 [谷歌](https://www.google.com) 看看
 
@@ -168,7 +168,7 @@ https://sing-box-subscribe-pink-two.vercel.app/config/订阅链接
 然后可切换回 `Rule` 规则
 :::
 
-![](/singbox/ios/ios-10.png)
+![](https://img.viptv.work/viptv/singbox/ios/ios-10.png)
 
 ::::
 
@@ -184,12 +184,12 @@ https://sing-box-subscribe-pink-two.vercel.app/config/订阅链接
 
 安装好后，点击底部 `Profile` 右下角 `+` 号添加
 
-![](/singbox/android/android-02.png)
+![](https://img.viptv.work/viptv/singbox/android/android-02.png)
 
 
 然后找一个 [免费送流量的机场注册](./channel.md)，一键订阅 - 复制订阅地址
 
-![](/singbox/android/android-03.png)
+![](https://img.viptv.work/viptv/singbox/android/android-03.png)
 
 
 
@@ -198,7 +198,7 @@ https://sing-box-subscribe-pink-two.vercel.app/config/订阅链接
 URL处需填写特定的格式链接，机场订阅链接不可以直接用！！！
 
 
-![](/singbox/android/android-04.png)
+![](https://img.viptv.work/viptv/singbox/android/android-04.png)
 
 
 我们借助 [@Toperlock](https://github.com/Toperlock/) 的 [sing-box-subscribe](https://github.com/Toperlock/sing-box-subscribe/) 来转换
@@ -238,7 +238,7 @@ https://sing-box-subscribe-pink-two.vercel.app/config/订阅链接
 
 然后在 `Deployments` 报错的那条 `Deploy` 重新部署即可
 
-![](/singbox/android/android-05.png)
+![](https://img.viptv.work/viptv/singbox/android/android-05.png)
 
 链接一共三个，复制其中一个即可
 :::
@@ -248,7 +248,7 @@ https://sing-box-subscribe-pink-two.vercel.app/config/订阅链接
 回到仪表盘 `Dashboard` 开启 `Enabled` 开关，点击 `Groups`，展开这个收纳图标
 
 
-![](/singbox/android/android-06.png)
+![](https://img.viptv.work/viptv/singbox/android/android-06.png)
 
 
 点击 `闪电`图标测速，选择一个延迟低的节点，访问 [谷歌](https://www.google.com) 看看
@@ -260,7 +260,7 @@ https://sing-box-subscribe-pink-two.vercel.app/config/订阅链接
 :::
 
 
-![](/singbox/android/android-07.png)
+![](https://img.viptv.work/viptv/singbox/android/android-07.png)
 
 
 ::::

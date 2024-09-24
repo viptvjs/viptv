@@ -15,7 +15,7 @@ npm是其包管理工具
 
 仓库：https://github.com/nodejs/node
 
-![](/nodejs/nodejs.png)
+![](https://img.viptv.work/viptv/nodejs/nodejs.png)
 
 
 
@@ -46,7 +46,7 @@ yum list installed | grep centos
 * CentOS 8：使用 node.js 18 及以上版本
 :::
 
-![](/nodejs/linux/linux-01.png)
+![](https://img.viptv.work/viptv/nodejs/linux/linux-01.png)
 
 
 
@@ -62,7 +62,7 @@ yum list installed | grep centos
 * Source Code：源代码
 :::
 
-![](/nodejs/linux/linux-02.png)
+![](https://img.viptv.work/viptv/nodejs/linux/linux-02.png)
 
 
 我的系统是CentOS 7，只能选择 `v17.9.1` - `linux` ，然后将下载链接复制出来
@@ -77,7 +77,7 @@ node.js 18 已不支持 Centos 7 了
 https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-x64.tar.xz
 ```
 
-![](/nodejs/linux/linux-03.png)
+![](https://img.viptv.work/viptv/nodejs/linux/linux-03.png)
 
 
 
@@ -93,7 +93,7 @@ cd / #进入根目录
 ```
 
 
-![](/nodejs/linux/linux-04.png)
+![](https://img.viptv.work/viptv/nodejs/linux/linux-04.png)
 
 
 
@@ -113,7 +113,7 @@ yum install wget -y
 wget https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-x64.tar.xz
 ```
 
-![](/nodejs/linux/linux-05.png)
+![](https://img.viptv.work/viptv/nodejs/linux/linux-05.png)
 
 
 然后解压，改名那里回车一下就好了
@@ -131,7 +131,7 @@ tar xvf node-v17.9.1-linux-x64.tar.xz
 mv node-v17.9.1-linux-x64 node-v17.9.1
 ```
 
-![](/nodejs/linux/linux-06.png)
+![](https://img.viptv.work/viptv/nodejs/linux/linux-06.png)
 
 
 进目录查看，有就代表安装好了
@@ -140,7 +140,7 @@ mv node-v17.9.1-linux-x64 node-v17.9.1
 ```sh
 cd /node-v17.9.1/bin && ls
 ```
-![](/nodejs/linux/linux-07.png)
+![](https://img.viptv.work/viptv/nodejs/linux/linux-07.png)
 
 
 
@@ -151,7 +151,7 @@ ln -sf /node-v17.9.1/bin/node /usr/local/bin/node
 ln -sf /node-v17.9.1/bin/npm /usr/local/bin/npm
 ```
 
-![](/nodejs/linux/linux-08.png)
+![](https://img.viptv.work/viptv/nodejs/linux/linux-08.png)
 
 
 
@@ -180,7 +180,7 @@ node -v
 npm -v 
 ```
 
-![](/nodejs/linux/linux-09.png)
+![](https://img.viptv.work/viptv/nodejs/linux/linux-09.png)
 
 
 
@@ -190,7 +190,7 @@ npm -v
 cd / && ls
 ```
 
-![](/nodejs/linux/linux-10.png)
+![](https://img.viptv.work/viptv/nodejs/linux/linux-10.png)
 
 
 删除node安装包，复制下列命令
@@ -203,7 +203,7 @@ rm -rf node-v17.9.1-linux-x64.tar.xz
 删完后，我们再进目录看一下，完美
 
 
-![](/nodejs/linux/linux-11.png)
+![](https://img.viptv.work/viptv/nodejs/linux/linux-11.png)
 
 
 
@@ -221,7 +221,7 @@ npm config set registry https://registry.npmmirror.com/
 npm config set registry https://registry.npmjs.org/
 ```
 
-![](/nodejs/linux/linux-12.png)
+![](https://img.viptv.work/viptv/nodejs/linux/linux-12.png)
 
 
 ::::
@@ -237,7 +237,7 @@ npm config set registry https://registry.npmjs.org/
 
 安装前，鼠标右键 - 我的电脑 - 属性，查看电脑系统类型
 
-![](/nodejs/win/win-01.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-01.png)
 
 
 
@@ -254,24 +254,24 @@ npm config set registry https://registry.npmjs.org/
 * Source Code：源代码
 :::
 
-![](/nodejs/win/win-02.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-02.png)
 
 选择 `LTS`（Long-term support，长期维护版）即可，`window` `x64`(自己的电脑系统类型)
 
-![](/nodejs/win/win-03.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-03.png)
 
 双击打开 `.msi` 文件安装，别安装在C盘即可
 
-![](/nodejs/win/win-04.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-04.png)
 
 直接下一步，什么都不要勾选，直到完成
 
-![](/nodejs/win/win-05.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-05.png)
 
 
 安装好后，我们运行 `window键+R` 进入 `cmd` 终端
 
-![](/nodejs/win/win-06.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-06.png)
 
 
 查看一下版本号，有就说明成功了
@@ -281,7 +281,7 @@ node -v
 npm -v
 ```
 
-![](/nodejs/win/win-07.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-07.png)
 
 
 最后建议更换一下国内源 [阿里云源](https://www.npmmirror.com/) ，下载文件速度会快很多
@@ -298,7 +298,7 @@ npm config set registry https://registry.npmmirror.com/
 npm config set registry https://registry.npmjs.org/
 ```
 
-![](/nodejs/win/win-08.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-08.png)
 
 
 
@@ -312,7 +312,7 @@ npm config set registry https://registry.npmjs.org/
 请根据自己的来
 :::
 
-![](/nodejs/win/win-09.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-09.png)
 
 
 打开 `cmd` 输入下列指令
@@ -330,17 +330,17 @@ npm config set prefix "D:\Program Files\nodejs\node_global"
 npm config set cache "D:\Program Files\nodejs\node_cache"
 ```
 
-![](/nodejs/win/win-10.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-10.png)
 
 
 此电脑 - 右键 - 属性 - 高级系统设置
 
-![](/nodejs/win/win-11.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-11.png)
 
 
 环境变量 - `用户变量` - Path - 编辑
 
-![](/nodejs/win/win-12.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-12.png)
 
 
 点 npm 路径 - 编辑，修改为 `node_global` 的路径后确定
@@ -349,7 +349,7 @@ npm config set cache "D:\Program Files\nodejs\node_cache"
 D:\Program Files\nodejs\node_global
 ```
 
-![](/nodejs/win/win-13.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-13.png)
 
 
 环境变量 - `系统变量` - 新建
@@ -360,7 +360,7 @@ D:\Program Files\nodejs\node_global
 D:\Program Files\nodejs\node_global\node_modules
 ```
 
-![](/nodejs/win/win-14.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-14.png)
 
 
 环境变量 - `系统变量` - Path - 编辑
@@ -371,7 +371,7 @@ D:\Program Files\nodejs\node_global\node_modules
 D:\Program Files\nodejs\node_global
 ```
 
-![](/nodejs/win/win-15.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-15.png)
 
 
 
@@ -379,7 +379,7 @@ D:\Program Files\nodejs\node_global
 
 安全 - 编辑，将所有权限都✔上
 
-![](/nodejs/win/win-16.png)
+![](https://img.viptv.work/viptv/nodejs/win/win-16.png)
 
 
 关掉cmd重新打开，看是否能查询版本
@@ -410,7 +410,7 @@ npm -v
 
 
 
-![](/nodejs/and/and-01.png)
+![](https://img.viptv.work/viptv/nodejs/and/and-01.png)
 
 
 用自带apt管理器，升级系统软件包
@@ -425,7 +425,7 @@ apt update && apt upgrade
 * 有 [Y/I/N/O/D/Z] 的，默认 `回车`
 :::
 
-![](/nodejs/and/and-02.png)
+![](https://img.viptv.work/viptv/nodejs/and/and-02.png)
 
 
 
@@ -441,7 +441,7 @@ node -v
 npm -v
 ```
 
-![](/nodejs/and/and-03.png)
+![](https://img.viptv.work/viptv/nodejs/and/and-03.png)
 
 
 手机已root的也可以直接使用 [MT管理器](https://mt2.cn/)，路径：
@@ -472,7 +472,7 @@ npm -v
 :::
 
 
-![](/nodejs/ios/ios-01.png)
+![](https://img.viptv.work/viptv/nodejs/ios/ios-01.png)
 
 
 
@@ -515,7 +515,7 @@ apk add npm
 npm -v
 ```
 
-![](/nodejs/ios/ios-02.png)
+![](https://img.viptv.work/viptv/nodejs/ios/ios-02.png)
 
 
 其他命令，通过 `apk –help` 命令查看其他包管理命令

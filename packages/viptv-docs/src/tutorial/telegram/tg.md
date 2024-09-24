@@ -15,13 +15,13 @@ icon: "user-plus"
 
 官网：https://telegram.org/
 
-![](/tg/tg.png)
+![](https://img.viptv.work/viptv/tg/tg.png)
 
 ## 注册
 
 根据自己的客户端下载软件，[在官网下载](https://telegram.org/apps)
 
-![](/tg/tg-01.png)
+![](https://img.viptv.work/viptv/tg/tg-01.png)
 
 打开 App 点下一步啊
 
@@ -29,23 +29,23 @@ icon: "user-plus"
 开梯子啊，不然不跳转！
 :::
 
-![](/tg/tg-02.png)
+![](https://img.viptv.work/viptv/tg/tg-02.png)
 
 输入自己的手机号，注册账号
 
-![](/tg/tg-03.png)
+![](https://img.viptv.work/viptv/tg/tg-03.png)
 
 输入验证码
 
-![](/tg/tg-04.png)
+![](https://img.viptv.work/viptv/tg/tg-04.png)
 
 名字随便，反正后面可以改
 
-![](/tg/tg-05.png)
+![](https://img.viptv.work/viptv/tg/tg-05.png)
 
 这样就注册成功了
 
-![](/tg/tg-06.png)
+![](https://img.viptv.work/viptv/tg/tg-06.png)
 
 加群链接一般是 `https://t.me/***`
 
@@ -53,7 +53,7 @@ icon: "user-plus"
 TG 里使用直接 `@***` 即可
 :::
 
-![](/tg/tg-07.png)
+![](https://img.viptv.work/viptv/tg/tg-07.png)
 
 ## 使用
 
@@ -69,7 +69,7 @@ TG 里使用直接 `@***` 即可
 
 APP 搜索 `zh_CN` 或者 跳群：[https://t.me/zh_CN](https://t.me/zh_CN)
 
-![](/tg/tg-10.png)
+![](https://img.viptv.work/viptv/tg/tg-10.png)
 
 :::
 
@@ -85,7 +85,7 @@ APP 搜索 `zh_CN` 或者 跳群：[https://t.me/zh_CN](https://t.me/zh_CN)
 
 情况如下：
 
-![](/tg/tg-08.png)
+![](https://img.viptv.work/viptv/tg/tg-08.png)
 
 打开登入网页版：[https://web.telegram.org](https://web.telegram.org)
 
@@ -95,7 +95,7 @@ APP 搜索 `zh_CN` 或者 跳群：[https://t.me/zh_CN](https://t.me/zh_CN)
 关掉网页，重新打开 APP 即可恢复正常
 :::
 
-![](/tg/tg-09.png)
+![](https://img.viptv.work/viptv/tg/tg-09.png)
 
 ::::
 
@@ -103,7 +103,7 @@ APP 搜索 `zh_CN` 或者 跳群：[https://t.me/zh_CN](https://t.me/zh_CN)
 
 搜索机器人 `Spam Info Bot`，按步骤点击后，最后输入 **accident**
 
-![](/tg/tg-11.png)
+![](https://img.viptv.work/viptv/tg/tg-11.png)
 
 :::
 
@@ -121,27 +121,27 @@ APP 搜索 `zh_CN` 或者 跳群：[https://t.me/zh_CN](https://t.me/zh_CN)
 
 在 `Your Phone Number` 栏输入要注销账号的手机号
 
-![](/tg/tg-12.png)
+![](https://img.viptv.work/viptv/tg/tg-12.png)
 
 打开电报 APP，官方有个英文 code 验证码消息，复制
 
-![](/tg/tg-13.png)
+![](https://img.viptv.work/viptv/tg/tg-13.png)
 
 在 `Confirmation Code` 栏粘贴收到的验证码，再点 Sign In 登录
 
-![](/tg/tg-14.png)
+![](https://img.viptv.work/viptv/tg/tg-14.png)
 
 在 `Why are you leaving` 栏随便写
 
-![](/tg/tg-15.png)
+![](https://img.viptv.work/viptv/tg/tg-15.png)
 
 点 `Delete My Account` 删除账户，YES
 
-![](/tg/tg-16.png)
+![](https://img.viptv.work/viptv/tg/tg-16.png)
 
 注销成功会提示，APP 的账号也自动退出登录，重新注册即可
 
-![](/tg/tg-17.png)
+![](https://img.viptv.work/viptv/tg/tg-17.png)
 
 ::::
 

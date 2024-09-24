@@ -9,7 +9,7 @@ tag:
 
 > 接上篇
 
-[iOS 程序启动原理（上）](/posts/iOS/iOS程序启动原理（上）.html)
+[iOS 程序启动原理（上）](https://img.viptv.work/viptv/posts/iOS/iOS程序启动原理（上）.html)
 
 下图是一个 iOS 程序启动的完整过程
 

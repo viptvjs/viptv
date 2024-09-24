@@ -8,7 +8,7 @@
 简单的小主页，根据原作者 [@imsyy](https://github.com/imsyy/home) 的教程进行了详细截图补充
 
 
-![無名の主页](/home/home.jpg)
+![無名の主页](https://img.viptv.work/viptv/home/home.jpg)
 
 
 
@@ -47,7 +47,7 @@ pnpm和yarn任选一个
 `win键` + `R键`，输入`cmd` 回车，进入命令命令终端
 
 
-![](/home/home-01.png)
+![](https://img.viptv.work/viptv/home/home-01.png)
 
 
 ```sh
@@ -62,7 +62,7 @@ pnpm -v
 我们可以关闭cmd命令终端，一会用更快捷的方式进入
 :::
 
-![](/home/home-02.png)
+![](https://img.viptv.work/viptv/home/home-02.png)
 
 
 
@@ -73,7 +73,7 @@ pnpm -v
 
 下载源码：https://github.com/imsyy/home
 
-![](/home/home-03.png)
+![](https://img.viptv.work/viptv/home/home-03.png)
 
 放到一个盘符，并解压
 
@@ -81,7 +81,7 @@ pnpm -v
 我自己是放到了 `F盘`
 :::
 
-![](/home/home-04.png)
+![](https://img.viptv.work/viptv/home/home-04.png)
 
 
 
@@ -92,9 +92,9 @@ pnpm -v
 
 在目录栏上方输入 `cmd` 快捷进入终端
 
-![](/home/home-05.png)
+![](https://img.viptv.work/viptv/home/home-05.png)
 
-![](/home/home-06.png)
+![](https://img.viptv.work/viptv/home/home-06.png)
 
 
 ```sh
@@ -102,7 +102,7 @@ pnpm install
 ```
 
 
-![](/home/home-07.png)
+![](https://img.viptv.work/viptv/home/home-07.png)
 
 
 
@@ -117,7 +117,7 @@ pnpm dev
 ```
 
 
-![](/home/home-08.png)
+![](https://img.viptv.work/viptv/home/home-08.png)
 
 
 进入开发模式，会生成一个本地预览链接，打开
@@ -134,16 +134,16 @@ http://localhost:3000/
 
 ## 页面修改
 
-![](/home/home-09.png)
+![](https://img.viptv.work/viptv/home/home-09.png)
 
-![](/home/home-10.png)
+![](https://img.viptv.work/viptv/home/home-10.png)
 
 
 ### 站点信息
 
 基础的修改都在 `.env` 里面，右键笔记本打开修改保存
 
-![](/home/home-11.png)
+![](https://img.viptv.work/viptv/home/home-11.png)
 
 根据自己需求，修改名称及关键词
 
@@ -214,7 +214,7 @@ public/images/icon
 
 除了主logo图是 `256x256` ，其他尺寸图需用Ps工具裁剪
 
-![](/home/home-12.png)
+![](https://img.viptv.work/viptv/home/home-12.png)
 
 
 
@@ -354,7 +354,7 @@ const siteIcon = {
 
 应用管理 - 我的应用 - 创建新应用
 
-![](/home/home-13.png)
+![](https://img.viptv.work/viptv/home/home-13.png)
 
 添加一个 `Web服务` 类型的Key
 
@@ -362,7 +362,7 @@ const siteIcon = {
 这里是添加 `Web服务`，不要选成web端(js api)
 :::
 
-![](/home/home-14.png)
+![](https://img.viptv.work/viptv/home/home-14.png)
 
 将得到的 `Key` 复制填入 `.env` 中的 `VITE_WEATHER_KEY` 中
 
@@ -596,7 +596,7 @@ pnpm build
 
 
 
-![](/home/home-15.png)
+![](https://img.viptv.work/viptv/home/home-15.png)
 
 
 
@@ -612,18 +612,18 @@ pnpm build
 没有服务器也可使用 [静态托管平台部署](./pages/)
 :::
 
-![](/home/home-16.png)
+![](https://img.viptv.work/viptv/home/home-16.png)
 
-![](/home/home-17.png)
+![](https://img.viptv.work/viptv/home/home-17.png)
 
 
 上传后访问域名，却只有文字，因为要开启https，[直接SSL证书弄好了再开启](./Server/)
 
-![](/home/home-18.png)
+![](https://img.viptv.work/viptv/home/home-18.png)
 
 然后我们就看到成果了
 
-![](/home/home-19.png)
+![](https://img.viptv.work/viptv/home/home-19.png)
 
 
 

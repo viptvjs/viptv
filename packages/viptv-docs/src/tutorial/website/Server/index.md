@@ -13,7 +13,7 @@
 
 从外观上分为：机架式、刀片式、塔式、机柜式
 
-![](/server/server-01.png)
+![](https://img.viptv.work/viptv/server/server-01.png)
 
 
 

@@ -10,7 +10,7 @@
 
 官网：https://hax.co.id/
 
-![](/server/hax/hax-01.png)
+![](https://img.viptv.work/viptv/server/hax/hax-01.png)
 
 
 ## 特色
@@ -36,35 +36,35 @@
 关掉去广告的插件，并且要梯子，必须使用全局代理！
 :::
 
-![](/server/hax/hax-02.png)
+![](https://img.viptv.work/viptv/server/hax/hax-02.png)
 
 打开 [HaxTG_bot](https://t.me/HaxTG_bot) 机器人点击开始
 
-![](/server/hax/hax-03.png)
+![](https://img.viptv.work/viptv/server/hax/hax-03.png)
 
 将获取的tg ID复制出来，粘贴到Hax的注册页面中，点 `submit` 提交
 
-![](/server/hax/hax-04.png)
+![](https://img.viptv.work/viptv/server/hax/hax-04.png)
 
 然后tg就会有验证码，将验证码复制
 
-![](/server/hax/hax-05.png)
+![](https://img.viptv.work/viptv/server/hax/hax-05.png)
 
 粘贴到Hax的注册页面中，设置你的登录密码，点 `submit` 提交
 
-![](/server/hax/hax-06.png)
+![](https://img.viptv.work/viptv/server/hax/hax-06.png)
 
 点击右上角 `Login` 登录，点击 `Login with Telegram`，弹出登录授权，输入你的手机号
 
-![](/server/hax/hax-07.png)
+![](https://img.viptv.work/viptv/server/hax/hax-07.png)
 
 在 Tg官方通知中，点击 `confirm` 确认
 
-![](/server/hax/hax-08.png)
+![](https://img.viptv.work/viptv/server/hax/hax-08.png)
 
 点击 `ACCRPT` 接受即可，账号就登录成了
 
-![](/server/hax/hax-09.png)
+![](https://img.viptv.work/viptv/server/hax/hax-09.png)
 
 
 
@@ -72,7 +72,7 @@
 
 点击 `Create one here` ，或者右上角 `VPS - creae VPS`
 
-![](/server/hax/hax-10.png)
+![](https://img.viptv.work/viptv/server/hax/hax-10.png)
 
 选择机器、操作系统、root密码、用途，勾选条款，人机验证，创建
 
@@ -84,7 +84,7 @@
 * 系统建议选：Ubunu
 :::
 
-![](/server/hax/hax-11.png)
+![](https://img.viptv.work/viptv/server/hax/hax-11.png)
 
 
 ## 使用

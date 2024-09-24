@@ -11,7 +11,7 @@
 
 官网：https://hub.docker.com/
 
-![](/dockerhub/dockerhub.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub.png)
 
 
 
@@ -21,7 +21,7 @@
 
 dockerhub 官网右上角 [Sign up](https://hub.docker.com/signup) 注册
 
-![](/dockerhub/dockerhub-01.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-01.png)
 
 
 
@@ -29,17 +29,17 @@ dockerhub 官网右上角 [Sign up](https://hub.docker.com/signup) 注册
 
 注册后登录账号，点 `Repositories-Create Repository` 创建仓库
 
-![](/dockerhub/dockerhub-02.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-02.png)
 
 
 给仓库命名，公开(public) 还是 私有 (private)，创建
 
-![](/dockerhub/dockerhub-03.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-03.png)
 
 
 这样就创建成功了
 
-![](/dockerhub/dockerhub-04.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-04.png)
 
 
 
@@ -58,7 +58,7 @@ dockerhub 官网右上角 [Sign up](https://hub.docker.com/signup) 注册
 
 以 [青龙面板](https://hub.docker.com/r/whyour/qinglong) 做演示
 
-![](/dockerhub/dockerhub-05.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-05.png)
 
 拉取镜像
 
@@ -70,7 +70,7 @@ dockerhub 官网右上角 [Sign up](https://hub.docker.com/signup) 注册
 docker pull whyour/qinglong:latest
 ```
 
-![](/dockerhub/dockerhub-06.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-06.png)
 
 查看一下镜像
 
@@ -78,7 +78,7 @@ docker pull whyour/qinglong:latest
 docker images
 ```
 
-![](/dockerhub/dockerhub-07.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-07.png)
 
 
 ::::
@@ -107,7 +107,7 @@ Username：账户名
 Password：密码 (输入是隐藏的，输入完成回车即可)
 :::
 
-![](/dockerhub/dockerhub-08.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-08.png)
 
 
 
@@ -118,7 +118,7 @@ Password：密码 (输入是隐藏的，输入完成回车即可)
 docker images
 ```
 
-![](/dockerhub/dockerhub-09.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-09.png)
 
 
 
@@ -146,7 +146,7 @@ docker tag 镜像ID 账户名/仓库名:标签名
 docker tag 4dc24556b2ff yiov/nvjdc:1.0
 ```
 
-![](/dockerhub/dockerhub-10.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-10.png)
 
 
 
@@ -157,7 +157,7 @@ docker tag 4dc24556b2ff yiov/nvjdc:1.0
 docker images
 ```
 
-![](/dockerhub/dockerhub-11.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-11.png)
 
 
 
@@ -172,17 +172,17 @@ docker push yiov/nvjdc:1.0
 ```
 
 
-![](/dockerhub/dockerhub-12.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-12.png)
 
 
 回到dockerhub网页查看，已经上传成功了
 
-![](/dockerhub/dockerhub-13.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-13.png)
 
 
 在Tags也能直观的看到，pull命令就可以直接使用了
 
-![](/dockerhub/dockerhub-14.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-14.png)
 
 
 ::::
@@ -207,7 +207,7 @@ docker logout
 ```
 
 
-![](/dockerhub/dockerhub-15.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-15.png)
 
 
 
@@ -219,7 +219,7 @@ docker logout
 docker images
 ```
 
-![](/dockerhub/dockerhub-16.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-16.png)
 
 
 用命令删除即可
@@ -233,7 +233,7 @@ docker rmi -f 账户名/仓库名:标签名tag
 
 这里再次 `docker images` 看一下，已经删除了
 
-![](/dockerhub/dockerhub-17.png)
+![](https://img.viptv.work/viptv/dockerhub/dockerhub-17.png)
 
 
 ::::

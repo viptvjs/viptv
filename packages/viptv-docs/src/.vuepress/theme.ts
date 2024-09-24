@@ -1,6 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
-import { AVAILABLE_SERVICES } from "vuepress-plugin-components";
 import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
 const hostname = process.env["HOSTNAME"] ?? "https://www.viptv.work";
@@ -123,19 +122,19 @@ export default hopeTheme(
           })
         ],
       },
-      comment: {
-        provider: 'Giscus',
-        comment: true,
-        repo: 'viptv-work/viptv',
-        repoId: 'R_kgDOKdyFzg',
-        category: 'Q&A',
-        categoryId: 'DIC_kwDOKdyFzs4CeLSD',
-        mapping: 'pathname',
-        reactionsEnabled: true,
-        inputPosition: 'top',
-        darkTheme: 'dark_protanopia',
-        lightTheme: 'light_protanopia',
-      },
+      /*    comment: {
+           provider: 'Giscus',
+           comment: true,
+           repo: 'viptv-work/viptv',
+           repoId: 'R_kgDOKdyFzg',
+           category: 'Q&A',
+           categoryId: 'DIC_kwDOKdyFzs4CeLSD',
+           mapping: 'pathname',
+           reactionsEnabled: true,
+           inputPosition: 'top',
+           darkTheme: 'dark_protanopia',
+           lightTheme: 'light_protanopia',
+         }, */
       components: {
         components: [
           "PDF",
@@ -148,15 +147,7 @@ export default hopeTheme(
           "SiteInfo",
           "VidStack",
         ],
-        componentOptions: {
-          share: {
-            services: AVAILABLE_SERVICES,
-          },
-        },
       },
-
-
-
       copyright: true,
 
       notice: [
@@ -193,60 +184,35 @@ export default hopeTheme(
       searchPro: {
         indexContent: true,
         hotReload: true,
-        customFields: [
-          {
-            getter: ({ frontmatter }): string[] => frontmatter["category"] as string[],
-            formatter: {
-              "/en/": "Category: $content",
-              "/": "分类：$content",
-            },
-          },
-          {
-            getter: ({ frontmatter }): string[] => frontmatter["tag"] as string[],
-            formatter: {
-              "/en/": "Tag: $content",
-              "/": "标签：$content",
-            },
-          },
-        ],
-      },
-
-      shiki: {
-        lineNumbers: 15,
-        notationDiff: true,
-        themes: {
-          light: "one-light",
-          dark: "one-dark-pro",
-        },
+        searchDelay: 800,
+        suggestDelay: 300,
       },
       watermark: {
         enabled: true,
       },
-
-
       markdownHint: {
         alert: true,
       },
-
       markdownImage: {
+        mark: true,
         figure: true,
         lazyload: true,
         size: true,
       },
-
       markdownMath: true,
-
+      markdownTab: {
+        codeTabs: true,
+      },
+      prismjs: true,
       mdEnhance: {
         align: true, // 启用自定义对齐
         attrs: true, //属性支持
-        tabs: true,
         vPre: true, //是否启用 v-pre 容器。
         breaks: true, //是否将段落中的 \n 转换为 <br>
         linkify: true, //是否将文字中的链接格式文字转换为链接
         gfm: true, //是否支持完整的 GFM 语法
         mark: true,
         markmap: true,
-        codetabs: true,
         spoiler: true, //是否启用剧透支持。
         component: true, //是否启用组件支持
         footnote: true, //是否启用脚注格式支持
@@ -273,22 +239,30 @@ export default hopeTheme(
             },
           },
         ],
-        revealJs: {
-          plugins: ["highlight", "math", "search", "notes", "zoom"],
-          themes: [
-            "auto",
-            "beige",
-            "black",
-            "blood",
-            "league",
-            "moon",
-            "night",
-            "serif",
-            "simple",
-            "sky",
-            "solarized",
-            "white",
-          ],
+      },
+      revealjs: {
+        plugins: ["highlight", "math", "search", "notes", "zoom"],
+        themes: [
+          "auto",
+          "beige",
+          "black",
+          "blood",
+          "league",
+          "moon",
+          "night",
+          "serif",
+          "simple",
+          "sky",
+          "solarized",
+          "white",
+        ],
+      },
+      shiki: {
+        lineNumbers: 15,
+        notationDiff: true,
+        themes: {
+          light: "one-light",
+          dark: "one-dark-pro",
         },
       },
       seo: hostname === "https://www.viptv.work"

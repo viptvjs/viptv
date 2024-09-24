@@ -26,6 +26,7 @@
     "@vuepress/plugin-markdown-tab": "2.0.0-rc.47",
     "@vuepress/plugin-redirect": "2.0.0-rc.51",
     "@vuepress/plugin-revealjs": "2.0.0-rc.48",
+    "@vuepress/plugin-shiki": "2.0.0-rc.47",
     "@vuepress/theme-default": "2.0.0-rc.49",
     "@vueuse/core": "^11.1.0",
     "aplayer": "^1.10.1",

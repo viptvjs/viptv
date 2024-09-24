@@ -21,11 +21,11 @@ icon: "camera-retro"
 机器人之父，是所有机器人建立的基础
 :::
 
-![](/tgbot/tgbot-01.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-01.png)
 
 意思都比较简单，实在看不懂就参照翻译操作
 
-![](/tgbot/tgbot-02.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-02.png)
 
 点击 `/newbot` 创建一个机器人，给机器人取个昵称，中英文都可以，最后给他设置一个 tg 名
 
@@ -35,23 +35,23 @@ icon: "camera-retro"
 
 成功创建会得到一个 tg 机器人链接和最最重要的 API 授权令牌
 
-![](/tgbot/tgbot-03.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-03.png)
 
 点击 `/setdescription` 给机器人设置一个描述
 
-![](/tgbot/tgbot-04.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-04.png)
 
 再点击 `/setabouttext` ，选择机器人，设置个人资料卡的简介
 
-![](/tgbot/tgbot-05.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-05.png)
 
 最后点击`/setuserpic` ，选择机器人，设置机器人的头像
 
-![](/tgbot/tgbot-06.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-06.png)
 
 这样我们的机器人就创建完成了
 
-![](/tgbot/tgbot-07.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-07.png)
 
 机器人可以衍生出非常多功能，就说一个最常用的私聊信息转发
 
@@ -63,11 +63,11 @@ CSFather 第三方 bot，支持中文，功能多
 Livegram Bot 官方 bot，英文，功能少
 :::
 
-![](/tgbot/tgbot-08.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-08.png)
 
 对话机器人后，点击 `/lang` 设置成 `中文简体`
 
-![](/tgbot/tgbot-09.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-09.png)
 
 点击新接一个机器人，根据提示粘贴之前的 API 令牌，就成功了
 
@@ -75,17 +75,17 @@ Livegram Bot 官方 bot，英文，功能少
 之前的步骤他这里也有视频演示
 :::
 
-![](/tgbot/tgbot-10.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-10.png)
 
 其他功能不演示了，来看看消息发送是否正常
 
-![](/tgbot/tgbot-11.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-11.png)
 
 用另一个号发消息，本机接收消息预览
 
-![](/tgbot/tgbot-12.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-12.png)
 
-![](/tgbot/tgbot-13.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-13.png)
 
 ## 删除机器人
 
@@ -95,11 +95,11 @@ Livegram Bot 官方 bot，英文，功能少
 
 点击 `/deletebot` ，选择机器人，按提示输入确定删除
 
-![](/tgbot/tgbot-14.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-14.png)
 
 删除后，原帐号变成 `已销号`
 
-![](/tgbot/tgbot-15.png)
+![](https://img.viptv.work/viptv/tgbot/tgbot-15.png)
 
 ## 其他机器人
 

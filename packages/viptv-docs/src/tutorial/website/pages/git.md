@@ -13,7 +13,7 @@
 官网：https://git-scm.com/
 
 
-![](/pages/git/git-01.png)
+![](https://img.viptv.work/pages/git/git-01.png)
 
 
 
@@ -26,18 +26,18 @@
 
 下载：https://git-scm.com/downloads
 
-![](/pages/git/git-02.png)
+![](https://img.viptv.work/pages/git/git-02.png)
 
 
 安装的时候，这里要勾选
 
-![](/pages/git/git-03.png)
+![](https://img.viptv.work/pages/git/git-03.png)
 
 
 下载安装完成后 选择Launch Git Bash启动
 
 
-![](/pages/git/git-04.png)
+![](https://img.viptv.work/pages/git/git-04.png)
 
 
 
@@ -52,7 +52,7 @@
 
 打开git后是这样的界面
 
-![](/pages/git/git-05.png)
+![](https://img.viptv.work/pages/git/git-05.png)
 
 
 设置名字，修改一下，再粘贴
@@ -65,10 +65,10 @@ git config --global user.name "DzPian"
 
 鼠标右键 - Paste 粘贴(不要用ctrl+v) - 回车
 
-![](/pages/git/git-06.png)
+![](https://img.viptv.work/pages/git/git-06.png)
 
 
-![](/pages/git/git-07.png)
+![](https://img.viptv.work/pages/git/git-07.png)
 
 
 然后设置邮箱
@@ -78,7 +78,7 @@ git config --global user.name "DzPian"
 git config --global user.email "49****@qq.com"
 ```
 
-![](/pages/git/git-08.png)
+![](https://img.viptv.work/pages/git/git-08.png)
 
 
 设置的用处就是，为了知道远程仓库是谁上传的
@@ -106,7 +106,7 @@ git config user.email
 例：我在F盘新建了一个文件夹，命名为Github，然后再创建子文件夹copydog
 :::
 
-![](/pages/git/git-09.png)
+![](https://img.viptv.work/pages/git/git-09.png)
 
 `copydog` 就是我的仓库项目名，我们cd进文件夹
 
@@ -121,7 +121,7 @@ cd /f/github/copydog
 
 或者简单粗暴git bash文件夹，空白处，鼠标右键- `Git Bash Here` ，一样也能进入页面
 
-![](/pages/git/git-10.png)
+![](https://img.viptv.work/pages/git/git-10.png)
 
 
 
@@ -132,12 +132,12 @@ cd /f/github/copydog
 ```sh
 git init
 ```
-![](/pages/git/git-11.png)
+![](https://img.viptv.work/pages/git/git-11.png)
 
 
 创建完成后会在本地生成一个 `.git` 的隐藏文件
 
-![](/pages/git/git-12.png)
+![](https://img.viptv.work/pages/git/git-12.png)
 
 
 ::: details 为什么我看不到？
@@ -145,7 +145,7 @@ git init
 
 不打开也没有关系，以免你误删
 
-![](/pages/git/git-13.png)
+![](https://img.viptv.work/pages/git/git-13.png)
 :::
 
 
@@ -155,7 +155,7 @@ git init
 ls -al
 ```
 
-![](/pages/git/git-14.png)
+![](https://img.viptv.work/pages/git/git-14.png)
 
 
 
@@ -171,7 +171,7 @@ git默认使用 `master` 分支（蓝色），也可以切换成 `main`
 #切换main分支
 git checkout main
 ```
-![](/pages/git/git-15.png)
+![](https://img.viptv.work/pages/git/git-15.png)
 
 
 
@@ -189,7 +189,7 @@ git checkout main
 ~/.ssh
 ```
 
-![](/pages/git/git-16.png)
+![](https://img.viptv.work/pages/git/git-16.png)
 
 
 没有就输入命令创建SSH Key
@@ -210,39 +210,39 @@ ssh-keygen -t rsa -C "49****@qq.com"
 :::
 
 
-![](/pages/git/git-17.png)
+![](https://img.viptv.work/pages/git/git-17.png)
 
 
 在  `C:\Users\Administrator\.ssh` 目录，生成了 `id_rsa` 和 `id_rsa.pub` 两个秘钥文件
 
 找到 `id_rsa.pub` ，鼠标右键 - 用记事本打开
 
-![](/pages/git/git-18.png)
+![](https://img.viptv.work/pages/git/git-18.png)
 
 
 打开Github，右上角-头像-设置
 
-![](/pages/git/git-19.png)
+![](https://img.viptv.work/pages/git/git-19.png)
 
 
 点击 SSH与GPG公钥，创建New SSH key
 
-![](/pages/git/git-20.png)
+![](https://img.viptv.work/pages/git/git-20.png)
 
 标题随便起，key是刚刚生成的SSH key，全选了，复制粘贴进去
 
-![](/pages/git/git-21.png)
+![](https://img.viptv.work/pages/git/git-21.png)
 
 
 授权，输入你github的登录密码
 
-![](/pages/git/git-22.png)
+![](https://img.viptv.work/pages/git/git-22.png)
 
 SSH key就创建好了，邮箱也会收到通知
 
-![](/pages/git/git-23.png)
+![](https://img.viptv.work/pages/git/git-23.png)
 
-![](/pages/git/git-24.png)
+![](https://img.viptv.work/pages/git/git-24.png)
 
 
 
@@ -266,7 +266,7 @@ You’ve successfully authenticated, but GitHub does not provide shell access.
 :::
 
 
-![](/pages/git/git-25.png)
+![](https://img.viptv.work/pages/git/git-25.png)
 
 
 
@@ -280,7 +280,7 @@ You’ve successfully authenticated, but GitHub does not provide shell access.
 
 进入自己的仓库，点击SSH连接并复制
 
-![](/pages/git/git-26.png)
+![](https://img.viptv.work/pages/git/git-26.png)
 
 
 
@@ -292,7 +292,7 @@ git remote add origin 这里是你的SSH连接地址
 ```
 
 
-![](/pages/git/git-27.png)
+![](https://img.viptv.work/pages/git/git-27.png)
 
 
 输入 `git remote -v` 查看是否成功
@@ -307,7 +307,7 @@ git remote -v
 ```
 
 
-![](/pages/git/git-28.png)
+![](https://img.viptv.work/pages/git/git-28.png)
 
 
 
@@ -341,7 +341,7 @@ git add .
 #git add -A 提交所有变化。git add前几条都可以记不住，这个必须记住！！！
 ```
 
-![](/pages/git/git-29.png)
+![](https://img.viptv.work/pages/git/git-29.png)
 
 
 添加描述
@@ -353,7 +353,7 @@ git commit -m “这里描述上传了什么”
 
 
 
-![](/pages/git/git-30.png)
+![](https://img.viptv.work/pages/git/git-30.png)
 
 
 
@@ -374,7 +374,7 @@ git push origin main
 #git push origin main -f
 ```
 
-![](/pages/git/git-31.png)
+![](https://img.viptv.work/pages/git/git-31.png)
 
 
 

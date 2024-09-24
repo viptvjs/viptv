@@ -13,7 +13,7 @@
 
 
 
-![](/BT/BT-01.png)
+![](https://img.viptv.work/viptv/BT/BT-01.png)
 
 
 
@@ -27,7 +27,7 @@
 参考 [官网的命令](https://www.bt.cn/new/download.html) 安装，我以 `centos 7` 为例
 
 
-![](/BT/BT-02.png)
+![](https://img.viptv.work/viptv/BT/BT-02.png)
 
 
 ```sh
@@ -36,14 +36,14 @@ yum install -y wget && wget -O install.sh https://download.bt.cn/install/install
 ```
 
 
-![](/BT/BT-03.png)
+![](https://img.viptv.work/viptv/BT/BT-03.png)
 
 
 
 等待安装，提示输入 `y` 确定，`回车`
 
 
-![](/BT/BT-04.png)
+![](https://img.viptv.work/viptv/BT/BT-04.png)
 
 
 
@@ -54,7 +54,7 @@ yum install -y wget && wget -O install.sh https://download.bt.cn/install/install
 我这里有个随机端口 `36663`
 :::
 
-![](/BT/BT-05.png)
+![](https://img.viptv.work/viptv/BT/BT-05.png)
 
 接下来要放行端口，以腾讯云为例
 
@@ -64,7 +64,7 @@ yum install -y wget && wget -O install.sh https://download.bt.cn/install/install
 每次自动生成的端口不一样，请参考自己的来
 :::
 
-![](/BT/BT-06.png)
+![](https://img.viptv.work/viptv/BT/BT-06.png)
 
 
 
@@ -83,7 +83,7 @@ yum install -y wget && wget -O install.sh https://download.bt.cn/install/install
 * 查看网址是否错误，后台地址是 `http://` 还是 `https://`
 :::
 
-![](/BT/BT-07.png)
+![](https://img.viptv.work/viptv/BT/BT-07.png)
 
 
 登录成功后，先改账密，面板设置 - 面板用户和密码，改完保存生效
@@ -92,7 +92,7 @@ yum install -y wget && wget -O install.sh https://download.bt.cn/install/install
 安全入口也可以一起改
 :::
 
-![](/BT/BT-08.png)
+![](https://img.viptv.work/viptv/BT/BT-08.png)
 
 
 
@@ -129,7 +129,7 @@ phpMyAdmin - 数据库管理软件，导入导出
 Pure-Ftpd - ftp服务器软件
 :::
 
-![](/BT/BT-14.png)
+![](https://img.viptv.work/viptv/BT/BT-14.png)
 
 
 
@@ -150,7 +150,7 @@ Pure-Ftpd - ftp服务器软件
 bt
 ```
 
-![](/BT/BT-09.png)
+![](https://img.viptv.work/viptv/BT/BT-09.png)
 
 :::
 
@@ -169,7 +169,7 @@ bt
 按Del键，显示的是 `^[[3~`
 :::
 
-![](/BT/BT-10.png)
+![](https://img.viptv.work/viptv/BT/BT-10.png)
 
 选择服务器-右键属性-终端-键盘,都选择成ASCII ，当然最后一个也可以，ASCII 常用
 
@@ -177,7 +177,7 @@ bt
 记得断开了，重连才生效
 :::
 
-![](/BT/BT-11.png)
+![](https://img.viptv.work/viptv/BT/BT-11.png)
 
 
 ::::
@@ -208,7 +208,7 @@ bt
 yum update
 ```
 
-![](/BT/BT-12.png)
+![](https://img.viptv.work/viptv/BT/BT-12.png)
 
 
 提示Is this ok ，输入 `y` ，回车确定，耐心等待完成
@@ -217,7 +217,7 @@ yum update
 完成后Complete，自动返回根目录
 :::
 
-![](/BT/BT-13.png)
+![](https://img.viptv.work/viptv/BT/BT-13.png)
 
 :::: 
 

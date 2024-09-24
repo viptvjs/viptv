@@ -22,20 +22,20 @@
 
 苹果商店下载 [ISH shell](https://apps.apple.com/cn/app/ish-shell/id1436902243) ，安装好打开
 
-![](/ish/ish-01.png)
+![](https://img.viptv.work/viptv/ish/ish-01.png)
 
 
 ## 安装python3
 
 ::: warning 注意
-报错 `ERROR` 的话，[挂一个梯子翻墙](/book/gfw/proxy) 再运行就行了
+报错 `ERROR` 的话，[挂一个梯子翻墙](https://img.viptv.work/viptv/book/gfw/proxy) 再运行就行了
 :::
 
 ```sh
 apk add python3
 ```
 
-![](/ish/ish-02.png)
+![](https://img.viptv.work/viptv/ish/ish-02.png)
 
 
 ## 启动http服务
@@ -52,7 +52,7 @@ python3 -m http.server
 
 启动成功，我们就开启了一个本地IP+`端口8000` 的页面
 
-![](/ish/ish-03.png)
+![](https://img.viptv.work/viptv/ish/ish-03.png)
 
 
 
@@ -72,7 +72,7 @@ python3 -m http.server
 
 
 
-![](/ish/ish-04.png)
+![](https://img.viptv.work/viptv/ish/ish-04.png)
 
 
 
@@ -80,11 +80,11 @@ python3 -m http.server
 
 进入文件 - 右上角 编辑
 
-![](/ish/ish-05.png)
+![](https://img.viptv.work/viptv/ish/ish-05.png)
 
 将 `ISH` 开关打开，完成，进入root目录
 
-![](/ish/ish-06.png)
+![](https://img.viptv.work/viptv/ish/ish-06.png)
 
 我这里放了一个静态网页测试一下
 
@@ -97,7 +97,7 @@ python3 -m http.server
 首次进入有点慢，但是没问题的
 
 
-![](/ish/ish-07.png)
+![](https://img.viptv.work/viptv/ish/ish-07.png)
 
 
 ## 终止
@@ -108,4 +108,4 @@ python3 -m http.server
 划掉后台或者关机都可以
 :::
 
-![](/ish/ish-08.png)
+![](https://img.viptv.work/viptv/ish/ish-08.png)

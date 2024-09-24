@@ -10,14 +10,14 @@
 使用的是 [Rust](https://www.rust-lang.org/zh-CN/) 框架的 [Tauri](https://tauri.app/zh-cn/)，相比 [Electron](https://www.electronjs.org/zh/) 要更轻快体积更小
 
 
-![](/pake/pake-01.png)
+![](https://img.viptv.work/viptv/pake/pake-01.png)
 
 
 ::: tip 说明
 下图演示：用微信读书网页版打包的程序
 :::
 
-![](/pake/pake-02.png)
+![](https://img.viptv.work/viptv/pake/pake-02.png)
 
 
 
@@ -27,18 +27,18 @@
 
 项目仓库：https://github.com/tw93/Pake
 
-![](/pake/pake-03.png)
+![](https://img.viptv.work/viptv/pake/pake-03.png)
 
 
 仓库名不用改，直接创建
 
 
-![](/pake/pake-04.png)
+![](https://img.viptv.work/viptv/pake/pake-04.png)
 
 
 这样我们就fork好了
 
-![](/pake/pake-05.png)
+![](https://img.viptv.work/viptv/pake/pake-05.png)
 
 
 
@@ -50,7 +50,7 @@
 其实也可以下载到本地开发，但是没必要占用自己电脑的资源，Action不香吗
 :::
 
-![](/pake/pake-06.png)
+![](https://img.viptv.work/viptv/pake/pake-06.png)
 
 
 选择 `Build App with Pake CLI` ，右侧信息除必填项，其他默认，最后运行Run
@@ -66,7 +66,7 @@ ICON：图标需要使用链接，留空就会使用pake的默认图标
 :::
 
 
-![](/pake/pake-07.png)
+![](https://img.viptv.work/viptv/pake/pake-07.png)
 
 
 等一会就跑起来了，这个过程会有点久
@@ -78,14 +78,14 @@ ICON：图标需要使用链接，留空就会使用pake的默认图标
 :::
 
 
-![](/pake/pake-08.png)
+![](https://img.viptv.work/viptv/pake/pake-08.png)
 
-![](/pake/pake-09.png)
+![](https://img.viptv.work/viptv/pake/pake-09.png)
 
 
 点进去，就能到到打包好的附件了，才不到4M，点击压缩包即可下载
 
-![](/pake/pake-10.png)
+![](https://img.viptv.work/viptv/pake/pake-10.png)
 
 
 
@@ -104,22 +104,22 @@ ICON：图标需要使用链接，留空就会使用pake的默认图标
 * deb格式：Debian安装包(Debian是一个Linux发行版)
 :::
 
-![](/pake/pake-11.png)
+![](https://img.viptv.work/viptv/pake/pake-11.png)
 
 
 安装过程没啥好说的，就简单看一下吧
 
-![](/pake/pake-12.png)
+![](https://img.viptv.work/viptv/pake/pake-12.png)
 
-![](/pake/pake-13.png)
+![](https://img.viptv.work/viptv/pake/pake-13.png)
 
-![](/pake/pake-14.png)
+![](https://img.viptv.work/viptv/pake/pake-14.png)
 
 
 最后打开就可以了，界面很舒服
 
 
-![](/pake/pake-15.png)
+![](https://img.viptv.work/viptv/pake/pake-15.png)
 
 
 ## 其他

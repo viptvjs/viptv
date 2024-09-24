@@ -27,7 +27,7 @@ OSI 模型，全称为开放系统互连参考模型（Open System Interconnect�
 :::
 
 
-![](/protocol/protocol-01.png)
+![](https://img.viptv.work/viptv/protocol/protocol-01.png)
 
 
 
@@ -50,11 +50,11 @@ TCP/IP模型是一种网络通信协议模型，由传输控制协议（TCP）�
 即：将OSI模型的 `应用层、表示层、会话层` 合并成了一个 `应用层`
 :::
 
-![](/protocol/protocol-02.png)
+![](https://img.viptv.work/viptv/protocol/protocol-02.png)
 
 层级与设备及常见的协议，如图
 
-![](/protocol/protocol-03.png)
+![](https://img.viptv.work/viptv/protocol/protocol-03.png)
 
 
 

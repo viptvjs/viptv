@@ -13,7 +13,7 @@ Quantumult X是一款强大的网络工具，可以用于代理、规则分流�
 
 仓库：https://github.com/crossutility/Quantumult-X/
 
-![](/quantumultX/quantumultX-01.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-01.png)
 
 
 
@@ -25,22 +25,22 @@ Quantumult X是一款强大的网络工具，可以用于代理、规则分流�
 开发者做了限制，共享号下载的不能使用
 :::
 
-![](/quantumultX/quantumultX-02.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-02.png)
 
 安装好后进入圈X - 右下角 `风车` 设置 - 拉倒底部 `其他设置` - 拉倒底部
 
 版本号后面蓝色的是正版，红色和绿色皆为非正版，不建议使用
 
-![](/quantumultX/quantumultX-03.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-03.png)
 
 ## 主界面
 
 主界面如下图都一一注明了
 
-![](/quantumultX/quantumultX-04.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-04.png)
 
 
-![](/quantumultX/quantumultX-05.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-05.png)
 
 
 
@@ -61,7 +61,7 @@ Quantumult X是一款强大的网络工具，可以用于代理、规则分流�
 主要用于普及订阅知识，后续有条件换好点的 [点我查看白嫖机场](./channel.md)
 :::
 
-![](/quantumultX/quantumultX-06.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-06.png)
 
 点击 `复制Clash订阅链接` 会自动复制到剪切板，但是圈X不支持这种格式，需要转换
 
@@ -73,28 +73,28 @@ Quantumult X是一款强大的网络工具，可以用于代理、规则分流�
 
 粘贴订阅，选择圈X，点击 `复制转换链接`，打开圈X - 风车
 
-![](/quantumultX/quantumultX-07.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-07.png)
 
 
 节点 - 节点资源，右上角添加
 
 
-![](/quantumultX/quantumultX-08.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-08.png)
 
 
 标签随便，资源路径填我们 `刚转换的订阅链接` ，右上角保存即可
 
 
-![](/quantumultX/quantumultX-09.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-09.png)
 
 勾选状态代表启用中，回到主界面，就能看到添加成功的节点了
 
-![](/quantumultX/quantumultX-10.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-10.png)
 
 测一下网速，选可用的节点打开开关，要是都显示 `X` 不可用，直接换机场
 
 
-![](/quantumultX/quantumultX-11.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-11.png)
 
 ---
 
@@ -106,11 +106,11 @@ Quantumult X是一款强大的网络工具，可以用于代理、规则分流�
 
 随便选一个速度可以的节点，打开圈X开关
 
-![](/quantumultX/quantumultX-12.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-12.png)
 
 点风车-下拉到底部，配置文件-编辑，右上角箭头 选择 `general`
 
-![](/quantumultX/quantumultX-13.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-13.png)
 
 在 `[general]` 下面粘贴 [资源解析器](https://github.com/KOP-XIAO/QuantumultX/) 代码，右上角保存
 
@@ -119,11 +119,11 @@ resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/maste
 ```
 
 
-![](/quantumultX/quantumultX-14.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-14.png)
 
 然后在 `节点- 节点资源` ，右上角添加页面下
 
-![](/quantumultX/quantumultX-15.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-15.png)
 
 打开 资源解析器开关 即可
 
@@ -131,7 +131,7 @@ resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/maste
 直接返回退出即可，也可以添加新节点来试试效果
 :::
 
-![](/quantumultX/quantumultX-16.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-16.png)
 
 
 
@@ -152,7 +152,7 @@ URI：支持ss / ssr / vmess / https / trojan / vless 的节点
 :::
 
 
-![](/quantumultX/quantumultX-17.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-17.png)
 
 
 ---
@@ -175,37 +175,37 @@ URI：支持ss / ssr / vmess / https / trojan / vless 的节点
 
 找了一个分享的Vmess/SS等节点，粘贴保存
 
-![](/quantumultX/quantumultX-18.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-18.png)
 
 文件名可以改，也可以默认
 
 跳转到添加节点界面，打开资源解析器，保存
 
-![](/quantumultX/quantumultX-19.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-19.png)
 
 主界面就能看到我们添加的节点了
 
-![](/quantumultX/quantumultX-20.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-20.png)
 
 
 
 进入节点资源，右上角第二个是 `添加` ，即远程订阅
 
 
-![](/quantumultX/quantumultX-21.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-21.png)
 
 
 找 [白嫖机场](./channel.md) 演示一下，复制任意订阅，粘贴到 `资源路径` ，打开资源解析器开关
 
-![](/quantumultX/quantumultX-22.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-22.png)
 
 添加成功后，测一下速，选择延迟低的节点即可
 
-![](/quantumultX/quantumultX-23.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-23.png)
 
 在节点资源中，左滑可以更新/分享/删除，长按可以移动顺序，点击可以编辑
 
-![](/quantumultX/quantumultX-24.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-24.png)
 
 
 
@@ -242,12 +242,12 @@ REJECT：屏蔽 (不访问)
 
 
 
-![](/quantumultX/quantumultX-25.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-25.png)
 
 
 点击 `policy` ，粘贴默认策略组格式
 
-![](/quantumultX/quantumultX-26.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-26.png)
 
 回到主界面就看到了，和填写的一一对应
 
@@ -258,7 +258,7 @@ REJECT：屏蔽 (不访问)
 
 我们可以尝试手动添加，方便更好的了解，点击 `∑+`
 
-![](/quantumultX/quantumultX-27.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-27.png)
 
 类型选择 `static`，其他信息一次填入
 
@@ -285,25 +285,25 @@ url-latency-benchmark：选取延迟最优节点 (不常用)
 匹配节点：`🇭🇰|香港|HK` ，正则匹配用 `|` 隔开 (常用)
 :::
 
-![](/quantumultX/quantumultX-28.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-28.png)
 
 添加成功后，主机面就可以看到，美观了很多
 
-![](/quantumultX/quantumultX-29.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-29.png)
 
 之前默认添加的，并没有起到作用，我们直接删除
 
-![](/quantumultX/quantumultX-30.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-30.png)
 
 
-![](/quantumultX/quantumultX-31.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-31.png)
 
 
 
 针对常用的节点，我们来做个完整点的策略组
 
 
-![](/quantumultX/quantumultX-32.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-32.png)
 
 
 ```sh:no-line-numbers
@@ -327,13 +327,13 @@ static=🇰🇷韩国, server-tag-regex=🇰🇷|韩国|KR, img-url=https://raw.
 
 
 
-![](/quantumultX/quantumultX-33.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-33.png)
 
 
 长按策略组还可以进行编辑，添加节点等操作
 
 
-![](/quantumultX/quantumultX-34.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-34.png)
 
 
 
@@ -357,11 +357,11 @@ static=🇰🇷韩国, server-tag-regex=🇰🇷|韩国|KR, img-url=https://raw.
 点分流规则，右上角 `+` 号
 
 
-![](/quantumultX/quantumultX-35.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-35.png)
 
 
 
-![](/quantumultX/quantumultX-36.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-36.png)
 
 ::: tip 分流规则类型
 **HOST：域名匹配 (例：www.google.com)**
@@ -395,13 +395,13 @@ IP-ASN：IP归属地匹配 (不常用)
 在策略中，除了默认的3个策略，其他的都是自己添加的，可以自行选择
 
 
-![](/quantumultX/quantumultX-37.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-37.png)
 
 我们添加一个试试，来了解一下简单的使用
 
 类型选 `HOST-SUFFIX`，参数填 `baidu.com`，策略选 `REJECT`
 
-![](/quantumultX/quantumultX-38.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-38.png)
 
 回到主界面，长按风车，切换成 `规则分流` 模式
 
@@ -409,15 +409,15 @@ IP-ASN：IP归属地匹配 (不常用)
 必须切换，否则分流规则不生效，默认是全局代理模式了
 :::
 
-![](/quantumultX/quantumultX-39.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-39.png)
 
 我们访问 [百度](https://www.baidu.com/) ，发现已经无法访问了，因为策略就是屏蔽
 
-![](/quantumultX/quantumultX-40.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-40.png)
 
 删除，就可以恢复正常使用了
 
-![](/quantumultX/quantumultX-41.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-41.png)
 
 那这些默认的分流规则，代表什么意思呢
 
@@ -429,7 +429,7 @@ IP-ASN：IP归属地匹配 (不常用)
 * GEOIP：IP数据库匹配，这里是 `CN` 直接匹配了国内的域名，只要是国内的使用 直连 `DIRECT`，这就是为什么圈X访问国内网站，IP还在国内的原因
 :::
 
-![](/quantumultX/quantumultX-42.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-42.png)
 
 
 
@@ -459,12 +459,12 @@ IP-ASN：IP归属地匹配 (不常用)
 
 规则资源 - 右上角 添加
 
-![](/quantumultX/quantumultX-43.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-43.png)
 
 
 在 [@blackmatrix7的规则](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/) 找到BiliBili
 
-![](/quantumultX/quantumultX-44.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-44.png)
 
 点击 list 文件 - 右上 `view` - 复制打开后的地址
 
@@ -472,7 +472,7 @@ IP-ASN：IP归属地匹配 (不常用)
 这里的分流规则后面填写的是 `BiliBili` 策略组，而我们没有这个策略组，系统会自动新建
 :::
 
-![](/quantumultX/quantumultX-45.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-45.png)
 
 资源路径填写list文件地址，标签自己命令一个
 
@@ -480,16 +480,16 @@ IP-ASN：IP归属地匹配 (不常用)
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BiliBili/BiliBili.list
 ```
 
-![](/quantumultX/quantumultX-46.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-46.png)
 
 
 添加成功了，其实我们再分流规则中可以看到，有一堆的分流信息
 
-![](/quantumultX/quantumultX-47.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-47.png)
 
 回到主界面，会看到自动创建了一个 `BiliBili` 的策略组，而我们需要港区的节点策略组才可以达到目的，长按 `BiliBili策略组` - 编辑
 
-![](/quantumultX/quantumultX-48.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-48.png)
 
 选择香港和直连的策略，国区就使用直连，港区就使用香港策略组
 
@@ -498,7 +498,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 :::
 
 
-![](/quantumultX/quantumultX-49.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-49.png)
 
 打开BiliBili搜 `进击的巨人` ，发现啥也没有，我们切换到香港策略组，划掉APP后台重新进入搜索发现就能看了
 
@@ -506,7 +506,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 切换前，请先测速，找能用的节点，否则无法生效
 :::
 
-![](/quantumultX/quantumultX-50.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-50.png)
 
 
 ::: warning 建议
@@ -528,19 +528,19 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 
 打开MitM开关，提示错，未生成证书
 
-![](/quantumultX/quantumultX-51.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-51.png)
 
 点击 `生成证书`，证书保存成功
 
-![](/quantumultX/quantumultX-52.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-52.png)
 
 点击 `配置证书` ，要跳转浏览器 确定
 
-![](/quantumultX/quantumultX-53.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-53.png)
 
 允许下载描述文件，提示下载完成即可
 
-![](/quantumultX/quantumultX-54.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-54.png)
 
 打开手机设置，点击已下载的描述文件，安装
 
@@ -548,19 +548,19 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 没有提示的，在设置 - 通用 - 描述文件与设备管理 里
 :::
 
-![](/quantumultX/quantumultX-55.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-55.png)
 
-![](/quantumultX/quantumultX-56.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-56.png)
 
 安装完成后，在 关于本机 - 证书信任设置
 
-![](/quantumultX/quantumultX-57.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-57.png)
 
 打开圈X的信任开关，回到主界面打开 `MitM开关` 即可
 
-![](/quantumultX/quantumultX-58.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-58.png)
 
-![](/quantumultX/quantumultX-59.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-59.png)
 
 
 
@@ -572,7 +572,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 
 常见的去广告等功能，就是利用的重写
 
-![](/quantumultX/quantumultX-60.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-60.png)
 
 
 
@@ -588,11 +588,11 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 点击 重写规则，这里是空的，右上角添加
 
 
-![](/quantumultX/quantumultX-61.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-61.png)
 
 点类型可以看到，所有的类型
 
-![](/quantumultX/quantumultX-62.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-62.png)
 
 ::: tip 说明
 * reject：屏蔽，返回404状态码
@@ -633,13 +633,13 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 本次使用的是 [@墨鱼](https://github.com/ddgksf2013/) 的 [B站去广告脚本](https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js) 演示
 
 
-![](/quantumultX/quantumultX-63.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-63.png)
 
 
 点 view 查看获取脚本链接
 
 
-![](/quantumultX/quantumultX-64.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-64.png)
 
 
 填写信息后保存
@@ -655,13 +655,13 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 :::
 
 
-![](/quantumultX/quantumultX-65.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-65.png)
 
 
 然后再 MitM 中添加主机名，即hostname，右上角添加
 
 
-![](/quantumultX/quantumultX-66.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-66.png)
 
 主机名输入：`app.bilibili.com`
 
@@ -675,15 +675,15 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 * 通配符 `-`：排除主机，比如：`yiov.github.io`，可用 `-*.io` 表示
 :::
 
-![](/quantumultX/quantumultX-67.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-67.png)
 
 看下使用脚本后B站的前后对比，少了几个标签
 
-![](/quantumultX/quantumultX-68.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-68.png)
 
 最后我们删除即可恢复
 
-![](/quantumultX/quantumultX-69.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-69.png)
 
 
 ---
@@ -696,34 +696,34 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 
 我们同样来演示一下：B站去广告，点 规则资源，右上角添加
 
-![](/quantumultX/quantumultX-70.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-70.png)
 
 在墨鱼的 [重写仓库](https://github.com/ddgksf2013/Rewrite/) 找到 [Bilibili.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Bilibili.conf)
 
-![](/quantumultX/quantumultX-71.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-71.png)
 
-![](/quantumultX/quantumultX-72.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-72.png)
 
 粘贴 在资源路径，资源标签就写B站去广告
 
-![](/quantumultX/quantumultX-73.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-73.png)
 
 添加成功后，我们再重写规则里，可以看到添加了一堆不可删除的规则
 
-![](/quantumultX/quantumultX-74.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-74.png)
 
 主机名也是一样
 
-![](/quantumultX/quantumultX-75.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-75.png)
 
 打开B站APP看看效果，已经清爽很多了
 
-![](/quantumultX/quantumultX-76.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-76.png)
 
 
 点击可以编辑，长按可以排序，左滑可以更多操作
 
-![](/quantumultX/quantumultX-77.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-77.png)
 
 
 
@@ -743,7 +743,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 
 点 HTTP请求 - 右上角 `+` 号 添加
 
-![](/quantumultX/quantumultX-78.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-78.png)
 
 执行日期 - 高级
 
@@ -756,7 +756,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 :::
 
 
-![](/quantumultX/quantumultX-79.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-79.png)
 
 
 以 [野比大佬 @NobyDa](https://github.com/NobyDa/) 的 [京东多合一签到](https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js) 脚本为例
@@ -775,9 +775,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 :::
 
 
-![](/quantumultX/quantumultX-80.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-80.png)
 
-![](/quantumultX/quantumultX-81.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-81.png)
 
 
 还需要在 `rewrite_local` 本地重写添加代码
@@ -791,9 +791,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 ```
 
 
-![](/quantumultX/quantumultX-82.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-82.png)
 
-![](/quantumultX/quantumultX-83.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-83.png)
 
 
 在 `MitM` 添加hostname
@@ -802,9 +802,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 ms.jr.jd.com, me-api.jd.com, api.m.jd.com
 ```
 
-![](/quantumultX/quantumultX-84.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-84.png)
 
-![](/quantumultX/quantumultX-85.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-85.png)
 
 
 脚本里说要先登录网页版，再打开日历页，会提示获取到CK
@@ -815,7 +815,7 @@ ms.jr.jd.com, me-api.jd.com, api.m.jd.com
 * 京东日历签到页：https://bean.m.jd.com/bean/signIndex.action
 :::
 
-![](/quantumultX/quantumultX-86.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-86.png)
 
 脚本往右滑，即可运行及查看
 
@@ -825,15 +825,15 @@ ms.jr.jd.com, me-api.jd.com, api.m.jd.com
 本次也仅是演示使用步骤，勿要较真
 :::
 
-![](/quantumultX/quantumultX-87.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-87.png)
 
 顺便讲一下界面
 
-![](/quantumultX/quantumultX-88.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-88.png)
 
 以及Cron表达式
 
-![](/quantumultX/quantumultX-89.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-89.png)
 
 
 ---
@@ -858,7 +858,7 @@ https://raw.githubusercontent.com/crossutility/Quantumult-X/master/gallery.json
 ```
 :::
 
-![](/quantumultX/quantumultX-90.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-90.png)
 
 仍然用 [野比大佬 @NobyDa](https://github.com/NobyDa) 的 [脚本仓库合辑](https://github.com/NobyDa/Script/blob/master/NobyDa_BoxJs.json) 演示
 
@@ -867,12 +867,12 @@ https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 ```
 
 
-![](/quantumultX/quantumultX-91.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-91.png)
 
 添加成功后，其他脚本点击 `+` 按需添加
 
 
-![](/quantumultX/quantumultX-92.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-92.png)
 
 
 ::: danger 关于其他脚本
@@ -900,7 +900,7 @@ https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 :::
 
 
-![](/quantumultX/quantumultX-93.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-93.png)
 
 开启开关，随便打开网页或APP，看一下抓取的数据
 
@@ -910,19 +910,19 @@ https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 * 开启时：没有 `斜杠 \`
 :::
 
-![](/quantumultX/quantumultX-94.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-94.png)
 
 进入刚刚抓取的数据，右上角有搜索
 
-![](/quantumultX/quantumultX-95.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-95.png)
 
 搜索的信息如图
 
-![](/quantumultX/quantumultX-96.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-96.png)
 
 返回数据页，了解一下信息
 
-![](/quantumultX/quantumultX-97.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-97.png)
 
 那我们演示一下如何抓包屏蔽广告吧
 
@@ -935,34 +935,34 @@ https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 :::
 
 
-![](/quantumultX/quantumultX-98.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-98.png)
 
 广告有2种，开屏广告和弹窗广告，那就动手吧
 
-![](/quantumultX/quantumultX-99.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-99.png)
 
 主界面长按风车，也可以快捷的开启抓包
 
-![](/quantumultX/quantumultX-100.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-100.png)
 
 然后打开APP等它弹完广告后，关闭抓包，查看数据
 
-![](/quantumultX/quantumultX-101.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-101.png)
 
 分析下我的开屏广告，一个视频+下方APP推送广告
 
 我直接搜最下的文字说明 `惊喜价格`
 
-![](/quantumultX/quantumultX-102.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-102.png)
 
 搜出几个结果，我们先看第一个数据，下拉到底部响应体 `JSON查看`
 
-![](/quantumultX/quantumultX-103.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-103.png)
 
 找到了一模一样的文字，那就是这个了
 
 
-![](/quantumultX/quantumultX-104.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-104.png)
 
 
 返回数据顶部，复制请求地址，要包含posid
@@ -975,11 +975,11 @@ https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 比如：https://mi.gdt.qq.com/gdt_mview.fcg\?posid=3003491097068881
 :::
 
-![](/quantumultX/quantumultX-105.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-105.png)
 
 转换完成后，自动复制到剪切板
 
-![](/quantumultX/quantumultX-106.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-106.png)
 
 我们粘贴到重写规则中
 
@@ -996,23 +996,23 @@ hostname = mi.gdt.qq.com
 ```
 :::
 
-![](/quantumultX/quantumultX-107.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-107.png)
 
 在MitM添加hostname，`mi.gdt.qq.com`
 
-![](/quantumultX/quantumultX-108.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-108.png)
 
 然后我们再来搞定弹窗广告，搜索 `查看详情`
 
-![](/quantumultX/quantumultX-109.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-109.png)
 
 搜索到一个结果后，看到了一模一样的文字，那就是它了
 
-![](/quantumultX/quantumultX-110.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-110.png)
 
 拷贝地址链接，生成正则
 
-![](/quantumultX/quantumultX-111.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-111.png)
 
 我们粘贴到重写规则中，hostname已经有了，就不加了
 
@@ -1029,11 +1029,11 @@ hostname = mi.gdt.qq.com
 ```
 :::
 
-![](/quantumultX/quantumultX-112.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-112.png)
 
 最后看一下效果吧，清爽很多
 
-![](/quantumultX/quantumultX-113.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-113.png)
 
 
 
@@ -1047,7 +1047,7 @@ hostname = mi.gdt.qq.com
 
 现在基本也用不到了
 
-![](/quantumultX/quantumultX-114.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-114.png)
 
 
 
@@ -1064,7 +1064,7 @@ hostname = mi.gdt.qq.com
 
 实际是以远程订阅的方式，来管理本地的节点和规则
 
-![](/quantumultX/quantumultX-115.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-115.png)
 
 ---
 
@@ -1103,7 +1103,7 @@ hostname = mi.gdt.qq.com
 * MitM：解密模块(hostname，主机名)
 :::
 
-![](/quantumultX/quantumultX-116.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-116.png)
 
 
 ---
@@ -1112,7 +1112,7 @@ hostname = mi.gdt.qq.com
 
 可以将自己的所有配置导出
 
-![](/quantumultX/quantumultX-117.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-117.png)
 
 
 ---
@@ -1123,7 +1123,7 @@ hostname = mi.gdt.qq.com
 
 可以将已经导出的配置导入，或者别人分享的配置导入
 
-![](/quantumultX/quantumultX-118.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-118.png)
 
 
 ---
@@ -1139,12 +1139,12 @@ hostname = mi.gdt.qq.com
 
 * 备份MitM的 `passphrase` 和 `p12`：否则你需要重新安装证书
 
-![](/quantumultX/quantumultX-119.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-119.png)
 
 :::
 
 
-![](/quantumultX/quantumultX-120.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-120.png)
 
 
 * [@blackmatrix7](https://github.com/blackmatrix7/)：[blackmatrix7配置](https://github.com/blackmatrix7/ios_rule_script) 「推荐」
@@ -1180,7 +1180,7 @@ hostname = mi.gdt.qq.com
 
 官方的示例，不懂使用可以在里面查看
 
-![](/quantumultX/quantumultX-121.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-121.png)
 
 
 ---
@@ -1193,7 +1193,7 @@ hostname = mi.gdt.qq.com
 如无必要！请谨慎使用！
 :::
 
-![](/quantumultX/quantumultX-122.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-122.png)
 
 
 
@@ -1203,7 +1203,7 @@ hostname = mi.gdt.qq.com
 
 可以对首页的功能进行排序和样式的改变
 
-![](/quantumultX/quantumultX-123.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-123.png)
 
 底部的工具栏，可以改变功能
 
@@ -1211,7 +1211,7 @@ hostname = mi.gdt.qq.com
 工具1和工具5，不可以改变！
 :::
 
-![](/quantumultX/quantumultX-124.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-124.png)
 
 
 ## 其他设置
@@ -1222,7 +1222,7 @@ hostname = mi.gdt.qq.com
 资源默认保存在 `icloud云盘` ，关闭即保存在 `我的iPhone`
 :::
 
-![](/quantumultX/quantumultX-125.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-125.png)
 
 通知、VPN和GeoLite2皆保持默认即可，有需要再开启
 
@@ -1238,22 +1238,22 @@ hostname = mi.gdt.qq.com
 * 下拉到底 `HTTP代理` 改成手动，输入服务器ip和端口
 :::
 
-![](/quantumultX/quantumultX-126.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-126.png)
 
 
 ## 界面补充
 
 网络活动中，可以查看已经重写的链接状态
 
-![](/quantumultX/quantumultX-127.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-127.png)
 
 以及正常的网络连接状态，长按即进入抓包页面
 
-![](/quantumultX/quantumultX-128.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-128.png)
 
 日志页是当天的日志，长按可查看近期
 
-![](/quantumultX/quantumultX-129.png)
+![](https://img.viptv.work/viptv/quantumultX/quantumultX-129.png)
 
 
 

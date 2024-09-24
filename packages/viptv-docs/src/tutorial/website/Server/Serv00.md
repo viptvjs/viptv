@@ -9,7 +9,7 @@
 
 官网：https://www.serv00.com/
 
-![](/server/serv00/serv00-01.png)
+![](https://img.viptv.work/viptv/server/serv00/serv00-01.png)
 
 
 ## 特色
@@ -31,16 +31,16 @@
 
 点击官网的 `Register an account` 进入 [offer页面](https://www.serv00.com/offer)
 
-![](/server/serv00/serv00-02.png)
+![](https://img.viptv.work/viptv/server/serv00/serv00-02.png)
 
 
 点击 [Create account](https://www.serv00.com/offer/create_new_account) 创建账户
 
-![](/server/serv00/serv00-03.png)
+![](https://img.viptv.work/viptv/server/serv00/serv00-03.png)
 
 输入姓名邮箱等信息，这里的答案是：`0`，创建
 
-![](/server/serv00/serv00-04.png)
+![](https://img.viptv.work/viptv/server/serv00/serv00-04.png)
 
 成功后会将账号、密码、后台面板地址、数据库账密、DNS以及网址都发到邮箱中
 
@@ -48,7 +48,7 @@
 The account has been created successfully. Further instructions have been sent to the provided e-mail address.
 :::
 
-![](/server/serv00/serv00-05.png)
+![](https://img.viptv.work/viptv/server/serv00/serv00-05.png)
 
 我们打开控制面板，复制邮箱中的账号密码登录
 
@@ -56,17 +56,17 @@ The account has been created successfully. Further instructions have been sent t
 点击登录框下方的小字 `Zmień język`，弹窗中选择 `English`，最后点击 `Zapisz zmiany` 保存即可
 :::
 
-![](/server/serv00/serv00-06.png)
+![](https://img.viptv.work/viptv/server/serv00/serv00-06.png)
 
 这个就是后台管理面板了
 
-![](/server/serv00/serv00-07.png)
+![](https://img.viptv.work/viptv/server/serv00/serv00-07.png)
 
 我们先改一下密码，随机密码真的不好记
 
 注意：密码必须包含大小写及数字
 
-![](/server/serv00/serv00-08.png)
+![](https://img.viptv.work/viptv/server/serv00/serv00-08.png)
 
 
 
@@ -81,31 +81,31 @@ The account has been created successfully. Further instructions have been sent t
 
 点击 `File Manager` 进入文件管理器
 
-![](/server/serv00/static/static-01.png)
+![](https://img.viptv.work/viptv/server/serv00/static/static-01.png)
 
 进入目录 `domains/用户名.serv00.net/public_html`，可以将这个index.html删掉
 
-![](/server/serv00/static/static-02.png)
+![](https://img.viptv.work/viptv/server/serv00/static/static-02.png)
 
 点击 `send - from computer` 上传我们准备好的静态网站 [static-green-nav.zip](https://dzp.lanzouj.com/ikleX22s6hyf)
 
-![](/server/serv00/static/static-03.png)
+![](https://img.viptv.work/viptv/server/serv00/static/static-03.png)
 
 上传完成后，右键点击 `Explore`，进入查看压缩包内容
 
-![](/server/serv00/static/static-04.png)
+![](https://img.viptv.work/viptv/server/serv00/static/static-04.png)
 
 全选所有文件，右键点击 `Extract`，提取文件
 
-![](/server/serv00/static/static-05.png)
+![](https://img.viptv.work/viptv/server/serv00/static/static-05.png)
 
 选择刚才的目录 `domains/用户名.serv00.net/public_html` ，确定
 
-![](/server/serv00/static/static-06.png)
+![](https://img.viptv.work/viptv/server/serv00/static/static-06.png)
 
 最后进入你的网站查看是否成功 `用户名.serv00.net`
 
-![](/server/serv00/static/static-07.png)
+![](https://img.viptv.work/viptv/server/serv00/static/static-07.png)
 
 :::
 
@@ -124,51 +124,51 @@ The account has been created successfully. Further instructions have been sent t
 
 输入 `ssh 用户名@面板地址` 回车，确定连接输入`yes`
 
-![](/server/serv00/ssh/ssh-09.png)
+![](https://img.viptv.work/viptv/server/serv00/ssh/ssh-09.png)
 
 密码为了安全，是不显示的，输入密码后回车即可连接
 
-![](/server/serv00/ssh/ssh-10.png)
+![](https://img.viptv.work/viptv/server/serv00/ssh/ssh-10.png)
 :::
 
 
 新建 - 连接 - 主机，输入邮箱中给的主机地址
 
-![](/server/serv00/ssh/ssh-01.png)
+![](https://img.viptv.work/viptv/server/serv00/ssh/ssh-01.png)
 
 用户登录验证，输入账号密码，确定
 
-![](/server/serv00/ssh/ssh-02.png)
+![](https://img.viptv.work/viptv/server/serv00/ssh/ssh-02.png)
 
 然后点击连接
 
-![](/server/serv00/ssh/ssh-03.png)
+![](https://img.viptv.work/viptv/server/serv00/ssh/ssh-03.png)
 
 选择接受并保存
 
-![](/server/serv00/ssh/ssh-04.png)
+![](https://img.viptv.work/viptv/server/serv00/ssh/ssh-04.png)
 
 这里如果还需要认证，选择 `Keyboard Interactive` 键盘输入验证
 
-![](/server/serv00/ssh/ssh-05.png)
+![](https://img.viptv.work/viptv/server/serv00/ssh/ssh-05.png)
 
 再次输入密码，确定
 
-![](/server/serv00/ssh/ssh-06.png)
+![](https://img.viptv.work/viptv/server/serv00/ssh/ssh-06.png)
 
 看到 Serv00.com 的图形就是成功了
 
-![](/server/serv00/ssh/ssh-07.png)
+![](https://img.viptv.work/viptv/server/serv00/ssh/ssh-07.png)
 
 我们输入 `uname -a` 可以看一下系统
 
-![](/server/serv00/ssh/ssh-08.png)
+![](https://img.viptv.work/viptv/server/serv00/ssh/ssh-08.png)
 
 如果出现不能连接SSH的情况，请关掉代理后重连！
 
 也可以使用官方 [提供IP解锁](https://www.serv00.com/ip_unban/) 后使用
 
-![](/server/serv00/ssh/ssh-11.png)
+![](https://img.viptv.work/viptv/server/serv00/ssh/ssh-11.png)
 
 ::::
 
@@ -186,52 +186,52 @@ The account has been created successfully. Further instructions have been sent t
 
 比如：`nav.yiov.serv00.net`
 
-![](/server/serv00/two/two-01.png)
+![](https://img.viptv.work/viptv/server/serv00/two/two-01.png)
 
 点击 `Add` 添加，提示成功即可
 
-![](/server/serv00/two/two-02.png)
+![](https://img.viptv.work/viptv/server/serv00/two/two-02.png)
 
 再点击 `File Manager` 进入文件管理器
 
-![](/server/serv00/two/two-03.png)
+![](https://img.viptv.work/viptv/server/serv00/two/two-03.png)
 
 进入目录 `domains/域名前缀.用户名.serv00.net/public_html`
 
 将这个index.html删掉后，上传我们准备好的静态网站 [static-green-nav.zip](https://dzp.lanzouj.com/ikleX22s6hyf)
 
-![](/server/serv00/two/two-04.png)
+![](https://img.viptv.work/viptv/server/serv00/two/two-04.png)
 
 
 上传完成后，右键点击 `Explore`，进入查看压缩包内容
 
-![](/server/serv00/two/two-05.png)
+![](https://img.viptv.work/viptv/server/serv00/two/two-05.png)
 
 全选所有文件，右键点击 `Extract`，提取文件
 
-![](/server/serv00/two/two-06.png)
+![](https://img.viptv.work/viptv/server/serv00/two/two-06.png)
 
 选择刚才的目录 `domains/域名前缀.用户名.serv00.net/public_html` ，确定
 
-![](/server/serv00/two/two-07.png)
+![](https://img.viptv.work/viptv/server/serv00/two/two-07.png)
 
 删除刚才上传的压缩包，免得占空间
 
-![](/server/serv00/two/two-08.png)
+![](https://img.viptv.work/viptv/server/serv00/two/two-08.png)
 
 最后进入你的网站查看是否成功 `域名前缀.用户名.serv00.net`
 
-![](/server/serv00/two/two-09.png)
+![](https://img.viptv.work/viptv/server/serv00/two/two-09.png)
 
 但是这个域名是没有SSL证书的，我们申请一下
 
 点击 `SSL - WWW Websites` ，选择一个IP点 `Manage` 管理
 
-![](/server/serv00/two/two-10.png)
+![](https://img.viptv.work/viptv/server/serv00/two/two-10.png)
 
 点击 `Add certificate` 添加证书
 
-![](/server/serv00/two/two-11.png)
+![](https://img.viptv.work/viptv/server/serv00/two/two-11.png)
 
 选择 `Generate Let's Encrypt certificate` 添加即可
 
@@ -243,7 +243,7 @@ The account has been created successfully. Further instructions have been sent t
 换一个IP申请
 :::
 
-![](/server/serv00/two/two-12.png)
+![](https://img.viptv.work/viptv/server/serv00/two/two-12.png)
 
 ::::
 
@@ -255,15 +255,15 @@ The account has been created successfully. Further instructions have been sent t
 
 那么，推荐使用 [ZeroSSL](https://zerossl.com/) ，点右上角 `Get Free SSL` 注册
 
-![](/server/serv00/zerossl/zerossl-01.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-01.png)
 
 输入邮箱密码即可，密码要大小写及数字，8位数以上
 
-![](/server/serv00/zerossl/zerossl-02.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-02.png)
 
 点 `New Certificate` 创建新证书
 
-![](/server/serv00/zerossl/zerossl-03.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-03.png)
 
 输入我们的Serv00二级域名，90天，其他默认，才是免费的
 
@@ -277,41 +277,41 @@ The account has been created successfully. Further instructions have been sent t
 * CSR & Contact：默认自动开启的即可
 :::
 
-![](/server/serv00/zerossl/zerossl-04.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-04.png)
 
-![](/server/serv00/zerossl/zerossl-05.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-05.png)
 
 我们只能选 HTTP 文件验证，先下载txt验证文件 `Download Auth File`
 
-![](/server/serv00/zerossl/zerossl-06.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-06.png)
 
 然后再serv00文件管理器，域名 `public_html` 文件夹下
 
 按要求分别新建子母文件夹后，上传验证文件
 
-![](/server/serv00/zerossl/zerossl-07.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-07.png)
 
 访问链接能成功读取，就可以了
 
-![](/server/serv00/zerossl/zerossl-08.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-08.png)
 
 回到 ZeroSSL `verify` 验证
 
-![](/server/serv00/zerossl/zerossl-09.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-09.png)
 
 验证成功后，点击 `Download Certificate (.zip)` 下载证书压缩包
 
-![](/server/serv00/zerossl/zerossl-10.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-10.png)
 
 解压后，还不能直接使用，需要将ca_bundle.crt和certificate.crt合并
 
-![](/server/serv00/zerossl/zerossl-11.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-11.png)
 
 右键用记事本打开 `ca_bundle.crt` 全选内容，复制
 
 同样的方式打开 `certificate.crt` ，拉倒最底部，粘贴将刚复制的内容，保存
 
-![](/server/serv00/zerossl/zerossl-12.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-12.png)
 
 然后将 `certificate.crt` 重命名为 `certificate.pem`，确定
 
@@ -319,11 +319,11 @@ The account has been created successfully. Further instructions have been sent t
 文件夹顶部 查看 - 勾选 `文件拓展名`
 :::
 
-![](/server/serv00/zerossl/zerossl-13.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-13.png)
 
 打开 serv00 面板 - SSL - WWW Websites，第一个IP `Manage` 管理
 
-![](/server/serv00/zerossl/zerossl-14.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-14.png)
 
 点击 `Add certificate` 添加证书，`choose file` 选择我们刚才的文件
 
@@ -338,19 +338,19 @@ The account has been created successfully. Further instructions have been sent t
 * Domain：申请的域名
 :::
 
-![](/server/serv00/zerossl/zerossl-15.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-15.png)
 
 成功后在面板中能看到
 
-![](/server/serv00/zerossl/zerossl-16.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-16.png)
 
 回到ZeroSSL验证，这样就完成了
 
-![](/server/serv00/zerossl/zerossl-17.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-17.png)
 
 浏览网站，已经可以https访问了，证书是3个月过期
 
-![](/server/serv00/zerossl/zerossl-18.png)
+![](https://img.viptv.work/viptv/server/serv00/zerossl/zerossl-18.png)
 
 ::::
 
@@ -390,7 +390,7 @@ The account has been created successfully. Further instructions have been sent t
 bash <(curl -s https://raw.githubusercontent.com/k0baya/alist_repl/main/serv00/install-pm2.sh)
 ```
 
-![](/server/serv00/pm2/pm2-01.png)
+![](https://img.viptv.work/viptv/server/serv00/pm2/pm2-01.png)
 
 
 安装好就可以了，下面是一些常用命令
@@ -443,18 +443,18 @@ pm2 save
 
 允许第三方应用，不打开后面运行Alist，会提示没有权限
 
-![](/server/serv00/alist/alist-01.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-01.png)
 
-![](/server/serv00/alist/alist-02.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-02.png)
 
 
 然后在控制台 `Port reservation - Add port`  开放端口
 
 在1-65525中选一个，提示冲突就换，我用的是 `3399`，一会要用到
 
-![](/server/serv00/alist/alist-03.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-03.png)
 
-![](/server/serv00/alist/alist-04.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-04.png)
 
 
 接着在 `WWW Websites - Add new website` 添加一个新站点
@@ -475,7 +475,7 @@ pm2 save
 * DNS support：cf托管的域名不勾选
 :::
 
-![](/server/serv00/alist/alist-05.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-05.png)
 
 
 最后在 `MySQL - Add database` 新增数据库
@@ -491,11 +491,11 @@ pm2 save
 :::
 
 
-![](/server/serv00/alist/alist-06.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-06.png)
 
 添加成功后在 `Database list` 中可以看到
 
-![](/server/serv00/alist/alist-07.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-07.png)
 
 
 SSH工具连接Serv00服务器，cd进刚才你创建的域名`public_html`目录
@@ -504,7 +504,7 @@ SSH工具连接Serv00服务器，cd进刚才你创建的域名`public_html`目�
 cd ~/domains/你的域名/public_html
 ```
 
-![](/server/serv00/alist/alist-08.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-08.png)
 
 
 运行下面命令，安装FreeBSD版本的Alist
@@ -513,7 +513,7 @@ cd ~/domains/你的域名/public_html
 wget -O alist-freebsd.sh https://raw.githubusercontent.com/k0baya/alist_repl/main/serv00/alist-freebsd.sh && sh alist-freebsd.sh
 ```
 
-![](/server/serv00/alist/alist-09.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-09.png)
 
 
 
@@ -534,12 +534,12 @@ devil binexec on
 chmod +x alist && ./alist server
 ```
 
-![](/server/serv00/alist/alist-10.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-10.png)
 
 
 点击控制台 `File manager` 进入文件管理器
 
-![](/server/serv00/alist/alist-11.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-11.png)
 
 进入域名下的 `public_html - date` 文件夹，双击 `config.json` 打开
 
@@ -548,7 +548,7 @@ chmod +x alist && ./alist server
 :::
 
 
-![](/server/serv00/alist/alist-12.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-12.png)
 
 
 
@@ -587,11 +587,11 @@ chmod +x alist && ./alist server
 :::
 
 
-![](/server/serv00/alist/alist-13.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-13.png)
 
 修改好后 `save` 保存
 
-![](/server/serv00/alist/alist-14.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-14.png)
 
 
 再次运行Alist，运行成功后，会显示 `登录密码`
@@ -604,7 +604,7 @@ chmod +x alist && ./alist server
 ./alist server
 ```
 
-![](/server/serv00/alist/alist-15.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-15.png)
 
 
 访问域名，进入Alist登录界面，账号是`admin`，密码显示在SSH里
@@ -618,11 +618,11 @@ chmod +x alist && ./alist server
 ```
 :::
 
-![](/server/serv00/alist/alist-16.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-16.png)
 
 进入Alist页面，点击管理页面，修改用户名和密码
 
-![](/server/serv00/alist/alist-17.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-17.png)
 
 在SSH工具中按 `Ctrl+C` 结束窗口，然后使用pm2运行Alist
 
@@ -632,7 +632,7 @@ chmod +x alist && ./alist server
 pm2 start ./alist -- server
 ```
 
-![](/server/serv00/alist/alist-18.png)
+![](https://img.viptv.work/viptv/server/serv00/alist/alist-18.png)
 
 ::::
 
@@ -657,7 +657,7 @@ sshpass -p '密码' ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/n
 EOF
 ```
 
-![](/server/serv00/renew/renew-01.png)
+![](https://img.viptv.work/viptv/server/serv00/renew/renew-01.png)
 
 赋予权限并查看列表
 
@@ -665,7 +665,7 @@ EOF
 chmod +x auto_renew.sh && ls
 ```
 
-![](/server/serv00/renew/renew-02.png)
+![](https://img.viptv.work/viptv/server/serv00/renew/renew-02.png)
 
 在控制台 `Cron jobs - Add cron job`，添加一个定时任务
 
@@ -681,11 +681,11 @@ chmod +x auto_renew.sh && ls
 /home/你的用户名/auto_renew.sh 2>/dev/null 2>&1
 ```
 
-![](/server/serv00/renew/renew-03.png)
+![](https://img.viptv.work/viptv/server/serv00/renew/renew-03.png)
 
 添加成功后，在 `Cron jobs list` 可以看到一个cron规则，每月的1号0点0分自动执行
 
-![](/server/serv00/renew/renew-04.png)
+![](https://img.viptv.work/viptv/server/serv00/renew/renew-04.png)
 
 ::::
 
@@ -712,11 +712,11 @@ chmod +x auto_renew.sh && ls
 ```sh
 /home/你的用户名/.npm-global/bin/pm2 resurrect 2>/dev/null 2>&1 && /home/你的用户名/.npm-global/bin/pm2 restart all 2>/dev/null 2>&1
 ```
-![](/server/serv00/rebot/rebot-01.png)
+![](https://img.viptv.work/viptv/server/serv00/rebot/rebot-01.png)
 
 这样就添加了一个在服务器重启后，运行的命令
 
-![](/server/serv00/rebot/rebot-02.png)
+![](https://img.viptv.work/viptv/server/serv00/rebot/rebot-02.png)
 
 添加完之后，在 SSH 窗口输入下面命令保存当前任务列表快照
 
@@ -728,7 +728,7 @@ chmod +x auto_renew.sh && ls
 pm2 save
 ```
 
-![](/server/serv00/rebot/rebot-03.png)
+![](https://img.viptv.work/viptv/server/serv00/rebot/rebot-03.png)
 
 ::::
 

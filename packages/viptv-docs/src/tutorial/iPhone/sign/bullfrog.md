@@ -20,27 +20,27 @@ next: false
 
 牛蛙助手官网：https://www.ios222.com/
 
-![](/bullfrog/bullfrog-01.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-01.png)
 
 
 下载打开，手机解锁屏幕，连接数据线安装
 
 
-![](/bullfrog/bullfrog-02.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-02.png)
 
 直到提示安装完成
 
-![](/bullfrog/bullfrog-03.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-03.png)
 
 
 打开手机桌面的牛蛙助手，获取UDID
 
-![](/bullfrog/bullfrog-04.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-04.png)
 
 
 跳转到网页，下载描述文件
 
-![](/bullfrog/bullfrog-05.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-05.png)
 
 
 设置 - 已下载描述文件，安装描述文件
@@ -49,16 +49,16 @@ next: false
 设置  -通用 - VPN与设备与管理 - 安装
 :::
 
-![](/bullfrog/bullfrog-06.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-06.png)
 
 安装完成，跳转进入牛蛙主界面
 
-![](/bullfrog/bullfrog-07.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-07.png)
 
 
 点击 `IPA签名` ，右下 `证书` - 右上+号 `个人证书`
 
-![](/bullfrog/bullfrog-08.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-08.png)
 
 输入你的 `Apple ID和密码` ，认证成功即可生成个人证书
 
@@ -68,7 +68,7 @@ next: false
 2.账号被锁定了，请在设置中退出账号后重新登录，解封修改密码半小时后再试
 :::
 
-![](/bullfrog/bullfrog-09.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-09.png)
 
 ::: tip 说明
 个人证书有效期7天，企业证书要花钱买！
@@ -84,7 +84,7 @@ next: false
 
 点击虚拟定位，默认用蓝奏的镜像，这里提示`镜像挂载失败`
 
-![](/bullfrog/bullfrog-10.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-10.png)
 
 
 设置-通用-VPN与设备与管理-VPN，选择牛蛙助手，开关打开
@@ -92,22 +92,22 @@ next: false
 再次回到APP，已经可以用了，权限给`使用App时允许`
 
 
-![](/bullfrog/bullfrog-11.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-11.png)
 
 
 先搜索一个自己要定位的地名，比如：东方明珠，点一下这个标记，然后点锁定即可
 
-![](/bullfrog/bullfrog-12.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-12.png)
 
 
 锁定成功，打开微信定位就可以看到，已经成功了
 
-![](/bullfrog/bullfrog-13.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-13.png)
 
 
 不使用了一定要解锁，否则就回不来了！！！
 
-![](/bullfrog/bullfrog-14.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-14.png)
 
 
 
@@ -126,23 +126,23 @@ next: false
 :::
 
 
-![](/bullfrog/bullfrog-15.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-15.png)
 
 下载 - 点击下载好的文件
 
-![](/bullfrog/bullfrog-16.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-16.png)
 
 右上角分享 - 用 `牛蛙助手` 打开
 
-![](/bullfrog/bullfrog-17.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-17.png)
 
 发送，导入应用库
 
-![](/bullfrog/bullfrog-18.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-18.png)
 
 点微信 - 签名
 
-![](/bullfrog/bullfrog-19.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-19.png)
 
 这里我们多开就修改下 `应用名称` 和 `Bundle Identifier` 就好了，例如我在后面都加了个 `pro`
 
@@ -152,40 +152,40 @@ Bundle ID就是应用程序标识符，也叫应用ID，也叫包名，独一无
 我们通过修改应用ID，就变成了两个完全独立的App，可共存安装，也就是多开
 :::
 
-![](/bullfrog/bullfrog-20.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-20.png)
 
 根据自己需求也可以改一下图标，立即签名，签名成功，去安装
 
 ::: details 分享2个图片
 
-![](/bullfrog/icon/icon-01.png)
+![](https://img.viptv.work/viptv/bullfrog/icon/icon-01.png)
 
-![](/bullfrog/icon/icon-02.jpg)
+![](https://img.viptv.work/viptv/bullfrog/icon/icon-02.jpg)
 
 :::
 
-![](/bullfrog/bullfrog-21.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-21.png)
 
 
 设置 - VPN - 勾选 `牛蛙助手` - 打开VPN开关
 
 
-![](/bullfrog/bullfrog-22.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-22.png)
 
 再去安装，安装好后返回桌面查看
 
-![](/bullfrog/bullfrog-23.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-23.png)
 
 现在还打不开，要信任一下
 
-![](/bullfrog/bullfrog-24.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-24.png)
 
 
-![](/bullfrog/bullfrog-25.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-25.png)
 
 这样就能打开登录了
 
-![](/bullfrog/bullfrog-26.png)
+![](https://img.viptv.work/viptv/bullfrog/bullfrog-26.png)
 
 
 

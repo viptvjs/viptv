@@ -13,7 +13,7 @@ shell是一个提供操作界面的软件，位于系统外层，用于连接系
 
 * 命令行式shell：Windows系统的 `cmd.exe`
 
-![](/shell/shell-01.png)
+![](https://img.viptv.work/viptv/shell/shell-01.png)
 
 
 

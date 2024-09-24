@@ -30,7 +30,7 @@ clash是一个core核心，即 [clash core](https://github.com/Dreamacro/clash) 
 :::
 
 
-![](/Clash/Clash-01.png)
+![](https://img.viptv.work/viptv/Clash/Clash-01.png)
 
 
 ## 客户端
@@ -62,24 +62,24 @@ clash是一个core核心，即 [clash core](https://github.com/Dreamacro/clash) 
 
 下载热心人士保存的备份：[Clash-for-Windows](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFW)
 
-![](/Clash/Clash-02.png)
+![](https://img.viptv.work/viptv/Clash/Clash-02.png)
 
 下载最后版本 `0.20.39`后解压，双击 `Clash for Windows.exe` 运行
 
 免安装的便携版，打开就可以用了
 
-![](/Clash/Clash-03.png)
+![](https://img.viptv.work/viptv/Clash/Clash-03.png)
 
 
 进入后，界面是英文的
 
-![](/Clash/Clash-04.png)
+![](https://img.viptv.work/viptv/Clash/Clash-04.png)
 
 我们来下载 [Clash汉化补丁](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFW-V0.20.39_CN)
 
 选择 `app.asar` 下载
 
-![](/Clash/Clash-05.png)
+![](https://img.viptv.work/viptv/Clash/Clash-05.png)
 
 
 右下角退出 Clash ，一定要先退出！！！
@@ -87,11 +87,11 @@ clash是一个core核心，即 [clash core](https://github.com/Dreamacro/clash) 
 将下载好的 `app.asar` 文件拖入Clash目录中的 `resources` 中替换
 
 
-![](/Clash/Clash-06.png)
+![](https://img.viptv.work/viptv/Clash/Clash-06.png)
 
 这样就汉化成功了
 
-![](/Clash/Clash-07.png)
+![](https://img.viptv.work/viptv/Clash/Clash-07.png)
 
 :::
 
@@ -105,7 +105,7 @@ clash是一个core核心，即 [clash core](https://github.com/Dreamacro/clash) 
 
 根据自己的系统下载安装，不知道的下载通用版
 
-![](/Clash/Clash-08.png)
+![](https://img.viptv.work/viptv/Clash/Clash-08.png)
 
 :::
 
@@ -124,20 +124,20 @@ clash是一个core核心，即 [clash core](https://github.com/Dreamacro/clash) 
 更多免费好用机场，请查看 [机场大全一览表](./channel.md)
 :::
 
-![](/Clash/Clash-09.png)
+![](https://img.viptv.work/viptv/Clash/Clash-09.png)
 
 
 下拉找到订阅，选择 `一键导入Clash` ，也可以复制
 
-![](/Clash/Clash-10.png)
+![](https://img.viptv.work/viptv/Clash/Clash-10.png)
 
 这样就自动跳转下载好了，手动的话粘贴订阅地址后点下载即可
 
-![](/Clash/Clash-11.png)
+![](https://img.viptv.work/viptv/Clash/Clash-11.png)
 
 在代理中查看节点，点击WIFI图标测速，选择延迟低的使用
 
-![](/Clash/Clash-12.png)
+![](https://img.viptv.work/viptv/Clash/Clash-12.png)
 
 
 桌面右下角对着Clash鼠标右键，代理模式选 `规则`，勾选 `系统代理` 即可开启翻墙
@@ -152,12 +152,12 @@ clash是一个core核心，即 [clash core](https://github.com/Dreamacro/clash) 
 系统会自动根据使用场景，选择代理组切换
 :::
 
-![](/Clash/Clash-13.png)
+![](https://img.viptv.work/viptv/Clash/Clash-13.png)
 
 
 我们访问 [谷歌](https://www.google.com/) 看一下
 
-![](/Clash/Clash-14.png)
+![](https://img.viptv.work/viptv/Clash/Clash-14.png)
 
 ::::
 
@@ -175,17 +175,17 @@ clash是一个core核心，即 [clash core](https://github.com/Dreamacro/clash) 
 更多免费好用机场，请查看 [机场channel大全一览表](./channel.md)
 :::
 
-![](/Clash/Clash-15.png)
+![](https://img.viptv.work/viptv/Clash/Clash-15.png)
 
 自动跳转过来保存即可，不能跳转的，手动复制填写，返回启动
 
-![](/Clash/Clash-16.png)
+![](https://img.viptv.work/viptv/Clash/Clash-16.png)
 
 在代理中点击 闪电 图标测速，选择速度快的
 
 然后访问谷歌，成功即可，打不开说明节点不行，换机场
 
-![](/Clash/Clash-17.png)
+![](https://img.viptv.work/viptv/Clash/Clash-17.png)
 
 ::::
 

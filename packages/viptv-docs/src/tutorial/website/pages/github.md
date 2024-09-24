@@ -13,7 +13,7 @@ Github是微软旗下的开源项目托管平台，有无数的优质开源项�
 
 官网：https://github.com/
 
-![](/pages/github/github-01.png)
+![](https://img.viptv.work/pages/github/github-01.png)
 
 
 
@@ -28,29 +28,29 @@ Github是微软旗下的开源项目托管平台，有无数的优质开源项�
 进入的界面是英文的，可以通过 [油猴](/book//computer/tampermonkey) 安装 [☛GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
 :::
 
-![](/pages/github/github-02.png)
+![](https://img.viptv.work/pages/github/github-02.png)
 
 验证人机后，创建账户，然后输入验证码
 
-![](/pages/github/github-03.png)
+![](https://img.viptv.work/pages/github/github-03.png)
 
-![](/pages/github/github-04.png)
+![](https://img.viptv.work/pages/github/github-04.png)
 
 
 注册好了，还需要填一些信息，跟我一样的小白，就选 `Just me` 和 `Student`
 
-![](/pages/github/github-05.png)
+![](https://img.viptv.work/pages/github/github-05.png)
 
 
 然后问你的兴趣，不选也可以，直接点继续下一步
 
-![](/pages/github/github-06.png)
+![](https://img.viptv.work/pages/github/github-06.png)
 
 这一步选免费账户，或者选择学生账户
 
 学生账户有更多的权益，应该之后会需要学生认证，我没选并不清楚
 
-![](/pages/github/github-07.png)
+![](https://img.viptv.work/pages/github/github-07.png)
 
 
 选择 `Continue for free` ，即可创建完成，进入github
@@ -59,7 +59,7 @@ Github是微软旗下的开源项目托管平台，有无数的优质开源项�
 正常情况到这里，都会被墙一下，反复刷新等加载进入即可
 :::
 
-![](/pages/github/github-08.png)
+![](https://img.viptv.work/pages/github/github-08.png)
 
 
 
@@ -76,7 +76,7 @@ Github是微软旗下的开源项目托管平台，有无数的优质开源项�
 
 进入github了，我们点 `新建仓库`
 
-![](/pages/github/github-09.png)
+![](https://img.viptv.work/pages/github/github-09.png)
 
 
 仓库名自己取，别打中文字就行，新建仓库
@@ -85,12 +85,12 @@ Github是微软旗下的开源项目托管平台，有无数的优质开源项�
 这里的 `Add a README file` 文件，勾不勾选都不影响，后面可以自己上传
 :::
 
-![](/pages/github/github-10.png)
+![](https://img.viptv.work/pages/github/github-10.png)
 
 
 创建完成后，就进去了我们的仓库页面
 
-![](/pages/github/github-11.png)
+![](https://img.viptv.work/pages/github/github-11.png)
 
 
 ::::
@@ -112,7 +112,7 @@ Github是微软旗下的开源项目托管平台，有无数的优质开源项�
 下载不了的不要用迅雷，用浏览器自带的
 :::
 
-![](/pages/github/github-12.png)
+![](https://img.viptv.work/pages/github/github-12.png)
 
 
 下载完成，双击安装包，会自动生成一个桌面快捷方式，同时打开登录界面
@@ -121,18 +121,18 @@ Github是微软旗下的开源项目托管平台，有无数的优质开源项�
 默认安装在C盘了
 :::
 
-![](/pages/github/github-13.png)
+![](https://img.viptv.work/pages/github/github-13.png)
 
 
 点登入就会自动跳转到浏览器，然后要授权账号
 
-![](/pages/github/github-14.png)
+![](https://img.viptv.work/pages/github/github-14.png)
 
 
 
 点击授权后，打开desktop，被墙了重新打开
 
-![](/pages/github/github-15.png)
+![](https://img.viptv.work/pages/github/github-15.png)
 
 
 
@@ -144,7 +144,7 @@ desktop打开后，要求我们设置用户名和邮箱
 设置的用处就是，为了知道远程仓库是谁上传的
 :::
 
-![](/pages/github/github-16.png)
+![](https://img.viptv.work/pages/github/github-16.png)
 
 选第2个，`Clone a repository` 克隆仓库到本地
 
@@ -154,7 +154,7 @@ desktop打开后，要求我们设置用户名和邮箱
 如果你没有创建，就选第3个，`Create a  new repository`
 :::
 
-![](/pages/github/github-17.png)
+![](https://img.viptv.work/pages/github/github-17.png)
 
 
 
@@ -164,7 +164,7 @@ desktop打开后，要求我们设置用户名和邮箱
 点击刷新即可，然后选择我们创建好的仓库
 :::
 
-![](/pages/github/github-18.png)
+![](https://img.viptv.work/pages/github/github-18.png)
 
 
 完成后，在文件夹里就生成了 `.git` 的隐藏一个文件夹，这样就算完成了
@@ -173,7 +173,7 @@ desktop打开后，要求我们设置用户名和邮箱
 文件夹顶部-查看-勾选 隐藏的项目
 :::
 
-![](/pages/github/github-19.png)
+![](https://img.viptv.work/pages/github/github-19.png)
 
 
 
@@ -192,7 +192,7 @@ desktop打开后，要求我们设置用户名和邮箱
 
 进入Github Desktop工作界面，现在里面还啥都没有
 
-![](/pages/github/github-20.png)
+![](https://img.viptv.work/pages/github/github-20.png)
 
 
 
@@ -202,7 +202,7 @@ desktop打开后，要求我们设置用户名和邮箱
 文件夹上方 - 查看 - 勾选 `文件拓展名`
 :::
 
-![](/pages/github/github-21.png)
+![](https://img.viptv.work/pages/github/github-21.png)
 
 
 有文件更新后，客户端界面就有了变动
@@ -219,12 +219,12 @@ github被墙了，别慌，要么继续点，要么[挂梯子](book/gfw/proxy)
 :::
 
 
-![](/pages/github/github-22.png)
+![](https://img.viptv.work/pages/github/github-22.png)
 
 
 刷新下页面，就可以看到文件已经上传完成了
 
-![](/pages/github/github-23.png)
+![](https://img.viptv.work/pages/github/github-23.png)
 
 ::::
 
@@ -240,7 +240,7 @@ github被墙了，别慌，要么继续点，要么[挂梯子](book/gfw/proxy)
 
 其实就是 [Github Page](https://pages.github.com/) ，可以将静态网页内容部署到它的服务器上
 
-![](/pages/githubpage/githubpage-01.png)
+![](https://img.viptv.work/pages/githubpage/githubpage-01.png)
 
 
 新建仓库，输入 `账户名.github.io`，仓库公开即可，确定
@@ -249,12 +249,12 @@ github被墙了，别慌，要么继续点，要么[挂梯子](book/gfw/proxy)
 比如我的：yiov.github.io
 :::
 
-![](/pages/githubpage/githubpage-02.png)
+![](https://img.viptv.work/pages/githubpage/githubpage-02.png)
 
 
 这样就建好了
 
-![](/pages/githubpage/githubpage-03.png)
+![](https://img.viptv.work/pages/githubpage/githubpage-03.png)
 
 
 
@@ -266,15 +266,15 @@ github被墙了，别慌，要么继续点，要么[挂梯子](book/gfw/proxy)
 请按照文档，修改成自己的图片及文本
 :::
 
-![](/pages/githubpage/githubpage-04.png)
+![](https://img.viptv.work/pages/githubpage/githubpage-04.png)
 
 解压后，放入克隆下来的文件夹
 
-![](/pages/githubpage/githubpage-05.png)
+![](https://img.viptv.work/pages/githubpage/githubpage-05.png)
 
 用GitHub Desktop上传即可
 
-![](/pages/githubpage/githubpage-06.png)
+![](https://img.viptv.work/pages/githubpage/githubpage-06.png)
 
 
 上传完成，我们回到github刷新网页，这样就上传完成了
@@ -283,17 +283,17 @@ github被墙了，别慌，要么继续点，要么[挂梯子](book/gfw/proxy)
 github被墙了，别慌，要么继续点，要么[挂梯子](/book/gfw/proxy)
 :::
 
-![](/pages/githubpage/githubpage-07.png)
+![](https://img.viptv.work/pages/githubpage/githubpage-07.png)
 
 
 
 在 `Setting - page` 这里的 `https://yiov.github.io` 就是我们的网页了
 
-![](/pages/githubpage/githubpage-08.png)
+![](https://img.viptv.work/pages/githubpage/githubpage-08.png)
 
 可以访问试试看看，这样就OK了
 
-![](/pages/githubpage/githubpage-09.png)
+![](https://img.viptv.work/pages/githubpage/githubpage-09.png)
 
 
 ::::
@@ -318,7 +318,7 @@ github被墙了，别慌，要么继续点，要么[挂梯子](/book/gfw/proxy)
 我这里用的二级域名 `doc` 
 :::
 
-![](/pages/githubpage/githubpage-10.png)
+![](https://img.viptv.work/pages/githubpage/githubpage-10.png)
 
 
 回到github设置，下拉在自定义域名里填入我们的二级域名，保存
@@ -331,7 +331,7 @@ github被墙了，别慌，要么继续点，要么[挂梯子](/book/gfw/proxy)
 建议是勾选 htpps
 :::
 
-![](/pages/githubpage/githubpage-11.png)
+![](https://img.viptv.work/pages/githubpage/githubpage-11.png)
 
 然后我们就能看到域名已经变成自己的了
 
@@ -341,7 +341,7 @@ github被墙了，别慌，要么继续点，要么[挂梯子](/book/gfw/proxy)
 否则只点移除是没用的
 :::
 
-![](/pages/githubpage/githubpage-12.png)
+![](https://img.viptv.work/pages/githubpage/githubpage-12.png)
 
 
 ::::

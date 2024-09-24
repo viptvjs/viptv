@@ -13,7 +13,7 @@
 官网：https://nic.us.kg/
 
 
-![](/domain/uskg/uskg-01.png)
+![](https://img.viptv.work/domain/uskg/uskg-01.png)
 
 
 ## 特色
@@ -36,19 +36,19 @@
 
 点击 `Get US.KG` 或手动进入 [注册页面](https://register.us.kg/)，点击 [Sign up](https://register.us.kg/auth/register)
 
-![](/domain/uskg/uskg-02.png)
+![](https://img.viptv.work/domain/uskg/uskg-02.png)
 
 我们用 [美国地址生成器](https://ratenn.com/american.html) ，生成一个虚假的信息
 
-![](/domain/uskg/uskg-03.png)
+![](https://img.viptv.work/domain/uskg/uskg-03.png)
 
 我们依次复制填入，注意这里的号码格式 `+1-***`，密码要有大写
 
-![](/domain/uskg/uskg-04.png)
+![](https://img.viptv.work/domain/uskg/uskg-04.png)
 
 提示成功，需要到邮箱里验证
 
-![](/domain/uskg/uskg-05.png)
+![](https://img.viptv.work/domain/uskg/uskg-05.png)
 
 邮件在谷歌邮箱的垃圾邮件中，不要傻等
 
@@ -56,21 +56,21 @@
 自己电脑登录邮箱点开即可，我是忘记截图了，才用的手机
 :::
 
-![](/domain/uskg/uskg-06.png)
+![](https://img.viptv.work/domain/uskg/uskg-06.png)
 
 提示注册成功即可
 
-![](/domain/uskg/uskg-07.png)
+![](https://img.viptv.work/domain/uskg/uskg-07.png)
 
 我们返回 [注册页面](https://register.us.kg/) 登录账号
 
-![](/domain/uskg/uskg-08.png)
+![](https://img.viptv.work/domain/uskg/uskg-08.png)
 
 选择第一个推荐的 `Upload and KYC Documents...`
 
 再点击下方 `Proceed to Default Server...`
 
-![](/domain/uskg/uskg-09.png)
+![](https://img.viptv.work/domain/uskg/uskg-09.png)
 
 
 使用 [学生卡生成器](https://edu.chatgpt.org.uk/) ，生成一个虚假的身份
@@ -91,23 +91,23 @@
 * 复选框选第2个：`学生卡带专业`
 :::
 
-![](/domain/uskg/uskg-10.png)
+![](https://img.viptv.work/domain/uskg/uskg-10.png)
 
 
 将生成的图片，截图保存
 
-![](/domain/uskg/uskg-11.png)
+![](https://img.viptv.work/domain/uskg/uskg-11.png)
 
 
 然后填写注册的原因，就是要建一个网站，Document Type 输入 `student ID`
 
 KYC选择刚才 `截图生成好的学生证` ，只需要换前面 (Front) ，提交
 
-![](/domain/uskg/uskg-12.png)
+![](https://img.viptv.work/domain/uskg/uskg-12.png)
 
 提示成功即可，然后我返回去注册域名
 
-![](/domain/uskg/uskg-13.png)
+![](https://img.viptv.work/domain/uskg/uskg-13.png)
 
 
 
@@ -115,39 +115,39 @@ KYC选择刚才 `截图生成好的学生证` ，只需要换前面 (Front) ，�
 
 我们返回进入 [注册页面后台](https://register.us.kg/panel/main) ，点击 `Register`
 
-![](/domain/uskg/uskg-14.png)
+![](https://img.viptv.work/domain/uskg/uskg-14.png)
 
 输入你要注册的域名前缀，check，看是否没有被注册
 
-![](/domain/uskg/uskg-15.png)
+![](https://img.viptv.work/domain/uskg/uskg-15.png)
 
 可用之后，跳转到域名解析页面，要输入NS值
 
-![](/domain/uskg/uskg-16.png)
+![](https://img.viptv.work/domain/uskg/uskg-16.png)
 
 我们直接使用 [Cloudflare](../cloudflare.md) 托管生成
 
-![](/domain/uskg/uskg-17.png)
+![](https://img.viptv.work/domain/uskg/uskg-17.png)
 
 选择免费方案后，会自动给出2个NS值，我们依次复制
 
-![](/domain/uskg/uskg-18.png)
+![](https://img.viptv.work/domain/uskg/uskg-18.png)
 
 粘贴到 US.KG 中，点击 `Register`
 
-![](/domain/uskg/uskg-19.png)
+![](https://img.viptv.work/domain/uskg/uskg-19.png)
 
 提示成功即可
 
-![](/domain/uskg/uskg-20.png)
+![](https://img.viptv.work/domain/uskg/uskg-20.png)
 
 返回 [注册页面后台](https://register.us.kg/panel/main) 就能看到已经有1个了，一共可以注册3个
 
-![](/domain/uskg/uskg-21.png)
+![](https://img.viptv.work/domain/uskg/uskg-21.png)
 
 CF马上就显示激活成功了，是目前解析最快的域名了
 
-![](/domain/uskg/uskg-22.png)
+![](https://img.viptv.work/domain/uskg/uskg-22.png)
 
 
 

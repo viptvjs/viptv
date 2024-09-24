@@ -20,19 +20,19 @@
 se://plugin-manager/
 ```
 
-![Alternate text](/crx/crx-01.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-01.png)
 
 比如我想导出 `DuckDuckGo`，右上角 `高级管理`
 
-![Alternate text](/crx/crx-02.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-02.png)
 
 这个ID就是对应的插件
 
-![Alternate text](/crx/crx-03.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-03.png)
 
 那怎么找到这个ID呢，我们回到桌面，鼠标右键360浏览器-属性-打开文件所在位置
 
-![Alternate text](/crx/crx-04.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-04.png)
 
 我是安装在D盘的，其他盘根据这个目录找到目录
 
@@ -40,13 +40,13 @@ se://plugin-manager/
 D:\Program Files (x86)\360se\360se6\User Data\Default\Extensions
 ```
 
-![Alternate text](/crx/crx-05.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-05.png)
 
 我要导出的DuckDuckGo的ID是：`bkdgflcldnnnapblkhphbgpggdiikppg` ，打开相对应文件夹
 
-![Alternate text](/crx/crx-06.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-06.png)
 
-![Alternate text](/crx/crx-07.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-07.png)
 
 地址复制出来，点击 `打包扩展程序`，把地址粘贴进去，打包即可
 
@@ -54,17 +54,17 @@ D:\Program Files (x86)\360se\360se6\User Data\Default\Extensions
 D:\Program Files (x86)\360se\360se6\User Data\Default\Extensions\bkdgflcldnnnapblkhphbgpggdiikppg\2022.8.25_0
 ```
 
-![Alternate text](/crx/crx-08.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-08.png)
 
-![Alternate text](/crx/crx-09.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-09.png)
 
 在版本号的同目录下会生成crx文件，我们把拖入浏览器，验证是否正确
 
 > pem是证书文件，一般用不上，删掉就好了
 
-![Alternate text](/crx/crx-10.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-10.png)
 
-![Alternate text](/crx/crx-11.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-11.png)
 
 ::::
 
@@ -80,17 +80,17 @@ D:\Program Files (x86)\360se\360se6\User Data\Default\Extensions\bkdgflcldnnnapb
 edge://extensions/
 ```
 
-![Alternate text](/crx/crx-12.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-12.png)
 
 打开右侧这个 `开发者模式` 开关
 
-![Alternate text](/crx/crx-13.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-13.png)
 
 比如：我们想打包 `微软tts` 这个插件
 
 我们可以轻松的看到插件的ID
 
-![Alternate text](/crx/crx-14.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-14.png)
 
 Edge插件默认位置在
 
@@ -100,11 +100,11 @@ C:\Users\你的用户名\AppData\Local\Microsoft\Edge\User Data\Default\Extensio
 
 看不到 `AppDate` ，在上方属性-文件夹选项-查看里打开 `显示隐藏文件夹`
 
-![Alternate text](/crx/crx-15.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-15.png)
 
 根据插件的ID，就可以轻松找到插件文件夹
 
-![Alternate text](/crx/crx-16.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-16.png)
 
 我们进入插件目录页面，复制上方路径路径
 
@@ -114,13 +114,13 @@ C:\Users\你的用户名\AppData\Local\Microsoft\Edge\User Data\Default\Extensio
 还要再进去一层
 :::
 
-![Alternate text](/crx/crx-17.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-17.png)
 
 将地址粘贴到浏览器 `拓展根目录` ，然后点 `打包拓展`，确定
 
-![Alternate text](/crx/crx-18.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-18.png)
 
-![Alternate text](/crx/crx-19.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-19.png)
 
 自动生成在插件版本号，同级目录中
 
@@ -128,7 +128,7 @@ C:\Users\你的用户名\AppData\Local\Microsoft\Edge\User Data\Default\Extensio
 
 > pem是证书文件，一般用不上，删掉就好了
 
-![Alternate text](/crx/crx-20.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-20.png)
 
 ::::
 
@@ -138,13 +138,13 @@ C:\Users\你的用户名\AppData\Local\Microsoft\Edge\User Data\Default\Extensio
 
 可以用 `电脑自带的搜索功能` ，觉得慢可以也使用 [Everything](https://www.voidtools.com/zh-cn/) 本地文件快速查找
 
-![Alternate text](/crx/crx-21.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-21.png)
 
 #### 2.油猴里的插件可以导出么
 
 油猴管理面板-实用工具-导出
 
-![Alternate text](/crx/crx-22.png)
+![Alternate text](https://img.viptv.work/viptv/crx/crx-22.png)
 
 ## 特别鸣谢
 

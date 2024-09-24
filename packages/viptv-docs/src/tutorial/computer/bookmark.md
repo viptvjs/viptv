@@ -16,7 +16,7 @@ BookmarkHub：[☛点我下载 谷歌商店版](https://chrome.google.com/websto
 插件小屋：<https://www.chajianxw.com/product-tool/32593.html>
 :::
 
-![Alternate text](/bookmark/bookmark-01.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-01.png)
 
 谷歌下载就直接安装好了
 
@@ -29,27 +29,27 @@ BookmarkHub：[☛点我下载 谷歌商店版](https://chrome.google.com/websto
 - Edge浏览器：右上角 `...` - 拓展 - 管理拓展 - 拖入安装
   :::
 
-![Alternate text](/bookmark/bookmark-02.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-02.png)
 
 ## 设置参数
 
 点击安装好的BookmarkHub，再点设置
 
-![Alternate text](/bookmark/bookmark-03.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-03.png)
 
 这里需要填入相应的参数
 
-![Alternate text](/bookmark/bookmark-04.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-04.png)
 
 ### Github Token
 
 登录 GitHub 账号：<https://github.com/>
 
-![Alternate text](/bookmark/bookmark-05.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-05.png)
 
 在 个人头像 - 设置 最下方找到 `Developer Settings` 开发者设置
 
-![Alternate text](/bookmark/bookmark-06.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-06.png)
 
 个人访问令牌中选择 `Tokens(classic)` - `Personal access tokens` - `Generate new token(classic)` 生成新令牌
 
@@ -57,7 +57,7 @@ BookmarkHub：[☛点我下载 谷歌商店版](https://chrome.google.com/websto
 注意不要选错，否则一会token选不了 `无有效期`
 :::
 
-![Alternate text](/bookmark/bookmark-07.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-07.png)
 
 `Note` 名称随便写，有效期选 `无有效期`
 
@@ -65,15 +65,15 @@ BookmarkHub：[☛点我下载 谷歌商店版](https://chrome.google.com/websto
 名称建议还是写 `bookmarkhub` ，否则后期删除token，都不知道是啥
 :::
 
-![Alternate text](/bookmark/bookmark-08.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-08.png)
 
 拉倒下方，将gist勾选，然后生成令牌
 
-![Alternate text](/bookmark/bookmark-09.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-09.png)
 
 这样我们的令牌token就生成了，复制填入插件
 
-![Alternate text](/bookmark/bookmark-10.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-10.png)
 
 ### Gist ID
 
@@ -83,7 +83,7 @@ BookmarkHub：[☛点我下载 谷歌商店版](https://chrome.google.com/websto
 
 片段描述也可以随意写，建议还是 `bookmarkhub` ，字段随便写，然后创建私密片段
 
-![Alternate text](/bookmark/bookmark-11.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-11.png)
 
 这样我们的gist id就得到了，填入插件中
 
@@ -91,11 +91,11 @@ BookmarkHub：[☛点我下载 谷歌商店版](https://chrome.google.com/websto
 地址栏的链接也有：<https://gist.github.com/Yiov/***/>
 :::
 
-![Alternate text](/bookmark/bookmark-12.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-12.png)
 
 将这两个参数分别填入插件中
 
-![Alternate text](/bookmark/bookmark-13.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-13.png)
 
 ## 同步书签
 
@@ -105,11 +105,11 @@ token等参数填入后，会自动保存，直接可以使用了
 
 点击插件 - 上传书签，将本地浏览器收藏的网址上传到gist上
 
-![Alternate text](/bookmark/bookmark-14.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-14.png)
 
 上传成功后，我们看一下 gist 已经新增了一条信息
 
-![Alternate text](/bookmark/bookmark-15.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-15.png)
 
 ### 下载书签
 
@@ -117,7 +117,7 @@ token等参数填入后，会自动保存，直接可以使用了
 
 我们用同样的方法，给Edge装上插件并填入参数后，点下载书签
 
-![Alternate text](/bookmark/bookmark-16.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-16.png)
 
 这样就导入成功啦
 
@@ -125,7 +125,7 @@ token等参数填入后，会自动保存，直接可以使用了
 在 收藏夹 - ... - 显示收藏栏，改成 `从不`
 :::
 
-![Alternate text](/bookmark/bookmark-17.png)
+![Alternate text](https://img.viptv.work/viptv/bookmark/bookmark-17.png)
 
 ## 常见问题
 

@@ -11,7 +11,7 @@ GO官网：https://go.dev/
 
 备用官网：https://golang.google.cn/
 
-![](/go/go-01.png)
+![](https://img.viptv.work/viptv/go/go-01.png)
 
 
 
@@ -24,7 +24,7 @@ GO官网：https://go.dev/
 https://dl.google.com/go/go1.20.1.linux-amd64.tar.gz
 ```
 
-![](/go/go-02.png)
+![](https://img.viptv.work/viptv/go/go-02.png)
 
 
 打开 [shell工具](./shell/) 并登录 [服务器](./Server/)，然后下载go
@@ -37,14 +37,14 @@ cd /www/server && wget https://golang.google.cn/dl/go1.20.1.linux-amd64.tar.gz
 tar -xzvf go1.20.1.linux-amd64.tar.gz
 ```
 
-![](/go/go-03.png)
+![](https://img.viptv.work/viptv/go/go-03.png)
 
 
 ```sh
 #添加环境变量
 vi /etc/profile
 ```
-![](/go/go-04.png)
+![](https://img.viptv.work/viptv/go/go-04.png)
 
 
 输入 `i` 进入编辑模式，方向键拉倒最底部，回车一下粘贴下面变量
@@ -59,7 +59,7 @@ export GOPATH=/www/wwwroot/Golang
 export PATH=$PATH:$GOBIN:$GOPKG:$GOPATH/bin
 ```
 
-![](/go/go-05.png)
+![](https://img.viptv.work/viptv/go/go-05.png)
 
 
 按`ESC`退出编辑模式，输入`:wq` 回车保存并退出
@@ -68,7 +68,7 @@ export PATH=$PATH:$GOBIN:$GOPKG:$GOPATH/bin
 若不保存退出，输入 `:q!`
 :::
 
-![](/go/go-06.png)
+![](https://img.viptv.work/viptv/go/go-06.png)
 
 
 环境变量生效命令
@@ -76,7 +76,7 @@ export PATH=$PATH:$GOBIN:$GOPKG:$GOPATH/bin
 ```sh
 source /etc/profile
 ```
-![](/go/go-07.png)
+![](https://img.viptv.work/viptv/go/go-07.png)
 
 检查版本
 
@@ -84,7 +84,7 @@ source /etc/profile
 go version
 ```
 
-![](/go/go-08.png)
+![](https://img.viptv.work/viptv/go/go-08.png)
 
 
 

@@ -15,7 +15,7 @@
 tg群：[https://t.me/jiao_long](https://t.me/jiao_long)
 
 
-![](/qinglong/qinglong-01.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-01.png)
 
 
 ## 准备条件
@@ -43,7 +43,7 @@ cd
 docker pull whyour/qinglong:latest
 ```
 
-![](/qinglong/qinglong-02.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-02.png)
 
 
 
@@ -75,7 +75,7 @@ docker run -dit \
 我这里端口改成了 `5600`
 :::
 
-![](/qinglong/qinglong-03.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-03.png)
 
 
 
@@ -88,7 +88,7 @@ docker run -dit \
 systemctl start firewalld
 ```
 
-![](/qinglong/qinglong-04.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-04.png)
 
 
 
@@ -108,7 +108,7 @@ firewall-cmd --zone=public --add-port=5600/tcp --permanent
 firewall-cmd --zone=public --add-port=5700/tcp --permanent
 ```
 
-![](/qinglong/qinglong-05.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-05.png)
 
 
 
@@ -129,7 +129,7 @@ firewall-cmd --zone=public --add-port=5700/tcp --permanent
 虚拟机请安装 [宝塔面板](./BT.md) 后查看端口是否放行，再次访问即可
 :::
 
-![](/qinglong/qinglong-06.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-06.png)
 
 
 
@@ -139,14 +139,14 @@ firewall-cmd --zone=public --add-port=5700/tcp --permanent
 通知可以先跳过，之后再添加，完成即可
 :::
 
-![](/qinglong/qinglong-07.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-07.png)
 
 
 登录青龙，进入青龙前端
 
-![](/qinglong/qinglong-08.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-08.png)
 
-![](/qinglong/qinglong-09.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-09.png)
 
 
 
@@ -213,7 +213,7 @@ task <file_path> -- -u whyour -p password
 
 右上角，添加任务
 
-![](/qinglong/qinglong-10.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-10.png)
 
 
 
@@ -228,17 +228,17 @@ ql repo https://ghproxy.com/https://github.com/shufflewzc/faker3.git "jd_|jx_|gu
 这里添加后先禁用，了解 [cron定时规则](#其他拓展) 再来改
 :::
 
-![](/qinglong/qinglong-11.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-11.png)
 
 
 确定好之后，点确定，之后运行，等待一会再刷新
 
-![](/qinglong/qinglong-12.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-12.png)
 
 
 多等一会，以免有些脚本没有加载
 
-![](/qinglong/qinglong-13.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-13.png)
 
 
 
@@ -277,7 +277,7 @@ js-base64
 axios
 ```
 
-![](/qinglong/qinglong-14.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-14.png)
 
 
 
@@ -335,11 +335,11 @@ lxml
 JD_COOKIE
 ```
 
-![](/qinglong/qinglong-15.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-15.png)
 
 这样就是添加成功了
 
-![](/qinglong/qinglong-16.png)
+![](https://img.viptv.work/viptv/qinglong/qinglong-16.png)
 
 
 

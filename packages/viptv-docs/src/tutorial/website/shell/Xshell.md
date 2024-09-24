@@ -11,7 +11,7 @@ Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 
 官网：[https://www.xshell.com/](https://www.xshell.com/zh/)
 
-![](/shell/Xshell/Xshell-01.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-01.png)
 
 
 
@@ -28,17 +28,17 @@ Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 进入页面后，点击 所有下载 - [家庭/学校免费](https://www.xshell.com/zh/free-for-home-school/)
 
 
-![](/shell/Xshell/Xshell-02.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-02.png)
 
 
 选择 `Xshell` 下载即可
 
-![](/shell/Xshell/Xshell-03.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-03.png)
 
 
 下载好后，我们双击开始安装
 
-![](/shell/Xshell/Xshell-04.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-04.png)
 
 
 
@@ -46,26 +46,26 @@ Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 
 点 `浏览`
 
-![](/shell/Xshell/Xshell-05.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-05.png)
 
 
 
 我们把C盘改成D盘，其他不要动，确定，下一步
 
-![](/shell/Xshell/Xshell-06.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-06.png)
 
 
 
 安装，直到完成
 
-![](/shell/Xshell/Xshell-07.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-07.png)
 
 
 打开后会要求注册，填好用户名和邮箱，提交
 
 关掉！再打开即可！不需要真的去注册！
 
-![](/shell/Xshell/Xshell-08.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-08.png)
 
 
 
@@ -77,13 +77,13 @@ Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 
 打开Xshell，左上 - 新建会话
 
-![](/shell/Xshell/Xshell-09.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-09.png)
 
 
 
 名称随便，主机填你的服务器 `公网IP` ，端口默认22
 
-![](/shell/Xshell/Xshell-10.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-10.png)
 
 
 
@@ -93,13 +93,13 @@ Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 要是忘记了，去服务器控制台那里重置密码
 :::
 
-![](/shell/Xshell/Xshell-11.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-11.png)
 
 
 
 弹出主机密钥验证，接受保存就好
 
-![](/shell/Xshell/Xshell-12.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-12.png)
 
 
 
@@ -109,7 +109,7 @@ Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 如果不小心X掉了，选择服务器，鼠标右键打开即可
 :::
 
-![](/shell/Xshell/Xshell-13.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-13.png)
 
 
 
@@ -120,6 +120,6 @@ cd /
 ls
 ```
 
-![](/shell/Xshell/Xshell-14.png)
+![](https://img.viptv.work/viptv/shell/Xshell/Xshell-14.png)
 
 

@@ -9,7 +9,7 @@ Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于�
 
 [非官网](https://www.shadowrocket.vip/) (官方没有官网) 丨 [TG群](https://t.me/ShadowrocketApp) 丨 [推特(X)](https://twitter.com/shadowrocketapp)
 
-![](/shadowrocket/shadowrocket-01.png)
+![](https://img.viptv.work/viptv/shadowrocket/shadowrocket-01.png)
 
 
 ## 协议
@@ -49,7 +49,7 @@ Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于�
 :::
 
 
-![](/shadowrocket/shadowrocket-02.png)
+![](https://img.viptv.work/viptv/shadowrocket/shadowrocket-02.png)
 
 
 
@@ -63,18 +63,18 @@ Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于�
 更多免费好用机场，请查看 [机场channel大全一览表](./channel.md)
 :::
 
-![](/shadowrocket/shadowrocket-03.png)
+![](https://img.viptv.work/viptv/shadowrocket/shadowrocket-03.png)
 
 选择对应的工具，我这里选 `shadowrocket`，跳转后点右上角保存
 
 ::: details 没有跳转到小火箭
 点复制订阅地址，打开小火箭，右上角+号添加保存即可
 
-![](/shadowrocket/shadowrocket-05.png)
+![](https://img.viptv.work/viptv/shadowrocket/shadowrocket-05.png)
 
 :::
 
-![](/shadowrocket/shadowrocket-04.png)
+![](https://img.viptv.work/viptv/shadowrocket/shadowrocket-04.png)
 
 设置 - 延迟测试方法，改成 `CONNECT`
 
@@ -82,7 +82,7 @@ Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于�
 这一步虽然不是非必要的，但是是一个查看网络延迟的重要参考
 :::
 
-![](/shadowrocket/shadowrocket-06.png)
+![](https://img.viptv.work/viptv/shadowrocket/shadowrocket-06.png)
 
 点击 `连通性测试` 选择延迟低的，打开开关，上 [谷歌](https://www.google.com/) 看看是否成功
 
@@ -92,7 +92,7 @@ Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于�
 * 台湾节点：国内是屏蔽的，只能用 [谷歌香港](https://www.google.com.hk/)
 :::
 
-![](/shadowrocket/shadowrocket-07.png)
+![](https://img.viptv.work/viptv/shadowrocket/shadowrocket-07.png)
 
 
 
@@ -103,7 +103,7 @@ Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于�
 
 复制了节点，打开小火箭，会弹窗
 
-![](/shadowrocket/shadowrocket-08.png)
+![](https://img.viptv.work/viptv/shadowrocket/shadowrocket-08.png)
 
 
 :::: details 如果不弹窗怎么手搓呢
@@ -131,6 +131,6 @@ Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于�
     * 路径：`/?ed=2560`
 :::
 
-![](/shadowrocket/shadowrocket-09.png)
+![](https://img.viptv.work/viptv/shadowrocket/shadowrocket-09.png)
 
 ::::

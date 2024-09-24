@@ -12,7 +12,7 @@ Alist是一个网盘文件列表程序，支持的网盘谷歌、pikpak、阿里
 
 * [官网](https://alist.nn.ci/zh/) 丨 [仓库](https://github.com/alist-org/alist/) 丨 [镜像](https://hub.docker.com/r/xhofe/alist) 丨 [美化教程](https://space.bilibili.com/36411485/channel/collectiondetail?sid=686340)
 
-![](/Alist/Alist-01.png)
+![](https://img.viptv.work/viptv/Alist/Alist-01.png)
 
 
 
@@ -50,7 +50,7 @@ Alist是一个网盘文件列表程序，支持的网盘谷歌、pikpak、阿里
 
 点击复制 `发行版` 的安装命令
 
-![](/Alist/Alist-02.png)
+![](https://img.viptv.work/viptv/Alist/Alist-02.png)
 
 
 用shell登录服务器，粘贴，回车
@@ -65,7 +65,7 @@ Alist是一个网盘文件列表程序，支持的网盘谷歌、pikpak、阿里
 docker run -d --restart=unless-stopped -v /etc/alist:/opt/alist/data -p 5244:5244 -e PUID=0 -e PGID=0 -e UMASK=022 --name="alist" xhofe/alist:latest
 ```
 
-![](/Alist/Alist-03.png)
+![](https://img.viptv.work/viptv/Alist/Alist-03.png)
 
 
 安装完成，我们还需要放行 `5244` 端口
@@ -74,17 +74,17 @@ docker run -d --restart=unless-stopped -v /etc/alist:/opt/alist/data -p 5244:524
 firewall-cmd --zone=public --add-port=5244/tcp --permanent
 ```
 
-![](/Alist/Alist-04.png)
+![](https://img.viptv.work/viptv/Alist/Alist-04.png)
 
 
 服务器的端口也是需要放行的，以腾讯为例，防火墙 - 添加规则 - 端口：5244 - 确定
 
-![](/Alist/Alist-05.png)
+![](https://img.viptv.work/viptv/Alist/Alist-05.png)
 
 
-![](/Alist/Alist-06.png)
+![](https://img.viptv.work/viptv/Alist/Alist-06.png)
 
-![](/Alist/Alist-07.png)
+![](https://img.viptv.work/viptv/Alist/Alist-07.png)
 
 
 
@@ -92,7 +92,7 @@ firewall-cmd --zone=public --add-port=5244/tcp --permanent
 
 现在就可以用 `IP+端口` 访问了，比如：[http://198.124.1.1:5244](http://198.124.1.1:5244)
 
-![](/Alist/Alist-08.png)
+![](https://img.viptv.work/viptv/Alist/Alist-08.png)
 
 
 初始默认账号是 `admin` ，密码我们按文档的命令查看
@@ -109,16 +109,16 @@ docker exec -it alist ./alist admin set NEW_PASSWORD
 
 ```
 
-![](/Alist/Alist-09.png)
+![](https://img.viptv.work/viptv/Alist/Alist-09.png)
 
 这样我们就登录进来了，点击底部 `管理`
 
-![](/Alist/Alist-10.png)
+![](https://img.viptv.work/viptv/Alist/Alist-10.png)
 
 
 登录成功后，改一下账号和密码，保存了重新登一次
 
-![](/Alist/Alist-11.png)
+![](https://img.viptv.work/viptv/Alist/Alist-11.png)
 
 
 
@@ -141,7 +141,7 @@ docker exec -it alist ./alist admin set NEW_PASSWORD
 我这里用的是二级域名，如：pan.baidu.com
 :::
 
-![](/Alist/Alist-12.png)
+![](https://img.viptv.work/viptv/Alist/Alist-12.png)
 
 
 点击 `配置文件` , 删除这一段，或者选中后 `Ctrl+/` 注释掉
@@ -155,7 +155,7 @@ location ~ ^/(\.user.ini|\.htaccess|\.git|\.env|\.svn|\.project|LICENSE|README.m
 ```
 
 
-![](/Alist/Alist-13.png)
+![](https://img.viptv.work/viptv/Alist/Alist-13.png)
 
 
 还有另一段也删除，或者选中后 `Ctrl+/` 注释掉
@@ -176,7 +176,7 @@ location ~ .*\.(js|css)?$
 }
 ```
 
-![](/Alist/Alist-14.png)
+![](https://img.viptv.work/viptv/Alist/Alist-14.png)
 
 
 
@@ -186,12 +186,12 @@ location ~ .*\.(js|css)?$
 建议还是在自己服务器的域名下去申请，本次只是演示
 :::
 
-![](/Alist/Alist-15.png)
+![](https://img.viptv.work/viptv/Alist/Alist-15.png)
 
 
 等待一下就成功了，保存，再打开 `强制https开关`，再次保存
 
-![](/Alist/Alist-16.png)
+![](https://img.viptv.work/viptv/Alist/Alist-16.png)
 
 
 点反向代理 - 目标URL `127.0.0.1:5244`  - 启用反向代理，其他不用填
@@ -200,7 +200,7 @@ location ~ .*\.(js|css)?$
 http://127.0.0.1:5244
 ```
 
-![](/Alist/Alist-17.png)
+![](https://img.viptv.work/viptv/Alist/Alist-17.png)
 
 
 
@@ -210,7 +210,7 @@ http://127.0.0.1:5244
 域名网页仅供预览，后台登录还是需要公网IP+端口登录！
 :::
 
-![](/Alist/Alist-18.png)
+![](https://img.viptv.work/viptv/Alist/Alist-18.png)
 
 
 
@@ -230,18 +230,18 @@ http://127.0.0.1:5244
 
 点 `Go to Login` 去登录
 
-![](/Alist/Alist-19.png)
+![](https://img.viptv.work/viptv/Alist/Alist-19.png)
 
 
-![](/Alist/Alist-20.png)
+![](https://img.viptv.work/viptv/Alist/Alist-20.png)
 
 登录后允许权限
 
-![](/Alist/Alist-21.png)
+![](https://img.viptv.work/viptv/Alist/Alist-21.png)
 
 然后会得到一串数字和字母组合的令牌，一会要用到!
 
-![](/Alist/Alist-22.png)
+![](https://img.viptv.work/viptv/Alist/Alist-22.png)
 
 
 
@@ -254,18 +254,18 @@ https://www.alipan.com/drive/file/backup/634272c80aecead677524b03accbd969debd56e
 
 `634272c80aecead677524b03accbd969debd56ec` 就是 根文件夹ID 一会要用!
 
-![](/Alist/Alist-23.png)
+![](https://img.viptv.work/viptv/Alist/Alist-23.png)
 
 
 存储 - 添加 - 选择 `阿里云盘Open`，这里挂载路径填文件夹名，可以自己随便写
 
-![](/Alist/Alist-24.png)
+![](https://img.viptv.work/viptv/Alist/Alist-24.png)
 
 云盘类型选一下，我的是 `备份盘`
 
 `根文件夹ID` 和 `刷新令牌` 也是刚刚获取的那一长串
 
-![](/Alist/Alist-25.png)
+![](https://img.viptv.work/viptv/Alist/Alist-25.png)
 
 
 `Oauth令牌链接` 改成下面连个任意一个，移除方式改成 `回收站`
@@ -276,22 +276,22 @@ https://api-cf.nn.ci/alist/ali_open/token
 https://api.xhofe.top/alist/ali_open/token
 ```
 
-![](/Alist/Alist-26.png)
+![](https://img.viptv.work/viptv/Alist/Alist-26.png)
 
 添加成功即可
 
-![](/Alist/Alist-27.png)
+![](https://img.viptv.work/viptv/Alist/Alist-27.png)
 
 我们访问主页即可看到效果
 
-![](/Alist/Alist-28.png)
+![](https://img.viptv.work/viptv/Alist/Alist-28.png)
 
 
 最后，我们希望别人访问，还需要开启 `guest` 用户
 
 用户 - 编辑 `guest` 不用给权限，直接保存启用即可
 
-![](/Alist/Alist-29.png)
+![](https://img.viptv.work/viptv/Alist/Alist-29.png)
 
 
 
@@ -303,15 +303,15 @@ https://api.xhofe.top/alist/ali_open/token
 
 关闭站点公告：设置 - 站点 - 站点公告，再次打开就不会弹了
 
-![](/Alist/Alist-30.png)
+![](https://img.viptv.work/viptv/Alist/Alist-30.png)
 
 
 元信息 - 路径(在哪个文件夹下显示) - 说明，支持Markdown
 
 
-![](/Alist/Alist-31.png)
+![](https://img.viptv.work/viptv/Alist/Alist-31.png)
 
-![](/Alist/Alist-32.png)
+![](https://img.viptv.work/viptv/Alist/Alist-32.png)
 
 
 ---
@@ -322,15 +322,15 @@ https://api.xhofe.top/alist/ali_open/token
 
 开启自动更新索引，保存
 
-![](/Alist/Alist-33.png)
+![](https://img.viptv.work/viptv/Alist/Alist-33.png)
 
 点击重建索引，等它自动爬数据
 
-![](/Alist/Alist-34.png)
+![](https://img.viptv.work/viptv/Alist/Alist-34.png)
 
 这样有数据就可以了，点一个 `更新索引` 即可
 
-![](/Alist/Alist-35.png)
+![](https://img.viptv.work/viptv/Alist/Alist-35.png)
 
 
 
@@ -352,11 +352,11 @@ https://api.xhofe.top/alist/ali_open/token
 
 备份与恢复 - 备份
 
-![](/Alist/Alist-36.png)
+![](https://img.viptv.work/viptv/Alist/Alist-36.png)
 
 会自动下载一个 `json` 文件，可用于恢复所有索引及布局
 
-![](/Alist/Alist-37.png)
+![](https://img.viptv.work/viptv/Alist/Alist-37.png)
 
 
 
@@ -379,7 +379,7 @@ docker stop alist #暂停alist容器
 docker rm -f alist #删除alist容器
 ```
 
-![](/Alist/Alist-38.png)
+![](https://img.viptv.work/viptv/Alist/Alist-38.png)
 
 
 重新命令拉取即可
@@ -405,7 +405,7 @@ docker rmi 镜像ID #删除镜像
 docker rm -f xhofe/alist:latest #删除镜像
 ```
 
-![](/Alist/Alist-39.png)
+![](https://img.viptv.work/viptv/Alist/Alist-39.png)
 
 :::
 

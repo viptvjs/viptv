@@ -12,7 +12,7 @@
 
 小米主题官网：https://zhuti.xiaomi.com/
 
-![](/mi_theme/mi_theme.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme.png)
 
 
 
@@ -48,12 +48,12 @@
 在设置 - 个人头像 - 我的设备 - 全部参数 - 连点3次 `miui版本` 即可开启
 :::
 
-![](/mi_theme/mi_theme-01.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-01.png)
 
 
 下拉打开 `USB调试等` 和 `停用adb授权超时` 如图
 
-![](/mi_theme/mi_theme-02.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-02.png)
 
 
 
@@ -68,20 +68,20 @@
 主要是通过他们来安装 主题 (国内版 / 国际版)
 :::
 
-![](/mi_theme/mi_theme-03.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-03.png)
 
 打开Shizuku，下拉 配对
 
-![](/mi_theme/mi_theme-04.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-04.png)
 
 提示 `通知设置` 的先允许通知
 
-![](/mi_theme/mi_theme-05.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-05.png)
 
 
 点击 `开发者选项` 打开 `无线调试` 开关，允许
 
-![](/mi_theme/mi_theme-06.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-06.png)
 
 
 进入无线调试- `使用配对码配对设备` 
@@ -90,15 +90,15 @@
 记住配对码，要用的
 :::
 
-![](/mi_theme/mi_theme-07.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-07.png)
 
 通知栏下拉 输入 `配对码`，配对成功即可
 
-![](/mi_theme/mi_theme-08.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-08.png)
 
 返回Shizuku，点 `启动`
 
-![](/mi_theme/mi_theme-09.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-09.png)
 
 启动完成后点击 `已授权应用`，打开 `安装狮`开关
 
@@ -106,9 +106,9 @@
 安装狮界面 `安装狮-Shizuju开关是开启的即可`
 :::
 
-![](/mi_theme/mi_theme-10.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-10.png)
 
-![](/mi_theme/mi_theme-11.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-11.png)
 
 
 
@@ -127,11 +127,11 @@
 
 下载 [小米商店_国际版](https://dzp.lanzouy.com/i0MXx0hr29gh) ，在下载的文件夹长按下载好的文件 - 发送 - 选择 `安装狮-Shizuku`
 
-![](/mi_theme/mi_theme-12.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-12.png)
 
 安装完成后，打开主题商店
 
-![](/mi_theme/mi_theme-13.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-13.png)
 
 搜 `Nero 16` 、`polos` 、 `BoSe UI V13`这3个主题
 
@@ -155,14 +155,14 @@
 
 下载后暂时不要应用，不要直接应用！
 
-![](/mi_theme/mi_theme-14.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-14.png)
 
 
 同样的步骤，我们把 [小米商店_国内版](https://dzp.lanzouy.com/ieYxo0hr29ij) 安装回来
 
 长按勾选国内版主题商店 - 选择`安装狮-Shizuku`
 
-![](/mi_theme/mi_theme-15.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-15.png)
 
 安装回国内版后进入商店 - 主题 - 点击下载好的主题 - 混搭，勾选想要的应用即可
 
@@ -170,7 +170,7 @@
 国际版的混搭在这里改，混搭模块里改会出现应用不上的情况
 :::
 
-![](/mi_theme/mi_theme-16.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-16.png)
 
 最后的半成品，用的也就这些了，其他好的主题都下架了，大家早下载早备份
 
@@ -178,11 +178,11 @@
 其他小组件的我就没弄了，可以看作者教程 [B站小慈学长](https://www.coolapk.com/feed/34962956)
 :::
 
-![](/mi_theme/mi_theme-17.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-17.png)
 
 底部dock栏使用 [Blurone](https://dzp.lanzouy.com/iE6VV0ir0myh) 即可，很简单调整参数保存即可
 
-![](/mi_theme/mi_theme-18.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-18.png)
 
 
 
@@ -206,11 +206,11 @@
 
 点一下下载，然后立马开 `飞行模式` ，没点到就重来一遍
 
-![](/mi_theme/mi_theme-19.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-19.png)
 
 打开`下载管理`，未完成的任务进去，里面的下载链接复制出来就可以了，mtz格式可以直接导入
 
-![](/mi_theme/mi_theme-20.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-20.png)
 
 :::
 
@@ -243,7 +243,7 @@
 不确定是哪个的，看一下preview主题图里的图片，并记住精确的小时和分钟
 :::
 
-![](/mi_theme/mi_theme-21.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-21.png)
 
 
 
@@ -429,16 +429,16 @@
 mtz就是主题包的格式，字体也一样的
 :::
 
-![](/mi_theme/mi_theme-22.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-22.png)
 
 
 回到我的主题，从SD卡导入，选择 `Download` 刚刚导出的 `*.mtz` 主题包
 
-![](/mi_theme/mi_theme-23.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-23.png)
 
 这样我们的主题就提取完成，并可以使用了
 
-![](/mi_theme/mi_theme-24.png)
+![](https://img.viptv.work/viptv/mi_theme/mi_theme-24.png)
 
 
 ::::

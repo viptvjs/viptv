@@ -67,7 +67,7 @@
 
 优劣：两个映射，不限流量，稳定程度中等
 
-![](/NAT/NAT-01.png)
+![](https://img.viptv.work/viptv/NAT/NAT-01.png)
 
 :::
 
@@ -82,7 +82,7 @@
 
 优劣：**需6元**开通使用，赠送一个域名，两个映射，每月1G流量
 
-![](/NAT/NAT-02.png)
+![](https://img.viptv.work/viptv/NAT/NAT-02.png)
 
 :::
 
@@ -99,7 +99,7 @@
 
 官方教程：https://www.ngrok.cc/_book/start/ngrok_windows.html
 
-![](/NAT/NAT-03.png)
+![](https://img.viptv.work/viptv/NAT/NAT-03.png)
 
 :::
 
@@ -114,7 +114,7 @@
 
 优劣：两条免费隧道，不定时强制更换域名
 
-![](/NAT/NAT-04.png)
+![](https://img.viptv.work/viptv/NAT/NAT-04.png)
 
 
 :::
@@ -130,7 +130,7 @@
 
 说明：下载即可使用，现已改为付费
 
-![](/NAT/NAT-05.png)
+![](https://img.viptv.work/viptv/NAT/NAT-05.png)
 
 :::
 
@@ -142,7 +142,7 @@
 
 说明：开通免费隧道即可，据说是2M网速
 
-![](/NAT/NAT-06.png)
+![](https://img.viptv.work/viptv/NAT/NAT-06.png)
 
 :::
 
@@ -156,7 +156,7 @@
 
 说明：说有免费方案的，我没找到
 
-![](/NAT/NAT-07.png)
+![](https://img.viptv.work/viptv/NAT/NAT-07.png)
 
 :::
 
@@ -172,7 +172,7 @@
 
 说明：最右侧软件下载使用即可
 
-![](/NAT/NAT-08.png)
+![](https://img.viptv.work/viptv/NAT/NAT-08.png)
 
 :::
 
@@ -186,7 +186,7 @@
 
 搭建教程：https://yangqiang.im/?p=750
 
-![](/NAT/NAT-09.png)
+![](https://img.viptv.work/viptv/NAT/NAT-09.png)
 
 :::
 
@@ -199,7 +199,7 @@
 
 搭建教程：https://yangqiang.im/?p=698
 
-![](/NAT/NAT-10.png)
+![](https://img.viptv.work/viptv/NAT/NAT-10.png)
 
 :::
 
@@ -212,7 +212,7 @@
 
 项目地址：https://github.com/fatedier/frp
 
-![](/NAT/NAT-11.png)
+![](https://img.viptv.work/viptv/NAT/NAT-11.png)
 
 :::
 
@@ -225,7 +225,7 @@
 
 项目地址：https://github.com/slince/spike
 
-![](/NAT/NAT-12.png)
+![](https://img.viptv.work/viptv/NAT/NAT-12.png)
 
 :::
 
@@ -236,7 +236,7 @@
 
 项目地址：https://github.com/ffay/lanproxy
 
-![](/NAT/NAT-13.png)
+![](https://img.viptv.work/viptv/NAT/NAT-13.png)
 
 :::
 
@@ -248,7 +248,7 @@
 
 项目地址：https://github.com/lazy-luo/smarGate
 
-![](/NAT/NAT-14.png)
+![](https://img.viptv.work/viptv/NAT/NAT-14.png)
 
 :::
 
@@ -267,12 +267,12 @@
 
 
 神卓互联官网：https://www.shenzhuohl.com/
-![](/NAT/NAT-15.png)
+![](https://img.viptv.work/viptv/NAT/NAT-15.png)
 
 
 安装好后，注册一个账号并登录-左下 `添加映射`
 
-![](/NAT/NAT-16.png)
+![](https://img.viptv.work/viptv/NAT/NAT-16.png)
 
 
 填好后保存，返回点刷新，卡退了的重新打开软件
@@ -285,13 +285,13 @@
 内网端口：比如宝塔面板填8888
 :::
 
-![](/NAT/NAT-17.png)
+![](https://img.viptv.work/viptv/NAT/NAT-17.png)
 
 
 复制地址就可以了，手机断开WIFI了，用数据也可以访问
 
 
-![](/NAT/NAT-18.png)
+![](https://img.viptv.work/viptv/NAT/NAT-18.png)
 
 
 然后你不能退出软件，一整天都要挂着，否则会断开映射，最糟心的是这个
@@ -300,7 +300,7 @@
 你可以考虑其他映射（都差不多），或者付费，或者买轻量服务器
 :::
 
-![](/NAT/NAT-19.png)
+![](https://img.viptv.work/viptv/NAT/NAT-19.png)
 
 
 

@@ -14,7 +14,7 @@ Hiddify是一款基于 Sing-box 通用代理工具
 仓库：https://github.com/hiddify/hiddify-next/
 
 
-![](/Hiddify/Hiddify.png)
+![](https://img.viptv.work/viptv/Hiddify/Hiddify.png)
 
 
 
@@ -50,9 +50,9 @@ Hiddify是一款基于 Sing-box 通用代理工具
 
 下载并安装 [Hiddify](https://github.com/hiddify/hiddify-next/releases)
 
-![](/Hiddify/android/android-01.png)
+![](https://img.viptv.work/viptv/Hiddify/android/android-01.png)
 
-![](/Hiddify/android/android-02.png)
+![](https://img.viptv.work/viptv/Hiddify/android/android-02.png)
 
 :::
 
@@ -66,14 +66,14 @@ Hiddify是一款基于 Sing-box 通用代理工具
 
 下载 [Hiddify](https://github.com/hiddify/hiddify-next/releases) 压缩包
 
-![](/Hiddify/windows/windows-01.png)
+![](https://img.viptv.work/viptv/Hiddify/windows/windows-01.png)
 
 解压并打开 `Hiddify.exe`
 
-![](/Hiddify/windows/windows-02.png)
+![](https://img.viptv.work/viptv/Hiddify/windows/windows-02.png)
 
 
-![](/Hiddify/windows/windows-03.png)
+![](https://img.viptv.work/viptv/Hiddify/windows/windows-03.png)
 
 :::
 
@@ -93,16 +93,16 @@ Hiddify是一款基于 Sing-box 通用代理工具
 
 找一个 [免费送流量的机场注册](./channel.md)，一键订阅 - 复制订阅地址
 
-![](/Hiddify/android/android-03.png)
+![](https://img.viptv.work/viptv/Hiddify/android/android-03.png)
 
 
 剪切板添加 或者 手动输入，保存
 
-![](/Hiddify/android/android-04.png)
+![](https://img.viptv.work/viptv/Hiddify/android/android-04.png)
 
 添加成功后，在代理中选择延迟低的
 
-![](/Hiddify/android/android-05.png)
+![](https://img.viptv.work/viptv/Hiddify/android/android-05.png)
 
 连接之前需要改一下配置，否则无法使用
 
@@ -128,12 +128,12 @@ tls://8.8.8.8
 ```
 :::
 
-![](/Hiddify/android/android-06.png)
+![](https://img.viptv.work/viptv/Hiddify/android/android-06.png)
 
 点击连接，访问 [谷歌](https://www.google.com) 看看
 
 
-![](/Hiddify/android/android-07.png)
+![](https://img.viptv.work/viptv/Hiddify/android/android-07.png)
 
 ::::
 
@@ -147,34 +147,34 @@ tls://8.8.8.8
 
 点击 `添加新的配置文件`
 
-![](/Hiddify/windows/windows-04.png)
+![](https://img.viptv.work/viptv/Hiddify/windows/windows-04.png)
 
 手动或者剪切板都可以
 
-![](/Hiddify/windows/windows-05.png)
+![](https://img.viptv.work/viptv/Hiddify/windows/windows-05.png)
 
 
 找一个 [免费送流量的机场注册](./channel.md)，一键订阅 - 复制订阅地址
 
-![](/Hiddify/windows/windows-06.png)
+![](https://img.viptv.work/viptv/Hiddify/windows/windows-06.png)
 
 
 粘贴订阅，保存
 
-![](/Hiddify/windows/windows-07.png)
+![](https://img.viptv.work/viptv/Hiddify/windows/windows-07.png)
 
 
 点击连接
 
-![](/Hiddify/windows/windows-08.png)
+![](https://img.viptv.work/viptv/Hiddify/windows/windows-08.png)
 
 
-![](/Hiddify/windows/windows-09.png)
+![](https://img.viptv.work/viptv/Hiddify/windows/windows-09.png)
 
 
 要是延迟高，可以在代理中测速，选择最优的
 
-![](/Hiddify/windows/windows-10.png)
+![](https://img.viptv.work/viptv/Hiddify/windows/windows-10.png)
 
 访问 [谷歌](https://www.google.com) 看看
 
@@ -205,6 +205,6 @@ tls://8.8.4.4
 ```
 :::
 
-![](/Hiddify/windows/windows-11.png)
+![](https://img.viptv.work/viptv/Hiddify/windows/windows-11.png)
 
 ::::

@@ -13,7 +13,7 @@
 搭建成功，别忘了给请大佬点个星星！！
 :::
 
-![](/heng/heng-25.png)
+![](https://img.viptv.work/viptv/heng/heng-25.png)
 
 
 
@@ -57,7 +57,7 @@ shell登录服务器，安装git
 yum install git
 ```
 
-![](/heng/heng-01.png)
+![](https://img.viptv.work/viptv/heng/heng-01.png)
 
 
 API后端：[https://gitee.com/n0ts/gitee-api](https://gitee.com/n0ts/gitee-api)
@@ -66,7 +66,7 @@ API后端：[https://gitee.com/n0ts/gitee-api](https://gitee.com/n0ts/gitee-api)
 内有 `Gitee API 部署教程.docx` 很详细，参考着看就行了
 :::
 
-![](/heng/heng-02.png)
+![](https://img.viptv.work/viptv/heng/heng-02.png)
 
 
 ```sh
@@ -74,7 +74,7 @@ cd /www/wwwroot
 git clone https://gitee.com/n0ts/gitee-api.git
 ```
 
-![](/heng/heng-03.png)
+![](https://img.viptv.work/viptv/heng/heng-03.png)
 
 
 
@@ -97,7 +97,7 @@ node main.js
 ```
 
 
-![](/heng/heng-04.png)
+![](https://img.viptv.work/viptv/heng/heng-04.png)
 
 
 
@@ -111,11 +111,11 @@ node main.js
 按照图示给与权限，懒的全给
 :::
 
-![](/heng/heng-05.png)
+![](https://img.viptv.work/viptv/heng/heng-05.png)
 
 记住你的秘钥，关闭后就无法再次查看了
 
-![](/heng/heng-06.png)
+![](https://img.viptv.work/viptv/heng/heng-06.png)
 
 
 
@@ -129,7 +129,7 @@ node main.js
 `accessToken` 就是我们申请的私人令牌秘钥
 :::
 
-![](/heng/heng-07.png)
+![](https://img.viptv.work/viptv/heng/heng-07.png)
 
 
 
@@ -143,14 +143,14 @@ node main.js
 已经安装的直接看下一步
 :::
 
-![](/heng/heng-08.png)
+![](https://img.viptv.work/viptv/heng/heng-08.png)
 
 
-![](/heng/heng-09.png)
+![](https://img.viptv.work/viptv/heng/heng-09.png)
 
 这里更新下列表，选择最新的稳定版安装即可
 
-![](/heng/heng-10.png)
+![](https://img.viptv.work/viptv/heng/heng-10.png)
 
 
 
@@ -164,13 +164,13 @@ node main.js
 端口：3000 (改过的用修改的端口)
 :::
 
-![](/heng/heng-11.png)
+![](https://img.viptv.work/viptv/heng/heng-11.png)
 
-![](/heng/heng-12.png)
+![](https://img.viptv.work/viptv/heng/heng-12.png)
 
 添加成功后，点设置-域名管理，添加一个域名
 
-![](/heng/heng-13.png)
+![](https://img.viptv.work/viptv/heng/heng-13.png)
 
 网站建议是开启https，先开`外网隐射`
 
@@ -178,7 +178,7 @@ node main.js
 注意你的api网站和最终部署的网站，要一致；要么都是 `https` 或者 `http`
 :::
 
-![](/heng/heng-14.png)
+![](https://img.viptv.work/viptv/heng/heng-14.png)
 
 添加 `SSL` 证书，建议去服务器申请免费的SSL证书
 
@@ -188,7 +188,7 @@ node main.js
 嫌麻烦也可以直接用测试证书和Let's Encrypt
 :::
 
-![](/heng/heng-15.png)
+![](https://img.viptv.work/viptv/heng/heng-15.png)
 
 访问搭建好的api网站，像这个就可以了，作者的图片挂了
 
@@ -196,7 +196,7 @@ node main.js
 我的是 `https://api.yiov.com` ，如果不是https就是没开启
 :::
 
-![](/heng/heng-16.png)
+![](https://img.viptv.work/viptv/heng/heng-16.png)
 
 
 
@@ -205,7 +205,7 @@ node main.js
 
 先添加一个站点，输入你的域名，数据库不用创建
 
-![](/heng/heng-17.png)
+![](https://img.viptv.work/viptv/heng/heng-17.png)
 
 进入目录，删除掉多余的文件
 
@@ -213,7 +213,7 @@ node main.js
 `.user.ini` 要删两次
 :::
 
-![](/heng/heng-18.png)
+![](https://img.viptv.work/viptv/heng/heng-18.png)
 
 
 仓库下载：https://github.com/n0tssss/heng
@@ -224,13 +224,13 @@ node main.js
 多余的压缩包和空文件夹删掉
 :::
 
-![](/heng/heng-19.png)
+![](https://img.viptv.work/viptv/heng/heng-19.png)
 
-![](/heng/heng-20.png)
+![](https://img.viptv.work/viptv/heng/heng-20.png)
 
-![](/heng/heng-21.png)
+![](https://img.viptv.work/viptv/heng/heng-21.png)
 
-![](/heng/heng-22.png)
+![](https://img.viptv.work/viptv/heng/heng-22.png)
 
 
 接下来我们来配置 `config/config.js` 文件，按需修改保存
@@ -239,7 +239,7 @@ node main.js
 后端地址的 `/api/gitee` 不要删，自己的地址加在前面
 :::
 
-![](/heng/heng-23.png)
+![](https://img.viptv.work/viptv/heng/heng-23.png)
 
 在gitee新建一个仓库，私有/公开都可以，建议私有
 
@@ -251,11 +251,11 @@ repo：填创建的仓库名
 然后填入 `config.js` 中保存
 :::
 
-![](/heng/heng-24.png)
+![](https://img.viptv.work/viptv/heng/heng-24.png)
 
 访问看一下，这样就可以了
 
-![](/heng/heng-25.png)
+![](https://img.viptv.work/viptv/heng/heng-25.png)
 
 
 
@@ -285,7 +285,7 @@ repo：填创建的仓库名
 
 因为使用的仓库 `Issues` ，直接进仓库去删即可
 
-![](/heng/heng-26.png)
+![](https://img.viptv.work/viptv/heng/heng-26.png)
 
 :::
 

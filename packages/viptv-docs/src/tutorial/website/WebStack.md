@@ -18,7 +18,7 @@
 :::
 
 
-![](/webstack/webstack-01.png)
+![](https://img.viptv.work/viptv/webstack/webstack-01.png)
 
 
 
@@ -49,7 +49,7 @@
 :::
 
 
-![](/webstack/webstack-02.png)
+![](https://img.viptv.work/viptv/webstack/webstack-02.png)
 
 
 
@@ -63,16 +63,16 @@
 WP后台：`http://域名.com/wp-admin/`
 
 
-![](/webstack/webstack-03.png)
+![](https://img.viptv.work/viptv/webstack/webstack-03.png)
 
-![](/webstack/webstack-04.png)
+![](https://img.viptv.work/viptv/webstack/webstack-04.png)
 
 
 其他主题怎么删掉呢，主题详情-右下有个删除
 
-![](/webstack/webstack-05.png)
+![](https://img.viptv.work/viptv/webstack/webstack-05.png)
 
-![](/webstack/webstack-06.png)
+![](https://img.viptv.work/viptv/webstack/webstack-06.png)
 
 
 
@@ -107,7 +107,7 @@ RewriteRule . /index.php [L]
 </IfModule>
 ```
 
-![](/webstack/webstack-07.png)
+![](https://img.viptv.work/viptv/webstack/webstack-07.png)
 
 
 
@@ -121,7 +121,7 @@ RewriteRule . /index.php [L]
 
 我们访问域名，看到的主页无比干净，我们挨个添加
 
-![](/webstack/webstack-08.png)
+![](https://img.viptv.work/viptv/webstack/webstack-08.png)
 
 
 
@@ -131,16 +131,16 @@ RewriteRule . /index.php [L]
 
 网址-网址分类-名称自己取，父级无
 
-![](/webstack/webstack-09.png)
+![](https://img.viptv.work/viptv/webstack/webstack-09.png)
 
 
 这里图标，自己选一个， `添加新网址目录`
 
-![](/webstack/webstack-10.png)
+![](https://img.viptv.work/viptv/webstack/webstack-10.png)
 
 回到网页刷新看看，就有了新增的菜单目录
 
-![](/webstack/webstack-11.png)
+![](https://img.viptv.work/viptv/webstack/webstack-11.png)
 
 
 
@@ -151,7 +151,7 @@ RewriteRule . /index.php [L]
 
 网址-网址分类-名称自己取，父级选已创建好的一级目录
 
-![](/webstack/webstack-12.png)
+![](https://img.viptv.work/viptv/webstack/webstack-12.png)
 
 这里子级的图标不用选，因为不显示 ，`添加新网址目录` ，回到网页刷新看看
 
@@ -159,7 +159,7 @@ RewriteRule . /index.php [L]
 有二级菜单存在的情况，主页面有二级菜单就不显示一级菜单
 :::
 
-![](/webstack/webstack-13.png)
+![](https://img.viptv.work/viptv/webstack/webstack-13.png)
 
 
 
@@ -172,15 +172,15 @@ RewriteRule . /index.php [L]
 
 外观-菜单，菜单名称自己取，自定义链接-添加至菜单，然后导航标签写一下，勾选 `侧栏底部菜单` ，保存菜单
 
-![](/webstack/webstack-14.png)
+![](https://img.viptv.work/viptv/webstack/webstack-14.png)
 
 其他的就依次添加即可，菜单前也想加图标的话，右上方，`显示选项`
 
-![](/webstack/webstack-15.png)
+![](https://img.viptv.work/viptv/webstack/webstack-15.png)
 
 勾选 `css类`
 
-![](/webstack/webstack-16.png)
+![](https://img.viptv.work/viptv/webstack/webstack-16.png)
 
 这样菜单里就多了一个css类，我们找自己喜欢的fa图标即可
 
@@ -193,12 +193,12 @@ RewriteRule . /index.php [L]
 :::
 
 
-![](/webstack/webstack-17.png)
+![](https://img.viptv.work/viptv/webstack/webstack-17.png)
 
 
 回到网页刷新看看效果
 
-![](/webstack/webstack-18.png)
+![](https://img.viptv.work/viptv/webstack/webstack-18.png)
 
 
 如果不喜欢后面的小星星，修改`wp-content/themes/WebStack-1.1620/inc/inc.php`文件，第473行的星星删掉即可
@@ -207,7 +207,7 @@ RewriteRule . /index.php [L]
 :loudspeaker: 修改文件前，请先备份！
 :::
 
-![](/webstack/webstack-19.png)
+![](https://img.viptv.work/viptv/webstack/webstack-19.png)
 
 
 
@@ -221,21 +221,21 @@ RewriteRule . /index.php [L]
 网址-所有网址-添加网址
 
 
-![](/webstack/webstack-20.png)
+![](https://img.viptv.work/viptv/webstack/webstack-20.png)
 
 网站名字，段落这里自己写，到时候详情页能看到的
 
 
-![](/webstack/webstack-21.png)
+![](https://img.viptv.work/viptv/webstack/webstack-21.png)
 
 填入网站的网址，描述，滑上去点 **发布** 即可
 
-![](/webstack/webstack-22.png)
+![](https://img.viptv.work/viptv/webstack/webstack-22.png)
 
 
 回到网页刷新看看，这里的网站没有自动获取图标，我们去设置一下
 
-![](/webstack/webstack-23.png)
+![](https://img.viptv.work/viptv/webstack/webstack-23.png)
 
 
 主题设置-常规设置-图标源
@@ -244,7 +244,7 @@ RewriteRule . /index.php [L]
 这次设置好了，下次就不用管了
 :::
 
-![](/webstack/webstack-24.png)
+![](https://img.viptv.work/viptv/webstack/webstack-24.png)
 
 
 这里我们直接用 [一为的api](https://api.iowen.cn/doc/favicon.html) ，或者[自己按他的源码搭建](./Favicon.md)，图标源api后缀填`.png`，**保存**
@@ -253,12 +253,12 @@ RewriteRule . /index.php [L]
 https://api.iowen.cn/favicon/
 ```
 
-![](/webstack/webstack-25.png)
+![](https://img.viptv.work/viptv/webstack/webstack-25.png)
 
 
 回到网页刷新看看，可以按步骤依次添加其他
 
-![](/webstack/webstack-26.png)
+![](https://img.viptv.work/viptv/webstack/webstack-26.png)
 
 
 
@@ -274,18 +274,18 @@ https://api.iowen.cn/favicon/
 如果想直接跳转网页，不需要详情页，关闭即可
 :::
 
-![](/webstack/webstack-27.png)
+![](https://img.viptv.work/viptv/webstack/webstack-27.png)
 
 
 
 我们随便点一个网站进去
 
-![](/webstack/webstack-28.png)
+![](https://img.viptv.work/viptv/webstack/webstack-28.png)
 
 
 这个就是详情页
 
-![](/webstack/webstack-29.png)
+![](https://img.viptv.work/viptv/webstack/webstack-29.png)
 
 
 
@@ -295,7 +295,7 @@ https://api.iowen.cn/favicon/
 :loudspeaker: 修改文件前，请先备份！
 :::
 
-![](/webstack/webstack-30.png)
+![](https://img.viptv.work/viptv/webstack/webstack-30.png)
 
 
 
@@ -318,7 +318,7 @@ https://api.iowen.cn/favicon/
 
 修改文件`wp-content/themes/WebStack-1.1620/templates/header-banner.php`，删除第23-27行即可
 
-![](/webstack/webstack-31.png)
+![](https://img.viptv.work/viptv/webstack/webstack-31.png)
 
 
 若想替换成国旗，将第22-28行换成下面代码
@@ -349,7 +349,7 @@ https://api.iowen.cn/favicon/
 
 主题设置-常规设置-搜索（关闭）
 
-![](/webstack/webstack-32.png)
+![](https://img.viptv.work/viptv/webstack/webstack-32.png)
 
 觉得搜索框复杂，可以自己改文件`wp-content/themes/WebStack-1.1620/search-tool.php`
 

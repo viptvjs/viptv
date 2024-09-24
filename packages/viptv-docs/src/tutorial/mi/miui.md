@@ -13,7 +13,7 @@
 
 本教程仅适用于 刷机时出现 `remote:update sparse crc list failed`
 
-![](/miui/miui-01.png)
+![](https://img.viptv.work/viptv/miui/miui-01.png)
 
 
 
@@ -33,10 +33,10 @@
 
 在 `MIUI-Backup-AllBackup` 文件夹可以找到备份文件
 
-![](/miui/miui-03.png)
+![](https://img.viptv.work/viptv/miui/miui-03.png)
 :::
 
-![](/miui/miui-02.png)
+![](https://img.viptv.work/viptv/miui/miui-02.png)
 
 
 
@@ -62,7 +62,7 @@
 
 两个途径：[官方_小米论坛刷机包汇总](https://web.vip.miui.com/page/info/mio/mio/detail?postId=37093637) 或 [第三方_XiaomiRom](https://xiaomirom.com/)
 
-![](/miui/miui-04.png)
+![](https://img.viptv.work/viptv/miui/miui-04.png)
 
 
 
@@ -81,7 +81,7 @@
 * [miflash pro](https://dzp.lanzouy.com/ij7Wk0g7755g)
 :::
 
-![](/miui/miui-05.png)
+![](https://img.viptv.work/viptv/miui/miui-05.png)
 
 
 
@@ -96,7 +96,7 @@
 
 并插入数据线，连接电脑
 
-![](/miui/miui-06.png)
+![](https://img.viptv.work/viptv/miui/miui-06.png)
 
 
 ---
@@ -105,16 +105,16 @@
 
 打开小米刷机工具文件夹，运行 `XiaoMiFlash.exe`
 
-![](/miui/miui-07.png)
+![](https://img.viptv.work/viptv/miui/miui-07.png)
 
 
 第一次下载使用的，点一下 `Driver` 安装一下驱动
 
-![](/miui/miui-08.png)
+![](https://img.viptv.work/viptv/miui/miui-08.png)
 
 安装过的，不用装了，停在这个界面就行
 
-![](/miui/miui-09.png)
+![](https://img.viptv.work/viptv/miui/miui-09.png)
 
 
 
@@ -133,24 +133,24 @@
 :::
 
 
-![](/miui/miui-10.png)
+![](https://img.viptv.work/viptv/miui/miui-10.png)
 
 
 打开ROM包文件夹，找到 `全部删除` 的bat命令，鼠标右键 - 用记事本打开
 
-![](/miui/miui-11.png)
+![](https://img.viptv.work/viptv/miui/miui-11.png)
 
 
 编辑 - 查找 `Flash sparsecrclist error`
 
-![](/miui/miui-12.png)
+![](https://img.viptv.work/viptv/miui/miui-12.png)
 
 
 把包含 `Flash sparsecrclist error `这段整句全删掉！
 
 从`fastboot`开始，到 `/B 1` 结束，且不留空格，删除后保存并退出
 
-![](/miui/miui-13.png)
+![](https://img.viptv.work/viptv/miui/miui-13.png)
 
 
 ---
@@ -165,7 +165,7 @@
 不知道路径的，进你的ROM包文件夹里，复制顶部的路径，粘贴过去就行
 :::
 
-![](/miui/miui-14.png)
+![](https://img.viptv.work/viptv/miui/miui-14.png)
 
 
 
@@ -175,7 +175,7 @@
 等300-400秒就可以完成了，开机还要等一会
 
 
-![](/miui/miui-15.png)
+![](https://img.viptv.work/viptv/miui/miui-15.png)
 
 
 

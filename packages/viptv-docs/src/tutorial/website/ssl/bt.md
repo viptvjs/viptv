@@ -9,7 +9,7 @@
 
 官网：https://www.bt.cn/
 
-![](/ssl/bt/bt-01.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-01.png)
 
 
 
@@ -60,18 +60,18 @@
 * 通配符：也叫泛解析，就是子域名和所有二级域名，共用一个证书，是最省事的证书
 :::
 
-![](/ssl/bt/bt-02.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-02.png)
 
 
 ### 文件验证
 
 如果你是二级域名，可以直接使用 `文件验证`
 
-![](/ssl/bt/bt-03.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-03.png)
 
 方便又快速，申请完成后会自动填写，记得保存和开启 `强制HTTPS`
 
-![](/ssl/bt/bt-04.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-04.png)
 
 
 
@@ -88,7 +88,7 @@ DNS接口我们选择 `手动解析`，勾选 `自动组合泛域名`，如果�
 
 域名处勾选子域名，申请即可
 
-![](/ssl/bt/bt-05.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-05.png)
 
 根据提示到DNS处，添加一条 TXT 和 CAA（可选）
 
@@ -98,15 +98,15 @@ DNS接口我们选择 `手动解析`，勾选 `自动组合泛域名`，如果�
 * 二级域名申请：只需要复制子域名前部分，比如解析值是 `_acme-challenge.baike.baidu.com`，你只需要 `_acme-challenge.baike`
 :::
 
-![](/ssl/bt/bt-06.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-06.png)
 
 我的域名在 [腾讯云的DNSPod](https://www.dnspod.cn/)，添加记录，依次添加 `TXT记录` 和 `CAA记录`
 
 复制值的时候注意前面有没有空格
 
-![](/ssl/bt/bt-07.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-07.png)
 
-![](/ssl/bt/bt-08.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-08.png)
 
 回到宝塔，点击验证
 
@@ -118,20 +118,20 @@ DNS接口我们选择 `手动解析`，勾选 `自动组合泛域名`，如果�
 * 解决：重新点击申请，生成新的TXT记录，去DNS解析处修改成新的即可
 :::
 
-![](/ssl/bt/bt-09.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-09.png)
 
 
 验证成功后，开始发放证书
 
-![](/ssl/bt/bt-10.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-10.png)
 
 点击保存，并开启 `强制HTTPS`
 
-![](/ssl/bt/bt-11.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-11.png)
 
 打开网站已经有小锁了，顺便查看证书
 
-![](/ssl/bt/bt-12.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-12.png)
 
 ::::
 
@@ -143,41 +143,41 @@ DNS接口我们选择 `手动解析`，勾选 `自动组合泛域名`，如果�
 
 我的域名在 [腾讯云的DNSPod](https://www.dnspod.cn/)，我就使用 `DnsPod` 演示
 
-![](/ssl/bt/bt-13.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-13.png)
 
 在DnsPod后台 - 用户 - API密钥 - DnsPod Token，创建密钥
 
-![](/ssl/bt/bt-14.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-14.png)
 
 名称随便输吧
 
-![](/ssl/bt/bt-15.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-15.png)
 
 这里的 `ID` 和 `Token` 分别复制过去，token只显示一次
 
-![](/ssl/bt/bt-16.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-16.png)
 
 粘贴到宝塔后，点保存
 
-![](/ssl/bt/bt-17.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-17.png)
 
 再次选择好 `DnsPod` ，勾选 `自动组合泛域名`，如果是二级域名申请请不要勾选
 
 域名处勾选子域名，申请即可
 
-![](/ssl/bt/bt-18.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-18.png)
 
 后台就开始自动配置解析并申请了
 
-![](/ssl/bt/bt-19.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-19.png)
 
 点击保存，并开启 `强制HTTPS`
 
-![](/ssl/bt/bt-20.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-20.png)
 
 打开网站已经有小锁了，顺便查看证书
 
-![](/ssl/bt/bt-21.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-21.png)
 
 :::
 
@@ -190,4 +190,4 @@ DNS接口我们选择 `手动解析`，勾选 `自动组合泛域名`，如果�
 
 宝塔默认到期前1个月会自动续签，不用管
 
-![](/ssl/bt/bt-22.png)
+![](https://img.viptv.work/viptv/ssl/bt/bt-22.png)

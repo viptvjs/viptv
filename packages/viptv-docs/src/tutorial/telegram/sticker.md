@@ -19,7 +19,7 @@ TG 群的表情包贴纸应该是最多的，而且还可以自己下载/上传
 
 然后 点 `开始` ，再点击 `/newpack` ，提示上限 200 张
 
-![](/sticker/sticker-1.png)
+![](https://img.viptv.work/viptv/sticker/sticker-1.png)
 
 再点输入框旁的贴纸，再点齿轮
 
@@ -27,21 +27,21 @@ TG 群的表情包贴纸应该是最多的，而且还可以自己下载/上传
 如果只想下某一个，直接发送表情包即可
 :::
 
-![](/sticker/sticker-2.png)
+![](https://img.viptv.work/viptv/sticker/sticker-2.png)
 
 我这里以 冰墩墩和铁憨憨 为例
 
-![](/sticker/sticker-3.png)
+![](https://img.viptv.work/viptv/sticker/sticker-3.png)
 
 拷贝链接，然后把链接发到对话框里
 
-![](/sticker/sticker-4.png)
+![](https://img.viptv.work/viptv/sticker/sticker-4.png)
 
 左下角 `菜单` ，再点 `/finish` ，等待打包完成即可，自行下载解压，怎么用就不用教了吧
 
-![](/sticker/sticker-5.png)
+![](https://img.viptv.work/viptv/sticker/sticker-5.png)
 
-![](/sticker/sticker-6.png)
+![](https://img.viptv.work/viptv/sticker/sticker-6.png)
 
 ::: tip 查看贴纸
 安卓：app-左上角三横-设置-对话设置-下拉到底 贴纸和装饰
@@ -59,15 +59,15 @@ IOS：app-右下角设置-Sticker and emoji
 如果只想下某一个，直接发送表情包即可
 :::
 
-![](/sticker/sticker-7.png)
+![](https://img.viptv.work/viptv/sticker/sticker-7.png)
 
 拷贝表情包的链接，然后把链接发到对话框里
 
-![](/sticker/sticker-8.png)
+![](https://img.viptv.work/viptv/sticker/sticker-8.png)
 
 等打包完成即可，默认 3 个尺寸：128px、256px、512px。建议用 512px，图片大点好看一些
 
-![](/sticker/sticker-9.png)
+![](https://img.viptv.work/viptv/sticker/sticker-9.png)
 
 ## 上传
 
@@ -92,7 +92,7 @@ IOS：app-右下角设置-Sticker and emoji
 
 我们先看了解一下界面
 
-![](/sticker/sticker-10.png)
+![](https://img.viptv.work/viptv/sticker/sticker-10.png)
 
 点击 `/newpack` ，它让我们给表情包取一个名字，可以是中文，后期不可更改
 
@@ -100,7 +100,7 @@ IOS：app-右下角设置-Sticker and emoji
 这里提示我们尺寸要 512px 的，或者更小，已经弄好的不用看了
 :::
 
-![](/sticker/sticker-11.png)
+![](https://img.viptv.work/viptv/sticker/sticker-11.png)
 
 发一张图过去，然后选择一个表情对应的 emoji，完成后点击 `/publish` ，提示设置一个 icon，点 `/skip` 跳过即可
 
@@ -108,7 +108,7 @@ IOS：app-右下角设置-Sticker and emoji
 注意：限制一张图对应一个 emoji，所以不能批量传，当你输入一个 emoji 可以触发这个表情包
 :::
 
-![](/sticker/sticker-12.png)
+![](https://img.viptv.work/viptv/sticker/sticker-12.png)
 
 需要设置一个短链接名(英文)，打开生成的链接即可查看表情包
 
@@ -116,7 +116,7 @@ IOS：app-右下角设置-Sticker and emoji
 点击链接添加贴纸，才可以添加使用，也可以把链接发给朋友使用
 :::
 
-![](/sticker/sticker-13.png)
+![](https://img.viptv.work/viptv/sticker/sticker-13.png)
 
 现在还只是完成了一个，那我们继续添加其他表情 输入 `/addsticker` ，选择我们刚创建的表情包名，接下来就是重复刚刚的步骤了
 
@@ -124,7 +124,7 @@ IOS：app-右下角设置-Sticker and emoji
 TG 限制每个表情包都要有 emoji 对应，只能一张张添加
 :::
 
-![](/sticker/sticker-14.png)
+![](https://img.viptv.work/viptv/sticker/sticker-14.png)
 
 然后点击 `/done` 即可，这样我们就添加好了，陆续完成其他的即可
 
@@ -132,7 +132,7 @@ TG 限制每个表情包都要有 emoji 对应，只能一张张添加
 表情不一定非要百分百和 emoji 对上，懒的话可以全部统一用一个 emoji
 :::
 
-![](/sticker/sticker-15.png)
+![](https://img.viptv.work/viptv/sticker/sticker-15.png)
 
 ## 删除
 
@@ -142,7 +142,7 @@ TG 限制每个表情包都要有 emoji 对应，只能一张张添加
 Yes, I am totally sure.
 ```
 
-![](/sticker/sticker-16.png)
+![](https://img.viptv.work/viptv/sticker/sticker-16.png)
 
 ## 成品
 

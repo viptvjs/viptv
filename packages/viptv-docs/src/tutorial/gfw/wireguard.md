@@ -14,7 +14,7 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 
 官网：https://www.wireguard.com/
 
-![](/wireguard/wireguard-01.png)
+![](https://img.viptv.work/viptv/wireguard/wireguard-01.png)
 
 
 ## 客户端
@@ -47,15 +47,15 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 
 先从美区AppStore下载 [wireguard](https://apps.apple.com/us/app/id1441195209) 并安装
 
-![](/wireguard/ios/ios-01.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-01.png)
 
 提示添加VPN配置，允许
 
-![](/wireguard/ios/ios-02.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-02.png)
 
 我们需要获取配置文件后，才可以使用
 
-![](/wireguard/ios/ios-03.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-03.png)
 
 :::
 
@@ -69,7 +69,7 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 
 在 [Wireguard 官网](https://www.wireguard.com/install/) 点击 `Download APK File` 下载并安装
 
-![](/wireguard/android/android-01.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-01.png)
 
 :::
 
@@ -83,19 +83,19 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 
 在 [Wireguard官网 Installation 页面](https://www.wireguard.com/install/) 点击 `Windows` 下载
 
-![](/wireguard/windows/windows-01.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-01.png)
 
 点击安装包安装即可
 
-![](/wireguard/windows/windows-02.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-02.png)
 
 桌面没有快捷方式，在开始 - 最近添加中找到 Wireguard - 右键 - 更多 - 打开文件位置
 
-![](/wireguard/windows/windows-03.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-03.png)
 
 再次鼠标右键 - 发送到 - 桌面快捷方式
 
-![](/wireguard/windows/windows-04.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-04.png)
 
 :::
 
@@ -113,31 +113,31 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 
 在Tg搜：[@generatewarpplusbot](https://t.me/generatewarpplusbot)，进入机器人对话，点开始
 
-![](/wireguard/ios/ios-04.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-04.png)
 
 点 `/generate` ，提示我们需要加3个群组后方可使用
 
-![](/wireguard/ios/ios-05.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-05.png)
 
 我们分别进入3个群组
 
-![](/wireguard/ios/ios-06.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-06.png)
 
 然后点 `I have subscribed` 确认，后再次点 `/generate`
 
 会获得一个无限流量的密钥及配置文件，点分享
 
-![](/wireguard/ios/ios-07.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-07.png)
 
 选择 WireGuard 导入即可使用
 
-![](/wireguard/ios/ios-08.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-08.png)
 
 打开开关，访问 [谷歌](https://www.google.com) 只能访问 [谷歌香港](https://www.google.com.hk) 
 
 打不开也不要急，一会优选IP就可以了
 
-![](/wireguard/ios/ios-09.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-09.png)
 
 :::
 
@@ -156,15 +156,15 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 
 进入机器人对话，点开始
 
-![](/wireguard/android/android-02.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-02.png)
 
 点 `/generate` ，提示我们需要加3个群组后方可使用
 
-![](/wireguard/android/android-03.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-03.png)
 
 我们分别进入3个群组
 
-![](/wireguard/android/android-04.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-04.png)
 
 然后点 `I have subscribed` 确认，后再次点 `/generate`
 
@@ -172,19 +172,19 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 
 点击下载，返回 WireGuard 主界面
 
-![](/wireguard/android/android-05.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-05.png)
 
 点击左下角上角 `+` ，`导入配置或压缩包`
 
 在下载内容 - Telegram 文件夹，选择刚才的文件
 
-![](/wireguard/android/android-06.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-06.png)
 
 导入成功后，打开开关看看，若无法成功访问
 
 先关闭！！！我们优选IP后再来试！！
 
-![](/wireguard/android/android-07.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-07.png)
 
 :::
 
@@ -201,45 +201,45 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 
 进入机器人对话，点开始
 
-![](/wireguard/windows/windows-05.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-05.png)
 
 点 `/generate` ，提示我们需要加3个群组后方可使用
 
-![](/wireguard/windows/windows-06.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-06.png)
 
 我们分别进入3个群组
 
-![](/wireguard/windows/windows-07.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-07.png)
 
 然后点 `I have subscribed` 确认，后再次点 `/generate`
 
 会获得一个无限流量的密钥及 `wg-config.conf` 配置文件
 
-![](/wireguard/windows/windows-08.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-08.png)
 
 下载配置文件并打开文件夹
 
-![](/wireguard/windows/windows-09.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-09.png)
 
 将这个文件拖到桌面，方便使用！
 
-![](/wireguard/windows/windows-10.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-10.png)
 
 回到桌面打开 WireGuard ，点 `从文件导入隧道`
 
-![](/wireguard/windows/windows-11.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-11.png)
 
 点击刚刚拖到桌面的 `wg-config.conf` 文件，打开
 
-![](/wireguard/windows/windows-12.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-12.png)
 
 导入成功后就能看到公钥等信息，点击 `连接`
 
-![](/wireguard/windows/windows-13.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-13.png)
 
 这样就连接成功了
 
-![](/wireguard/windows/windows-14.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-14.png)
 
 我们访问 [谷歌](https://www.google.com) 看看，自动跳到了 [谷歌香港](https://www.google.com.hk) 
 
@@ -247,7 +247,7 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 不着急，一会我们优选IP就行了
 :::
 
-![](/wireguard/windows/windows-15.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-15.png)
 
 ::::
 
@@ -276,7 +276,7 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 
 国区AppStore下载 [iSH Shell](https://apps.apple.com/cn/app/id1436902243) 并安装
 
-![](/wireguard/ios/ios-10.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-10.png)
 
 安装 `openssh` `curl` `bash` 命令
 
@@ -296,7 +296,7 @@ sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/reposi
 :::
 
 
-![](/wireguard/ios/ios-11.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-11.png)
 
 拉取运行 [@甬哥](https://github.com/yonggekkk/warp-yg) 的优选IP脚本
 
@@ -312,7 +312,7 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh &
 
 
 
-![](/wireguard/ios/ios-12.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-12.png)
 
 挂了梯子的先断开！断开！否则不准！然后都选 `1`
 
@@ -322,7 +322,7 @@ IPv6测试：https://www.test-ipv6.com/
 IP查询：https://ipw.cn/
 :::
 
-![](/wireguard/ios/ios-13.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-13.png)
 
 
 等代码跑完，我们自行翻到最上面选第一个延迟最低的，复制IP+端口
@@ -335,11 +335,11 @@ IP查询：https://ipw.cn/
 点击 `∧` + `z` 键可退出，重新运行代码
 :::
 
-![](/wireguard/ios/ios-14.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-14.png)
 
 进入 wireguard 点击刚才的配置，编辑
 
-![](/wireguard/ios/ios-15.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-15.png)
 
 将原先的对端改成你优选好的IP+端口，存储
 
@@ -349,13 +349,13 @@ engage.cloudflareclient.com:2408
 ```
 :::
 
-![](/wireguard/ios/ios-16.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-16.png)
 
 打开开关，就能访问 [谷歌](https://www.google.com) 了
 
 不过优选的IP是基本是香港的，所以只能用 [谷歌香港](https://www.google.com.hk) 
 
-![](/wireguard/ios/ios-09.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-09.png)
 
 ::::
 
@@ -381,7 +381,7 @@ engage.cloudflareclient.com:2408
 按顺序分别适用：手机64位、手机32位、手机64/32通用、平板32位、平板64位
 :::
 
-![](/wireguard/android/android-08.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-08.png)
 
 
 首次使用需要更新一下，后面使用就不用了
@@ -403,7 +403,7 @@ sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/reposi
 :::
 
 
-![](/wireguard/android/android-09.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-09.png)
 
 
 
@@ -414,7 +414,7 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh &
 ```
 
 
-![](/wireguard/android/android-10.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-10.png)
 
 
 挂了梯子的先断开！断开！否则不准！然后都选 `1`
@@ -427,15 +427,15 @@ IPv6测试：https://www.test-ipv6.com/
 IP查询：https://ipw.cn/
 :::
 
-![](/wireguard/android/android-11.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-11.png)
 
 复制第1个IP+端口，点击 Wireguard 的配置文件
 
-![](/wireguard/android/android-12.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-12.png)
 
 右上角 编辑，下拉到对端的位置
 
-![](/wireguard/android/android-13.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-13.png)
 
 粘贴刚刚复制的优选IP+端口，打开开关运行
 
@@ -445,11 +445,11 @@ engage.cloudflareclient.com:2408
 ```
 :::
 
-![](/wireguard/android/android-14.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-14.png)
 
 访问 [谷歌](https://www.google.com) 只能访问 [谷歌香港](https://www.google.com.hk) ，[油管](https://youtube.com) 也可以，不是很快，日常够用
 
-![](/wireguard/android/android-15.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-15.png)
 
 ::::
 
@@ -481,23 +481,23 @@ engage.cloudflareclient.com:2408
 否则优选的IP不准！！！
 :::
 
-![](/wireguard/windows/windows-16.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-16.png)
 
 这里我们输入 `1` ，回车
 
-![](/wireguard/windows/windows-17.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-17.png)
 
 优选的结果自动生成了 `result.csv` 文件，按任意键退出
 
-![](/wireguard/windows/windows-18.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-18.png)
 
 鼠标对着 `result.csv` 右键，用 `记事本打开`
 
-![](/wireguard/windows/windows-19.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-19.png)
 
 打开 WireGuard 客户端，在刚才的wg-config配置中，点击 `编辑`
 
-![](/wireguard/windows/windows-20.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-20.png)
 
 将原先的 `Endpoint` 改成我们优选的IP+端口，保存
 
@@ -505,11 +505,11 @@ engage.cloudflareclient.com:2408
 只要丢包率是0，且延迟低都可以使用
 :::
 
-![](/wireguard/windows/windows-21.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-21.png)
 
 [油管](https://youtube.com/) 4k视频，能跑2万多，带宽大概20M，8K还是有点吃力的
 
-![](/wireguard/windows/windows-15.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-15.png)
 
 ::::
 
@@ -531,7 +531,7 @@ engage.cloudflareclient.com:2408
 官网：https://www.cloudflare.com/cdn-cgi/trace
 
 
-![](/wireguard/wireguard-02.png)
+![](https://img.viptv.work/viptv/wireguard/wireguard-02.png)
 
 
 
@@ -559,16 +559,16 @@ warp-go和wgcf就是内核不同，warp-go最新内核，推荐！
 warp api是官方的接口，失败率比较高
 :::
 
-![](/wireguard/ios/ios-17.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-17.png)
 
 等待配置生成
 
-![](/wireguard/ios/ios-18.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-18.png)
 
 
 生成后将配置复制出来，等会要用
 
-![](/wireguard/ios/ios-19.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-19.png)
 
 ```:no-line-numbers
 [Interface]
@@ -588,7 +588,7 @@ Endpoint   = 162.159.193.10:2408
 
 打开 WireGuard 客户端，右上角 `+` 号，手动创建，再点一下 `生成密钥对`
 
-![](/wireguard/ios/ios-20.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-20.png)
 
 名称不要填中文，其他信息我们按要求填写，保存，然后激活
 
@@ -613,7 +613,7 @@ Endpoint   = 162.159.193.10:2408
 :::
 
 
-![](/wireguard/ios/ios-21.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-21.png)
 
 
 访问 [谷歌](https://www.google.com) 只能访问 [谷歌香港](https://www.google.com.hk)
@@ -625,7 +625,7 @@ Endpoint   = 162.159.193.10:2408
 :::
 
 
-![](/wireguard/ios/ios-22.png)
+![](https://img.viptv.work/viptv/wireguard/ios/ios-22.png)
 
 
 ::::
@@ -652,7 +652,7 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh &
 
 运行后，选 `2`，注册生成warp-wireguard配置
 
-![](/wireguard/android/android-16.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-16.png)
 
 再选 `1`，warp-go，等配置生成将它复制出来
 
@@ -662,7 +662,7 @@ warp-go和wgcf就是内核不同，warp-go最新内核，推荐！
 warp api是官方的接口，失败率比较高
 :::
 
-![](/wireguard/android/android-17.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-17.png)
 
 ```:no-line-numbers
 [Interface]
@@ -679,11 +679,11 @@ Endpoint = 162.159.193.10:2408
 
 打开 WireGuard 客户端，右下角 `+` 号，手动创建
 
-![](/wireguard/android/android-18.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-18.png)
 
 名称不要填中文，私钥需要点一下生成，会自动生成私钥和公钥
 
-![](/wireguard/android/android-19.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-19.png)
 
 然后我们依次填入信息，添加节点，填写Peer信息后，保存
 
@@ -705,7 +705,7 @@ Endpoint = 162.159.193.10:2408
 * Endpoint：对端
 :::
 
-![](/wireguard/android/android-20.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-20.png)
 
 添加成功后，打开开关连接
 
@@ -713,13 +713,13 @@ Endpoint = 162.159.193.10:2408
 移动和联通一般无法握手成功，[优选一下IP](#优选ip) 替换对端即可
 :::
 
-![](/wireguard/android/android-21.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-21.png)
 
 访问 [谷歌](https://www.google.com) 只能访问 [谷歌香港](https://www.google.com.hk)
 
 [查看一下账户类型](#账户类型)，确定是warp普通账户了
 
-![](/wireguard/android/android-22.png)
+![](https://img.viptv.work/viptv/wireguard/android/android-22.png)
 
 ::::
 
@@ -740,15 +740,15 @@ Endpoint = 162.159.193.10:2408
 
 下载 @甬哥 的仓库：https://github.com/yonggekkk/warp-yg
 
-![](/wireguard/windows/windows-22.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-22.png)
 
 解压到桌面
 
-![](/wireguard/windows/windows-23.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-23.png)
 
 按住 `SHIFT键` 鼠标右键，选择 `在此处打开Powershell`
 
-![](/wireguard/windows/windows-24.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-24.png)
 
 在窗口输入 `./warp.exe` 回车
 
@@ -756,7 +756,7 @@ Endpoint = 162.159.193.10:2408
 ./warp.exe
 ```
 
-![](/wireguard/windows/windows-25.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-25.png)
 
 电脑端利用warp api的方式就注册好了，信息如下
 
@@ -764,7 +764,7 @@ Endpoint = 162.159.193.10:2408
 其中最重要的是 `private_key` 和 `v6` 信息
 :::
 
-![](/wireguard/windows/windows-26.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-26.png)
 
 ```sh:no-line-numbers{7,12}
 PS C:\Users\Administrator\Desktop\warp-yg-main> ./warp.exe
@@ -806,7 +806,7 @@ Endpoint = engage.cloudflareclient.com:2408
 
 进入WireGuard客户端，新建空隧道
 
-![](/wireguard/windows/windows-27.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-27.png)
 
 粘贴到配置中，注意密钥和v6地址别错
 
@@ -814,19 +814,19 @@ Endpoint = engage.cloudflareclient.com:2408
 隧道名称不要填中文，否则无法创建
 :::
 
-![](/wireguard/windows/windows-28.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-28.png)
 
 连接，好像是没有握手成功，[优选一下IP](#优选ip) 替换 `Endpoint` 对端即可
 
-![](/wireguard/windows/windows-29.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-29.png)
 
 现在就可以了
 
-![](/wireguard/windows/windows-30.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-30.png)
 
 [查看一下账户类型](#账户类型)，确定是warp普通账户了
 
-![](/wireguard/windows/windows-31.png)
+![](https://img.viptv.work/viptv/wireguard/windows/windows-31.png)
 
 ::::
 

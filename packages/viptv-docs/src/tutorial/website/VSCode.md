@@ -10,7 +10,7 @@ VScode全称：Visual Studio Code，由微软开发的免费源代码编辑器
 
 官网：https://code.visualstudio.com/
 
-![](/VSCode/VSCode-01.png)
+![](https://img.viptv.work/viptv/VSCode/VSCode-01.png)
 
 
 ## 安装
@@ -24,14 +24,14 @@ Stable：稳定版
 Insiders：内测版
 :::
 
-![](/VSCode/VSCode-02.png)
+![](https://img.viptv.work/viptv/VSCode/VSCode-02.png)
 
 
 双击下载的安装包-安装，这里文件夹别放C盘了
 
 点击 浏览 - 选择一个文件夹 - 确定
 
-![](/VSCode/VSCode-03.png)
+![](https://img.viptv.work/viptv/VSCode/VSCode-03.png)
 
 
 看你们个人需求勾选，也可以全部勾选
@@ -46,14 +46,14 @@ Insiders：内测版
 * 添加到PATH（重启后生效）：默认勾选，建议勾选
 :::
 
-![](/VSCode/VSCode-04.png)
+![](https://img.viptv.work/viptv/VSCode/VSCode-04.png)
 
 
 
 直到安装成功，进入主界面
 
 
-![](/VSCode/VSCode-05.png)
+![](https://img.viptv.work/viptv/VSCode/VSCode-05.png)
 
 
 
@@ -68,7 +68,7 @@ Insiders：内测版
 
 左侧扩展栏，搜索框搜 **Chinese** ，点击 **Install** 安装简体中文
 
-![](/VSCode/VSCode-06.png)
+![](https://img.viptv.work/viptv/VSCode/VSCode-06.png)
 
 
 安装好之后，提示我们重启生效，重新打开界面后，就是全中文了
@@ -77,12 +77,12 @@ Insiders：内测版
 不点不生效，可卸载了重新安装再点击
 :::
 
-![](/VSCode/VSCode-07.png)
+![](https://img.viptv.work/viptv/VSCode/VSCode-07.png)
 
 
 汉化了基本就能看懂了，就不赘述了
 
-![](/VSCode/VSCode-08.png)
+![](https://img.viptv.work/viptv/VSCode/VSCode-08.png)
 
 
 
@@ -90,17 +90,17 @@ Insiders：内测版
 
 打字连击插件，插件栏搜：`Power Mode`，安装
 
-![](/VSCode/VSCode-09.png)
+![](https://img.viptv.work/viptv/VSCode/VSCode-09.png)
 
 安装好默认是关闭的，我们需要手动开启
 
 文件 - 首选项 - 设置 - 扩展 - Power Mode，勾选 `Powermode：Enabled`
 
-![](/VSCode/VSCode-10.png)
+![](https://img.viptv.work/viptv/VSCode/VSCode-10.png)
 
 但是文字界面有抖动效果，下拉到 `Shake` ,将 Intensity 的值改成 `0`
 
-![](/VSCode/VSCode-11.png)
+![](https://img.viptv.work/viptv/VSCode/VSCode-11.png)
 
 
 

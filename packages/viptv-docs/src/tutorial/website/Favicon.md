@@ -23,7 +23,7 @@ Favicon图标就是浏览器标题栏上显示的小图标，也可以是缩小�
 一定要是在主域名下 `/favicon.ico` 一般都放在主目录里
 :::
 
-![](/Favicon/Favicon-01.png)
+![](https://img.viptv.work/viptv/Favicon/Favicon-01.png)
 
 ::::
 
@@ -38,7 +38,7 @@ Favicon图标就是浏览器标题栏上显示的小图标，也可以是缩小�
 
 网页右键-查看源代码(ctrl+u)，这里就很明显能看到 `.ico` 结尾的文件
 
-![](/Favicon/Favicon-02.png)
+![](https://img.viptv.work/viptv/Favicon/Favicon-02.png)
 
 :::
 
@@ -58,7 +58,7 @@ Favicon图标就是浏览器标题栏上显示的小图标，也可以是缩小�
 常见的尺寸：16 / 32 / 48 / 64 / 128 / 256 / 512
 :::
 
-![](/Favicon/Favicon-03.png)
+![](https://img.viptv.work/viptv/Favicon/Favicon-03.png)
 
 ::::
 
@@ -78,7 +78,7 @@ Favicon图标就是浏览器标题栏上显示的小图标，也可以是缩小�
 
 获取：https://api.iowen.cn/favicon/www.iowen.cn.png
 
-![](/Favicon/Favicon-04.png)
+![](https://img.viptv.work/viptv/Favicon/Favicon-04.png)
 
 :::
 
@@ -109,7 +109,7 @@ Favicon图标就是浏览器标题栏上显示的小图标，也可以是缩小�
 
 仓库：https://github.com/owen0o0/getFavicon
 
-![](/Favicon/Favicon-05.png)
+![](https://img.viptv.work/viptv/Favicon/Favicon-05.png)
 
 登录宝塔，新建添加一个站点，进目录-上传压缩包-解压，并将文件名改成 `favicon`
 
@@ -117,7 +117,7 @@ Favicon图标就是浏览器标题栏上显示的小图标，也可以是缩小�
 改名是为了和下面的连接对上
 :::
 
-![](/Favicon/Favicon-06.png)
+![](https://img.viptv.work/viptv/Favicon/Favicon-06.png)
 
 
 cache 文件夹给 755 权限
@@ -126,7 +126,7 @@ cache 文件夹给 755 权限
 宝塔直接上传的一般都是755
 :::
 
-![](/Favicon/Favicon-07.png)
+![](https://img.viptv.work/viptv/Favicon/Favicon-07.png)
 
 
 访问：`http://你的网站/favicon/get.php?url=https://目标网站`
@@ -137,7 +137,7 @@ cache 文件夹给 755 权限
 比如：http://api.yiov.com/favicon/get.php?url=https://www.iowen.cn
 :::
 
-![](/Favicon/Favicon-09.png)
+![](https://img.viptv.work/viptv/Favicon/Favicon-09.png)
 
 
 
@@ -161,7 +161,7 @@ RewriteEngine On
 RewriteRule ^favicon/(.*)\.png$ favicon/get.php?url=$1 [L]
 </IfModule>
 ```
-![](/Favicon/Favicon-08.png)
+![](https://img.viptv.work/viptv/Favicon/Favicon-08.png)
 
 
 调用方法：`http://你的网站/favicon/目标网址.png`
@@ -174,7 +174,7 @@ RewriteRule ^favicon/(.*)\.png$ favicon/get.php?url=$1 [L]
 比如：http://api.yiov.com/favicon/www.iowen.cn.png
 :::
 
-![](/Favicon/Favicon-09.png)
+![](https://img.viptv.work/viptv/Favicon/Favicon-09.png)
 
 
 

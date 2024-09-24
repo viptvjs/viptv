@@ -15,7 +15,7 @@
 正常注册 - 切换地区- 完成
 :::
 
-![](/appleid/appleid-01.png)
+![](https://img.viptv.work/viptv/appleid/appleid-01.png)
 
 
 
@@ -42,23 +42,23 @@
 手机也可以操作，一样的
 :::
 
-![](/appleid/appleid-02.png)
+![](https://img.viptv.work/viptv/appleid/appleid-02.png)
 
 
 注册就不用演示了吧，记好账号、手机、密码即可
 
-![](/appleid/appleid-03.png)
+![](https://img.viptv.work/viptv/appleid/appleid-03.png)
 
 
 
 输完邮箱验证码和手机验证码后，就注册完成了
 
-![](/appleid/appleid-04.png)
+![](https://img.viptv.work/viptv/appleid/appleid-04.png)
 
-![](/appleid/appleid-05.png)
+![](https://img.viptv.work/viptv/appleid/appleid-05.png)
 
 
-![](/appleid/appleid-06.png)
+![](https://img.viptv.work/viptv/appleid/appleid-06.png)
 
 
 
@@ -68,9 +68,9 @@
 
 个人信息 - 国家或地区 - 更改国家或地区
 
-![](/appleid/appleid-07.png)
+![](https://img.viptv.work/viptv/appleid/appleid-07.png)
 
-![](/appleid/appleid-08.png)
+![](https://img.viptv.work/viptv/appleid/appleid-08.png)
 
 
 这里我们选择自己要更改的国家，比如 `漂亮国`
@@ -79,7 +79,7 @@
 由于地址乱输保存不了，我们借助地址生成来填写其他信息
 :::
 
-![](/appleid/appleid-09.png)
+![](https://img.viptv.work/viptv/appleid/appleid-09.png)
 
 
 好维特官网：http://www.haoweichi.com/
@@ -92,7 +92,7 @@
 :::
 
 
-![](/appleid/appleid-10.png)
+![](https://img.viptv.work/viptv/appleid/appleid-10.png)
 
 
 
@@ -119,26 +119,26 @@
 
 参考资料，我用好维特，生成一个`蒙大拿州`的地址
 
-![](/appleid/appleid-11.png)
+![](https://img.viptv.work/viptv/appleid/appleid-11.png)
 
 
 付款方式一定要选无！！！其他一一对应填入，街道号随便，保存即可
 
 
-![](/appleid/appleid-12.png)
+![](https://img.viptv.work/viptv/appleid/appleid-12.png)
 
 
 送货地址不用填，点击更新即可
 
-![](/appleid/appleid-13.png)
+![](https://img.viptv.work/viptv/appleid/appleid-13.png)
 
-![](/appleid/appleid-14.png)
+![](https://img.viptv.work/viptv/appleid/appleid-14.png)
 
 
 
 这样我们的国外ID就注册完成了
 
-![](/appleid/appleid-15.png)
+![](https://img.viptv.work/viptv/appleid/appleid-15.png)
 
 
 
@@ -152,22 +152,22 @@
 有账号的先退出
 :::
 
-![](/appleid/appleid-16.png)
+![](https://img.viptv.work/viptv/appleid/appleid-16.png)
 
 
 弹出提示窗，`检查` - 打开同意条款
 
-![](/appleid/appleid-17.png)
+![](https://img.viptv.work/viptv/appleid/appleid-17.png)
 
 
 这里的信息我们填过了，不用动，直接下一步，继续
 
-![](/appleid/appleid-18.png)
+![](https://img.viptv.work/viptv/appleid/appleid-18.png)
 
 
 OK了，现在在应用商店，下载你想要的APP即可
 
-![](/appleid/appleid-19.png)
+![](https://img.viptv.work/viptv/appleid/appleid-19.png)
 
 
 
@@ -186,11 +186,11 @@ OK了，现在在应用商店，下载你想要的APP即可
 
 打开支付宝，切换定位 `拉斯维加斯`，中间滚动栏 `大牌礼卡`，更多折扣礼品卡
 
-![](/appleid/appleid-20.png)
+![](https://img.viptv.work/viptv/appleid/appleid-20.png)
 
 选择 `App Store & iTunes USA` 充值，金额自定义，立即购买
 
-![](/appleid/appleid-21.png)
+![](https://img.viptv.work/viptv/appleid/appleid-21.png)
 
 购买完成后，打开应用商店 - 头像 - Redeem Gift Card - 底部输入兑换码
 
@@ -201,10 +201,10 @@ OK了，现在在应用商店，下载你想要的APP即可
 :::
 
 
-![](/appleid/appleid-22.png)
+![](https://img.viptv.work/viptv/appleid/appleid-22.png)
 
 
-![](/appleid/appleid-23.png)
+![](https://img.viptv.work/viptv/appleid/appleid-23.png)
 
 
 

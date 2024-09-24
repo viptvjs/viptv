@@ -36,7 +36,7 @@ cloudflare
 
 无论网站、应用、小程序都在此基础上运行，甚至可以放肆的说，整个世界都运行在Linux之上
 
-![Alternate text](/linux/linux.png)
+![Alternate text](https://img.viptv.work/viptv/linux/linux.png)
 
 ## 公告
 

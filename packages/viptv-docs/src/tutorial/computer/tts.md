@@ -37,29 +37,29 @@
 :::
 
 
-![](/tts/tts-01.png)
+![](https://img.viptv.work/viptv/tts/tts-01.png)
 
 
 然后 点击 更多拓展程序
 
-![](/tts/tts-02.png)
+![](https://img.viptv.work/viptv/tts/tts-02.png)
 
 点击 [Microsoft™ 文字转语音下载器 - 添加 TTS 下载](https://chrome.google.com/webstore/detail/downloader-for-microsoft/dplnecggiofdkdcagdkjebneaonfhbbb)
 
-![](/tts/tts-03.png)
+![](https://img.viptv.work/viptv/tts/tts-03.png)
 
 
 点 获取，等待安装成功就可以了
 
-![](/tts/tts-04.png)
+![](https://img.viptv.work/viptv/tts/tts-04.png)
 
-![](/tts/tts-05.png)
+![](https://img.viptv.work/viptv/tts/tts-05.png)
 
 
 我们打开 [微软Azure文本转语音官网](https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/) 看下，稍微等一下就出来了
 
 
-![](/tts/tts-06.png)
+![](https://img.viptv.work/viptv/tts/tts-06.png)
 
 更改下语言和音色，输入文本就可以转换,试听并下载了
 
@@ -67,7 +67,7 @@
 插件限制每月6次，否则就要付费，可尝试多开浏览器
 :::
 
-![](/tts/tts-07.png)
+![](https://img.viptv.work/viptv/tts/tts-07.png)
 
 
 
@@ -80,7 +80,7 @@
 
 仓库：[https://github.com/LokerL/tts-vue/](https://github.com/LokerL/tts-vue/)
 
-![](/tts/tts-08.png)
+![](https://img.viptv.work/viptv/tts/tts-08.png)
 
 按照教程先下载并解压
 
@@ -90,12 +90,12 @@
 
 * [下载地址 蓝奏云](https://wwn.lanzoul.com/b0f3ype9g) 密码：`em1n`
 
-![](/tts/tts-09.png)
+![](https://img.viptv.work/viptv/tts/tts-09.png)
 
 
 安装，哪个都可以，路径改一下不要装C盘了
 
-![](/tts/tts-10.png)
+![](https://img.viptv.work/viptv/tts/tts-10.png)
 
 
 安装好打开，就可以使用了
@@ -104,7 +104,7 @@
 没有自动运行，关掉窗口再打开即可
 :::
 
-![](/tts/tts-11.png)
+![](https://img.viptv.work/viptv/tts/tts-11.png)
 
 
 
@@ -116,7 +116,7 @@
 需手动改成mp3
 :::
 
-![](/tts/tts-12.png)
+![](https://img.viptv.work/viptv/tts/tts-12.png)
 
 
 

@@ -36,14 +36,14 @@ Filza官网：[https://www.tigisoftware.com/default/?p=439](https://www.tigisoft
 
 官网直接下载IPA，然后用巨魔安装
 
-![](/Filza/Filza-01.png)
+![](https://img.viptv.work/viptv/Filza/Filza-01.png)
 
 
 安装后打开App，别给网络权限！！！别给！！！
 
 已经允许给权限的，设置 - 无限局域网 - 使用无线局域网与蜂窝网络的APP，找到` Filza` 关闭网络
 
-![](/Filza/Filza-03.png)
+![](https://img.viptv.work/viptv/Filza/Filza-03.png)
 
 
 ---
@@ -56,13 +56,13 @@ Cydia添加源
 ```
 http://tigisoftware.com/cydia/
 ```
-![](/Filza/Filza-02.png)
+![](https://img.viptv.work/viptv/Filza/Filza-02.png)
 
 
 
 打开 Filza 软件，右下齿轮设置，下拉底部，激活状态 `体验`
 
-![](/Filza/Filza-04.png)
+![](https://img.viptv.work/viptv/Filza/Filza-04.png)
 
 记下这个设备序列号
 
@@ -70,29 +70,29 @@ http://tigisoftware.com/cydia/
 与关于本机-序列号一致
 :::
 
-![](/Filza/Filza-05.png)
+![](https://img.viptv.work/viptv/Filza/Filza-05.png)
 
 
 点上方的 `备份` - 在上层文件夹中显示，点击 `settings.fzs` 右侧的 `i`
 
 
-![](/Filza/Filza-06.png)
+![](https://img.viptv.work/viptv/Filza/Filza-06.png)
 
 
 右上角的分享 - 属性表编辑器
 
-![](/Filza/Filza-07.png)
+![](https://img.viptv.work/viptv/Filza/Filza-07.png)
 
 
 展开Root - 点击 `item 1` 右侧的 `i` - 点击 `Add item...`
 
-![](/Filza/Filza-08.png)
+![](https://img.viptv.work/viptv/Filza/Filza-08.png)
 
 
 
 名称栏改为`SerialNumber` - 计算的破解码粘贴到`值`这里 - 返回 - 存储 - 完成
 
-![](/Filza/Filza-09.png)
+![](https://img.viptv.work/viptv/Filza/Filza-09.png)
 
 
 
@@ -115,18 +115,18 @@ Loader1.0/Filza1.2任选其一，因为教程较早，使用的Loader1.0
 
 左侧是网页版，右侧是电脑版，返回 - 点击 `settings.fzs`返回
 
-![](/Filza/Filza-10.png)
+![](https://img.viptv.work/viptv/Filza/Filza-10.png)
 
 
 存储 - 完成，再点击 `settings.fzs`文件，出现警告 - 继续
 
-![](/Filza/Filza-11.png)
+![](https://img.viptv.work/viptv/Filza/Filza-11.png)
 
 
 
 自动退出，重新打开Filza - 设置 - 激活状态显示 `完整版` 破解完成
 
-![](/Filza/Filza-12.png)
+![](https://img.viptv.work/viptv/Filza/Filza-12.png)
 
 
 

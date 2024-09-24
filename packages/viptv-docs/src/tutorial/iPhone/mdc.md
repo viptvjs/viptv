@@ -78,14 +78,14 @@ CVE-2022-46689：Google Project Zero 的 Ian Beer
 
 * 下载：[WDBRemoveThreeAppLimit](https://github.com/zhuowei/WDBRemoveThreeAppLimit/releases)
 
-![](/MDC/MDC-01.png)
+![](https://img.viptv.work/viptv/MDC/MDC-01.png)
 
 
 
 打开牛蛙助手，右上角+ -> 导入资源
 
 
-![](/MDC/MDC-02.png)
+![](https://img.viptv.work/viptv/MDC/MDC-02.png)
 
 
 选择刚下载好的 `WDBRemoveThreeAppLimit`，并导入应用库
@@ -94,30 +94,30 @@ CVE-2022-46689：Google Project Zero 的 Ian Beer
 Safari浏览器下载的默认在文件-icloud云盘-下载里
 :::
 
-![](/MDC/MDC-03.png)
+![](https://img.viptv.work/viptv/MDC/MDC-03.png)
 
 
 选择 `WDBRemoveThreeAppLimit` 签名
 
-![](/MDC/MDC-04.png)
+![](https://img.viptv.work/viptv/MDC/MDC-04.png)
 
 
 立即签名- 安装
 
-![](/MDC/MDC-05.png)
+![](https://img.viptv.work/viptv/MDC/MDC-05.png)
 
 
 打开 `WDBRemoveThreeAppLimit` ，进入会有个提示，点好
 
-![](/MDC/MDC-06.png)
+![](https://img.viptv.work/viptv/MDC/MDC-06.png)
 
 点击 `go`，提示成功后，重启一下手机
 
-![](/MDC/MDC-07.png)
+![](https://img.viptv.work/viptv/MDC/MDC-07.png)
 
 我们继续用牛蛙自签，可以看到我已经装了5个了
 
-![](/MDC/MDC-08.png)
+![](https://img.viptv.work/viptv/MDC/MDC-08.png)
 
 
 
@@ -128,11 +128,11 @@ Safari浏览器下载的默认在文件-icloud云盘-下载里
 主要用于修复右图这种，证书过期打不开的情况
 :::
 
-![](/MDC/MDC-09.png)
+![](https://img.viptv.work/viptv/MDC/MDC-09.png)
 
 进入的提示点好，在点击修复 `Fix Blacklist` 即可
 
-![](/MDC/MDC-10.png)
+![](https://img.viptv.work/viptv/MDC/MDC-10.png)
 
 
 

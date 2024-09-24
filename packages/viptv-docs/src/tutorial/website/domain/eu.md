@@ -8,7 +8,7 @@
 
 官网：https://nic.eu.org/
 
-![](/domain/eu/eu-01.png)
+![](https://img.viptv.work/domain/eu/eu-01.png)
 
 
 ## 特色
@@ -33,47 +33,47 @@
 网站正常更新维护，等一会再来就行了
 :::
 
-![](/domain/eu/eu-02.png)
+![](https://img.viptv.work/domain/eu/eu-02.png)
 
 点击 `Register` 注册
 
-![](/domain/eu/eu-03.png)
+![](https://img.viptv.work/domain/eu/eu-03.png)
 
 
 用 [好维特](https://www.haoweichi.com/Others/ying_guo_shen_fen_sheng_cheng) 生成一个虚拟的英国人信息，当然美国也行
 
-![](/domain/eu/eu-04.png)
+![](https://img.viptv.work/domain/eu/eu-04.png)
 
 按照生成的信息填写，邮箱用自己的就行，建议谷歌邮箱
 
-![](/domain/eu/eu-05.png)
+![](https://img.viptv.work/domain/eu/eu-05.png)
 
 提示需要到邮箱验证激活
 
-![](/domain/eu/eu-06.png)
+![](https://img.viptv.work/domain/eu/eu-06.png)
 
 点击邮箱中的链接激活
 
-![](/domain/eu/eu-07.png)
+![](https://img.viptv.work/domain/eu/eu-07.png)
 
 这里一定要点 `Validate`，显示 `you contact ... now valid.` 即可
 
-![](/domain/eu/eu-08.png)
+![](https://img.viptv.work/domain/eu/eu-08.png)
 
 登录我们的账户，账户名是 `***-FREE`
 
-![](/domain/eu/eu-09.png)
+![](https://img.viptv.work/domain/eu/eu-09.png)
 
 
 ## 申请
 
 登录账号后，点 `New Domain`
 
-![](/domain/eu/eu-10.png)
+![](https://img.viptv.work/domain/eu/eu-10.png)
 
 填写你想申请的完整域名，比如： `**.eu.org`
 
-![](/domain/eu/eu-11.png)
+![](https://img.viptv.work/domain/eu/eu-11.png)
 
 由于官网不提供域名解析，我们借助 [腾讯的DNSPod](https://www.dnspod.cn/) 来生成
 
@@ -83,23 +83,23 @@
 可以，喜欢哪个用哪个，也可以用Cloudflare
 :::
 
-![](/domain/eu/eu-12.png)
+![](https://img.viptv.work/domain/eu/eu-12.png)
 
 点击 我的域名 - 添加域名
 
-![](/domain/eu/eu-13.png)
+![](https://img.viptv.work/domain/eu/eu-13.png)
 
 输入你要申请的域名，或者任意，目的只是为了获取DNS
 
-![](/domain/eu/eu-14.png)
+![](https://img.viptv.work/domain/eu/eu-14.png)
 
 鼠标移动到未解析处，会显示2个DNS
 
-![](/domain/eu/eu-15.png)
+![](https://img.viptv.work/domain/eu/eu-15.png)
 
 回到eu.org底部，选择 `server names` ，分别粘贴两个DNSPod获取的值，点 `Submit` 提交
 
-![](/domain/eu/eu-16.png)
+![](https://img.viptv.work/domain/eu/eu-16.png)
 
 提示 `No error` 没有错误即可，耐心等待审核通过
 
@@ -107,7 +107,7 @@
 有可能几天，有可能几个月，也有可能几年😂
 :::
 
-![](/domain/eu/eu-17.png)
+![](https://img.viptv.work/domain/eu/eu-17.png)
 
 
 

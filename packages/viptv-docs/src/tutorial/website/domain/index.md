@@ -7,7 +7,7 @@
 
 英文名 Domain Name，由于服务器的IP地址不方便记忆，后来通过DNS将域名与IP互相映射，实现了只要通过域名，就可以直接访问服务器
 
-![](/domain/domain-01.png)
+![](https://img.viptv.work/domain/domain-01.png)
 
 
 ## 分类
@@ -44,15 +44,15 @@
 
 
 ::: details 以域名 `yangpaifeng` 为例，对比域名商价格，仅供参考
-![](/domain/domain-02.png)
-![](/domain/domain-03.png)
-![](/domain/domain-04.png)
-![](/domain/domain-05.png)
-![](/domain/domain-06.png)
-![](/domain/domain-07.png)
-![](/domain/domain-08.png)
-![](/domain/domain-09.png)
-![](/domain/domain-10.png)
+![](https://img.viptv.work/domain/domain-02.png)
+![](https://img.viptv.work/domain/domain-03.png)
+![](https://img.viptv.work/domain/domain-04.png)
+![](https://img.viptv.work/domain/domain-05.png)
+![](https://img.viptv.work/domain/domain-06.png)
+![](https://img.viptv.work/domain/domain-07.png)
+![](https://img.viptv.work/domain/domain-08.png)
+![](https://img.viptv.work/domain/domain-09.png)
+![](https://img.viptv.work/domain/domain-10.png)
 :::
 
 

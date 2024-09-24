@@ -13,7 +13,7 @@
 官网：https://cn.wordpress.org/
 
 
-![](/wordpress/wordpress-01.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-01.png)
 
 
 
@@ -35,18 +35,18 @@
 
 在官网点击右上角 [获取wordpress](https://cn.wordpress.org/download/) - 下载，不要解压！一会用
 
-![](/wordpress/wordpress-02.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-02.png)
 
 
 登录宝塔面板后，点 网站 - 添加站点
 
-![](/wordpress/wordpress-03.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-03.png)
 
 
 域名填入你的域名，FTP不创建，数据库MySQL，密码可以自己改的好记一点，提交
 
 
-![](/wordpress/wordpress-04.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-04.png)
 
 
 这样站点就创建完成了
@@ -55,40 +55,40 @@
 要记一下，等会要用
 :::
 
-![](/wordpress/wordpress-05.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-05.png)
 
 
 文件  `/www/wwwroot/dh.***.com` 目录，把里面的文件都删掉！！！
 
-![](/wordpress/wordpress-06.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-06.png)
 
 
 删掉后，上传下载好的wordpress压缩包
 
-![](/wordpress/wordpress-07.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-07.png)
 
 
 然后右键解压
 
-![](/wordpress/wordpress-08.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-08.png)
 
 
 我们进文件夹，把里面文件全部剪切出来
 
-![](/wordpress/wordpress-09.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-09.png)
 
 粘贴到 `/www/wwwroot/dh.***.com` 目录
 
-![](/wordpress/wordpress-10.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-10.png)
 
 删除空文件夹和压缩包即可
 
-![](/wordpress/wordpress-11.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-11.png)
 
 
 访问你的域名，我的是`dh.***.com`，你们按自己的域名来
 
-![](/wordpress/wordpress-12.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-12.png)
 
 
 数据库名和用户名是一样的，密码自己设的，后面2项默认不用改
@@ -97,21 +97,21 @@
 数据主机也可以填IP，表前缀除非有多个wordpress在数据库，避免冲突就改下，否则默认
 :::
 
-![](/wordpress/wordpress-13.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-13.png)
 
 这样就可以了，运行程序
 
-![](/wordpress/wordpress-14.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-14.png)
 
 
 填写站点信息，密码自己改一下
 
-![](/wordpress/wordpress-15.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-15.png)
 
 
 完成后邮箱也会受到消息，我们点登录
 
-![](/wordpress/wordpress-16.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-16.png)
 
 
 
@@ -122,7 +122,7 @@
 
 后台的地址：http://你的域名.com/wp-admin/
 
-![](/wordpress/wordpress-17.png)
+![](https://img.viptv.work/viptv/wordpress/wordpress-17.png)
 
 
 ## 主题

@@ -6,7 +6,7 @@
 
 本来证书申请并不难，有很多方式实现，但是自从 [Let's Encrypt](https://letsencrypt.org/zh-cn/) 由1年变成3个月后，证书自动续签成为刚需，借此机会列举一下证书签发的方式
 
-![](/ssl/ssl-01.png)
+![](https://img.viptv.work/viptv/ssl/ssl-01.png)
 
 
 
@@ -18,7 +18,7 @@
 
 之后在 HTTP 的基础上使用 `SSL证书` 加密，形成了 [HTTPS （超文本传输安全协议）](https://baike.baidu.com/item/HTTPS)
 
-![](/ssl/ssl-02.png)
+![](https://img.viptv.work/viptv/ssl/ssl-02.png)
 
 
 ### SSL/TLS
@@ -29,14 +29,14 @@
 
 如今说的 SSL证书 实际就是指的 TLS证书，也称为 `SSL/TLS证书`
 
-![](/ssl/ssl-03.png)
+![](https://img.viptv.work/viptv/ssl/ssl-03.png)
 
 
 ### CA证书
 
 CA是证书的签发机构（Certificate Authority），它们负责签发SSL证书，CA证书包含了SSL证书以及签名证书等信息
 
-![](/ssl/ssl-04.png)
+![](https://img.viptv.work/viptv/ssl/ssl-04.png)
 
 
 
@@ -46,15 +46,15 @@ SSL安全证书本来是一个价格高昂的付费服务，但为了加快推�
 
 一个公益组织 ISRG（Internet Security Research Group，互联网安全研究小组），于2015年推出了 [Let's Encrypt](https://letsencrypt.org/zh-cn/) 免费证书
 
-![](/ssl/ssl-05.png)
+![](https://img.viptv.work/viptv/ssl/ssl-05.png)
 
 Let's Encrypt 设计了一个 ACME 协议（目前最新是v2），这个协议可以通过客户端全自动化申请证书，官方推荐的客户端是 [Certbot](https://certbot.eff.org/)
 
-![](/ssl/ssl-06.png)
+![](https://img.viptv.work/viptv/ssl/ssl-06.png)
 
 网站没有SSL证书，访问就会提示你不安全的网站，有SSL证书的有绿色小锁标志
 
-![](/ssl/ssl-07.png)
+![](https://img.viptv.work/viptv/ssl/ssl-07.png)
 
 
 

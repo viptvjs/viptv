@@ -15,7 +15,7 @@
 * 静态：无数据库，不可注册用户
 :::
 
-![](/pages/pages-01.png)
+![](https://img.viptv.work/viptv/pages/pages-01.png)
 
 
 ## 托管服务商

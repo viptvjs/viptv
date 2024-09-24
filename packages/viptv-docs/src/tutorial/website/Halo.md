@@ -11,7 +11,7 @@
 
 [演示](https://demo.halo.run/) 丨 [仓库](https://github.com/halo-dev/halo/) 丨 [文档](https://docs.halo.run/)
 
-![](/halo/halo.png)
+![](https://img.viptv.work/viptv/halo/halo.png)
 
 
 
@@ -51,7 +51,7 @@ mkdir ~/.halo && cd ~/.halo
 wget https://dl.halo.run/config/application-template.yaml -O ./application.yaml
 ```
 
-![](/halo/halo-01.png)
+![](https://img.viptv.work/viptv/halo/halo-01.png)
 
 
 编辑配置文件，[☛ 官方配置文档参考](https://docs.halo.run/getting-started/config/)
@@ -157,7 +157,7 @@ cache: memory
 docker pull halohub/halo:latest
 ```
 
-![](/halo/halo-02.png)
+![](https://img.viptv.work/viptv/halo/halo-02.png)
 
 
 
@@ -186,7 +186,7 @@ halohub/halo:latest
 `--restart` 建议设置为 unless-stopped，在 Docker 启动的时候自动启动 Halo 容器
 :::
 
-![](/halo/halo-03.png)
+![](https://img.viptv.work/viptv/halo/halo-03.png)
 
 
 如果你想域名访问网站，请看完所有步骤！！！
@@ -217,12 +217,12 @@ firewall-cmd --zone=public --add-port=8090/tcp --permanent
 已装的无视
 :::
 
-![](/halo/halo-04.png)
+![](https://img.viptv.work/viptv/halo/halo-04.png)
 
 
 网站-添加站点-输入域名，FTP 和 数据库均不创建数据库，PHP纯静态
 
-![](/halo/halo-05.png)
+![](https://img.viptv.work/viptv/halo/halo-05.png)
 
 
 
@@ -238,23 +238,23 @@ SSL证书可以实现加密传输，也可以消除不安全网站提示
 
 搜索SSL证书进入，申请免费证书
 
-![](/halo/halo-06.png)
+![](https://img.viptv.work/viptv/halo/halo-06.png)
 
 
-![](/halo/halo-07.png)
+![](https://img.viptv.work/viptv/halo/halo-07.png)
 
 填写域名信息，即可申请成功后，下载Nginx格式
 
-![](/halo/halo-08.png)
+![](https://img.viptv.work/viptv/halo/halo-08.png)
 
-![](/halo/halo-09.png)
+![](https://img.viptv.work/viptv/halo/halo-09.png)
 
 
 宝塔网站-域名-SSL-其他证书，这里需要 `KEY` 和 `PEM`
 
 我们从下载的安装包里找到对应文件，记事本方式打开复制粘贴进去，保存
 
-![](/halo/halo-10.png)
+![](https://img.viptv.work/viptv/halo/halo-10.png)
 
 
 
@@ -265,7 +265,7 @@ SSL证书可以实现加密传输，也可以消除不安全网站提示
 
 宝塔网站-域名-配置文件，把下面这一段加在第一行
 
-![](/halo/halo-11.png)
+![](https://img.viptv.work/viptv/halo/halo-11.png)
 
 ::: tip 说明
 8090为运行端口
@@ -317,7 +317,7 @@ location / {
 
 参考示例如图
 
-![](/halo/halo-12.png)
+![](https://img.viptv.work/viptv/halo/halo-12.png)
 
 
 
@@ -332,13 +332,13 @@ location / {
 这里的账密是后台登录用的，自己记好
 :::
 
-![](/halo/halo-13.png)
+![](https://img.viptv.work/viptv/halo/halo-13.png)
 
 
 
 后台登录：`http://域名/admin`
 
-![](/halo/halo-14.png)
+![](https://img.viptv.work/viptv/halo/halo-14.png)
 
 
 
@@ -348,11 +348,11 @@ location / {
 
 主题商店：[https://halo.run/themes.html](https://halo.run/themes.html)
 
-![](/halo/halo-15.png)
+![](https://img.viptv.work/viptv/halo/halo-15.png)
 
 启用上传的主题包即可，更新方法也是一样
 
-![](/halo/halo-16.png)
+![](https://img.viptv.work/viptv/halo/halo-16.png)
 
 
 

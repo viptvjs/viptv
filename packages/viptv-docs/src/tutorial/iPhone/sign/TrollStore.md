@@ -113,16 +113,16 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 
 使用前，先安装好 [牛蛙助手](./bullfrog.md) ，然后再下载 [TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX/releases)
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-01.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-01.png)
 
 下载完成后，点击浏览器 `下载` 按键，再点击已经下载好的 `TrollInstallerX`
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-02.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-02.png)
 
 
 右上角分享，选择 `牛蛙助手`
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-03.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-03.png)
 
 点 `发送`，牛蛙打开后，选择 `导入`
 
@@ -130,38 +130,38 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 如果勿点了取消，也可直接点 `TrollInstallerX.ipa` 选择导入应用库
 :::
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-04.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-04.png)
 
 
 点击 `TrollInstallerX` ，选择 `签名` - `立即签名`
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-05.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-05.png)
 
 
 在已签名的页卡中，选择刚签好名的 `TrollInstallerX` 安装
 
 但牛蛙安装必须要开启`VPN和WIFI`，我们去打开
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-06.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-06.png)
 
 设置 - VPN - 勾选 `牛蛙助手` - 打开VPN开关
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-07.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-07.png)
 
 打开VPN后我们返回重新安装 TrollInstallerX 即可
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-08.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-08.png)
 
 TrollInstallerX 就安装成功了，但是还打不开，要信任一下
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-09.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-09.png)
 
 
 设置 - 通用 - VPN与设备管理 - 选择 开发者APP - `信任`
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-10.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-10.png)
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-11.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-11.png)
 
 
 再次打开 TrollInstallerX ，会根据系统自动提供方案
@@ -173,12 +173,12 @@ TrollInstallerX 就安装成功了，但是还打不开，要信任一下
 * Unsandboxing：沙盒安装，通过利用MDC或者KFD漏洞安装
 :::
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-12.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-12.png)
 
 弹窗提示开始利用漏洞，进入主界面安装 `Install TrollStore`
 
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-13.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-13.png)
 
 选择一个 `Persistence Helper` ，即持久性助手，我就直接选了 `Tips`
 
@@ -188,7 +188,7 @@ TrollInstallerX 就安装成功了，但是还打不开，要信任一下
 可能需要翻墙，[科学上网工具及使用方法](../../gfw/channel)
 :::
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-14.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-14.png)
 
 
 手机桌面巨魔安装成功，可以直接看 [巨魔界面介绍](#界面介绍)
@@ -199,11 +199,11 @@ TrollInstallerX 就安装成功了，但是还打不开，要信任一下
 如果你选了 `Tips` ，打开提示APP，它会变身成巨魔安装器，点 `Insatll TrollStore` 安装巨魔即可
 :::
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-15.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-15.png)
 
 安装器 TrollInstallerX 可以卸载了，用不上了
 
-![](/TrollStore/TrollInstallerX/TrollInstallerX-16.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollInstallerX/TrollInstallerX-16.png)
 
 
 
@@ -225,7 +225,7 @@ TrollInstallerX 就安装成功了，但是还打不开，要信任一下
 
 根据自己的系统选择安装链接
 
-![](/TrollStore/OTA/OTA-01.png)
+![](https://img.viptv.work/viptv/TrollStore/OTA/OTA-01.png)
 
 
 安装的是 `GTA Car Tracker` ，打开点安装 `Install Trollstore`
@@ -237,7 +237,7 @@ TrollInstallerX 就安装成功了，但是还打不开，要信任一下
 
 自动注销后，手机桌面巨魔安装成功，可以直接看 [巨魔界面介绍](#界面介绍)
 
-![](/TrollStore/OTA/OTA-02.png)
+![](https://img.viptv.work/viptv/TrollStore/OTA/OTA-02.png)
 
 
 
@@ -253,13 +253,13 @@ TrollInstallerX 就安装成功了，但是还打不开，要信任一下
 用巨魔安装的应用，只能在巨魔的APP界面，左滑卸载
 
 
-![](/TrollStore/TrollStore-01.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-01.png)
 
 使用巨魔前确保 `Idid` 和 `Persistence Helper` 是否已经安装
 
 已安装的无视，没有安装就请自行安装！
 
-![](/TrollStore/TrollStore-01-1.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-01-1.png)
 
 
 
@@ -290,21 +290,21 @@ TrollInstallerX 就安装成功了，但是还打不开，要信任一下
 
 打开链接，先下载授权的版本
 
-![](/TrollStore/TrollStore-02.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-02.png)
 
 下载完成后，点击查看，点击文件
 
-![](/TrollStore/TrollStore-03.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-03.png)
 
 右上角分享，用巨魔 `TrollStore` 打开安装即可
 
-![](/TrollStore/TrollStore-04.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-04.png)
 
 然后同样的方法，覆盖安装破解的可搜索的v1.4.1版本即可
 
 https://www.mediafire.com/file/0pfhnyv3twnw3f6/
 
-![](/TrollStore/TrollStore-05.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-05.png)
 
 ::::
 
@@ -320,71 +320,71 @@ https://www.mediafire.com/file/0pfhnyv3twnw3f6/
 
 https://github.com/opa334/TrollStore/releases
 
-![](/TrollStore/TrollStore-06.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-06.png)
 
 点下载，在点击下载好的包
 
-![](/TrollStore/TrollStore-07.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-07.png)
 
 长按 - 共享
 
-![](/TrollStore/TrollStore-08.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-08.png)
 
 选择 轻松签 ，然后点击 `TrollStore.tar` 解压2次
 
-![](/TrollStore/TrollStore-09.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-09.png)
 
 得到 `TrollStore.app` 文件夹，点击选择 `签名` - 更多设置
 
-![](/TrollStore/TrollStore-10.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-10.png)
 
 桌面图标，选一张你自己喜欢的，除了 `仅修改配置，不签名` 开关打开，其他全部关闭
 
 ::: details 分享几个图片吧
 
-![](/TrollStore/icon/icon-01.png)
+![](https://img.viptv.work/viptv/TrollStore/icon/icon-01.png)
 
-![](/TrollStore/icon/icon-02.jpg)
+![](https://img.viptv.work/viptv/TrollStore/icon/icon-02.jpg)
 
-![](/TrollStore/icon/icon-03.png)
+![](https://img.viptv.work/viptv/TrollStore/icon/icon-03.png)
 
-![](/TrollStore/icon/icon-04.png)
+![](https://img.viptv.work/viptv/TrollStore/icon/icon-04.png)
 
-![](/TrollStore/icon/icon-05.jpg)
+![](https://img.viptv.work/viptv/TrollStore/icon/icon-05.jpg)
 
-![](/TrollStore/icon/icon-06.jpg)
+![](https://img.viptv.work/viptv/TrollStore/icon/icon-06.jpg)
 
-![](/TrollStore/icon/icon-07.jpg)
+![](https://img.viptv.work/viptv/TrollStore/icon/icon-07.jpg)
 
-![](/TrollStore/icon/icon-08.jpg)
+![](https://img.viptv.work/viptv/TrollStore/icon/icon-08.jpg)
 
-![](/TrollStore/icon/icon-09.jpg)
+![](https://img.viptv.work/viptv/TrollStore/icon/icon-09.jpg)
 
-![](/TrollStore/icon/icon-10.png)
+![](https://img.viptv.work/viptv/TrollStore/icon/icon-10.png)
 
-![](/TrollStore/icon/icon-11.jpg)
+![](https://img.viptv.work/viptv/TrollStore/icon/icon-11.jpg)
 
-![](/TrollStore/icon/icon-12.jpg)
+![](https://img.viptv.work/viptv/TrollStore/icon/icon-12.jpg)
 
 :::
 
-![](/TrollStore/TrollStore-11.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-11.png)
 
-![](/TrollStore/TrollStore-12.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-12.png)
 
 签名好后不要安装，`退出` ，文件列表进入 `YYYAppFolder` 文件夹
 
-![](/TrollStore/TrollStore-13.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-13.png)
 
 在 `SignedApps` 找到 刚签好名的ipa，解压，进入 `Payload`
 
-![](/TrollStore/TrollStore-14.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-14.png)
 
-![](/TrollStore/TrollStore-15.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-15.png)
 
 将解压后的 `TrollStore.app` 文件夹压缩成zip，然后点 `i` 重命名为 `TrollStore.tar`
 
-![](/TrollStore/TrollStore-16.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-16.png)
 
 然后分享给巨魔安装，自动注销后，就能看到图标已经变了
 
@@ -392,7 +392,7 @@ https://github.com/opa334/TrollStore/releases
 想改回来，去下载官方包分享给巨魔安装即可
 :::
 
-![](/TrollStore/TrollStore-17.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-17.png)
 
 
 :::: 
@@ -413,31 +413,31 @@ https://github.com/opa334/TrollStore/releases
 
 然后下载由 [@赵楠](https://github.com/invalidunit) 大佬提供的文件：https://www.mediafire.com/file/4cpvykfuu2biqeo/
 
-![](/TrollStore/TrollStore-18.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-18.png)
 
 下载 - 选择下好的文件
 
-![](/TrollStore/TrollStore-19.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-19.png)
 
 右上分享 - 用 `Filza` 打开
 
-![](/TrollStore/TrollStore-20.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-20.png)
 
 进入了Filza的 `/var/mobile/Documents` 目录，长按导入的文件 `复制`
 
-![](/TrollStore/TrollStore-21.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-21.png)
 
 左上返回找到目录 `/var/Managed Preferences/mobile`
 
-![](/TrollStore/TrollStore-22.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-22.png)
 
 在此处左下角粘贴刚复制的文件
 
-![](/TrollStore/TrollStore-23.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-23.png)
 
 在目录后，打开巨魔注销一下就可以了
 
-![](/TrollStore/TrollStore-24.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-24.png)
 
 我们下拉控制中心就能看到了
 
@@ -445,7 +445,7 @@ https://github.com/opa334/TrollStore/releases
 文件是从iPad提取出来，只是手机上屏蔽了，我们通过文件恢复了，100%安全
 :::
 
-![](/TrollStore/TrollStore-25.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-25.png)
 
 
 ::::
@@ -489,11 +489,11 @@ Safari打开：https://static.itsnebula.net/apple/noota/17.mobileconfig
 注意：提示描述文件无效签名无效的问题，是你时间没改对
 :::
 
-![](/TrollStore/TrollStore-26.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-26.png)
 
 设置中点开描述文件安装
 
-![](/TrollStore/TrollStore-27.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-27.png)
 
 安装完重不重启都可以，这样更新界面就不再推送了
 
@@ -507,7 +507,7 @@ Safari打开：https://static.itsnebula.net/apple/noota/17.mobileconfig
 无视即可，删掉也行
 :::
 
-![](/TrollStore/TrollStore-28.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-28.png)
 
 ---
 
@@ -519,9 +519,9 @@ Safari打开：https://static.itsnebula.net/apple/noota/17.mobileconfig
 
 进入 `/usr/bin/` 目录，找到 `vm_stat` 打开运行
 
-![](/TrollStore/TrollStore-29.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-29.png)
 
-![](/TrollStore/TrollStore-30.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-30.png)
 
 复制下面代码，Paste粘贴
 
@@ -531,7 +531,7 @@ rm -rf /var/MobileSoftwareUpdate/MobileAsset/AssetsV2/* && chflags schg,schange,
 
 这就苹果就彻底无法更新了
 
-![](/TrollStore/TrollStore-31.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-31.png)
 
 ::: details 想还原使用：恢复命令
 
@@ -565,7 +565,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 以 `抖音` 为例，打开 AppsDump2，选择抖音 - `脱壳 - 打包ipa`
 
-![](/TrollStore/TrollStore-32.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-32.png)
 
 解密完成后，可 `共享文件` 导入到轻松签，进行多开和注入插件等
 
@@ -575,7 +575,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 删掉多余的ipa文件
 :::
 
-![](/TrollStore/TrollStore-33.png)
+![](https://img.viptv.work/viptv/TrollStore/TrollStore-33.png)
 
 ::: warning 注意
 微信砸出来非全权限，没有分享等小组件

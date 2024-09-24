@@ -30,12 +30,12 @@
 
 控制台-云产品-云服务器-登录
 
-![](/Centos/Centos-01.png)
+![](https://img.viptv.work/viptv/Centos/Centos-01.png)
 
 
 选择下方的 `VNC登录`
 
-![](/Centos/Centos-02.png)
+![](https://img.viptv.work/viptv/Centos/Centos-02.png)
 
 
 进入命令行界面，我们输入账号密码登录
@@ -44,9 +44,9 @@
 账号默认为root，密码自己设置的服务器密码
 :::
 
-![](/Centos/Centos-03.png)
+![](https://img.viptv.work/viptv/Centos/Centos-03.png)
 
-![](/Centos/Centos-04.png)
+![](https://img.viptv.work/viptv/Centos/Centos-04.png)
 
 
 
@@ -68,7 +68,7 @@ yum groupinstall "X Window System" -y
 后面的命令也这样粘贴
 :::
 
-![](/Centos/Centos-05.png)
+![](https://img.viptv.work/viptv/Centos/Centos-05.png)
 
 
 ### 安装 GNOME
@@ -88,39 +88,39 @@ yum groupinstall -y "GNOME Desktop"
 init 5
 ```
 
-![](/Centos/Centos-06.png)
+![](https://img.viptv.work/viptv/Centos/Centos-06.png)
 
 
 设置下语言 `汉语`
 
-![](/Centos/Centos-07.png)
+![](https://img.viptv.work/viptv/Centos/Centos-07.png)
 
-![](/Centos/Centos-08.png)
+![](https://img.viptv.work/viptv/Centos/Centos-08.png)
 
 
 隐私默认，位置也默认是上海
 
-![](/Centos/Centos-09.png)
+![](https://img.viptv.work/viptv/Centos/Centos-09.png)
 
-![](/Centos/Centos-10.png)
+![](https://img.viptv.work/viptv/Centos/Centos-10.png)
 
 在线账号跳过
 
-![](/Centos/Centos-11.png)
+![](https://img.viptv.work/viptv/Centos/Centos-11.png)
 
 
 设置下登录的账号和密码，登录用的
 
-![](/Centos/Centos-12.png)
+![](https://img.viptv.work/viptv/Centos/Centos-12.png)
 
-![](/Centos/Centos-13.png)
+![](https://img.viptv.work/viptv/Centos/Centos-13.png)
 
 
 设置成功，进入桌面
 
-![](/Centos/Centos-14.png)
+![](https://img.viptv.work/viptv/Centos/Centos-14.png)
 
-![](/Centos/Centos-15.png)
+![](https://img.viptv.work/viptv/Centos/Centos-15.png)
 
 
 
@@ -172,7 +172,7 @@ firewall-cmd-reload
 
 右上角-应用程序-Firefox
 
-![](/Centos/Centos-16.png)
+![](https://img.viptv.work/viptv/Centos/Centos-16.png)
 
 :::
 

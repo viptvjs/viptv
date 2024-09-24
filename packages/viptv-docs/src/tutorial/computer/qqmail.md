@@ -17,7 +17,7 @@
 
 打开QQ邮箱，设置-其他邮箱-添加其他邮箱账户
 
-![](/qqmail/qqmail-01.png)
+![](https://img.viptv.work/viptv/qqmail/qqmail-01.png)
 
 
 
@@ -30,7 +30,7 @@
 目前已不支持谷歌邮箱了
 :::
 
-![](/qqmail/qqmail-02.png)
+![](https://img.viptv.work/viptv/qqmail/qqmail-02.png)
 
 
 
@@ -42,14 +42,14 @@
 
 先登录网易邮箱 - 设置- `POP3/SMTP/IMAP`
 
-![](/qqmail/qqmail-03.png)
+![](https://img.viptv.work/viptv/qqmail/qqmail-03.png)
 
 
 
 
 开启POP服务，会让你发个短信
 
-![](/qqmail/qqmail-04.png)
+![](https://img.viptv.work/viptv/qqmail/qqmail-04.png)
 
 
 发送短信完成后，提示开启成功，并给了一个授权码，复制出来，要用
@@ -59,7 +59,7 @@
 :::
 
 
-![](/qqmail/qqmail-05.png)
+![](https://img.viptv.work/viptv/qqmail/qqmail-05.png)
 
 
 
@@ -75,13 +75,13 @@
 不然前面捣鼓那么半天，是干啥的
 :::
 
-![](/qqmail/qqmail-06.png)
+![](https://img.viptv.work/viptv/qqmail/qqmail-06.png)
 
 
 
 这样就添加成功了，其他邮箱同理
 
-![](/qqmail/qqmail-07.png)
+![](https://img.viptv.work/viptv/qqmail/qqmail-07.png)
 
 
 ## 常见问题

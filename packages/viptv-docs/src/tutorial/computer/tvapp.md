@@ -24,7 +24,7 @@
 :::
 
 
-![](/tvapp/tvapp-01.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-01.png)
 
 
 下载后请 [参考自己的品牌安装方式](https://www.znds.com/jc/)
@@ -33,7 +33,7 @@
 有的电视，自带商店可直装；有的要下载到U盘，插入电视安装
 :::
 
-![](/tvapp/tvapp-02.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-02.png)
 
 
 我家电视是海信，但是盒子用的是 `创维A810` ，常用的盒子就找盒子的型号
@@ -42,18 +42,18 @@
 界面没找到，我直接搜竟然有，就离谱
 :::
 
-![](/tvapp/tvapp-03.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-03.png)
 
 
 根据教程，我需要下载好APP，并在U盘新建一个文件夹 `mipt_apks`，再把文件放进去
 
 
-![](/tvapp/tvapp-04.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-04.png)
 
 
 U盘插上电视，就自动安装完成了
 
-![](/tvapp/tvapp-05.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-05.png)
 
 
 
@@ -70,33 +70,33 @@ U盘插上电视，就自动安装完成了
 
 雷电模拟器官网：https://www.ldmnq.com/
 
-![](/tvapp/tvapp-06.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-06.png)
 
 
 
 安装好后，打开
 
-![](/tvapp/tvapp-07.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-07.png)
 
 
 去下载当贝市场：http://www.dangbei.com/
 
 拖入模拟器安装
 
-![](/tvapp/tvapp-08.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-08.png)
 
 
 
 然后进去当贝搜索 `DSTB`（电视淘宝的开头首字母），安装
 
-![](/tvapp/tvapp-09.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-09.png)
 
-![](/tvapp/tvapp-10.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-10.png)
 
 
 如果页面显示不全，右边齿轮 `设置` 改成 `1080P`，保存设置
 
-![](/tvapp/tvapp-11.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-11.png)
 
 
 
@@ -110,7 +110,7 @@ U盘插上电视，就自动安装完成了
 鼠标点击或回车键 —— 遥控器的OK
 :::
 
-![](/tvapp/tvapp-12.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-12.png)
 
 
 
@@ -120,11 +120,11 @@ U盘插上电视，就自动安装完成了
 > 其他apk导出同理
 
 
-![](/tvapp/tvapp-13.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-13.png)
 
 这样我们就得到了安装apk的应用包，发给小伙伴即可
 
-![](/tvapp/tvapp-14.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-14.png)
 
 
 
@@ -136,7 +136,7 @@ U盘插上电视，就自动安装完成了
 否则会默认复制第一个，也就是0号模拟器
 :::
 
-![](/tvapp/tvapp-15.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-15.png)
 
 
 这样就双开了，多开非常吃内存，开多了卡
@@ -145,7 +145,7 @@ U盘插上电视，就自动安装完成了
 最多同时开2个，关掉后，再打开另外的
 :::
 
-![](/tvapp/tvapp-16.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-16.png)
 
 
 
@@ -161,42 +161,42 @@ U盘插上电视，就自动安装完成了
 
 开启ADB：设置 - 系统 - 系统信息
 
-![](/tvapp/tvapp-17.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-17.png)
 
-![](/tvapp/tvapp-18.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-18.png)
 
 
 用遥控器依次点击 `上下左右`，看到桌面弹出ADB开关，将ADB开启
 
 
-![](/tvapp/tvapp-19.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-19.png)
 
-![](/tvapp/tvapp-20.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-20.png)
 
-![](/tvapp/tvapp-21.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-21.png)
 
 
 查看电视IP：设置 - 网络 - 有线/无线网络 - 网络详情
 
 
-![](/tvapp/tvapp-22.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-22.png)
 
 拍照记住这个IP，一会要用到，我的是 `192.168.2.242`
 
-![](/tvapp/tvapp-23.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-23.png)
 
-![](/tvapp/tvapp-24.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-24.png)
 
 
 
 下载 [ADB windows版本](https://dl.google.com/android/repository/platform-tools_r33.0.0-windows.zip) 并解压
 
-![](/tvapp/tvapp-25.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-25.png)
 
 `windows+R`组合键，打开运行输入`sysdm.cpl` 回车，进入系统属性 - `高级 - 环境变量`
 
 
-![](/tvapp/tvapp-26.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-26.png)
 
 
 系统变量点击 `path - 编辑`，新建一个环境变量，将解压的路径填进去，确定保存
@@ -205,7 +205,7 @@ U盘插上电视，就自动安装完成了
 我的ADB解压路径为：D:\Downloads\Desktop\platform-tools_r33.0.0-windows\platform-tools
 :::
 
-![](/tvapp/tvapp-27.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-27.png)
 
 `windows+R`组合键，打开运行输入`cmd` 回车，然后输入 `adb --version` 会显示当前的adb版本信息，即为安装成功
 
@@ -214,7 +214,7 @@ U盘插上电视，就自动安装完成了
 ```sh
 adb --version
 ```
-![](/tvapp/tvapp-28.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-28.png)
 
 
 
@@ -225,12 +225,12 @@ adb --version
 adb connect 你的ip
 ```
 
-![](/tvapp/tvapp-29.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-29.png)
 
 
 这时候电视会弹窗，勾选后确定
 
-![](/tvapp/tvapp-30.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-30.png)
 
 
 根据提示加上端口，再次连接电视
@@ -243,7 +243,7 @@ adb connect 你的ip:5555
 :::
 
 
-![](/tvapp/tvapp-31.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-31.png)
 
 
 
@@ -264,7 +264,7 @@ shell setprop persist.tcl.debug.installapk 1
 exit #退出，弄完一定要退出来
 ```
 
-![](/tvapp/tvapp-32.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-32.png)
 
 
 这样就可以安装第三方应用了，我们下载 [package view.apk](https://dzp.lanzouj.com/iqqVS1pihuyb) 到电脑
@@ -278,11 +278,11 @@ adb install xxxx.apk #apk所在路径
 
 提示 `Success` 就是安装成功了
 
-![](/tvapp/tvapp-33.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-33.png)
 
 打开应用就能所有应用的包名了，可以拍下并记住要卸载的包名
 
-![](/tvapp/tvapp-34.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-34.png)
 
 
 进入 `adb shell` 卸载自带应用
@@ -303,11 +303,11 @@ cmd package install-existing com.tcl.tshop #恢复T商店
 exit #退出adb shell
 ```
 
-![](/tvapp/tvapp-35.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-35.png)
 
 这样电视的应用里就没有了 `T商店` 了
 
-![](/tvapp/tvapp-36.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-36.png)
 
 ::: details 其他使用命令
 ```sh
@@ -325,7 +325,7 @@ pm enable com.tcl.versionUpdateApp #打开系统版本更新
 
 注：关掉杀软使用，也不是清理的百分百干净
 
-![](/tvapp/tvapp-37.png)
+![](https://img.viptv.work/viptv/tvapp/tvapp-37.png)
 
 
 
