@@ -25,7 +25,6 @@ export default defineClientConfig({
     setupTransparentNavbar();
   },
   rootComponents: [
-    NavMusic,
-    // ...
+    NavMusic
   ],
 });

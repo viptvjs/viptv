@@ -14,18 +14,7 @@ export default hopeTheme(
     favicon: "favicon.ico",
     breadcrumb: true, // 面包屑导航
     logo: "logo.svg",
-    docsRepo: "viptv-work/viptv",
     docsDir: "src",
-    pageInfo: [
-      "Original",
-      "Date",
-      "Category",
-      "Tag",
-      "ReadingTime",
-      "Word",
-      "PageView",
-    ],
-    repoLabel: "GitHub", // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
     repo: "viptv-work/viptv", // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     repoDisplay: true, //是否在导航栏显示仓库链接，默认为 `true`
     fullscreen: true, //全屏按钮
@@ -42,7 +31,7 @@ export default hopeTheme(
     navbarLayout: {
       start: ["Brand"],
       center: ["Links"],
-      end: ["Language", "SocialLink", "Repo", "Outlook", "Search"],
+      end: ["Language", "SocialLink", "Repo", "Outlook"],
     },
 
     locales: {
@@ -52,19 +41,6 @@ export default hopeTheme(
         displayFooter: false,
         footer: "极速 、 高清 、 无广告", // 页脚
         copyright: "MIT 协议 | 版权所有 © 2020-至今 Mr.Hefung",
-        blog: {
-          description: "一个前端开发者",
-          intro: "/about/portfolio.html",
-        },
-
-        blogLocales: {
-          tutorial: "教程",
-        },
-
-        // Page meta
-        metaLocales: {
-          editLink: "在 GitHub 上编辑此页",
-        },
       },
       "/en/": {
         navbar: enNavbar,
@@ -72,18 +48,6 @@ export default hopeTheme(
         displayFooter: false,
         footer: "Best IPTV Subscription Provider.", // 页脚
         copyright: "MIT Licensed | Copyright © 2020-present Mr.Hefung",
-        blog: {
-          description: "A FrontEnd programmer",
-          intro: "/about/portfolio.html",
-        },
-
-        blogLocales: {
-          tutorial: "Tutorial",
-        },
-
-        metaLocales: {
-          editLink: "Edit this page on GitHub",
-        },
       },
     },
     blog: {
@@ -122,7 +86,7 @@ export default hopeTheme(
           })
         ],
       },
-      /*    comment: {
+      /* comment: {
            provider: 'Giscus',
            comment: true,
            repo: 'viptv-work/viptv',
@@ -181,12 +145,7 @@ export default hopeTheme(
           showOnce: false,
         },
       ],
-      searchPro: {
-        indexContent: true,
-        hotReload: true,
-        searchDelay: 800,
-        suggestDelay: 300,
-      },
+
       watermark: {
         enabled: true,
       },

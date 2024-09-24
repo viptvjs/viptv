@@ -87,13 +87,6 @@ const Dash = async (
     }
   }
 };
-function saveDanmu(danmu) {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(true);
-    }, 1000);
-  });
-}
 
 export const mpConfig = (playlist: playlist[]) => {
   return {
@@ -126,7 +119,7 @@ export const mpConfig = (playlist: playlist[]) => {
       }), */
       artplayerPlaylist({
         rebuildPlayer: false, // 换P时重建播放器，默认false
-        onchanged: () => {}, // 换P后的回调函数
+        onchanged: () => { }, // 换P后的回调函数
         autoNext: true,
         playlist,
       }),
