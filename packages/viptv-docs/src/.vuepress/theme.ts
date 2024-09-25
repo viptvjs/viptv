@@ -11,10 +11,9 @@ export default hopeTheme(
       url: "/about/us",
     },
     iconAssets: "fontawesome-with-brands",
-    favicon: "favicon.ico",
+    favicon: "/favicon.ico",
     breadcrumb: true, // 面包屑导航
-    logo: "logo.svg",
-    docsDir: "src",
+    logo: "/logo.svg",
     repo: "viptv-work/viptv", // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     repoDisplay: true, //是否在导航栏显示仓库链接，默认为 `true`
     fullscreen: true, //全屏按钮
@@ -31,21 +30,21 @@ export default hopeTheme(
     navbarLayout: {
       start: ["Brand"],
       center: ["Links"],
-      end: ["Language", "SocialLink", "Repo", "Outlook"],
+      end: ["Search", "Language", "SocialLink", "Repo", "Outlook"],
     },
 
     locales: {
       "/": {
         navbar: zhNavbar,
         sidebar: zhSidebar,
-        displayFooter: false,
+        displayFooter: true,
         footer: "极速 、 高清 、 无广告", // 页脚
         copyright: "MIT 协议 | 版权所有 © 2020-至今 Mr.Hefung",
       },
       "/en/": {
         navbar: enNavbar,
         sidebar: enSidebar,
-        displayFooter: false,
+        displayFooter: true,
         footer: "Best IPTV Subscription Provider.", // 页脚
         copyright: "MIT Licensed | Copyright © 2020-present Mr.Hefung",
       },
@@ -73,6 +72,11 @@ export default hopeTheme(
     },
     editLink: false,
     plugins: {
+      docsearch: {
+        appId: '07HAH4T70R',
+        apiKey: 'a91e7cc371df5b92374ba362cbfb1ef6',
+        indexName: 'viptv',
+      },
       blog: {
         hotReload: true, // 启用热更新
         excerpt: true, //是否生成摘要。
@@ -110,7 +114,7 @@ export default hopeTheme(
           "VPBanner",
           "SiteInfo",
           "VidStack",
-        ],
+        ]
       },
       copyright: true,
 
@@ -147,9 +151,10 @@ export default hopeTheme(
       ],
 
       watermark: {
-        enabled: true,
+        enabled: false,
       },
       markdownHint: {
+        hint: true,
         alert: true,
       },
       markdownImage: {
@@ -160,7 +165,10 @@ export default hopeTheme(
       },
       markdownMath: true,
       markdownTab: {
+        // 启用代码选项卡
         codeTabs: true,
+        // 启用选项卡
+        tabs: true,
       },
       prismjs: true,
       mdEnhance: {
@@ -170,14 +178,15 @@ export default hopeTheme(
         breaks: true, //是否将段落中的 \n 转换为 <br>
         linkify: true, //是否将文字中的链接格式文字转换为链接
         gfm: true, //是否支持完整的 GFM 语法
-        mark: true,
-        markmap: true,
+        mark: true, // 开启标记
+        tasklist: true, // 启用任务列表
+        include: true, // 启用导入支持
+        markmap: true, // 启用 Markmap
         spoiler: true, //是否启用剧透支持。
         component: true, //是否启用组件支持
         footnote: true, //是否启用脚注格式支持
         sub: true, //是否启用下角标格式支持
         sup: true, //是否启用上角标格式支持。
-        tasklist: true, //是否启用任务列表格式支持
         stylize: [
           //样式化
           {
@@ -199,6 +208,64 @@ export default hopeTheme(
           },
         ],
       },
+
+      pwa: {
+        favicon: "/favicon.ico",
+        cacheHTML: true,
+        cacheImage: true,
+        appendBase: true,
+        apple: {
+          icon: "/assets/png/VIPTV-LOGO-192x192.png",
+          statusBarColor: "black",
+        },
+        msTile: {
+          image: "/assets/png/VIPTV-LOGO-192x192.png",
+          color: "#ffffff",
+        },
+        manifest: {
+          icons: [
+            {
+              src: "/assets/png/VIPTV-LOGO-512x512.png",
+              sizes: "512x512",
+              purpose: "maskable",
+              type: "image/png",
+            },
+            {
+              src: "/assets/png/VIPTV-LOGO-192x192.png",
+              sizes: "192x192",
+              purpose: "maskable",
+              type: "image/png",
+            },
+            {
+              src: "/assets/png/VIPTV-LOGO-512x512.png",
+              sizes: "512x512",
+              type: "image/png",
+            },
+            {
+              src: "/assets/png/VIPTV-LOGO-192x192.png",
+              sizes: "192x192",
+              type: "image/png",
+            },
+          ],
+          shortcuts: [
+            {
+              name: "VIPTV",
+              // eslint-disable-next-line @typescript-eslint/naming-convention
+              short_name: "VIPTV",
+              url: "/",
+              icons: [
+                {
+                  src: "/assets/png/VIPTV-LOGO-192x192.png",
+                  sizes: "192x192",
+                  purpose: "maskable",
+                  type: "image/png",
+                },
+              ],
+            },
+          ],
+        },
+      },
+
       revealjs: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
         themes: [
@@ -216,6 +283,28 @@ export default hopeTheme(
           "white",
         ],
       },
+
+      /* searchPro: {
+        indexContent: true,
+        hotReload: true,
+        customFields: [
+          {
+            getter: ({ frontmatter }): string[] => frontmatter["category"] as string[],
+            formatter: {
+              "/en/": "Category: $content",
+              "/": "分类：$content",
+            },
+          },
+          {
+            getter: ({ frontmatter }): string[] => frontmatter["tag"] as string[],
+            formatter: {
+              "/en/": "Tag: $content",
+              "/": "标签：$content",
+            },
+          },
+        ]
+      }, */
+
       shiki: {
         lineNumbers: 15,
         notationDiff: true,
@@ -224,6 +313,7 @@ export default hopeTheme(
           dark: "one-dark-pro",
         },
       },
+
       seo: hostname === "https://www.viptv.work"
         ? {}
         : { canonical: "https://www.viptv.work" },

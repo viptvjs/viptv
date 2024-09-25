@@ -21,7 +21,7 @@ copy:
 ::: tip 您可以用扫到的红包来打赏赞助我！ ໒( ” ¤ ‿ ¤ ” )७
 :::
 ::: tabs
-@tab 支付宝红包
+@tab **支付宝红包**
 ![](/assets/png/aliqr.png)
 :::
 
@@ -30,11 +30,11 @@ copy:
 ::: tip 您可以用支付宝 , 微信 , QQ 扫码打赏赞助我！ ໒( ” ¤ ‿ ¤ ” )७
 :::
 ::: tabs
-@tab 支付宝
+@tab **支付宝**
 ![](/assets/png/alipay.png)
-@tab 微信
+@tab **微信**
 ![](/assets/png/wxpay.png)
-@tab QQ
+@tab **QQ**
 ![](/assets/png/qqpay.png)
 :::
 
@@ -43,7 +43,7 @@ copy:
 ::: tip 您可以打开以下链接打赏赞助我！ ໒( ” ¤ ‿ ¤ ” )७
 :::
 ::: tabs
-@tab 爱发电打赏: <https://afdian.com/a/viptv>
+@tab [**爱发电打赏**](https://afdian.com/a/viptv)
 ![](/assets/png/afdian-VIPTV.png)
 :::
 

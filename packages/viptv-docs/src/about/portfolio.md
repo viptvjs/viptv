@@ -1,23 +1,23 @@
 ---
 home: true
 portfolio: true
-title: 简介
-shortTitle: 主页
-icon: home
+title: 档案
+icon: user-tag
 avatar: /assets/webp/home.webp
 bgImage: /assets/png/bg-1.png
-welcome: 👋 你好，我是VIPTV工作室的创始人
-name: Mr . He Fung
+welcome: 👋 Hello. My name is HeFung
+name: 合丰 (he feng)
 titles:
   - 阳光男孩
   - 世界探索者
   - 电脑爱好者
+footer: true  
 ---
 
 
 ## VIPTV - 网络工作室
 
-- **创始人**: He Fung
+- **创始人**: HeFung
 
 - **创办初衷**: 学习使用流行框架工具 - Vue.js,Vuepress
 
@@ -61,7 +61,7 @@ const items = [
     place: "内蒙 . 中国",
     time: "2021 年 3 月 - 2023 年 11 月",
     title: "矿山机电 -探寻大自然",
-    content: "我本后山人，上山容易，下山难。",
+    content: "我本后山人，偶来城里过，上山容易，下山难。",
   },
   {
     type: 'work',
@@ -75,7 +75,7 @@ const items = [
     place: "内蒙 . 中国",
     time: "2024 年 10 月 - 至今",
     title: "收假回归",
-    content: "愚公回归矿山，几十如一日，生活的沉垫，坚强的活着",
+    content: "回归矿山的愚公，几十如一日，生活的沉垫，坚强的活着",
   },
 ];
 </script>

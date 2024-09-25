@@ -20,30 +20,20 @@
     "preview": "vuepress-vite preview src"
   },
   "devDependencies": {
-    "@types/node": "^22.5.5",
+    "@types/node": "^22.6.1",
     "@vuepress/bundler-vite": "2.0.0-rc.15",
     "@vuepress/helper": "2.0.0-rc.47",
-    "@vuepress/plugin-markdown-tab": "2.0.0-rc.47",
-    "@vuepress/plugin-redirect": "2.0.0-rc.51",
-    "@vuepress/plugin-revealjs": "2.0.0-rc.48",
-    "@vuepress/plugin-shiki": "2.0.0-rc.47",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.47",
+    "@vuepress/plugin-pwa": "2.0.0-rc.47",
     "@vuepress/theme-default": "2.0.0-rc.49",
     "@vueuse/core": "^11.1.0",
     "aplayer": "^1.10.1",
     "artplayer": "^5.1.7",
     "axios": "^1.7.7",
-    "cross-env": "7.0.3",
     "dashjs": "^4.7.4",
     "dexie": "^4.0.8",
-    "gulp": "5.0.0",
     "hls.js": "^1.5.15",
-    "markmap-lib": "0.17.1",
-    "markmap-toolbar": "0.17.1",
-    "markmap-view": "0.17.1",
     "mpegts.js": "^1.7.3",
-    "reveal.js": "^5.1.0",
-    "sass-embedded": "1.79.3",
-    "sass-loader": "16.0.2",
     "vidstack": "^1.12.11",
     "vue": "^3.5.8",
     "vue-router": "^4.4.5",
@@ -51,5 +41,10 @@
     "vuepress-plugin-components": "2.0.0-rc.54",
     "vuepress-plugin-search-pro": "2.0.0-rc.54",
     "vuepress-theme-hope": "2.0.0-rc.56"
+  },
+  "dependencies": {
+    "markmap-lib": "^0.17.1",
+    "markmap-toolbar": "^0.17.1",
+    "markmap-view": "^0.17.1"
   }
 }

@@ -71,6 +71,15 @@ jobs:
           publish_dir: ./packages/iptv-source/dist
           publish_branch: main   
 
+      - name: Deploy to xuanxue.viptv.work
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PUBLISH_DOCS }}
+          external_repository: viptv-work/xuanxue
+          publish_dir: ./packages/xuanxue/.vitepress/dist
+          publish_branch: main
+          cname: xuanxue.viptv.work    
+
       - name: Commit project 🐱‍🏍
         if: steps.verify_diff.outputs.changed == 'true'
         run: | 
