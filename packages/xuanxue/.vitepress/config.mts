@@ -50,7 +50,7 @@ export default defineConfig({
   // 主题配置
   themeConfig: {
     // logo
-    logo: { src: 'logo.svg', width: 24, height: 24 },
+    logo: { src: 'https://img.viptv.work/viptv/logo.svg', width: 24, height: 24 },
 
     // 社交链接
     socialLinks,
