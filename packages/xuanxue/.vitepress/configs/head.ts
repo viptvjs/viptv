@@ -2,7 +2,7 @@ import type { HeadConfig } from 'vitepress'
 
 export const head: HeadConfig[] = [
   // 设置图标
-  ['link', { rel: 'icon', href: 'https://img.viptv.work/viptv/logo.svg' }],
+  ['link', { rel: 'icon', href: 'https://img.viptv.work/viptv/favicon.ico' }],
   ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
   ['meta', { name: 'theme-color', content: '#5f67ee' }],
   ['meta', { name: 'author', content: 'viptv-work' }],
