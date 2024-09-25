@@ -1,5 +1,6 @@
 ---
 title: "Vue常见优化手段"
+icon: support
 date: 2023-05-17
 star: true
 category:

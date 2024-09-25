@@ -72,11 +72,6 @@ export default hopeTheme(
     },
     editLink: false,
     plugins: {
-      docsearch: {
-        appId: '07HAH4T70R',
-        apiKey: 'a91e7cc371df5b92374ba362cbfb1ef6',
-        indexName: 'viptv',
-      },
       blog: {
         hotReload: true, // 启用热更新
         excerpt: true, //是否生成摘要。
@@ -284,7 +279,7 @@ export default hopeTheme(
         ],
       },
 
-      /* searchPro: {
+      searchPro: {
         indexContent: true,
         hotReload: true,
         customFields: [
@@ -303,7 +298,7 @@ export default hopeTheme(
             },
           },
         ]
-      }, */
+      },
 
       shiki: {
         lineNumbers: 15,

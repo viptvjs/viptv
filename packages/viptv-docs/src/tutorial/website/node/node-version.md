@@ -1,5 +1,6 @@
 ---
 title: "使用n命令管理node版本"
+icon: shell
 date: 2020-04-03
 star: true
 category:
