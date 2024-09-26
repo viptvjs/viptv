@@ -18,7 +18,7 @@ copy:
 
 ## 玩赚打赏
 
-::: tip 您可以用扫到的红包来打赏赞助我！ ໒( ” ¤ ‿ ¤ ” )७
+::: tip 您可以用扫到的红包来打赏赞助我。 ໒( ” ¤ ‿ ¤ ” )७
 :::
 ::: tabs
 @tab **支付宝红包**
@@ -27,24 +27,17 @@ copy:
 
 ## 扫码打赏
 
-::: tip 您可以用支付宝 , 微信 , QQ 扫码打赏赞助我！ ໒( ” ¤ ‿ ¤ ” )७
+::: tip 您可以扫码爱发电 | 支付宝 | 微信 | QQ | 打赏赞助我们。 ໒( ” ¤ ‿ ¤ ” )७ 
 :::
 ::: tabs
+@tab:active  [**爱发电**](https://afdian.com/a/viptv)
+![](/assets/png/afdian-VIPTV.png)
 @tab **支付宝**
 ![](/assets/png/alipay.png)
 @tab **微信**
 ![](/assets/png/wxpay.png)
 @tab **QQ**
 ![](/assets/png/qqpay.png)
-:::
-
-## 其它打赏
-
-::: tip 您可以打开以下链接打赏赞助我！ ໒( ” ¤ ‿ ¤ ” )७
-:::
-::: tabs
-@tab [**爱发电打赏**](https://afdian.com/a/viptv)
-![](/assets/png/afdian-VIPTV.png)
 :::
 
 ## 打赏记录

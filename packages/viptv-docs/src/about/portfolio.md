@@ -1,7 +1,7 @@
 ---
 home: true
 portfolio: true
-title: 档案
+title: 作者
 icon: user-tag
 avatar: /assets/webp/home.webp
 bgImage: /assets/png/bg-1.png
@@ -15,9 +15,9 @@ footer: true
 ---
 
 
-## VIPTV - 网络工作室
+## HeFung - 合丰 (he feng)
 
-- **创始人**: HeFung
+- **本站的创始人 | 主要维护者**
 
 - **创办初衷**: 学习使用流行框架工具 - Vue.js,Vuepress
 
@@ -31,29 +31,32 @@ footer: true
 
 - **个人爱好**: 中国象棋、音乐、跑步……
 
-## 个人历程 - 创学 . 工作
+## 历程 - 创学 . 工作
 
 <Experiences :items />
+
 
 <script setup lang="ts">
 const items = [
   {
-    type: 'study',
+    type: "study",
     place: "陕西 . 西安",
     title: "VIPTV - 工作室",
     time: "2021 年 10 月 - 2024 年 9 月",
-    content: "使用vue,Vuepress,架构工具，创建工作室主站，IPTV,Sources,v2ray...",
+    content: "了解接触vue,Vuepress架构工具，IPTV,Sources,v2ray...",
   },
   {
-    type: 'study',
+    type: "study",
     place: "北京 . 中国",
     time: "2021 年 8 月 - 2021 年 10 月",
+    title: "VuePress -探寻学习",
     content: "学习流行前端框架Vuepress",
   },
   {
-    type: 'study',
+    type: "study",
     place: "北京 . 中国",
     time: "2020 年 10 月 - 2021 年 8 月",
+    title: "Vue.js -探寻学习",
     content: "学习流行前端框架Vue.js",
   },
   {

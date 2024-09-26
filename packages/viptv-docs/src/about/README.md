@@ -48,7 +48,7 @@ vpb:
   - title: 相关服务
     content: 利用Cloudflare 、Github 提供DNS缓存以及代码托管服务。
     logo: /logo.svg
-    background: var(--bg-4)
+    background: var(--bg-5)
     color: var(--banner-text)
     actions:
       - text: DNS托管平台

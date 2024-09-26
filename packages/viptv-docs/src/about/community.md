@@ -24,18 +24,54 @@ qun:
     logo: /assets/svg/qq.svg
     background: rgba(228, 0, 54, 0.15)
     link: "https://qm.qq.com/q/jHDv3RLK9y"
+vpa:
+  - title: 负责内容：
+    content: <b>. 客户端的界面设计</b>
+    logo: /assets/svg/ux-design.svg
+    background: var(--bg-5)
+    actions:
+      - text: 加入开发者交流群
+        link: https://qm.qq.com/q/jHDv3RLK9y
+      - text: 代码托管平台
+        link: https://github.com/viptv-work/viptv   
+vpb:
+  - title: 负责内容：
+    content: <b>. 定期检查文档以更新过时的文档</b>
+    logo: /assets/svg/documents.svg
+    background: var(--bg-5)
+    actions:
+      - text: 加入开发者交流群
+        link: https://qm.qq.com/q/jHDv3RLK9y
+      - text: 文档
+        link: https://github.com/viptv-work/viptv  
+vpc:
+  - title: 负责内容：
+    content: <b>. 维护社区秩序 ；</br>. 收集社区中用户提出的问题并与开发团队合作以处理常见问题</b>
+    logo: /assets/svg/community.svg
+    background: var(--bg-5)
+    actions:
+      - text: 加入开发者交流群
+        link: https://qm.qq.com/q/jHDv3RLK9y       
+vpd:
+  - title: 负责内容：
+    content: <b>. 软件宣传和教程视频的创作</b>
+    logo: /assets/svg/video-editing.svg
+    background: var(--bg-5)
+    actions:
+      - text: 加入开发者交流群
+        link: https://qm.qq.com/q/jHDv3RLK9y                
 ---
 
 ## 用户社区
 ::: tip 建议您使用 issues 和 discussions 联系！
-- ໒( ” ¤ ‿ ¤ ” )७
-- 欢迎你加入我们的 QQ 群 (群号: 171418618) 。
+- **໒( ” ¤ ‿ ¤ ” )७**
+- **欢迎你加入我们的 QQ 群 (群号: 171418618) 。**
 :::
 
 ::: tabs
-@tab issues 和 discussions 联系
+@tab **issues 和 discussions 联系**
 <div class="vp-card-container"><VPCard v-for="item in $frontmatter.github" :key="item.link" v-bind="item" /></div>
-@tab QQ 群号: 171418618
+@tab **QQ 群号: 171418618**
 <div class="vp-card-container"><VPCard v-for="item in $frontmatter.qun" :key="item.link" v-bind="item" /></div>
 :::
 
@@ -45,35 +81,27 @@ qun:
 :::
 ::: tabs
 @tab UI 设计
-<VPBanner title="负责内容：" content="<b>客户端的界面设计</b>" logo="/assets/svg/ux-design.svg" :actions='[
-{
-text: "加入开发者交流群",
-link:"https://qm.qq.com/q/jHDv3RLK9y",
-}]' />
+<VPBanner
+  v-for="item in $frontmatter.vpa"
+  :key="item.link"
+  v-bind="item"
+/>
 @tab 文档维护
-<VPBanner title="负责内容：" content="<b>定期检查文档以更新过时的文档</b>" logo="/assets/svg/documents.svg" :actions='[
-{
-text: "加入开发者交流群",
-link:"https://qm.qq.com/q/jHDv3RLK9y",
-},
-{
-text: "文档",
-link: "https://github.com/viptv-work/viptv",
-type: "default",
-},
-]' />
+<VPBanner
+  v-for="item in $frontmatter.vpb"
+  :key="item.link"
+  v-bind="item"
+/>
 @tab 社区管理
-<VPBanner title="负责内容：" content="<b>. 维护社区秩序 ；</br>. 收集社区中用户提出的问题并与开发团队合作以处理常见问题</b>" logo="https://hut.ao/images/202312/community.svg" :actions='[
-{
-text: "加入开发者交流群",
-link:"https://qm.qq.com/q/jHDv3RLK9y",
-},
-]' />
+<VPBanner
+  v-for="item in $frontmatter.vpc"
+  :key="item.link"
+  v-bind="item"
+/>
 @tab 视频创作
-<VPBanner title="负责内容：" content="<b>软件宣传和教程视频的创作</b>" logo="/assets/svg/video-editing.svg" :actions='[
-{
-text: "加入开发者交流群",
-link:"https://qm.qq.com/q/jHDv3RLK9y",
-},
-]' />
+<VPBanner
+  v-for="item in $frontmatter.vpd"
+  :key="item.link"
+  v-bind="item"
+/>
 :::

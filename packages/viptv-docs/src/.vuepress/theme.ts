@@ -13,6 +13,7 @@ export default hopeTheme(
     iconAssets: "fontawesome-with-brands",
     favicon: "/favicon.ico",
     breadcrumb: true, // 面包屑导航
+    darkmode: "toggle",
     logo: "/logo.svg",
     repo: "viptv-work/viptv", // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     repoDisplay: true, //是否在导航栏显示仓库链接，默认为 `true`
@@ -39,7 +40,7 @@ export default hopeTheme(
         sidebar: zhSidebar,
         displayFooter: true,
         footer: "极速 、 高清 、 无广告", // 页脚
-        copyright: "MIT 协议 | 版权所有 © 2020-至今 Mr.Hefung",
+        copyright: "基于MIT 协议 | 版权所有 © 2020-至今 Mr.Hefung",
       },
       "/en/": {
         navbar: enNavbar,
@@ -80,6 +81,7 @@ export default hopeTheme(
           getRecentUpdatedArticles({
             locales: { "/en/": "Recent Updated", "/": "最近更新" },
           }),
+
           getSlides({
             locales: { "/en": "Slides", "/": "幻灯片" },
           })
@@ -206,18 +208,22 @@ export default hopeTheme(
 
       pwa: {
         favicon: "/favicon.ico",
-        cacheHTML: true,
-        cacheImage: true,
-        appendBase: true,
+        themeColor: "#5c92d1",
+        cacheHTML: false,
+        maxSize: 3072,
         apple: {
           icon: "/assets/png/VIPTV-LOGO-192x192.png",
-          statusBarColor: "black",
+          statusBarColor: "white",
         },
         msTile: {
           image: "/assets/png/VIPTV-LOGO-192x192.png",
           color: "#ffffff",
         },
         manifest: {
+          name: " VIPTV -  工作室",
+          short_name: "Viptv work",
+          description: "VIPTV 的网络工作室",
+          theme_color: "#5c92d1",
           icons: [
             {
               src: "/assets/png/VIPTV-LOGO-512x512.png",
@@ -244,18 +250,60 @@ export default hopeTheme(
           ],
           shortcuts: [
             {
-              name: "VIPTV",
-              // eslint-disable-next-line @typescript-eslint/naming-convention
-              short_name: "VIPTV",
-              url: "/",
+              name: "分类",
+              short_name: "分类",
               icons: [
                 {
-                  src: "/assets/png/VIPTV-LOGO-192x192.png",
+                  src: "/assets/png/category-maskable.png",
                   sizes: "192x192",
                   purpose: "maskable",
                   type: "image/png",
                 },
               ],
+              url: "/category/",
+              description: "文章分类分组",
+            },
+            {
+              name: "标签",
+              short_name: "标签",
+              icons: [
+                {
+                  src: "/assets/png/tag-maskable.png",
+                  sizes: "192x192",
+                  purpose: "maskable",
+                  type: "image/png",
+                },
+              ],
+              url: "/tag/",
+              description: "文章标签分组",
+            },
+            {
+              name: "时间线",
+              short_name: "时间线",
+              icons: [
+                {
+                  src: "/assets/png/timeline-maskable.png",
+                  sizes: "192x192",
+                  purpose: "maskable",
+                  type: "image/png",
+                },
+              ],
+              url: "/timeline/",
+              description: "时间线文章列表",
+            },
+            {
+              name: "关于我们",
+              short_name: "团队介绍",
+              icons: [
+                {
+                  src: "/logo.svg",
+                  sizes: "192x192",
+                  purpose: "maskable",
+                  type: "image/png",
+                },
+              ],
+              url: "/about/",
+              description: "我的团队介绍",
             },
           ],
         },

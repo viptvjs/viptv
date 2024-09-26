@@ -11,4 +11,5 @@ description: 本页包含了一些常见的与用户网络和程序生命周期�
 watermark: true
 ---
 
-<!-- @include: changelog.md -->
+
+<!-- @include: donate.md -->

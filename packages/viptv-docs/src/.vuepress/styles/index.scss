@@ -48,6 +48,7 @@
   --bg-4: url("/assets/svg/4-light.svg") no-repeat center/cover;
   --bg-5: url("/assets/svg/5-light.svg") no-repeat center/cover;
   --bg-6: url("/assets/svg/6-light.svg") no-repeat center/cover;
+  --bg-5-inverse: url("/assets/svg/5-dark.svg") no-repeat center/cover;
   --bg-6-inverse: url("/assets/svg/6-dark.svg") no-repeat center/cover;
 }
 
@@ -59,5 +60,6 @@ html[data-theme="dark"] {
   --bg-4: url("/assets/svg/4-dark.svg") no-repeat center/cover;
   --bg-5: url("/assets/svg/5-dark.svg") no-repeat center/cover;
   --bg-6: url("/assets/svg/6-dark.svg") no-repeat center/cover;
-  --bg-7-inverse: url("/assets/svg/6-light.svg") no-repeat center/cover;
+  --bg-5-inverse: url("/assets/svg/5-light.svg") no-repeat center/cover;
+  --bg-6-inverse: url("/assets/svg/6-light.svg") no-repeat center/cover;
 }

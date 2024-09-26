@@ -15,22 +15,30 @@ export const zhNavbar = navbar([
   {
     text: "关于",
     icon: "circle-info",
+    prefix: "/about/",
     children: [
+      {
+        text: "关于我们",
+        icon: "circle-info",
+        link: "",
+        activeMatch: "^/about/$",
+      },
       {
         text: "我的博客",
         icon: "blog",
-        link: "about/blog",
+        link: "blog",
       },
       {
         text: "友情打赏",
         icon: "heart",
-        link: "about/donate",
+        link: "donate",
       },
       {
-        text: version + "版本",
+        text: version + "日志",
         icon: "fa-brands fa-vuejs",
-        link: "about/changelog",
+        link: "changelog",
       },
     ],
   },
 ]);
+
