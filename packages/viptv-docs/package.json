@@ -20,7 +20,7 @@
     "preview": "vuepress-vite preview src"
   },
   "devDependencies": {
-    "@types/node": "^22.7.0",
+    "@types/node": "^22.7.2",
     "@vuepress/bundler-vite": "2.0.0-rc.15",
     "@vuepress/helper": "2.0.0-rc.47",
     "@vuepress/plugin-prismjs": "2.0.0-rc.49",
