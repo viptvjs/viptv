@@ -20,7 +20,7 @@
     "preview": "vuepress-vite preview src"
   },
   "devDependencies": {
-    "@types/node": "^22.7.0",
+    "@types/node": "^22.7.3",
     "@vuepress/bundler-vite": "2.0.0-rc.15",
     "@vuepress/helper": "2.0.0-rc.47",
     "@vuepress/plugin-prismjs": "2.0.0-rc.49",
@@ -37,7 +37,7 @@
     "hls.js": "^1.5.15",
     "mpegts.js": "^1.7.3",
     "vidstack": "^1.12.11",
-    "vue": "^3.5.8",
+    "vue": "^3.5.9",
     "vue-router": "^4.4.5",
     "vuepress": "2.0.0-rc.15",
     "vuepress-plugin-components": "2.0.0-rc.54",
@@ -45,8 +45,8 @@
     "vuepress-theme-hope": "2.0.0-rc.56"
   },
   "dependencies": {
-    "markmap-lib": "^0.17.1",
-    "markmap-toolbar": "^0.17.1",
-    "markmap-view": "^0.17.1"
+    "markmap-lib": "^0.17.2",
+    "markmap-toolbar": "^0.17.2",
+    "markmap-view": "^0.17.2"
   }
 }
