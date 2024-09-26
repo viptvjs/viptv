@@ -42,7 +42,7 @@ const items = [
     type: "study",
     place: "陕西 . 西安",
     title: "VIPTV - 工作室",
-    
+    git 
     time: "2021 年 10 月 - 2024 年 9 月",
     content: "了解接触vue,Vuepress架构工具，IPTV,Sources,v2ray...",
   },
