@@ -1,5 +1,5 @@
 import { artplayerPlaylist } from "./artplayer-plugin-playlist.js";
-import artplayerPluginDanmuku from 'artplayer-plugin-danmuku';
+//import artplayerPluginDanmuku from 'artplayer-plugin-danmuku';
 const poster = "https://img.viptv.work/iptv/ads.png";
 
 declare const DASHJS_INSTALLED: boolean;
@@ -101,7 +101,7 @@ export const mpConfig = (playlist: playlist[]) => {
       playsInline: true,
     },
     plugins: [
-      artplayerPluginDanmuku({
+      /* artplayerPluginDanmuku({
         danmuku: "https://d.artplayer.org/?id=BV1us421u7sp",
         speed: 5, // 弹幕持续时间，范围在[1 ~ 10]
         margin: [10, '25%'], // 弹幕上下边距，支持像素数字和百分比
@@ -137,7 +137,7 @@ export const mpConfig = (playlist: playlist[]) => {
           });
 
         },
-      }),
+      }), */
       artplayerPlaylist({
         rebuildPlayer: false, // 换P时重建播放器，默认false
         onchanged: () => { }, // 换P后的回调函数
