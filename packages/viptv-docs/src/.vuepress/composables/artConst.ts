@@ -1,6 +1,5 @@
 import { artplayerPlaylist } from "./artplayer-plugin-playlist.js";
 import artplayerPluginDanmuku from 'artplayer-plugin-danmuku';
-import artplayerProxyCanvas from 'artplayer-proxy-canvas'
 const poster = "https://img.viptv.work/iptv/ads.png";
 
 declare const DASHJS_INSTALLED: boolean;
@@ -96,7 +95,6 @@ export const mpConfig = (playlist: playlist[]) => {
     autoplay: true,
     autoOrientation: true,
     lock: true,
-    proxy: artplayerProxyCanvas(),
     setting: false,
     moreVideoAttr: {
       "webkit-playsinline": true,
