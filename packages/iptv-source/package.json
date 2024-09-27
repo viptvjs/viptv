@@ -21,7 +21,8 @@
   },
   "type": "module",
   "scripts": {
-    "build": "tsup && node ./lib/main.js"
+    "build": "tsup && node ./lib/main.js",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "devDependencies": {
     "dotenv": "^16.4.5",

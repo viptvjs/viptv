@@ -28,7 +28,8 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsc -b tsconfig.json"
+    "build": "tsc -b tsconfig.json",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "dependencies": {
     "D": "^1.0.0",
@@ -37,7 +38,7 @@
     "typescript": "^5.6.2"
   },
   "devDependencies": {
-    "@types/node": "^22.5.5",
+    "@types/node": "^22.7.3",
     "@types/semver": "7.5.8"
   },
   "engines": {
