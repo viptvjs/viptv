@@ -6,6 +6,7 @@ export const zhSidebar = sidebar({
   "/iptv/": "structure",
   "/music/": "structure",
   "/tutorial/": "structure",
+  "/tools/": "structure",
   "/private/": "structure",
   "/archives/": archives,
 });

@@ -2,15 +2,21 @@ import { defineClientConfig } from "vuepress/client";
 import { defineAsyncComponent } from 'vue';
 import SocialLink from "./composables/SocialLink";
 import ProjectLink from "./composables/ProjectLink";
+import ToolLayout from "./components/ToolLayout.vue";
 import Experiences from "./components/Experiences.vue";
+import ShortVideoRemoveWatermark from "./components/ShortVideoRemoveWatermark.vue";
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
 const NavMusic = defineAsyncComponent(() => import('./components/NavMusic.vue'));
 export default defineClientConfig({
+  layouts: {
+    ToolLayout
+  },
   enhance: ({ app }) => {
     app.component("SocialLink", SocialLink);
     app.component("ProjectLink", ProjectLink);
     app.component("Experiences", Experiences);
+    app.component("ShortVideoRemoveWatermark", ShortVideoRemoveWatermark);
   },
   setup: () => {
     setupRunningTimeFooter(

@@ -1,6 +1,6 @@
 ---
 title: "Unix/Linux 扫盲笔记"
-icon: "https://th.bing.com/th/id/R.876dc1a8279d82f21d1254a992e30e48?rik=2deANHjXjOYS6A&pid=ImgRaw&r=0"
+icon: https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/linux.svg
 date: 2015-04-14
 category:
   - Linux

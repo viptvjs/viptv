@@ -13,7 +13,7 @@ export const getTxt = async (url: string) => {
 export const getTxtt = async (url: string) => {
   const res = await (await fetch(url)).text();
   let raw = res.split("\n").filter((item, key, arr) => !key == false);
-  const data = raw.map((red, k) => {
+  const data = raw.map((red) => {
     return {
       title: red.split(",")[0],
       url: red.split(",")[1],
@@ -23,7 +23,7 @@ export const getTxtt = async (url: string) => {
 };
 export const getJson = async (url: string) => {
   const res = await (await fetch(url)).json();
-  return res.list.map((red) => {
+  return res.list.map((red: any) => {
     return {
       title: red.vod_name,
       vod_pic: red.vod_pic,
@@ -37,7 +37,7 @@ export const getJsonx = async (url: string) => {
     return {
       vod_name: red.vod_name,
       vod_pic: red.vod_pic,
-      play_list: red.vod_play_url.split("#").map((req) => {
+      play_list: red.vod_play_url.split("#").map((req: any) => {
         return {
           title: req.split("$")[0],
           url: req.split("$")[1],
@@ -48,7 +48,7 @@ export const getJsonx = async (url: string) => {
 };
 export const xgsp = async (url: string) => {
   const data = await (await fetch(url)).json();
-  return data.models.map((res) => {
+  return data.models.map((res: any) => {
     return {
       title: res.username,
       url: res.hlsPlaylist,

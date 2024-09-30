@@ -73,6 +73,15 @@ export default hopeTheme(
     },
     editLink: false,
     plugins: {
+      redirect: {
+        localeConfig: {
+          '/en/': ['en-US', 'en-UK', 'en'],
+          '/': ['zh-CN', 'zh-TW', 'zh'],
+        },
+        config: {
+          '/en/': '/',
+        },
+      },
       blog: {
         hotReload: true, // 启用热更新
         excerpt: true, //是否生成摘要。
@@ -118,9 +127,9 @@ export default hopeTheme(
       notice: [
         {
           path: "/",
-          title: "欢迎访问VIPTV",
+          title: "温馨提示：",
           content:
-            "<b>周知：</b>原 3 个 QQ 群成员活跃状态差异较大，且分布较分散，现停止新人加群，为了方便大家的交流，请移步 QQ 频道。</div>",
+            "<b>非常感谢您对本网站的支持！我是本站的独立开发者,作者,主要维护者</b><ul><li>函数与变量支持代码补全</li><li>JSON filter支持</li></ul>",
           actions: [
             {
               text: "立即体验",

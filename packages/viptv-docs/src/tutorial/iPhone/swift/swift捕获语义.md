@@ -1,6 +1,6 @@
 ---
 title: "深入理解swift中闭包的捕捉语义"
-icon: hk-swift
+icon: https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/swift.svg
 date: 2017-10-19
 category:
   - Swift

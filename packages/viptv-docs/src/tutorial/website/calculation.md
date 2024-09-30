@@ -1,6 +1,5 @@
 ---
 date: 2023-04-06
-icon: calculate
 category:
   - CSS
 tag:

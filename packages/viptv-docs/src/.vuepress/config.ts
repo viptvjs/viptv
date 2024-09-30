@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { getDirname, path } from "vuepress/utils";
 const __dirname = getDirname(import.meta.url);
+import UnoCSS from 'unocss/vite'
 const base = (process.env["BASE"] as "/" | `/${string}/`) || "/";
 export default defineUserConfig({
   base,
@@ -44,4 +45,7 @@ export default defineUserConfig({
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./components/BlogHome.vue"),
   },
   port: 80,
+  plugins: [
+    UnoCSS(),
+  ],
 });

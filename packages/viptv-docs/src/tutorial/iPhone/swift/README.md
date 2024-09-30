@@ -1,6 +1,6 @@
 ---
 title: Swift
-icon: hk-swift
+icon: https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/swift.svg
 date: 1978-01-09
 index: false
 timeline: false

@@ -1,7 +1,6 @@
 ---
 title: "YYCache优秀的缓存设计"
 date: 2019-04-26 16:08:25
-icon: cache
 star: true
 category:
   - iOS

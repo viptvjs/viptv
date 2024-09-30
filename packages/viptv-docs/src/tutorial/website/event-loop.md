@@ -1,6 +1,5 @@
 ---
 title: "浏览器的事件循环"
-icon: loop
 date: 2023-04-06
 category:
   - 浏览器

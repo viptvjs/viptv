@@ -1,6 +1,6 @@
 ---
 title: "CommonJS，RequireJS，SeaJS 归纳笔记"
-icon: module
+icon: https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/js.svg
 date: 2015-05-25
 category:
   - JavaScript

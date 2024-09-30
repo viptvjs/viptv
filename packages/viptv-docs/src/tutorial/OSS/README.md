@@ -1,5 +1,5 @@
 ---
-title: "开源项目"
+title: 开源项目
 icon: book-open
 date: 1978-01-09
 timeline: false

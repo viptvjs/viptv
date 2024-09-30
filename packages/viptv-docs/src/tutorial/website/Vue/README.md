@@ -1,6 +1,6 @@
 ---
 title: "Vue"
-icon: "vue"
+icon: https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/vuejs.svg
 date: 1978-01-09
 timeline: false
 index: false
