@@ -1,3 +1,14 @@
+// precomputed scope
+const scopeComplete = require('child_process')
+  .execSync('git status --porcelain || true')
+  .toString()
+  .trim()
+  .split('\n')
+  .find((r) => ~r.indexOf('M  packages'))
+  ?.replace(/(\/)/g, '%%')
+  ?.match(/packages%%((\w|-)*)/)?.[1];
+
+/** @type {import('cz-git').CommitizenGitOptions} */
 // .commitlintrc.js
 /** @type {import('cz-git').UserConfig} */
 module.exports = {
@@ -5,7 +16,12 @@ module.exports = {
     // @see: https://commitlint.js.org/#/reference-rules
   },
   prompt: {
-    alias: { fd: 'docs: fix typos' },
+    alias: {
+      f: 'docs(core): fix typos',
+      b: 'chore(repo): bump dependencies',
+    },
+    defaultScope: scopeComplete,
+    maxSubjectLength: 100,
     messages: {
       type: '选择你要提交的类型 :',
       scope: '选择一个提交范围（可选）:',
@@ -38,7 +54,40 @@ module.exports = {
     useAI: false,
     aiNumber: 1,
     themeColorCode: '',
-    scopes: [],
+    scopes: [
+      { value: 'angular', name: 'angular:               anything Angular specific' },
+      { value: 'core', name: 'core:                  anything Nx core specific' },
+      { value: 'bundling', name: 'bundling:              anything bundling specific (e.g. rollup, webpack, etc.)' },
+      { value: 'detox', name: 'detox:                 anything Detox specific' },
+      { value: 'devkit', name: 'devkit:                devkit-related changes' },
+      { value: 'express', name: 'express:               anything Express specific' },
+      { value: 'graph', name: 'graph:                 anything graph app specific' },
+      { value: 'js', name: 'js:                    anything TS->JS specific' },
+      { value: 'linter', name: 'linter:                anything Linter specific' },
+      { value: 'misc', name: 'misc:                  misc stuff' },
+      { value: 'nest', name: 'nest:                  anything Nest specific' },
+      { value: 'nextjs', name: 'nextjs:                anything Next specific' },
+      { value: 'node', name: 'node:                  anything Node specific' },
+      { value: 'nuxt', name: 'nuxt:                  anything Nuxt specific' },
+      { value: 'nx-cloud', name: 'nx-cloud:              anything Nx Cloud specific' },
+      { value: 'nx-plugin', name: 'nx-plugin:             anything Nx Plugin specific' },
+      { value: 'nx-dev', name: 'nx-dev:                anything related to docs infrastructure' },
+      { value: 'react', name: 'react:                 anything React specific' },
+      { value: 'react-native', name: 'react-native:          anything React Native specific' },
+      { value: 'remix', name: 'remix:                 anything Remix specific' },
+      { value: 'rspack', name: 'rspack:               anything Rspack specific' },
+      { value: 'expo', name: 'expo:                  anything Expo specific' },
+      { value: 'release', name: 'release:               anything related to nx release' },
+      { value: 'repo', name: 'repo:                  anything related to managing the repo itself' },
+      { value: 'storybook', name: 'storybook:             anything Storybook specific' },
+      { value: 'testing', name: 'testing:               anything testing specific (e.g. jest or cypress)' },
+      { value: 'vite', name: 'vite:                  anything Vite specific' },
+      { value: 'vue', name: 'vue:                   anything Vue specific' },
+      { value: 'web', name: 'web:                   anything Web specific' },
+      { value: 'webpack', name: 'webpack:               anything Webpack specific' },
+      { value: 'gradle', name: 'gradle:                anything Gradle specific' },
+      { value: 'module-federation', name: 'module-federation:     anything Module Federation specific' },
+    ],
     allowCustomScopes: true,
     allowEmptyScopes: true,
     customScopesAlign: 'bottom',
