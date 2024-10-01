@@ -1,0 +1,89 @@
+<template>
+
+  <h2>视频链接</h2>
+  <n-input v-model:value="videoUrl" type="textarea" clearable placeholder="请输入视频链接，支持抖音、小红书、快手、哔哩哔哩 各大平台" />
+  <n-button type="success" :disabled="!videoUrl" size="large" :loading="loading" @click="handleFetch">
+    解析
+  </n-button>
+  <template v-if="resultData">
+    <h2>解析预览</h2>
+    <div>{{ resultData.title }}</div>
+    <div>
+      封面：
+      <a :href="resultData.photo" target="_blank" rel="noopener noreferrer">
+        点击查看
+      </a>
+    </div>
+    <div v-if="resultData.video">
+      视频：
+      <a :href="resultData.video" target="_blank" rel="noopener noreferrer">
+        点击查看
+      </a>
+    </div>
+    <div v-if="resultData.images && resultData.images.length">
+      图片集合：
+      <a v-for="(img, re) in resultData.images" :key="img" :href="img" target="_blank">
+        点击查看
+      </a>
+    </div>
+  </template>
+</template>
+
+<script lang="ts" setup>
+import { isString } from 'lodash-es'
+import { ref } from 'vue'
+import { NInput, NButton } from 'naive-ui'
+interface ShortVideoRes {
+  msg: string
+  title: string
+  photo: string
+  images?: string[] | null
+  video?: string | null
+}
+
+const isValidJsonString = (jsonString: string) => {
+  try {
+    JSON.parse(jsonString)
+    return true
+  } catch (error) {
+    return false
+  }
+}
+
+const videoUrl = ref('')
+const loading = ref(false)
+const resultData = ref<ShortVideoRes | null>(null)
+
+async function handleFetch() {
+  if (!videoUrl.value) return
+  resultData.value = null
+  loading.value = true
+  const msg = encodeURIComponent(videoUrl.value)
+  try {
+    const response = await fetch(
+      `https://cors.eu.org/https://api.liubing.me/short-video?msg=${msg}`
+    ).finally(() => {
+      loading.value = false
+    })
+    if (response.ok) {
+      const content = await response.text()
+      const resData: string | ShortVideoRes = isValidJsonString(content)
+        ? JSON.parse(content)
+        : content
+      if (isString(resData)) {
+        window.$message.error(resData)
+        return
+      }
+      if (resData.msg.includes('解析成功')) {
+        resultData.value = resData
+        return
+      }
+      window.$message.error(resData.msg)
+    } else {
+      window.$message.error('解析异常，请稍后再试！')
+    }
+  } catch (error) {
+    window.$message.error('请求异常，请稍后再试！')
+  }
+}
+</script>
