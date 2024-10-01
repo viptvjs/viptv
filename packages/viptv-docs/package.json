@@ -21,8 +21,6 @@
     "preview": "vuepress-vite preview src"
   },
   "devDependencies": {
-    "@css-render/vue3-ssr": "^0.15.14",
-    "@types/lodash-es": "^4.17.12",
     "@types/node": "^22.7.4",
     "@vuepress/bundler-vite": "2.0.0-rc.17",
     "@vuepress/helper": "2.0.0-rc.47",
@@ -48,7 +46,6 @@
     "vuepress-theme-hope": "2.0.0-rc.58"
   },
   "dependencies": {
-    "lodash-es": "^4.17.21",
     "markmap-lib": "^0.17.2",
     "markmap-toolbar": "^0.17.2",
     "markmap-view": "^0.17.2"
