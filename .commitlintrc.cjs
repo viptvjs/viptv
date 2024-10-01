@@ -1,19 +1,29 @@
 // precomputed scope
-const scopeComplete = require('child_process')
-  .execSync('git status --porcelain || true')
+import { execSync } from "node:child_process";
+import { readdirSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const packages = readdirSync(
+  join(dirname(fileURLToPath(import.meta.url)), "./packages/"),
+);
+
+const scopeComplete = execSync("git status --porcelain || true")
   .toString()
   .trim()
-  .split('\n')
-  .find((r) => ~r.indexOf('M  packages'))
-  ?.replace(/(\/)/g, '%%')
+  .split("\n")
+  .find((r) => ~r.indexOf("M  packages"))
+  ?.replace(/\//g, "%%")
   ?.match(/packages%%((\w|-)*)/)?.[1];
+
+
 
 /** @type {import('cz-git').CommitizenGitOptions} */
 // .commitlintrc.js
 /** @type {import('cz-git').UserConfig} */
 module.exports = {
   rules: {
-    // @see: https://commitlint.js.org/#/reference-rules
+    "scope-enum": [2, "always", ["demo", "release", ...packages]],
   },
   prompt: {
     alias: {
@@ -21,7 +31,6 @@ module.exports = {
       b: 'chore(repo): bump dependencies',
     },
     defaultScope: scopeComplete,
-    maxSubjectLength: 100,
     messages: {
       type: '选择你要提交的类型 :',
       scope: '选择一个提交范围（可选）:',
@@ -90,7 +99,7 @@ module.exports = {
     ],
     allowCustomScopes: true,
     allowEmptyScopes: true,
-    customScopesAlign: 'bottom',
+    customScopesAlign: !scopeComplete ? "top" : "bottom",
     customScopesAlias: '以上都不是？我要自定义',
     emptyScopesAlias: '跳过',
     upperCaseSubject: false,
