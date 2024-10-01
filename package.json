@@ -13,9 +13,9 @@
     "packages/*"
   ],
   "dependencies": {
-    "commitizen": "^4.3.0",
-    "cz-git": "1.9.4",
-    "cross-env": "7.0.3"
+    "commitizen": "^4.3.1",
+    "cross-env": "7.0.3",
+    "cz-git": "1.9.4"
   },
   "config": {
     "commitizen": {
