@@ -127,13 +127,18 @@ export default hopeTheme(
       notice: [
         {
           path: "/",
-          title: "温馨提示：",
+          title: "您好：",
           content:
-            "<b>非常感谢您对本网站的支持！我是本站的独立开发者,作者,主要维护者</b><ul><li>函数与变量支持代码补全</li><li>JSON filter支持</li></ul>",
+            "<b>欢迎访问本站！</b><ul><li>我是本站的独立开发者,维护者</li><li>请打赏赞助我们！</li></ul>",
           actions: [
             {
-              text: "立即体验",
+              text: "关闭此处",
               type: "default",
+            },
+            {
+              text: "打赏赞助",
+              link: "/about/donate.html",
+              type: "primary",
             },
           ],
           fullscreen: false,
