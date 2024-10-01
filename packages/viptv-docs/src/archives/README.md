@@ -1,3 +1,11 @@
+## 2024-10-02 河流的狂野舞蹈
+
+温德河，布鲁克斯山脉，北极国家野生动物保护区，阿拉斯加州，美国 (© Design Pics/DanitaDelimont)
+
+![](https://cn.bing.com/th?id=OHR.WindRiverAlaska_ZH-CN7317039321_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.WindRiverAlaska_ZH-CN7317039321_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.WindRiverAlaska_ZH-CN7317039321_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
 ## 2024-09-30 随浮冰漂流
 
 斯匹次卑尔根岛北部的海象群，斯瓦尔巴群岛，挪威 (© AWL Images/DanitaDelimont)
@@ -237,12 +245,4 @@ Oktoberfest in Munich at sunset (© AllesSuper21/iStock/Getty Images)
 ![](https://cn.bing.com/th?id=OHR.DjanetAlgeria_ZH-CN3458706695_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
 
 [Download 1920 * 1080](https://cn.bing.com/th?id=OHR.DjanetAlgeria_ZH-CN3458706695_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.DjanetAlgeria_ZH-CN3458706695_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-08-30 对大块头温柔点
-
-鸟头湾的鲸鲨，西巴布亚，印度尼西亚 (© Andy Lerner/Tandem Stills + Motion)
-
-![](https://cn.bing.com/th?id=OHR.WhaleSharkDay_ZH-CN3334940631_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.WhaleSharkDay_ZH-CN3334940631_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.WhaleSharkDay_ZH-CN3334940631_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
 
