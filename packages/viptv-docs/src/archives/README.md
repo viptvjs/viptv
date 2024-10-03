@@ -1,3 +1,11 @@
+## 2024-10-04 一轮蓝月亮
+
+木星的冰卫星木卫二 (© NASA/JPL-Caltech/SETI Institute)
+
+![](https://cn.bing.com/th?id=OHR.EuropaMoon_ZH-CN0149249980_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.EuropaMoon_ZH-CN0149249980_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.EuropaMoon_ZH-CN0149249980_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
 ## 2024-10-03 盛大的爱情见证
 
 阿格拉的泰姬陵，安拉阿巴德，印度 (© Tanarch/Getty Images)
@@ -13,6 +21,14 @@
 ![](https://cn.bing.com/th?id=OHR.WindRiverAlaska_ZH-CN7317039321_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
 
 [Download 1920 * 1080](https://cn.bing.com/th?id=OHR.WindRiverAlaska_ZH-CN7317039321_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.WindRiverAlaska_ZH-CN7317039321_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-01 绝美的秋日风景
+
+禾木村的风景，新疆，中国 (© snvv18870020330/Shutterstock)
+
+![](https://cn.bing.com/th?id=OHR.NationalDay2024_ZH-CN7026189162_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.NationalDay2024_ZH-CN7026189162_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.NationalDay2024_ZH-CN7026189162_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
 
 ## 2024-09-30 随浮冰漂流
 
@@ -229,20 +245,4 @@ Oktoberfest in Munich at sunset (© AllesSuper21/iStock/Getty Images)
 ![](https://cn.bing.com/th?id=OHR.AlpineLakes_ZH-CN4537389724_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
 
 [Download 1920 * 1080](https://cn.bing.com/th?id=OHR.AlpineLakes_ZH-CN4537389724_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.AlpineLakes_ZH-CN4537389724_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-02 红绿金刚鹦鹉之家
-
-红绿金刚鹦鹉，南马托格罗索州，巴西 (© Ellen Goff/Danita Delimont)
-
-![](https://cn.bing.com/th?id=OHR.BuracodasAraras_ZH-CN3881985508_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.BuracodasAraras_ZH-CN3881985508_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.BuracodasAraras_ZH-CN3881985508_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-01 小船轻轻划过泰晤士河
-
-泰晤士河，伦敦，英国 (© Puthipong Worasaran/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.ThamesLondon_ZH-CN3629717426_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.ThamesLondon_ZH-CN3629717426_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.ThamesLondon_ZH-CN3629717426_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
 
