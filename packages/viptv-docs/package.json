@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/node": "^22.7.4",
     "@vuepress/bundler-vite": "2.0.0-rc.17",
-    "@vuepress/helper": "2.0.0-rc.47",
+    "@vuepress/helper": "2.0.0-rc.52",
     "@vuepress/plugin-prismjs": "2.0.0-rc.52",
     "@vuepress/plugin-pwa": "2.0.0-rc.52",
     "@vuepress/plugin-redirect": "2.0.0-rc.52",
@@ -38,7 +38,7 @@
     "hls.js": "^1.5.15",
     "mpegts.js": "^1.7.3",
     "vidstack": "^1.12.11",
-    "vue": "^3.5.10",
+    "vue": "^3.5.11",
     "vue-router": "^4.4.5",
     "vuepress": "2.0.0-rc.17",
     "vuepress-plugin-components": "2.0.0-rc.57",
