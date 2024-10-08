@@ -1,3 +1,35 @@
+## 2024-10-08 托斯卡纳的石头小镇
+
+索拉诺，托斯卡纳，意大利 (© Luigi Vaccarella/eStock Photo)
+
+![](https://cn.bing.com/th?id=OHR.SoranoItaly_ZH-CN1190725201_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.SoranoItaly_ZH-CN1190725201_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.SoranoItaly_ZH-CN1190725201_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-07 梦想成真的地方
+
+法属波利尼西亚波拉波拉岛的鸟瞰图 (© GLF Media/Shutterstock)
+
+![](https://cn.bing.com/th?id=OHR.BoraPapeete_ZH-CN1991283465_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.BoraPapeete_ZH-CN1991283465_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.BoraPapeete_ZH-CN1991283465_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-06 一抹金色
+
+郊狼峡谷拱门中的白杨树，格兰峡谷休闲区，犹他州，美国 (© Stephen Matera/TANDEM Stills + Motion)
+
+![](https://cn.bing.com/th?id=OHR.CoyoteGulch_ZH-CN2869463336_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.CoyoteGulch_ZH-CN2869463336_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.CoyoteGulch_ZH-CN2869463336_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-05 跟着老师走！
+
+东察沃国家公园的非洲象，肯尼亚 (© Neil Bowman/Minden Pictures)
+
+![](https://cn.bing.com/th?id=OHR.ElephantTeacher_ZH-CN0543308499_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.ElephantTeacher_ZH-CN0543308499_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.ElephantTeacher_ZH-CN0543308499_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
 ## 2024-10-04 一轮蓝月亮
 
 木星的冰卫星木卫二 (© NASA/JPL-Caltech/SETI Institute)
@@ -213,36 +245,3 @@ Oktoberfest in Munich at sunset (© AllesSuper21/iStock/Getty Images)
 ![](https://cn.bing.com/th?id=OHR.SantaCruzHummer_ZH-CN5448262039_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
 
 [Download 1920 * 1080](https://cn.bing.com/th?id=OHR.SantaCruzHummer_ZH-CN5448262039_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.SantaCruzHummer_ZH-CN5448262039_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-06 你可曾见过此等景色
-
-古老山毛榉树，格莱纳里夫森林公园，安特里姆郡，北爱尔兰 (© Dawid K Photography/Shutterstock)
-
-![](https://cn.bing.com/th?id=OHR.GlenariffPark_ZH-CN4667558707_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.GlenariffPark_ZH-CN4667558707_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.GlenariffPark_ZH-CN4667558707_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-05 2024年多伦多国际电影节
-
-多伦多城市天际线,加拿大 (© Roberto Machado Noa/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.TIFF2024_ZH-CN4896695918_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.TIFF2024_ZH-CN4896695918_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.TIFF2024_ZH-CN4896695918_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-04 物以类聚，人以群分
-
-乌雕鸮，巴基斯坦 (© zahoor salmi/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.DuskyOwls_ZH-CN4729762831_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.DuskyOwls_ZH-CN4729762831_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.DuskyOwls_ZH-CN4729762831_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-03 原始之美，人人共享
-
-迷人的水晶湖，高山湖泊，华盛顿州，美国 (© Mitch Pittman/Tandem Stills + Motion)
-
-![](https://cn.bing.com/th?id=OHR.AlpineLakes_ZH-CN4537389724_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.AlpineLakes_ZH-CN4537389724_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.AlpineLakes_ZH-CN4537389724_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
