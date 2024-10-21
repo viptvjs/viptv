@@ -1,3 +1,83 @@
+## 2024-10-21 在秋天里傲然挺立
+
+乔治·史密斯州立公园的柏树，佐治亚州，美国 (© Chris Moore/TANDEM Stills + Motion)
+
+![](https://cn.bing.com/th?id=OHR.AutumnCypress_ZH-CN5099875619_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.AutumnCypress_ZH-CN5099875619_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.AutumnCypress_ZH-CN5099875619_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-20 坚持住
+
+哥斯达黎加的三趾树懒 (© Harry Collins/Getty Images)
+
+![](https://cn.bing.com/th?id=OHR.SmilingSloth_ZH-CN4646662964_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.SmilingSloth_ZH-CN4646662964_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.SmilingSloth_ZH-CN4646662964_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-19 立足现在，发掘过去
+
+哈索尔神庙，邓德拉神庙群，基纳，埃及 (© Nick Brundle Photography/Getty Images)
+
+![](https://cn.bing.com/th?id=OHR.DenderaTemple_ZH-CN3097745887_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.DenderaTemple_ZH-CN3097745887_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.DenderaTemple_ZH-CN3097745887_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-18 邂逅秋日的林荫道
+
+曼哈顿中央公园的秋天，纽约，美国 (© mapman/Shutterstock)
+
+![](https://cn.bing.com/th?id=OHR.CentralParkAutumn_ZH-CN2757358246_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.CentralParkAutumn_ZH-CN2757358246_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.CentralParkAutumn_ZH-CN2757358246_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-17 随风摆动，进入秋天
+
+地肤草，茨城县，日本 (© DigiPub/Getty Images)
+
+![](https://cn.bing.com/th?id=OHR.KochiaJapan_ZH-CN9896157139_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.KochiaJapan_ZH-CN9896157139_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.KochiaJapan_ZH-CN9896157139_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-16 发掘过去
+
+侏罗纪海岸的箭石和菊石化石，多塞特郡，英国 (© Nature Picture Library/Alamy Stock Photo)
+
+![](https://cn.bing.com/th?id=OHR.FossilsDorset_ZH-CN8722623801_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.FossilsDorset_ZH-CN8722623801_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.FossilsDorset_ZH-CN8722623801_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-15 生存竞赛
+
+马拉河的角马大迁徙，肯尼亚 (© Ayzenstayn/Getty Images)
+
+![](https://cn.bing.com/th?id=OHR.MaraMigration_ZH-CN8215566853_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.MaraMigration_ZH-CN8215566853_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.MaraMigration_ZH-CN8215566853_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-14 沙滩的秘密和日落
+
+可可海滩上的渔船，果阿邦，印度 (© Abhinav Sah/Shutterstock)
+
+![](https://cn.bing.com/th?id=OHR.CocoBeach_ZH-CN7503553722_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.CocoBeach_ZH-CN7503553722_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.CocoBeach_ZH-CN7503553722_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-13 辉煌的塞维利亚
+
+塞维利亚王宫少女庭院，西班牙 (© Danny Lehman/Getty Images)
+
+![](https://cn.bing.com/th?id=OHR.AlcazarSeville_ZH-CN5581795099_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.AlcazarSeville_ZH-CN5581795099_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.AlcazarSeville_ZH-CN5581795099_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
+## 2024-10-12 飞越各大洲
+
+林鸳鸯，魁北克省，加拿大 (© Maxime Riendeau/Getty Images)
+
+![](https://cn.bing.com/th?id=OHR.QuebecDuck_ZH-CN0588954873_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.QuebecDuck_ZH-CN0588954873_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.QuebecDuck_ZH-CN0588954873_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
 ## 2024-10-11 云海奇观
 
 黄山云海，安徽省，中国 (© yangyang1991/Getty Images)
@@ -6,7 +86,6 @@
 
 [Download 1920 * 1080](https://cn.bing.com/th?id=OHR.Chongyang2024_ZH-CN4180097837_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.Chongyang2024_ZH-CN4180097837_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
 
-<<<<<<< HEAD
 ## 2024-10-10 托斯卡纳的石头小镇
 
 索拉诺，托斯卡纳，意大利 (© Luigi Vaccarella/eStock Photo)
@@ -15,8 +94,6 @@
 
 [Download 1920 * 1080](https://cn.bing.com/th?id=OHR.SoranoItaly_ZH-CN5842160079_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.SoranoItaly_ZH-CN5842160079_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
 
-=======
->>>>>>> 6a0a04718701bd9129c9be39a18bb634dbf26e69
 ## 2024-10-09 色彩斑斓的秋天
 
 马布尔附近的白杨树，科罗拉多州，美国 (© Jason Hatfield/TANDEM Stills + Motion)
@@ -168,95 +245,3 @@ Oktoberfest in Munich at sunset (© AllesSuper21/iStock/Getty Images)
 ![](https://cn.bing.com/th?id=OHR.MunichBeerfest_ZH-CN0304560562_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
 
 [Download 1920 * 1080](https://cn.bing.com/th?id=OHR.MunichBeerfest_ZH-CN0304560562_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.MunichBeerfest_ZH-CN0304560562_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-20 海盗的最终归宿
-
-奥克拉科克岛上的奥克拉科克灯塔，北卡罗来纳州，美国 (© Chansak Joe/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.OcracokeLight_ZH-CN9810840077_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.OcracokeLight_ZH-CN9810840077_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.OcracokeLight_ZH-CN9810840077_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-19 埃尔博河上空的银河
-
-埃尔博河上空的银河，阿尔伯塔省，加拿大 (© Alan Dyer/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.ElbowRiver_ZH-CN9580175593_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.ElbowRiver_ZH-CN9580175593_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.ElbowRiver_ZH-CN9580175593_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-18 云中之城
-
-郡上八幡城，岐阜县，日本 (© ta2funk ito/500px/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.GujoHachiman_ZH-CN9192289658_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.GujoHachiman_ZH-CN9192289658_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.GujoHachiman_ZH-CN9192289658_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-16 蹦蹦跳跳，快乐到老
-
-日出时的小袋鼠，阿德莱德河，北领地，澳大利亚 (© Jeremy Woodhouse/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.SunriseWallabies_ZH-CN8725891401_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.SunriseWallabies_ZH-CN8725891401_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.SunriseWallabies_ZH-CN8725891401_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-15 香料红和水晶蓝
-
-阿科马尼奥海滩，卡拉布里亚，意大利 (© Alessio de Cicco/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.CalabriaPeperoncino_ZH-CN8603617212_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.CalabriaPeperoncino_ZH-CN8603617212_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.CalabriaPeperoncino_ZH-CN8603617212_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-14 古老又神秘
-
-阿胡汤加里基的日出，拉帕·努伊国家公园，复活节岛，智利 (© Piriya Photography/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.RapaNuiSunrise_ZH-CN1220508877_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.RapaNuiSunrise_ZH-CN1220508877_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.RapaNuiSunrise_ZH-CN1220508877_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-13 自然与人类的天堂
-
-雷耶斯角国家海岸灯塔，加利福尼亚州，美国 (© RMB Images/Photography by Robert Bowman/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.PointReyes_ZH-CN7781514086_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.PointReyes_ZH-CN7781514086_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.PointReyes_ZH-CN7781514086_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-12 度过美好的一天
-
-留尼汪岛附近的海豚群，印度洋，法国海外省 (© Joost van Uffelen/Shutterstock)
-
-![](https://cn.bing.com/th?id=OHR.DolphinReunion_ZH-CN7681290861_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.DolphinReunion_ZH-CN7681290861_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.DolphinReunion_ZH-CN7681290861_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-11 石头编织的童话
-
-埃尔茨城堡，德国 (© Allard Schager/Alamy)
-
-![](https://cn.bing.com/th?id=OHR.EltzCastle_ZH-CN7586749377_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.EltzCastle_ZH-CN7586749377_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.EltzCastle_ZH-CN7586749377_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-09-10 从天际线到水面
-
-瓦斯科·达·伽马大桥，里斯本，葡萄牙 (© Achim Thomae/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.BridgeLisbon_ZH-CN6877671644_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.BridgeLisbon_ZH-CN6877671644_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.BridgeLisbon_ZH-CN6877671644_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-<<<<<<< HEAD
-=======
-## 2024-09-09 “大水”中的彩虹波
-
-阿根廷和巴西边境的伊瓜苏瀑布 (© AirPano LLC/Amazing Aerial Agency)
-
-![](https://cn.bing.com/th?id=OHR.IguazuRainbow_ZH-CN6524347982_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.IguazuRainbow_ZH-CN6524347982_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.IguazuRainbow_ZH-CN6524347982_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
->>>>>>> 6a0a04718701bd9129c9be39a18bb634dbf26e69
