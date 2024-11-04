@@ -3,6 +3,9 @@ contact_links:
   - name: 关于VIPTV的提问
     url: https://github.com/viptv-work/viptv
     about: 请在讨论中提问
+  - name: Telegram Group
+    url: https://t.me/viptv_work
+    about: Get in touch with us through telegram  
   - name: 官方 QQ 群
     url: https://qm.qq.com/q/jHDv3RLK9y
     about: "加入主题官方 QQ 群: 171418618"
