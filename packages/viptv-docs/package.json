@@ -46,6 +46,7 @@
     "vuepress-theme-hope": "2.0.0-rc.59"
   },
   "dependencies": {
+    "artplayer-plugin-ambilight": "^1.0.0",
     "markmap-lib": "^0.17.2",
     "markmap-toolbar": "^0.17.2",
     "markmap-view": "^0.17.2"

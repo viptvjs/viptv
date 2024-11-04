@@ -1,4 +1,5 @@
 import { artplayerPlaylist } from "./artplayer-plugin-playlist.js";
+import artplayerPluginAmbilight from 'artplayer-plugin-ambilight';
 //import artplayerPluginDanmuku from 'artplayer-plugin-danmuku';
 const poster = "https://img.viptv.work/iptv/ads.png";
 
@@ -138,6 +139,12 @@ export const mpConfig = (playlist: playlist[]) => {
 
         },
       }), */
+      artplayerPluginAmbilight({
+         blur: '50px', 
+         opacity: 1, 
+         frequency: 10, 
+         duration: 0.3,
+      }),
       artplayerPlaylist({
         rebuildPlayer: false, // 换P时重建播放器，默认false
         onchanged: () => { }, // 换P后的回调函数
