@@ -95,7 +95,7 @@ export const get_rollback_urls = () => {
 
 export const get_github_raw_proxy_url = () => {
   const custom = process.env.CUSTOM_GITHUB_RAW_SOURCE_PROXY_URL;
-  return !!custom ? custom : `https://gh.con.sh/`;
+  return !!custom ? custom : `https://ghproxy.net/`;
 };
 
 export const replace_github_raw_proxy_url = (s: string) => {
