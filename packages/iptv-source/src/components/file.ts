@@ -6,9 +6,7 @@ import { with_github_raw_url_proxy, m3u2txt } from "../utils";
 
 export const getContent = async (src: ISource | TEPGSource) => {
   const now = hrtime.bigint();
-  const url = /^https:\/\/raw.githubusercontent.com\//.test(src.url)
-    ? with_github_raw_url_proxy(src.url)
-    : src.url;
+  const url =  src.url;
   const res = await fetch(url);
   return [res.ok, await res.text(), now];
 };
