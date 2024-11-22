@@ -24,12 +24,19 @@ const subjectComplete = gitStatus
 
 module.exports = defineConfig({
   rules: {
-
+    'scope-enum': [2, 'always', ['cz-git', 'site', 'cli', ...packages]],
+    'subject-min-length': [2, 'always', 2],
+    'subject-empty': [2, 'never'],
   },
   prompt: {
     alias: {
-      f: 'docs(core): fix typos',
-      b: 'chore(repo): bump dependencies',
+      'b': 'chore: bump dependencies',
+      'c': 'chore: update config files',
+      'f': 'docs: fix typos',
+      ':': 'docs: update README',
+      'schema': 'chore: update czrc configure JSON schema',
+      'table:data': 'chore: :hammer: update project using table data',
+      'table:docs': 'docs: update project using table',
     },
     messages: {
       type: '选择你要提交的类型 :',
@@ -46,23 +53,23 @@ module.exports = defineConfig({
       confirmCommit: '是否提交或修改commit ?'
     },
     types: [
-      { value: '特性', name: '特性:     ✨  新增功能', emoji: ":sparkles:" },
-      { value: '修复', name: '修复:     🐛  修复缺陷', emoji: ":bug:" },
-      { value: '文档', name: '文档:     📝  文档变更', emoji: ":memo:" },
-      { value: '格式', name: '格式:     💄  代码格式（不影响功能，例如空格、分号等格式修正）', emoji: ":lipstick:" },
-      { value: '重构', name: '重构:     ♻️  代码重构（不包括 bug 修复、功能新增）', emoji: ":recycle:" },
-      { value: '性能', name: '性能:     ⚡️  性能优化', emoji: ":zap:" },
-      { value: '测试', name: '测试:     ✅  添加疏漏测试或已有测试改动', emoji: ":white_check_mark:" },
-      { value: '构建', name: '构建:     📦️  构建流程、外部依赖变更（如升级 npm 包、修改 webpack 配置等）', emoji: ":package:" },
-      { value: '集成', name: '集成:     🎡  修改 CI 配置、脚本', emoji: ":ferris_wheel:" },
-      { value: '回退', name: '回退:     🔨  回滚 commit', emoji: ":hammer:" },
-      { value: '其他', name: '其他:     ⏪️  对构建过程或辅助工具和库的更改（不影响源文件、测试用例）', emoji: ":rewind:" },
+      { value: 'feat', name: 'feat:    ✨  新增功能 | A new feature', emoji: ":sparkles:" },
+      { value: 'fix', name: 'fix:     🐛  修复缺陷 | A bug fix', emoji: ":bug:" },
+      { value: 'docs', name: 'docs:     📝  文档更新 | Documentation only changes', emoji: ":memo:" },
+      { value: 'style', name: 'style:     💄  代码格式 | Changes that do not affect the meaning of the code', emoji: ":lipstick:" },
+      { value: 'refactor', name: 'refactor:     ♻️  代码重构 | A code change that neither fixes a bug nor adds a feature', emoji: ":recycle:" },
+      { value: 'perf', name: 'perf:     ⚡️  性能提升 | A code change that improves performance', emoji: ":zap:" },
+      { value: 'test', name: 'test:     ✅  测试相关 | Adding missing tests or correcting existing tests', emoji: ":white_check_mark:" },
+      { value: 'build', name: 'build:     📦️  构建相关 | Changes that affect the build system or external dependencies', emoji: ":package:" },
+      { value: 'ci', name: 'ci:     🎡  持续集成 | Changes to our CI configuration files and scripts', emoji: ":ferris_wheel:" },
+      { value: 'revert', name: 'revert:     🔨  回退代码 | Revert to a commit', emoji: ":hammer:" },
+      { value: 'chore', name: 'chore:     ⏪️  其他修改 | Other changes that do not modify src or test files', emoji: ":rewind:" },
     ],
     useEmoji: true,
     emojiAlign: 'center',
     useAI: false,
     aiNumber: 1,
-    themeColorCode: '',
+    themeColorCode: '38;5;043',
     scopes: [...packages],
     allowCustomScopes: true,
     allowEmptyScopes: true,
