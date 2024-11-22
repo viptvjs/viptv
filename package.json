@@ -22,7 +22,8 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-git"
+      "path": "./node_modules/cz-git",
+      "useEmoji": true
     }
   },
   "packageManager": "pnpm@9.14.2",
