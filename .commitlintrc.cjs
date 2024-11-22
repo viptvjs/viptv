@@ -1,9 +1,11 @@
 const { execSync } = require('child_process');
 const { defineConfig } = require('cz-git')
-const fs = require('node:fs')
-const path = require('node:path')
-
-const packages = fs.readdirSync(path.resolve(__dirname, 'packages'))
+const { readdirSync } = require('node:fs')
+const { dirname, join } = require('node:path')
+const { fileURLToPath } = require('node:url')
+const packages = readdirSync(
+  join(dirname(fileURLToPath(import.meta.url)), "./packages/"),
+);
 const scopeComplete = execSync('git status --porcelain || true')
   .toString()
   .trim()
@@ -23,8 +25,9 @@ const subjectComplete = gitStatus
   ?.match(/packages%%components%%((\w|-)*)/)?.[1]
 
 module.exports = defineConfig({
+  extends: ["@commitlint/config-conventional"],
   rules: {
-    'scope-enum': [2, 'always', ['cz-git', 'site', 'cli', ...packages]],
+    'scope-enum': [2, 'always', ["demo", "release", ...packages]],
     'subject-min-length': [2, 'always', 2],
     'subject-empty': [2, 'never'],
   },
