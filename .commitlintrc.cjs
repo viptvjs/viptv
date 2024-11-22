@@ -1,5 +1,5 @@
-import { execSync } from 'node:child_process'
-import { defineConfig } from 'cz-git'
+const { execSync } = require('child_process');
+const { defineConfig } = require('cz-git')
 const fs = require('node:fs')
 const path = require('node:path')
 
@@ -22,7 +22,7 @@ const subjectComplete = gitStatus
   ?.replace(/\//g, '%%')
   ?.match(/packages%%components%%((\w|-)*)/)?.[1]
 
-export default defineConfig({
+module.exports = defineConfig({
   rules: {
 
   },
