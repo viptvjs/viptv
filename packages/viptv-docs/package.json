@@ -12,7 +12,6 @@
     "email": "qq2236639956@outlook.com",
     "url": "https://github.com/hefung"
   },
-  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vuepress-vite dev src --clean-cache",
