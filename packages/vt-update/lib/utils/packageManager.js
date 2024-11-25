@@ -1,24 +1,27 @@
-import { spawnSync } from 'node:child_process';
-import { existsSync, readFileSync } from 'node:fs';
-import { dirname, resolve } from 'node:path';
-const globalCache = new Map();
-const localCache = new Map();
-const PACKAGE_CONFIG = 'package.json';
-const NPM_LOCK = 'package-lock.json';
-const YARN_LOCK = 'yarn.lock';
-const PNPM_LOCK = 'pnpm-lock.yaml';
-const BUN_LOCK = 'bun.lockb';
-const isInstalled = (packageManager) => {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getPackageManager = exports.getTypeofLockFile = exports.getPackageManagerSetting = exports.isPackageManagerInstalled = void 0;
+var node_child_process_1 = require("node:child_process");
+var node_fs_1 = require("node:fs");
+var node_path_1 = require("node:path");
+var globalCache = new Map();
+var localCache = new Map();
+var PACKAGE_CONFIG = 'package.json';
+var NPM_LOCK = 'package-lock.json';
+var YARN_LOCK = 'yarn.lock';
+var PNPM_LOCK = 'pnpm-lock.yaml';
+var BUN_LOCK = 'bun.lockb';
+var isInstalled = function (packageManager) {
     try {
-        const bin = packageManager === 'yarn1' ? 'yarn' : packageManager;
-        const result = spawnSync(`${bin} --version`, {
+        var bin = packageManager === 'yarn1' ? 'yarn' : packageManager;
+        var result = (0, node_child_process_1.spawnSync)("".concat(bin, " --version"), {
             shell: true,
         });
         if (packageManager === 'yarn1')
             return result.stdout.toString().startsWith('1');
         return result.status === 0;
     }
-    catch {
+    catch (_a) {
         return false;
     }
 };
@@ -27,9 +30,9 @@ const isInstalled = (packageManager) => {
  *
  * @param packageManager package manager
  */
-export const isPackageManagerInstalled = (packageManager) => {
-    const key = `global:${packageManager}`;
-    const status = globalCache.get(key);
+var isPackageManagerInstalled = function (packageManager) {
+    var key = "global:".concat(packageManager);
+    var status = globalCache.get(key);
     if (status !== undefined)
         return status;
     if (isInstalled(packageManager)) {
@@ -38,6 +41,7 @@ export const isPackageManagerInstalled = (packageManager) => {
     }
     return false;
 };
+exports.isPackageManagerInstalled = isPackageManagerInstalled;
 /**
  * Get package manager setting in package.json
  *
@@ -45,27 +49,29 @@ export const isPackageManagerInstalled = (packageManager) => {
  * @param deep whether to search in parent directories
  * @returns the type of lock file
  */
-export const getPackageManagerSetting = (cwd = process.cwd(), deep = true) => {
-    const key = `package:${cwd}`;
-    const status = localCache.get(key);
+var getPackageManagerSetting = function (cwd, deep) {
+    if (cwd === void 0) { cwd = process.cwd(); }
+    if (deep === void 0) { deep = true; }
+    var key = "package:".concat(cwd);
+    var status = localCache.get(key);
     if (status !== undefined)
         return status;
-    if (existsSync(resolve(cwd, PACKAGE_CONFIG))) {
-        const { packageManager: packageManagerSettings } = JSON.parse(readFileSync(resolve(cwd, PACKAGE_CONFIG), 'utf-8'));
+    if ((0, node_fs_1.existsSync)((0, node_path_1.resolve)(cwd, PACKAGE_CONFIG))) {
+        var packageManagerSettings = JSON.parse((0, node_fs_1.readFileSync)((0, node_path_1.resolve)(cwd, PACKAGE_CONFIG), 'utf-8')).packageManager;
         if (packageManagerSettings) {
-            const packageManager = packageManagerSettings.split('@')[0];
+            var packageManager = packageManagerSettings.split('@')[0];
             localCache.set(key, packageManager);
             return packageManager;
         }
     }
     if (deep) {
-        let dir = cwd;
-        while (dir !== dirname(dir)) {
-            dir = dirname(dir);
-            if (existsSync(resolve(cwd, PACKAGE_CONFIG))) {
-                const { packageManager: packageManagerSettings } = JSON.parse(readFileSync(resolve(cwd, PACKAGE_CONFIG), 'utf-8'));
+        var dir = cwd;
+        while (dir !== (0, node_path_1.dirname)(dir)) {
+            dir = (0, node_path_1.dirname)(dir);
+            if ((0, node_fs_1.existsSync)((0, node_path_1.resolve)(cwd, PACKAGE_CONFIG))) {
+                var packageManagerSettings = JSON.parse((0, node_fs_1.readFileSync)((0, node_path_1.resolve)(cwd, PACKAGE_CONFIG), 'utf-8')).packageManager;
                 if (packageManagerSettings) {
-                    const packageManager = packageManagerSettings.split('@')[0];
+                    var packageManager = packageManagerSettings.split('@')[0];
                     localCache.set(key, packageManager);
                     return packageManager;
                 }
@@ -74,6 +80,7 @@ export const getPackageManagerSetting = (cwd = process.cwd(), deep = true) => {
     }
     return null;
 };
+exports.getPackageManagerSetting = getPackageManagerSetting;
 /**
  * Get the type of lock file.
  *
@@ -81,17 +88,19 @@ export const getPackageManagerSetting = (cwd = process.cwd(), deep = true) => {
  * @param deep whether to search in parent directories
  * @returns the type of lock file
  */
-export const getTypeofLockFile = (cwd = process.cwd(), deep = true) => {
-    const key = `local:${cwd}`;
-    const status = localCache.get(key);
+var getTypeofLockFile = function (cwd, deep) {
+    if (cwd === void 0) { cwd = process.cwd(); }
+    if (deep === void 0) { deep = true; }
+    var key = "local:".concat(cwd);
+    var status = localCache.get(key);
     if (status !== undefined)
         return status;
-    if (existsSync(resolve(cwd, PNPM_LOCK))) {
+    if ((0, node_fs_1.existsSync)((0, node_path_1.resolve)(cwd, PNPM_LOCK))) {
         localCache.set(key, 'pnpm');
         return 'pnpm';
     }
-    if (existsSync(resolve(cwd, YARN_LOCK))) {
-        const packageManager = readFileSync(resolve(cwd, YARN_LOCK), {
+    if ((0, node_fs_1.existsSync)((0, node_path_1.resolve)(cwd, YARN_LOCK))) {
+        var packageManager = (0, node_fs_1.readFileSync)((0, node_path_1.resolve)(cwd, YARN_LOCK), {
             encoding: 'utf-8',
         }).includes('yarn lockfile v1')
             ? 'yarn1'
@@ -99,24 +108,24 @@ export const getTypeofLockFile = (cwd = process.cwd(), deep = true) => {
         localCache.set(key, packageManager);
         return packageManager;
     }
-    if (existsSync(resolve(cwd, BUN_LOCK))) {
+    if ((0, node_fs_1.existsSync)((0, node_path_1.resolve)(cwd, BUN_LOCK))) {
         localCache.set(key, 'bun');
         return 'bun';
     }
-    if (existsSync(resolve(cwd, NPM_LOCK))) {
+    if ((0, node_fs_1.existsSync)((0, node_path_1.resolve)(cwd, NPM_LOCK))) {
         localCache.set(key, 'npm');
         return 'npm';
     }
     if (deep) {
-        let dir = cwd;
-        while (dir !== dirname(dir)) {
-            dir = dirname(dir);
-            if (existsSync(resolve(dir, PNPM_LOCK))) {
+        var dir = cwd;
+        while (dir !== (0, node_path_1.dirname)(dir)) {
+            dir = (0, node_path_1.dirname)(dir);
+            if ((0, node_fs_1.existsSync)((0, node_path_1.resolve)(dir, PNPM_LOCK))) {
                 localCache.set(key, 'pnpm');
                 return 'pnpm';
             }
-            if (existsSync(resolve(dir, YARN_LOCK))) {
-                const packageManager = readFileSync(resolve(dir, YARN_LOCK), {
+            if ((0, node_fs_1.existsSync)((0, node_path_1.resolve)(dir, YARN_LOCK))) {
+                var packageManager = (0, node_fs_1.readFileSync)((0, node_path_1.resolve)(dir, YARN_LOCK), {
                     encoding: 'utf-8',
                 }).includes('yarn lockfile v1')
                     ? 'yarn1'
@@ -124,11 +133,11 @@ export const getTypeofLockFile = (cwd = process.cwd(), deep = true) => {
                 localCache.set(key, packageManager);
                 return packageManager;
             }
-            if (existsSync(resolve(dir, BUN_LOCK))) {
+            if ((0, node_fs_1.existsSync)((0, node_path_1.resolve)(dir, BUN_LOCK))) {
                 localCache.set(key, 'bun');
                 return 'bun';
             }
-            if (existsSync(resolve(dir, NPM_LOCK))) {
+            if ((0, node_fs_1.existsSync)((0, node_path_1.resolve)(dir, NPM_LOCK))) {
                 localCache.set(key, 'npm');
                 return 'npm';
             }
@@ -136,6 +145,7 @@ export const getTypeofLockFile = (cwd = process.cwd(), deep = true) => {
     }
     return null;
 };
+exports.getTypeofLockFile = getTypeofLockFile;
 /**
  * Detect the package manager used in the current project.
  *
@@ -143,13 +153,17 @@ export const getTypeofLockFile = (cwd = process.cwd(), deep = true) => {
  * @param deep whether to search in parent directories
  * @returns the type of package manager
  */
-export const getPackageManager = (cwd = process.cwd(), deep = true) => getPackageManagerSetting(cwd, deep) ||
-    getTypeofLockFile(cwd, deep) ||
-    (isPackageManagerInstalled('pnpm')
-        ? 'pnpm'
-        : isPackageManagerInstalled('yarn')
-            ? 'yarn'
-            : isPackageManagerInstalled('bun')
-                ? 'bun'
-                : 'npm');
-//# sourceMappingURL=packageManager.js.map
+var getPackageManager = function (cwd, deep) {
+    if (cwd === void 0) { cwd = process.cwd(); }
+    if (deep === void 0) { deep = true; }
+    return (0, exports.getPackageManagerSetting)(cwd, deep) ||
+        (0, exports.getTypeofLockFile)(cwd, deep) ||
+        ((0, exports.isPackageManagerInstalled)('pnpm')
+            ? 'pnpm'
+            : (0, exports.isPackageManagerInstalled)('yarn')
+                ? 'yarn'
+                : (0, exports.isPackageManagerInstalled)('bun')
+                    ? 'bun'
+                    : 'npm');
+};
+exports.getPackageManager = getPackageManager;

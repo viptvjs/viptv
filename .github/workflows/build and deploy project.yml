@@ -41,26 +41,17 @@ jobs:
         with:
           personal_token: ${{ secrets.PUBLISH_DOCS }}
           external_repository: viptv-work/viptv
-          publish_dir: ./packages/viptv-docs/dist
+          publish_dir: ./docs/viptv/dist
           publish_branch: main
           cname: www.viptv.work
 
-      - name: Deploy to img.viptv.work
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          personal_token: ${{ secrets.PUBLISH_DOCS }}
-          external_repository: viptv-work/img
-          publish_dir: ./packages/img
-          publish_branch: main
-          cname: img.viptv.work
-
-
+     
       - name: Deploy to hefung/docs
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           repository-name: hefung/docs
           branch: main
-          folder: ./packages/viptv-docs/dist
+          folder: ./docs/viptv/dist
           token: ${{ secrets.PUBLISH_DOCS }}
           single-commit: true
 
@@ -77,7 +68,7 @@ jobs:
         with:
           personal_token: ${{ secrets.PUBLISH_DOCS }}
           external_repository: viptv-work/xuanxue
-          publish_dir: ./packages/xuanxue/.vitepress/dist
+          publish_dir: ./docs/xuanxue/.vitepress/dist
           publish_branch: main
           cname: xuanxue.viptv.work    
 

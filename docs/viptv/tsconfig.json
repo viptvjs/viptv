@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "paths": {
+      "@theme-hope/*": [
+        "vuepress-theme-hope/lib/client/*.js"
+      ]
+    }
+  },
+  "include": [
+    "src/.vuepress/**/*.ts",
+    "src/.vuepress/**/*.vue"
+  ]
+}

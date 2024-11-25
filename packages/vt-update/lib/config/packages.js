@@ -1,4 +1,7 @@
-export const VUE_RELATED_PACKAGES = [
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.THIRD_PARTY_THEMES = exports.THIRD_PARTY_PLUGINS = exports.DEPRECATED_PACKAGES = exports.REMOVED_PACKAGES = exports.OFFICIAL_PLUGINS_AND_THEMES_REGEXP = exports.OFFICIAL_PACKAGES = exports.VUE_RELATED_PACKAGES = void 0;
+exports.VUE_RELATED_PACKAGES = [
     '@vue/compiler-core',
     '@vue/compiler-dom',
     '@vue/compiler-sfc',
@@ -13,14 +16,14 @@ export const VUE_RELATED_PACKAGES = [
     'vue',
     'vue-router',
 ];
-export const OFFICIAL_PACKAGES = [
+exports.OFFICIAL_PACKAGES = [
     '@vuepress/bundler-vite',
     '@vuepress/bundler-webpack',
     'vuepress',
 ];
-export const OFFICIAL_PLUGINS_AND_THEMES_REGEXP = /^@vuepress\/(?:plugin|theme)-/;
-export const REMOVED_PACKAGES = ['vuepress-webpack', 'vuepress-vite'];
-export const DEPRECATED_PACKAGES = [
+exports.OFFICIAL_PLUGINS_AND_THEMES_REGEXP = /^@vuepress\/(?:plugin|theme)-/;
+exports.REMOVED_PACKAGES = ['vuepress-webpack', 'vuepress-vite'];
+exports.DEPRECATED_PACKAGES = [
     '@vuepress/cli',
     '@vuepress/client',
     '@vuepress/core',
@@ -28,6 +31,5 @@ export const DEPRECATED_PACKAGES = [
     '@vuepress/shared',
     '@vuepress/utils',
 ];
-export const THIRD_PARTY_PLUGINS = /^(@.*\/)?vuepress-plugin-/;
-export const THIRD_PARTY_THEMES = /^(@.*\/)?vuepress-theme-/;
-//# sourceMappingURL=packages.js.map
+exports.THIRD_PARTY_PLUGINS = /^(@.*\/)?vuepress-plugin-/;
+exports.THIRD_PARTY_THEMES = /^(@.*\/)?vuepress-theme-/;

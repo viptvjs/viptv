@@ -1,0 +1,20 @@
+{
+  "name": "xuanxue",
+  "description": "Docs for VIPTV",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "devDependencies": {
+    "@mdit/plugin-footnote": "^0.13.1",
+    "prettier": "3.3.3",
+    "vitepress": "1.4.5"
+  },
+  "dependencies": {
+    "vitepress-plugin-image-viewer": "^1.1.5",
+    "vue": "^3.5.13"
+  }
+}

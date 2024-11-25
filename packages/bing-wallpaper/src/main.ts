@@ -4,8 +4,7 @@ import {
   writeFileSync,
   writeFile,
   readFileSync,
-  mkdirSync,
-  rmSync,
+  mkdirSync
 } from "node:fs";
 import { dirname } from "node:path";
 
@@ -52,31 +51,6 @@ const option = {
   },
 };
 
-/** 根据已有的 map.json，重写所有文件 */
-function rewrite() {
-  try {
-    const buffer = readFileSync("./map.json");
-    const stringData = buffer.toString();
-    const JSONData = JSON.parse(stringData) as JSONMap;
-    const images = JSONData.images;
-
-    [
-      "./map.json",
-      "./README.md",
-      "./archives",
-      "../viptv-docs/src/archives",
-      "../viptv-docs/src/archives/README.md",
-      "../viptv-docs/src/.vuepress/config/sidebar/archives.ts",
-    ].forEach((path) => rmSync(path, { recursive: true, force: true }));
-
-    images.forEach((item) => {
-      writeMap(item);
-    });
-  } catch (e) {
-    console.log(e);
-    throw e;
-  }
-}
 
 async function main() {
   try {
@@ -273,7 +247,7 @@ function writeDocs(
     );
   });
   writeFile(
-    "../viptv-docs/src/archives/README.md",
+    "../../docs/viptv/src/archives/README.md",
     writeDataList.join(""),
     (err) => {
       if (err) {
@@ -312,7 +286,7 @@ function writeDocsArchive(info: PictureInfo, archives: ArchivesInfo[]) {
     );
   });
   const year = date.split("-")[0];
-  const path = `../viptv-docs/src/archives/${year}/${date}.md`;
+  const path = `../../docs/viptv/src/archives/${year}/${date}.md`;
   const dir = dirname(path);
   if (!existsSync(dir)) {
     mkdirSync(dir, { recursive: true });
@@ -351,7 +325,7 @@ function writeSidebar(archives: ArchivesInfo[]) {
   sidebar.sort((a, b) => +b.text - +a.text);
   const sidebarDate = "export default " + JSON.stringify(sidebar);
   writeFile(
-    `../viptv-docs/src/.vuepress/config/sidebar/archives.ts`,
+    `../../docs/viptv/src/.vuepress/config/sidebar/archives.ts`,
     sidebarDate,
     (err) => {
       if (err) {

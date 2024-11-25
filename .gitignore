@@ -1,8 +1,10 @@
 # Node modules
 **/node_modules/**
 # Build files
-packages/*/dist/
+docs/*/dist/
+**/.vitepress/dist/
 # Vuepress cache
 **/.vuepress/.cache/
+**/.vitepress/.cache/
 # Vuepress Temp
 **/.vuepress/.temp/
