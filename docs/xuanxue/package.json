@@ -11,6 +11,7 @@
   "devDependencies": {
     "@mdit/plugin-footnote": "^0.13.1",
     "prettier": "3.3.3",
+    "sass-embedded": "^1.81.0",
     "vitepress": "1.4.5"
   },
   "dependencies": {
