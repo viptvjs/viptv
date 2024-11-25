@@ -4,6 +4,7 @@ const { readdirSync } = require('node:fs')
 const { resolve } = require('node:path')
 
 const packages = readdirSync(resolve(__dirname, 'packages'))
+const docs = readdirSync(resolve(__dirname, 'docs'))
 const scopeComplete = execSync('git status --porcelain || true')
   .toString()
   .trim()
@@ -24,7 +25,7 @@ const subjectComplete = gitStatus
 
 module.exports = defineConfig({
   rules: {
-    'scope-enum': [2, 'always', ["demo", "release", ...packages]],
+    'scope-enum': [2, 'always', [...docs, ...packages]],
     'subject-min-length': [2, 'always', 2],
     'subject-empty': [2, 'never'],
   },
@@ -70,7 +71,7 @@ module.exports = defineConfig({
     useAI: false,
     aiNumber: 1,
     themeColorCode: '38;5;043',
-    scopes: [...packages],
+    scopes: [...docs,...packages],
     allowCustomScopes: true,
     allowEmptyScopes: true,
     customScopesAlign: !scopeComplete ? 'top-bottom' : 'bottom',
