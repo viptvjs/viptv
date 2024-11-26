@@ -3,6 +3,7 @@
 # Build files
 docs/*/dist/
 **/.vitepress/dist/
+**/dist/**
 # Vuepress cache
 **/.vuepress/.cache/
 **/.vitepress/.cache/
