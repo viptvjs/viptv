@@ -826,5 +826,10 @@ export const v2ray_sub: DSource[] = [
     name: "V2RAY_RAW",
     f_name: "8",
     url: "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt"
+  },
+  {
+    name: "V2RAY_RAW",
+    f_name: "9",
+    url: "https://raw.githubusercontent.com/free18/v2ray/main/v.txt"
   }
 ];
