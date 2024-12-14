@@ -74,8 +74,6 @@ NSHTTPURLResponse* response = (NSHTTPURLResponse* )task.response;
     }
 ```
 
-![cookie12x.png](https://storage1.cuntuku.com/2017/07/06/cookie12x.png)
-
 - 从 NSHTTPCookieStorage 获取想要 Cookie，**此种获取方式是获取的 cookies 中的**
 
 ```objc
@@ -94,7 +92,6 @@ NSHTTPURLResponse* response = (NSHTTPURLResponse* )task.response;
     [userCookies synchronize];
 ```
 
-![cookie22x.png](https://storage2.cuntuku.com/2017/07/06/cookie22x.png)
 
 - 清除 Cookie
 

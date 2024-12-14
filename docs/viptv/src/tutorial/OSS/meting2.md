@@ -58,7 +58,8 @@ plugins: [
 ];
 ```
 ### 可作为组件引入
+```javascript
 <Meting auto="https://y.qq.com/n/ryqq/songDetail/003UTVCN0QvffG" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
-
+```
 ### 也可作为全局播放器引入
 全局引入目前和看板娘有些重叠，还没有处理，先把开关关了

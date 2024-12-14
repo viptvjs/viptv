@@ -1,5 +1,4 @@
 ---
-containerClass: home
 home: true
 icon: home
 title: 首页

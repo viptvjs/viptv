@@ -1,6 +1,6 @@
 ---
 title: "初识Rust"
-icon: "https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/rust.svg"
+icon: "/assets/svg/rust.svg"
 subtitle: "python"
 date: 2023-12-07 17:14:55
 category:

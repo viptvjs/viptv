@@ -1,6 +1,6 @@
 ---
 title: "Unix/Linux 扫盲笔记"
-icon: https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/linux.svg
+icon: /assets/svg/linux.svg
 date: 2015-04-14
 category:
   - Linux

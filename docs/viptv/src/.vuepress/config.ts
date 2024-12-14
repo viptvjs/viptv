@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { getDirname, path } from "vuepress/utils";
 const __dirname = getDirname(import.meta.url);
-const base = (process.env.BASE as "/" | `/${string}/`) || "/";
+const base = (process.env.BASE as "/" | `/${string}/` | undefined) ?? "/";
 export default defineUserConfig({
   base,
   dest: "./dist",

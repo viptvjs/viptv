@@ -14,11 +14,11 @@ tag:
   - Runloop 提供了一种异步执行代码的机制，不能并行执行任务。
   - 在主队列中，Main RunLoop 直接配合任务的执行，负责处理 UI 事件、定时器以及其他内核相关事件。
 
-###Runloop 的主要目的
+### Runloop 的主要目的
 
 - 保证执行程序的线程不会被终止
 
-###什么时候使用 Runloop
+### 什么时候使用 Runloop
 
 - 当需要和该线程进行交互的时候才会使用 Runloop
 
@@ -42,7 +42,7 @@ tag:
 
 - 除了处理`input sources`，Runloop 也会产生一些关于本身行为的`notificaiton`。注册成为 Runloop 的`observer`，可以接收到这些 notification，做一些额外的处理。（使用`CoreFoundation`来成为 runloop 的 observer）。
 
-###Runloop 特性
+### Runloop 特性
 
 - 当有事件发生时，Runloop 会根据具体的事件类型通知应用程序作出响应；
 
@@ -58,7 +58,7 @@ tag:
 - RunLoop 负责管理  `autorelease pools`
 - RunLoop 负责处理消息事件，即输入源事件、计时器事件和网络请求事情
 
-###应用场景
+### 应用场景
 
 - 创建常驻线程，执行一些会一直存在的任务。该线程的生命周期跟  App
     相同
@@ -79,9 +79,9 @@ tag:
 
 ---
 
-> ####提示：一般在开发中很少会主动创建 Runloop，而通常会把事件添加到 Runloop 中。
+> #### 提示：一般在开发中很少会主动创建 Runloop，而通常会把事件添加到 Runloop 中。
 
-###参考文章
+### 参考文章
 [官方文档](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW23)
 [深入理解 Runloop](http://blog.ibireme.com/2015/05/18/runloop/)
 [Runloop 原理和核心机制](http://www.cnblogs.com/zy1987/p/4582466.html)

@@ -1,8 +1,10 @@
 import { hopeTheme } from "vuepress-theme-hope";
+import { getDirname, path } from "vuepress/utils";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
 import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
 const hostname = process.env.HOSTNAME ?? "https://www.viptv.work";
+const __dirname = getDirname(import.meta.url);
 export default hopeTheme(
   {
     hostname,
@@ -71,6 +73,82 @@ export default hopeTheme(
         "/private/sm/": ["3.1415926", "8.8888888", "9.9999999"],
       },
     },
+    markdown: {
+      highlighter: {
+        type: "shiki",
+        lineNumbers: 15,
+        notationDiff: true,
+        themes: {
+          light: "one-light",
+          dark: "one-dark-pro",
+        },
+      },
+      align: true,
+      attrs: true,
+      codeTabs: true,
+      component: true,
+      figure: true,
+      gfm: true,
+      imgLazyload: true,
+      imgSize: true,
+      include: {
+        deep: true,
+        resolvePath: (file) => {
+          if (file.startsWith("@components/"))
+            return file.replace(
+              "@components",
+              path.resolve(__dirname, "./components/"),
+            );          
+          return file;
+        },
+        resolveLinkPath: false,
+      },
+      mark: true,
+      math: true,
+      revealjs: {
+        plugins: ["highlight", "math", "search", "notes", "zoom"],
+        themes: [
+          "auto",
+          "beige",
+          "black",
+          "blood",
+          "league",
+          "moon",
+          "night",
+          "serif",
+          "simple",
+          "sky",
+          "solarized",
+          "white",
+        ],
+      },
+      spoiler: true,
+      stylize: [
+        {
+          matcher: "Recommended",
+          replacer: ({
+            tag,
+          }): {
+            tag: string;
+            attrs: Record<string, string>;
+            content: string;
+          } | void => {
+            if (tag === "em")
+              return {
+                tag: "Badge",
+                attrs: { type: "tip" },
+                content: "Recommended",
+              };
+          },
+        },
+      ],
+      sub: true,
+      sup: true,
+      tabs: true,
+      tasklist: true,
+      vPre: true,
+    },
+
     editLink: false,
     plugins: {
       redirect: {
@@ -111,7 +189,6 @@ export default hopeTheme(
          }, */
       components: {
         components: [
-          "PDF",
           "Share",
           "FontIcon",
           "Badge",
@@ -120,9 +197,11 @@ export default hopeTheme(
           "VPBanner",
           "SiteInfo",
           "VidStack",
-        ]
+        ]    
       },
+
       copyright: true,
+      
 
       notice: [
         {
@@ -164,74 +243,16 @@ export default hopeTheme(
       watermark: {
         enabled: false,
       },
-      markdownHint: {
-        hint: true,
-        alert: true,
-      },
-      markdownImage: {
-        mark: true,
-        figure: true,
-        lazyload: true,
-        size: true,
-      },
-      markdownMath: true,
-      markdownTab: {
-        // 启用代码选项卡
-        codeTabs: true,
-        // 启用选项卡
-        tabs: true,
-      },
-      prismjs: true,
-      mdEnhance: {
-        align: true, // 启用自定义对齐
-        attrs: true, //属性支持
-        vPre: true, //是否启用 v-pre 容器。
-        breaks: true, //是否将段落中的 \n 转换为 <br>
-        linkify: true, //是否将文字中的链接格式文字转换为链接
-        gfm: true, //是否支持完整的 GFM 语法
-        mark: true, // 开启标记
-        tasklist: true, // 启用任务列表
-        include: true, // 启用导入支持
-        markmap: true, // 启用 Markmap
-        spoiler: true, //是否启用剧透支持。
-        component: true, //是否启用组件支持
-        footnote: true, //是否启用脚注格式支持
-        sub: true, //是否启用下角标格式支持
-        sup: true, //是否启用上角标格式支持。
-        stylize: [
-          //样式化
-          {
-            matcher: "Recommended",
-            replacer: ({
-              tag,
-            }): {
-              tag: string;
-              attrs: Record<string, string>;
-              content: string;
-            } | void => {
-              if (tag === "em")
-                return {
-                  tag: "Badge",
-                  attrs: { type: "tip" },
-                  content: "Recommended",
-                };
-            },
-          },
-        ],
-      },
 
+      
       pwa: {
         favicon: "/favicon.ico",
-        themeColor: "#5c92d1",
-        cacheHTML: false,
-        maxSize: 3072,
+        cacheHTML: true,
+        cacheImage: true,
+        appendBase: true,
         apple: {
           icon: "/assets/png/VIPTV-LOGO-192x192.png",
-          statusBarColor: "white",
-        },
-        msTile: {
-          image: "/assets/png/VIPTV-LOGO-192x192.png",
-          color: "#ffffff",
+          statusBarColor: "black",
         },
         manifest: {
           name: " VIPTV -  工作室",
@@ -322,55 +343,6 @@ export default hopeTheme(
           ],
         },
       },
-
-      revealjs: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-        themes: [
-          "auto",
-          "beige",
-          "black",
-          "blood",
-          "league",
-          "moon",
-          "night",
-          "serif",
-          "simple",
-          "sky",
-          "solarized",
-          "white",
-        ],
-      },
-
-      searchPro: {
-        indexContent: true,
-        hotReload: true,
-        customFields: [
-          {
-            getter: ({ frontmatter }): string[] => frontmatter["category"] as string[],
-            formatter: {
-              "/en/": "Category: $content",
-              "/": "分类：$content",
-            },
-          },
-          {
-            getter: ({ frontmatter }): string[] => frontmatter["tag"] as string[],
-            formatter: {
-              "/en/": "Tag: $content",
-              "/": "标签：$content",
-            },
-          },
-        ]
-      },
-
-      shiki: {
-        lineNumbers: 15,
-        notationDiff: true,
-        themes: {
-          light: "one-light",
-          dark: "one-dark-pro",
-        },
-      },
-
       seo: hostname === "https://www.viptv.work"
         ? {}
         : { canonical: "https://www.viptv.work" },
