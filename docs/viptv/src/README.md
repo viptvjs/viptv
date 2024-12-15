@@ -1,7 +1,10 @@
 ---
+containerClass: home
 home: true
 icon: home
 title: 首页
+article: false
+index: false
 heroImage: /logo.svg
 heroFullScreen: true
 bgImage: /assets/svg/4-light.svg

@@ -72,21 +72,15 @@ const NewPlayer = () => {
   }
 
   Win.GlobalAPlayer = new APlayer({
-    element: document.getElementById("GlobalAPlayer"),
+    container: document.getElementById('GlobalAPlayer'),
     audio: GlobalMusicList,
-    theme: `#${((Math.random() * 0xffffff) << 0).toString(16)}`,
     lrcType: 3,
-    volume: 0.9,
-    preload: "auto",
-    mutex: true,
-    fixed: false, //吸底模式,左下角播放器样式
-    autoplay: true, //打开自动播放，关闭改成false
-    order: "list", //顺序播放，随机播放改成random
-    listFolded: false, //列表默认折叠true
-    loop: "all",
-    listMaxHeight: "324px",
+    listFolded: false,
+    listMaxHeight: '324px',
     mini: false,
-    storageName: "GlobalAPlayer",
+    fixed: false,
+    volume: 1,
+    storageName: 'GlobalAPlayer'    
   });
 
   // 让按钮旋转
@@ -108,6 +102,15 @@ function AddBtnSpin() {
     }
   }
 }
+
+ function StopMusic() {
+   const Win: any = window;
+  let toPath = window.location.pathname;
+
+  if (toPath.includes('/music/') && Win.GlobalAPlayer) {
+     Win.GlobalAPlayer.pause();
+   }
+ }
 
 const LoadMusicList = (callback: { (): void; (): any }) => {
   axios({
@@ -164,6 +167,13 @@ onMounted(() => {
 </template>
 
 <style lang="scss">
+#GlobalAPlayer {
+  .aplayer-list-title,
+  .aplayer-title {
+    color: var(--theme-color);
+  }
+}
+
 .MyMusic {
   position: fixed;
   right: 0.5rem;
@@ -234,7 +244,7 @@ onMounted(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(69, 7, 136, 0.2);
+  background-color: var(--theme-color);
 
   .icon {
     font-size: 1.2rem;

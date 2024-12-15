@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { getDirname, path } from "vuepress/utils";
+import { viteBundler } from '@vuepress/bundler-vite'
 const __dirname = getDirname(import.meta.url);
 const base = (process.env.BASE as "/" | `/${string}/` | undefined) ?? "/";
 export default defineUserConfig({
@@ -37,11 +38,26 @@ export default defineUserConfig({
   theme,
   shouldPrefetch: false,
   shouldPreload: false,
+  bundler: viteBundler({
+    viteOptions: {
+      server: {
+        proxy: {
+          "/bing": {
+            target: "https://cn.bing.com",
+            changeOrigin: true,
+            rewrite: (path) => path.replace(/^\/bing/, ""),
+          },
+        },
+      }
+    },
+    // vuePluginOptions: {},
+  }),
+  plugins: [
+    
+  ],
   alias: {
     "@db": path.resolve(__dirname, "composables/dexie"),
     "@act": path.resolve(__dirname, "composables/artConst.ts"),
-    "@theme-hope/components/NormalPage": path.resolve(__dirname, "./components/NormalPage.vue"),
-    "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./components/BlogHome.vue"),
   },
   port: 80
 });

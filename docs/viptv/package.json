@@ -23,7 +23,8 @@
   "devDependencies": {
     "@types/node": "^22.10.2",
     "@vuepress/bundler-vite": "2.0.0-rc.19",
-    "@vuepress/helper": "2.0.0-rc.57",
+    "@vuepress/helper": "2.0.0-rc.66",
+    "@vuepress/plugin-feed": "2.0.0-rc.66",
     "@vuepress/plugin-prismjs": "2.0.0-rc.66",
     "@vuepress/plugin-pwa": "2.0.0-rc.66",
     "@vuepress/plugin-redirect": "2.0.0-rc.66",

@@ -7,19 +7,27 @@ const hostname = process.env.HOSTNAME ?? "https://www.viptv.work";
 const __dirname = getDirname(import.meta.url);
 export default hopeTheme(
   {
+    hotReload: true,
     hostname,
+    themeColor: true,
     author: {
       name: "Mr.Hefung",
       url: "/about/us",
     },
-    iconAssets: "fontawesome-with-brands",
+    iconAssets: [
+      "https://theme-hope-assets.vuejs.press/fontawesome/js/fontawesome.min.js",
+      "https://theme-hope-assets.vuejs.press/fontawesome/js/solid.min.js",
+      "https://theme-hope-assets.vuejs.press/fontawesome/js/brands.min.js",
+    ],
     favicon: "/favicon.ico",
     breadcrumb: true, // 面包屑导航
     darkmode: "toggle",
     logo: "/logo.svg",
-    repo: "viptv-work/viptv", // 自定义仓库链接文字。默认从 `repo` 中自动推断为
+    repo: "viptv-work/dev", // 自定义仓库链接文字。默认从 `repo` 中自动推断为
+    docsDir: "docs/viptv/src", //文档在仓库中的目录
     repoDisplay: true, //是否在导航栏显示仓库链接，默认为 `true`
     fullscreen: true, //全屏按钮
+    navbarAutoHide: 'always',
     lastUpdated: true,
     contributors: true, //全局禁用是否显示页面贡献者
     navbarTitle: "VIPTV - 工作室",
@@ -42,14 +50,14 @@ export default hopeTheme(
         sidebar: zhSidebar,
         displayFooter: true,
         footer: "极速 、 高清 、 无广告", // 页脚
-        copyright: "基于MIT 协议 | 版权所有 © 2020-至今 Mr.Hefung",
+        copyright: "基于MIT 协议 | 版权所有 © 2020-至今 Mr.HeFung",
       },
       "/en/": {
         navbar: enNavbar,
         sidebar: enSidebar,
         displayFooter: true,
         footer: "Best IPTV Subscription Provider.", // 页脚
-        copyright: "MIT Licensed | Copyright © 2020-present Mr.Hefung",
+        copyright: "MIT Licensed | Copyright © 2020-present Mr.HeFung",
       },
     },
     blog: {
@@ -98,7 +106,7 @@ export default hopeTheme(
             return file.replace(
               "@components",
               path.resolve(__dirname, "./components/"),
-            );          
+            );
           return file;
         },
         resolveLinkPath: false,
@@ -151,6 +159,23 @@ export default hopeTheme(
 
     editLink: false,
     plugins: {
+      slimsearch: {
+        indexContent: true,
+      },
+      feed: {
+        atom: true,
+        json: true,
+        rss: true,
+        image: '/assets/png/VIPTV-LOGO-192x192.png',
+        icon: '/assets/png/VIPTV-LOGO-192x192.png',
+      },
+      photoSwipe: {
+        selector: [
+          ".theme-hope-content :not(a) > img:not([no-view])",
+          ".news-content :not(a) > .vp-article-excerpt img",
+        ],
+      },
+      git: true,
       redirect: {
         localeConfig: {
           '/en/': ['en-US', 'en-UK', 'en'],
@@ -197,11 +222,11 @@ export default hopeTheme(
           "VPBanner",
           "SiteInfo",
           "VidStack",
-        ]    
+        ]
       },
 
       copyright: true,
-      
+
 
       notice: [
         {
@@ -244,7 +269,7 @@ export default hopeTheme(
         enabled: false,
       },
 
-      
+
       pwa: {
         favicon: "/favicon.ico",
         cacheHTML: true,

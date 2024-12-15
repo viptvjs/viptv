@@ -44,7 +44,6 @@ jobs:
           publish_dir: ./docs/viptv/dist
           publish_branch: main
           cname: www.viptv.work
-
      
       - name: Deploy to hefung/docs
         uses: JamesIves/github-pages-deploy-action@v4

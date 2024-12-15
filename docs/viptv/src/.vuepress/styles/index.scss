@@ -5,6 +5,30 @@
 @use "vuepress-theme-hope/presets/hr-driving-car";
 @use "vuepress-theme-hope/presets/left-blog-info";
 
+:root {
+  --banner-text: #000;
+  --bg-1: url("/assets/svg/1-light.svg") no-repeat center/cover;
+  --bg-2: url("/assets/svg/2-light.svg") no-repeat center/cover;
+  --bg-3: url("/assets/svg/3-light.svg") no-repeat center/cover;
+  --bg-4: url("/assets/svg/4-light.svg") no-repeat center/cover;
+  --bg-5: url("/assets/svg/5-light.svg") no-repeat center/cover;
+  --bg-6: url("/assets/svg/6-light.svg") no-repeat center/cover;
+  --bg-5-inverse: url("/assets/svg/5-dark.svg") no-repeat center/cover;
+  --bg-6-inverse: url("/assets/svg/6-dark.svg") no-repeat center/cover;
+}
+
+[data-theme="dark"] {
+  --banner-text: #fff;
+  --bg-1: url("/assets/svg/1-dark.svg") no-repeat center/cover;
+  --bg-2: url("/assets/svg/2-dark.svg") no-repeat center/cover;
+  --bg-3: url("/assets/svg/3-dark.svg") no-repeat center/cover;
+  --bg-4: url("/assets/svg/4-dark.svg") no-repeat center/cover;
+  --bg-5: url("/assets/svg/5-dark.svg") no-repeat center/cover;
+  --bg-6: url("/assets/svg/6-dark.svg") no-repeat center/cover;
+  --bg-5-inverse: url("/assets/svg/5-light.svg") no-repeat center/cover;
+  --bg-6-inverse: url("/assets/svg/6-light.svg") no-repeat center/cover;
+}
+
 .vp-portfolio {
 
   // expand media icons
@@ -24,6 +48,16 @@
   }
 }
 
+.catalog-display-container {
+  overflow: visible auto;
+
+  max-height: 75vh;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+
+  overflow-wrap: break-word;
+}
+
 .vp-portfolio-welcome,
 .vp-portfolio-title {
   color: var(--black);
@@ -37,29 +71,4 @@
     background-color: rgba(0, 0, 0);
     opacity: 0.1;
   }
-}
-
-
-:root {
-  --banner-text: #000;
-  --bg-1: url("/assets/svg/1-light.svg") no-repeat center/cover;
-  --bg-2: url("/assets/svg/2-light.svg") no-repeat center/cover;
-  --bg-3: url("/assets/svg/3-light.svg") no-repeat center/cover;
-  --bg-4: url("/assets/svg/4-light.svg") no-repeat center/cover;
-  --bg-5: url("/assets/svg/5-light.svg") no-repeat center/cover;
-  --bg-6: url("/assets/svg/6-light.svg") no-repeat center/cover;
-  --bg-5-inverse: url("/assets/svg/5-dark.svg") no-repeat center/cover;
-  --bg-6-inverse: url("/assets/svg/6-dark.svg") no-repeat center/cover;
-}
-
-html[data-theme="dark"] {
-  --banner-text: #fff;
-  --bg-1: url("/assets/svg/1-dark.svg") no-repeat center/cover;
-  --bg-2: url("/assets/svg/2-dark.svg") no-repeat center/cover;
-  --bg-3: url("/assets/svg/3-dark.svg") no-repeat center/cover;
-  --bg-4: url("/assets/svg/4-dark.svg") no-repeat center/cover;
-  --bg-5: url("/assets/svg/5-dark.svg") no-repeat center/cover;
-  --bg-6: url("/assets/svg/6-dark.svg") no-repeat center/cover;
-  --bg-5-inverse: url("/assets/svg/5-light.svg") no-repeat center/cover;
-  --bg-6-inverse: url("/assets/svg/6-light.svg") no-repeat center/cover;
 }

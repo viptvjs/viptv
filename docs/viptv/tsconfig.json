@@ -3,13 +3,17 @@
   "compilerOptions": {
     "rootDir": "./src",
     "paths": {
-      "@theme-hope/*": [
-        "vuepress-theme-hope/lib/client/*.js"
-      ]
-    }
+      "@theme-hope/*": ["node_modules/vuepress-theme-hope/lib/client/*"],
+      "vuepress-theme-hope/*": ["node_modules/vuepress-theme-hope/lib/*"],
+    },
+    "types": [
+      "vuepress/client-types"
+    ]
   },
   "include": [
     "src/.vuepress/**/*.ts",
+    "src/.vuepress/**/*.js",
     "src/.vuepress/**/*.vue"
-  ]
+  ],
+  "exclude": ["node_modules", "dist", "draft"]
 }
