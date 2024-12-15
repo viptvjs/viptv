@@ -9,10 +9,10 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "devDependencies": {
-    "@mdit/plugin-footnote": "^0.13.1",
-    "prettier": "3.3.3",
-    "sass-embedded": "^1.81.0",
-    "vitepress": "1.4.5"
+    "@mdit/plugin-footnote": "^0.14.0",
+    "prettier": "3.4.2",
+    "sass-embedded": "^1.83.0",
+    "vitepress": "1.5.0"
   },
   "dependencies": {
     "vitepress-plugin-image-viewer": "^1.1.5",
