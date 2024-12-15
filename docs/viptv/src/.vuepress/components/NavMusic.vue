@@ -71,7 +71,7 @@ const NewPlayer = () => {
     return;
   }
 
-  Win.GlobalAPlayer = new APlayer({
+   Win.GlobalAPlayer = new APlayer({
     container: document.getElementById('GlobalAPlayer'),
     audio: GlobalMusicList,
     lrcType: 3,
@@ -80,7 +80,7 @@ const NewPlayer = () => {
     mini: false,
     fixed: false,
     volume: 1,
-    storageName: 'GlobalAPlayer'    
+    storageName: 'GlobalAPlayer',
   });
 
   // 让按钮旋转
@@ -115,7 +115,7 @@ function AddBtnSpin() {
 const LoadMusicList = (callback: { (): void; (): any }) => {
   axios({
     method: "get",
-    url: "https://api.injahow.cn/meting/?type=playlist&id=2619366284",
+    url: "https://api.injahow.cn/meting/?type=playlist&id=8451919201",
     params: {},
   }).then((response) => {
     const listData = response.data;
@@ -155,9 +155,11 @@ onMounted(() => {
   <ClientOnly>
     <div class="MyMusic">
       <div class="MyMusic_Play" :class="{ hide: !IsShow }">
-        <div class="close" @click="CloseStatus">
-          <FontIcon icon="xmark" />
-        </div>
+        <FontIcon absolute right-10 top-10 size-30 flex-center cursor-pointer color-grey opacity-40
+          class="close" 
+          icon="xmark"
+          @click="CloseStatus" 
+         />
         <div id="GlobalAPlayer">
           <h1>加载中..</h1>
         </div>

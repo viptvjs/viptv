@@ -8,8 +8,7 @@ isOriginal: true
 sticky: 1
 watermark: true
 ---
-## 3.0.0
-<Badge text="新" type="tip" />
+## 3.0.0 <Badge text="最新版" type="tip" />
 - **【🔨修复】** 修复CRLF,LF 文件的行尾换行错误
 - **【🔨修复】** 修复了困扰已久的远程服务器无法打包问题
 - **【🎉新增】** 新增水印功能
@@ -18,7 +17,6 @@ watermark: true
 - **【✨优化】** 必应壁纸自动更新
 
 ## 2.3.7
-<Badge text="已完成" type="note" />
 - **【🎉新增】** 为静态资源下载引入了重试机制
 - **【🎉新增】** 实时便笺新增魔神任务进度查看
 - **【🎉新增】** 养成计划在周日时将会高亮所有相关材料
@@ -44,8 +42,7 @@ watermark: true
 - **【✨优化】** 其他的性能改进
 - **【🌏本地化】** 新增法语
 
-## 2.3.6
-<Badge text="已完成" type="note" />
+## 2.3.6 <Badge text="hotfix" type="warning" />
 
 - **【🔨修复】** 修复了一些低级的问题错误
 
