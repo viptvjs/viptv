@@ -1,16 +1,6 @@
 import { DSource } from "../types";
 export const ApiJson: DSource[] = [
   {
-    name: "弹幕库接口",
-    f_name: "artdm-1.xml",
-    url: "https://gcore.jsdelivr.net/gh/zhw2590582/assets-cdn@master/danmuku/one-more-time-one-more-chance.xml",
-  },
-  {
-    name: "弹幕库接口",
-    f_name: "artdm-2.xml",
-    url: "https://gcore.jsdelivr.net/gh/zhw2590582/assets-cdn@master/danmuku/your-name.xml",
-  },
-  {
     name: "量子资源-lzzy.tv",
     f_name: "lzzy-6.json",
     url: "http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/json/?ac=videolist&t=6",
@@ -786,6 +776,7 @@ export const ApiJson: DSource[] = [
     url: "https://zh.xgsp.tv/api/front/models?limit=60&offset=0&primaryTag=trans&filterGroupTags=%5B%5B%22autoTagNew%22%5D%5D&sortBy=trending&parentTag=autoTagNew&userRole=guest&groupId=9&uniq=tezacdfq1mlrhkx7",
   },
 ];
+
 export const v2ray_sub: DSource[] = [
   {
     name: "V2RAY_RAW",

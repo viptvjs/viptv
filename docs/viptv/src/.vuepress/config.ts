@@ -56,8 +56,8 @@ export default defineUserConfig({
     
   ],
   alias: {
-    "@db": path.resolve(__dirname, "composables/dexie"),
-    "@act": path.resolve(__dirname, "composables/artConst.ts"),
+    "@db": path.resolve(__dirname, "composables/db"),
+    "@act": path.resolve(__dirname, "composables/artConst"),
   },
   port: 80
 });

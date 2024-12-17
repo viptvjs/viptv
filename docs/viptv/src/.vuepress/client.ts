@@ -4,6 +4,8 @@ import SocialLink from "./composables/SocialLink";
 import ProjectLink from "./composables/ProjectLink";
 import Experiences from "./components/Experiences.vue";
 import BlogHome from "./components/BlogHome.vue";
+import { db } from './composables/db';
+import NormalPage from "./components/NormalPage.vue";
 // import BlogBg from "./components/BlogBg.vue";
 // import Hitokoto from "./components/Hitokoto.vue";
 
@@ -14,7 +16,7 @@ export default defineClientConfig({
   // 你可以在这里覆盖或新增布局
   layouts: {
     BlogHome,
-
+    NormalPage
   },
   enhance: ({ app }) => {
     app.component("SocialLink", SocialLink);
@@ -32,16 +34,7 @@ export default defineClientConfig({
     );
     setupTransparentNavbar();
     onMounted(() => {
-      console.log(
-        `%c ✨HeFung的博客 ✨ %c ✨HeFung's Blog✨ %c\n
-               你，对，你，就是你\n
-                  🍻- ( ゜- ゜)つロ 乾杯~🍻\n
-                          ---- 最是春风留不住，徒留我孤直。\n
-                                  欲寄彩笺兼尺素，山长水阔知何处？\n`,
-        `background: #eb507e; padding:5px; font-size:12px; color: #f9f4dc;`,
-        `background: #030307; padding:5px; font-size:12px; color:#fff;`,
-        `color: #51c4d3; font-size:12px;`
-      );
+      db
     });
   },
   rootComponents: [
