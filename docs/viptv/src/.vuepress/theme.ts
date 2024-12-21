@@ -1,5 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { getDirname, path } from "vuepress/utils";
+import { AVAILABLE_SERVICES } from "vuepress-plugin-components";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
 import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 import { getSlides } from "vuepress-theme-hope/presets/getSlides.js";
@@ -21,7 +22,6 @@ export default hopeTheme(
     ],
     favicon: "/favicon.ico",
     breadcrumb: true, // 面包屑导航
-    darkmode: "toggle",
     logo: "/logo.svg",
     repo: "viptv-work/dev", // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     docsDir: "docs/viptv/src", //文档在仓库中的目录
@@ -85,7 +85,6 @@ export default hopeTheme(
       highlighter: {
         type: "shiki",
         lineNumbers: 15,
-        notationDiff: true,
         themes: {
           light: "one-light",
           dark: "one-dark-pro",
@@ -177,6 +176,7 @@ export default hopeTheme(
       },
       git: true,
       redirect: {
+        switchLocale: "modal" ,
         localeConfig: {
           '/en/': ['en-US', 'en-UK', 'en'],
           '/': ['zh-CN', 'zh-TW', 'zh'],
@@ -222,7 +222,16 @@ export default hopeTheme(
           "VPBanner",
           "SiteInfo",
           "VidStack",
-        ]
+        ],
+        componentOptions: {
+          share: {
+            services: AVAILABLE_SERVICES,
+          },
+          artPlayer: {
+            fastForward: true,
+            screenshot: true,
+          }
+        },
       },
 
       copyright: true,
@@ -269,7 +278,7 @@ export default hopeTheme(
         enabled: false,
       },
 
-
+     
       pwa: {
         favicon: "/favicon.ico",
         cacheHTML: true,

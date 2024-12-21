@@ -1,4 +1,6 @@
-const artplayerPlaylist = (options) => (art) => {
+import Artplayer from "artplayer";
+
+const artplayerPlaylist = (options: { rebuildPlayer: any; onchanged: any; autoNext: any; playlist: any; showText?: any; }) => (art: { i18n: { update: (arg0: { 'zh-cn': { playlist: string; }; en: { playlist: string; }; }) => void; get: (arg0: string) => any; }; option: { url: any; }; on: (arg0: string, arg1: () => void) => void; controls: { add: (arg0: { name: string; position: string; html: any; style: { padding: string; }; selector: any; onSelect(item: any): any; }) => void; }; }) => {
   // 更新i18n
   const addedI18n = {
     'zh-cn': {
@@ -11,7 +13,7 @@ const artplayerPlaylist = (options) => (art) => {
   art.i18n.update(addedI18n);
 
   // 更换分集视频
-  const changeVideo = (art, index) => {
+  const changeVideo = (art: { option: any; destroy: () => void; switchUrl: (arg0: any, arg1: any) => void; play: () => void; }, index: number) => {
     if (!options.playlist[index]) {
       return;
     }
@@ -46,7 +48,7 @@ const artplayerPlaylist = (options) => (art) => {
   };
 
   // 自动播放下一P
-  const currentEp = options.playlist.findIndex((videoInfo) => videoInfo.url === art.option.url);
+  const currentEp = options.playlist.findIndex((videoInfo: { url: any; }) => videoInfo.url === art.option.url);
   if (options.autoNext && currentEp < options.playlist.length) {
     art.on('video:ended', () => {
       changeVideo(art, currentEp + 1);
@@ -61,13 +63,13 @@ const artplayerPlaylist = (options) => (art) => {
     position: 'right',
     html: options.showText ? art.i18n.get('playlist') : icon,
     style: { padding: '0 10px' },
-    selector: options.playlist.map((videoInfo, index) => ({
+    selector: options.playlist.map((videoInfo: { title: any; }, index: number) => ({
       html: `${index + 1}. ${videoInfo.title || `Ep.${index + 1}`}`,
       style: { textAlign: 'left' },
       index,
       default: currentEp === index
     })),
-    onSelect(item) {
+    onSelect(item: { index: any; }) {
       changeVideo(art, item.index);
       return options.showText ? art.i18n.get('playlist') : icon;
     }

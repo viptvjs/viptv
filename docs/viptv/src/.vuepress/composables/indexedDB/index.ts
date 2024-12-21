@@ -1,10 +1,10 @@
-import Dexie from "dexie";
+import Dexie , { type EntityTable } from "dexie";
 import { vodId, vodIdx, tvId, movieId, xgspId, movieIdx } from "./init/api";
 import { getTxt, getTxtt, getJson, getJsonx, raw, xgsp } from "./init/getAjax";
 
 interface ViptvDatabase extends Dexie {
-  vod: Dexie.Table<Vod, number>;
-  iptv: Dexie.Table<Iptv, number>;
+  vod: EntityTable<Vod, 'id'>
+  iptv: EntityTable<Iptv, 'id'>;
 }
 
 const db = new Dexie('viptv') as ViptvDatabase

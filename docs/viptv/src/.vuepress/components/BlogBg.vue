@@ -2,25 +2,25 @@
 import { onMounted, nextTick } from 'vue';
 
 const BlogBg = () => {
-  if (!document.getElementById('mo7_BlogBg')) {
+  if (!document.getElementById('viptv_BlogBg')) {
     const bgDiv = document.createElement('div');
-    bgDiv.id = 'mo7_BlogBg';
+    bgDiv.id = 'viptv_BlogBg';
     document.body.appendChild(bgDiv);
   }
 };
 
 const CanvasNest = () => {
   // 创建 dom
-  if (!document.getElementById('mo7_bg_canvas_nest')) {
+  if (!document.getElementById('viptv_bg_canvas_nest')) {
     const canvasElm = document.createElement('canvas');
-    canvasElm.id = 'mo7_bg_canvas_nest';
+    canvasElm.id = 'viptv_bg_canvas_nest';
     document.body.appendChild(canvasElm);
   }
   // 引入 js 文件
   if (!document.getElementById('canvas_nest_js')) {
     var jsElm = document.createElement('script');
     jsElm.id = 'canvas_nest_js';
-    jsElm.src = '/mo7-script/canvas-nest.js';
+    jsElm.src = '/script/canvas-nest.js';
     jsElm.type = 'text/javascript';
     document.body.appendChild(jsElm);
   }
@@ -28,19 +28,19 @@ const CanvasNest = () => {
 
 const GrainParallax = () => {
   // 插入 css
-  if (!document.getElementById('mo7_grain_parallax_css')) {
+  if (!document.getElementById('viptv_grain_parallax_css')) {
     const cssElm = document.createElement('link');
     cssElm.type = 'text/css';
     cssElm.rel = 'stylesheet';
-    cssElm.href = '/mo7-script/grain-parallax.css';
-    cssElm.id = 'mo7_grain_parallax_css';
+    cssElm.href = '/script/grain-parallax.css';
+    cssElm.id = 'viptv_grain_parallax_css';
     document.body.appendChild(cssElm);
   }
 
   // 创建 dom
-  if (!document.getElementById('mo7_bg_grain_parallax')) {
+  if (!document.getElementById('viptv_bg_grain_parallax')) {
     const boxElm = document.createElement('div');
-    boxElm.id = 'mo7_bg_grain_parallax';
+    boxElm.id = 'viptv_bg_grain_parallax';
     document.body.appendChild(boxElm);
     boxElm.innerHTML = `
 <div id="particles-background"></div>
@@ -49,12 +49,12 @@ const GrainParallax = () => {
   }
 
   // 插入 js
-  if (!document.getElementById('mo7_grain_parallax_js')) {
-    console.log('执行 mo7_grain_parallax_js');
+  if (!document.getElementById('viptv_grain_parallax_js')) {
+    console.log('执行 viptv_grain_parallax_js');
     var jsElm = document.createElement('script');
-    jsElm.id = 'mo7_grain_parallax_js';
+    jsElm.id = 'viptv_grain_parallax_js';
     jsElm.type = 'text/javascript';
-    jsElm.src = '/mo7-script/grain-parallax.js';
+    jsElm.src = '/script/grain-parallax.js';
     document.body.appendChild(jsElm);
   }
 };
@@ -83,8 +83,6 @@ var ObserverColorModel = () => {
 
 onMounted(() => {
   nextTick(() => {
-    console.log('执行背景美化');
-
     BlogBg();
     LoadColorModelCanvas();
     ObserverColorModel();
@@ -121,7 +119,7 @@ html[data-theme='dark'] {
   --border-color: rgba(158, 158, 158, 0.5);
 }
 
-#mo7_BlogBg {
+#viptv_BlogBg {
   // 布局代码
   @include noEvent;
   position: fixed;
@@ -157,8 +155,8 @@ html[data-theme='dark'] {
   background-color: transparent;
   overflow: hidden;
 }
-#mo7_bg_canvas_nest,
-#mo7_bg_grain_parallax {
+#viptv_bg_canvas_nest,
+#viptv_bg_grain_parallax {
   @include bg-canvas-style;
 }
 
@@ -185,10 +183,10 @@ html[data-theme='dark'] {
 }
 
 [data-theme='light'] {
-  #mo7_bg_grain_parallax {
+  #viptv_bg_grain_parallax {
     display: none;
   }
-  #mo7_BlogBg {
+  #viptv_BlogBg {
     @include bgStyle_light;
   }
 
@@ -216,10 +214,10 @@ html[data-theme='dark'] {
 }
 
 [data-theme='dark'] {
-  #mo7_bg_canvas_nest {
+  #viptv_bg_canvas_nest {
     display: none;
   }
-  #mo7_BlogBg {
+  #viptv_BlogBg {
     @include bgStyle_dark;
   }
   @mixin content-bg-style {

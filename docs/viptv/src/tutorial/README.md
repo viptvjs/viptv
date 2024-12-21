@@ -1,5 +1,5 @@
 ---
-title: "技术教程"
+title: "技术藏集"
 icon: school
 date: 2024-01-09
 index: false

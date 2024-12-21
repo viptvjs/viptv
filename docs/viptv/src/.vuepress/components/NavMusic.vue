@@ -103,15 +103,6 @@ function AddBtnSpin() {
   }
 }
 
- function StopMusic() {
-   const Win: any = window;
-  let toPath = window.location.pathname;
-
-  if (toPath.includes('/music/') && Win.GlobalAPlayer) {
-     Win.GlobalAPlayer.pause();
-   }
- }
-
 const LoadMusicList = (callback: { (): void; (): any }) => {
   axios({
     method: "get",
@@ -160,9 +151,7 @@ onMounted(() => {
           icon="xmark"
           @click="CloseStatus" 
          />
-        <div id="GlobalAPlayer">
-          <h1>加载中..</h1>
-        </div>
+        <div id="GlobalAPlayer"><h1>加载中..</h1></div>
       </div>
     </div>
   </ClientOnly>

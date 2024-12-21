@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { useRouter } from 'vue-router';
+import { useRoute } from 'vue-router';
 import type { PropType } from 'vue'
 
 // 定义组件的 props 类型
@@ -47,7 +47,7 @@ const props = defineProps({
 })
 
 // 获取 VitePress 路由对象
-const router = useRouter()
+const route = useRoute()
 
 // 记录链接是否已被复制
 const copied = ref(false)
@@ -58,7 +58,7 @@ const copied = ref(false)
  * @returns {string} 当前页面的完整分享链接。
  */
 const shareLink = computed(() => {
-  const currentPath = router.route.path
+  const currentPath =  route.path
   return `${window.location.origin}${currentPath.replace(/^\/[a-z]{2}\//, '/')}`
 })
 

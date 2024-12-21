@@ -1,4 +1,4 @@
-import { artplayerPlaylist } from "./artplayer-plugin-playlist.js";
+import { artplayerPlaylist } from "./artplayer-plugin-playlist";
 //import artplayerPluginDanmuku from 'artplayer-plugin-danmuku';
 const poster = "https://img.viptv.work/iptv/ads.png";
 

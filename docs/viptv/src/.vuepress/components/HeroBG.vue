@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import { onMounted, nextTick } from 'vue';
 import { useRouter } from 'vue-router';
-import axios from 'axios';
-import { mStorage, LoadImage } from '../utils/tools';
+import { mStorage } from '../composables/tools';
 
 const UpdateBingImg = () => {
   let toPath = window.location.pathname;
@@ -59,7 +58,7 @@ const UpdateBingImg = () => {
 };
 
 // 更换背景图片
-const InsertBtn = (path?) => {
+const InsertBtn = () => {
   const maskElm = document.querySelector('.vp-blog-mask');
   if (!maskElm) {
     return;
@@ -108,33 +107,11 @@ const InsertBtn = (path?) => {
   };
 };
 
-// 请求背景图
-const GetBingImgList = () => {
-  axios({
-    method: 'get',
-    url: '//file.mo7.cc/api/public/url',
-    params: {},
-  }).then((response) => {
-    const imgList = response.data.Data;
-    if (imgList && imgList.length < 1) {
-      return;
-    }
 
-    for (const item of imgList) {
-      LoadImage(item.Path);
-    }
-    mStorage.set('BingImgList', imgList);
-    InsertBtn();
-  });
-};
 
 onMounted(() => {
-  nextTick(() => {
-    GetBingImgList();
-  });
-
   const router = useRouter();
-  router.afterEach((to) => {
+  router.afterEach(() => {
     nextTick(() => {
       setTimeout(() => {
         InsertBtn();
@@ -243,24 +220,6 @@ onMounted(() => {
 }
 
 // 底部背景
-.vp-footer-wrapper {
-  position: relative;
-  &::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-  }
-  .vp-copyright,
-  .vp-footer {
-    color: #fff;
-    z-index: 5;
-    opacity: 0.8;
-  }
-}
 
 .vp-blog-hero .slide-down-button {
   bottom: 4.75rem;

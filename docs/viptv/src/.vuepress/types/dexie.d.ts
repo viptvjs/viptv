@@ -8,3 +8,8 @@ interface Iptv {
   name: string;
   data: any;
 }
+interface initDb {
+  id?: number;
+  name: string;
+  data: any;
+}

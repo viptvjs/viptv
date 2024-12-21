@@ -16,16 +16,16 @@ export default {
   async bulkAdd(doc: readonly Iptv[]) {
     return await iptv.bulkAdd(doc);
   },
-  async find(doc: number) {
+  async find(doc: Iptv) {
     return await iptv.get(doc);
   },
   async get(id: number) {
     return await iptv.get(id);
   },
-  async update(docs: number | Iptv, id: (obj: Iptv, ctx: { value: any; primKey: IndexableType; }) => void | boolean) {
+  async update(docs: number | Iptv | undefined, id: (obj: Iptv, ctx: { value: any; primKey: IndexableType; }) => void | boolean) {
     return await iptv.update(docs, id);
   },
-  async remove(id: number) {
+  async remove(id:  number) {
     return await iptv.delete(id);
   },
   async pagination(keyword: string) {

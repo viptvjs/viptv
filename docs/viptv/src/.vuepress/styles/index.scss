@@ -1,11 +1,23 @@
 // place your custom styles here
+
 @use "vuepress-theme-hope/presets/shinning-feature-panel";
 @use "vuepress-theme-hope/presets/round-blogger-avatar";
 @use "vuepress-theme-hope/presets/hr-driving-car";
 @use "vuepress-theme-hope/presets/left-blog-info";
 
+
+.none {
+  width: 0;
+  height: 0;
+  user-select: none;
+  pointer-events: none;
+  overflow: hidden;
+  display: none;
+}
+
 :root {
   --banner-text: #000;
+  --content-width: 830px;
   --bg-1: url("/assets/svg/1-light.svg") no-repeat center/cover;
   --bg-2: url("/assets/svg/2-light.svg") no-repeat center/cover;
   --bg-3: url("/assets/svg/3-light.svg") no-repeat center/cover;
@@ -14,6 +26,12 @@
   --bg-6: url("/assets/svg/6-light.svg") no-repeat center/cover;
   --bg-5-inverse: url("/assets/svg/5-dark.svg") no-repeat center/cover;
   --bg-6-inverse: url("/assets/svg/6-dark.svg") no-repeat center/cover;
+}
+
+@media screen and (min-width: 1770px) {
+  :root {
+    --content-width: calc(100vw - 15rem - 6rem - var(--sidebar-width) - 20rem);
+  }
 }
 
 [data-theme="dark"] {
@@ -27,47 +45,7 @@
   --bg-5-inverse: url("/assets/svg/5-light.svg") no-repeat center/cover;
   --bg-6-inverse: url("/assets/svg/6-light.svg") no-repeat center/cover;
 }
-
-.vp-portfolio {
-
-  // expand media icons
-  .vp-portfolio-medias .vp-portfolio-media {
-    width: 2.5rem;
-    height: 2.5rem;
-
-    .icon {
-      font-size: 1.5rem;
-    }
-  }
-}
-
-.home {
-  .vp-hero-info-wrapper {
-    min-height: 600px;
-  }
-}
-
-.catalog-display-container {
-  overflow: visible auto;
-
-  max-height: 75vh;
-  margin: 0.5rem;
-  border-radius: 0.5rem;
-
-  overflow-wrap: break-word;
-}
-
-.vp-portfolio-welcome,
-.vp-portfolio-title {
-  color: var(--black);
-}
-
-.vp-portfolio-mask::after {
-  background-color: rgba(255, 255, 255);
-  opacity: 0.15;
-
-  html[data-theme="dark"] & {
-    background-color: rgba(0, 0, 0);
-    opacity: 0.1;
-  }
+#canvas-nest-box {
+  width: 100%;
+  height: 100%;
 }

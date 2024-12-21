@@ -1,16 +1,13 @@
 ---
-containerClass: home
 home: true
 icon: home
 title: 首页
 article: false
 index: false
+containerClass: blog-home
 heroImage: /logo.svg
 heroFullScreen: true
-bgImage: /assets/svg/4-light.svg
-bgImageDark: /assets/svg/4-dark.svg
-bgImageStyle:
-  background-attachment: fixed
+bgImage: /assets/svg/bg.svg
 
 actions:
   - text: 热门短剧
@@ -19,12 +16,12 @@ actions:
   - text: 动作大片
     icon: photo-film
     type: primary
-    link: ./vod/movie/dzp
-
+    link: ./vod/movie/dzp 
+    
 highlights:
   - header: 做更好的IPTV
     description: 我们致力于做比昨天更好的 IPTV 服务，享受广泛的本地和国际频道，包括体育、新闻、影视、戏剧等！
-    image: /assets/png/viptv-2.png
+    image: /assets/png/VIPTV-LOGO-300x86.png
     bgImage: /assets/svg/17-light.svg
     bgImageDark: /assets/svg/18-light.svg
 
