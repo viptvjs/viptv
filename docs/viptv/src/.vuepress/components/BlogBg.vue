@@ -90,11 +90,7 @@ onMounted(() => {
 });
 </script>
 
-<template>
-  <ClientOnly>
-    <div class="none">背景美化</div>
-  </ClientOnly>
-</template>
+
 
 <style lang="scss">
 @mixin noEvent {
@@ -103,12 +99,13 @@ onMounted(() => {
 }
 
 @mixin bgStyle_light {
-  // background-color: rgba(255, 255, 255, 1); // 原色
-  background-image: linear-gradient(50deg, #fbc2eb 70%, #a6c1ee 30%);
+  //background: linear-gradient(180deg, rgba(0, 0, 0, 0) 47.42%, rgba(14, 10, 162, 0.5) 104.56%);
+  background-color: #e493d0; // 原色
+  background-image: linear-gradient(50deg, rgba(255, 255, 255, 0.8) 70%, rgba(112, 112, 228, 0.5) 30%), url("/assets/svg/bg.svg");
 }
 
 @mixin bgStyle_dark {
-  // background-color: rgba(13, 17, 24, 1); // 原色
+   background-color: rgba(13, 17, 24, 1); // 原色
 }
 
 html[data-theme='light'] {

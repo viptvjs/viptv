@@ -1,10 +1,9 @@
 // place your custom styles here
-
+@use "vuepress-theme-hope/presets/bounce-icon";
 @use "vuepress-theme-hope/presets/shinning-feature-panel";
 @use "vuepress-theme-hope/presets/round-blogger-avatar";
 @use "vuepress-theme-hope/presets/hr-driving-car";
 @use "vuepress-theme-hope/presets/left-blog-info";
-
 
 .none {
   width: 0;
@@ -28,12 +27,6 @@
   --bg-6-inverse: url("/assets/svg/6-dark.svg") no-repeat center/cover;
 }
 
-@media screen and (min-width: 1770px) {
-  :root {
-    --content-width: calc(100vw - 15rem - 6rem - var(--sidebar-width) - 20rem);
-  }
-}
-
 [data-theme="dark"] {
   --banner-text: #fff;
   --bg-1: url("/assets/svg/1-dark.svg") no-repeat center/cover;
@@ -45,6 +38,13 @@
   --bg-5-inverse: url("/assets/svg/5-light.svg") no-repeat center/cover;
   --bg-6-inverse: url("/assets/svg/6-light.svg") no-repeat center/cover;
 }
+
+.home {
+  .vp-hero-info-wrapper {
+    min-height: 600px;
+  }
+}
+
 #canvas-nest-box {
   width: 100%;
   height: 100%;

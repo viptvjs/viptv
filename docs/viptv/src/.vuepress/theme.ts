@@ -240,17 +240,22 @@ export default hopeTheme(
       notice: [
         {
           path: "/",
-          title: "您好：",
+          title: "VIPTV已入驻Twitter,Telegram",
           content:
-            "<b>欢迎访问本站！</b><ul><li>我是本站的独立开发者,维护者</li><li>请打赏赞助我们！</li></ul>",
+            "<b>欢迎访问本站！</b><ul><li>我是本站的独立开发者,维护者</li><li>我们会不定期分享一些Telegram优质频道/群组、Telegram使用技巧等，欢迎您关注！！</li></ul>",
           actions: [
             {
-              text: "关闭此处",
+              text: "我知道了",
               type: "default",
             },
             {
-              text: "打赏赞助",
-              link: "/about/donate.html",
+              text: "Telegram",
+              link: "https://t.me/viptv_work",
+              type: "primary",
+            },
+            {
+              text: "Twitter",
+              link: "https://x.com/viptv_work",
               type: "primary",
             },
           ],

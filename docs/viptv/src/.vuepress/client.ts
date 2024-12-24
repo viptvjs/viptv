@@ -6,7 +6,6 @@ import ProjectLink from "./composables/ProjectLink";
 import { db } from './composables/db';
 import BlogBg from "./components/BlogBg.vue";
 import NavMusic from "./components/NavMusic.vue";
-
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
 export default defineClientConfig({
@@ -31,7 +30,7 @@ export default defineClientConfig({
       },
       true,
     );
-    setupTransparentNavbar();
+    setupTransparentNavbar({ type: "homepage" });
     // 在客户端中访问 DOM
     onMounted(() => {     
       db
