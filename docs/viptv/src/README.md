@@ -5,7 +5,7 @@ icon: home
 title: 首页
 heroImage: /logo.svg
 heroFullScreen: true
-bgImage: /assets/svg/4-light.svg
+bgImage: /assets/svg/16-light.svg
 bgImageStyle:
   background-attachment: fixed
 
@@ -23,10 +23,7 @@ highlights:
 
   - header: 做更好的IPTV
     description: 我们致力于做比昨天更好的 IPTV 服务，享受广泛的本地和国际频道，包括体育、新闻、影视、戏剧等！
-    image: /assets/png/VIPTV-LOGO-300x86.png
-    bgImage: /assets/svg/17-light.svg
-    bgImageDark: /assets/svg/18-light.svg  
-
+    image: /assets/png/viptv-2.png 
     features:
       - title: 通道范围广
         icon: person-chalkboard

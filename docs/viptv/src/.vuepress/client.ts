@@ -30,7 +30,7 @@ export default defineClientConfig({
       },
       true,
     );
-    setupTransparentNavbar({ type: "homepage" });
+    setupTransparentNavbar();
     // 在客户端中访问 DOM
     onMounted(() => {     
       db
