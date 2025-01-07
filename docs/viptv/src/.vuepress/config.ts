@@ -1,5 +1,5 @@
 import { defineUserConfig } from "vuepress";
-//import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import theme from "./theme.js";
 import { getDirname, path } from "vuepress/utils";
 import { viteBundler } from '@vuepress/bundler-vite';
@@ -55,10 +55,10 @@ export default defineUserConfig({
   }),
   plugins: [
     // 背景插件
-   /* 
+   
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components')
-    }) */
+    })
   ],
   alias: {
     "@db": path.resolve(__dirname, "composables/db"),

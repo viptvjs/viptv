@@ -48,12 +48,13 @@ export const getJsonx = async (url: string | URL | Request) => {
 };
 export const xgsp = async (url: string | URL | Request) => {
   const data = await (await fetch(url)).json();
-  return data.models.map((res: { username: any; hlsPlaylist: any; avatarUrl: any; previewUrlThumbBig: any; }) => {
+  return data.models.map((res: { username: any; hlsPlaylist: any; avatarUrl: any; previewUrlThumbSmall: any; }) => {
     return {
       title: res.username,
       url: res.hlsPlaylist,
       avatar: res.avatarUrl,
-      preview: res.previewUrlThumbBig,
+      preview: res.previewUrlThumbSmall
+      ,
     };
   });
 };
