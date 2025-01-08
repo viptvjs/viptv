@@ -15,11 +15,6 @@ export default hopeTheme(
       name: "Mr.Hefung",
       url: "/about/us",
     },
-    iconAssets: [
-      "https://theme-hope-assets.vuejs.press/fontawesome/js/fontawesome.min.js",
-      "https://theme-hope-assets.vuejs.press/fontawesome/js/solid.min.js",
-      "https://theme-hope-assets.vuejs.press/fontawesome/js/brands.min.js",
-    ],
     favicon: "/favicon.ico",
     breadcrumb: true, // 面包屑导航
     logo: "/logo.svg",
@@ -114,20 +109,6 @@ export default hopeTheme(
       math: true,
       revealjs: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
-        themes: [
-          "auto",
-          "beige",
-          "black",
-          "blood",
-          "league",
-          "moon",
-          "night",
-          "serif",
-          "simple",
-          "sky",
-          "solarized",
-          "white",
-        ],
       },
       spoiler: true,
       stylize: [
@@ -232,6 +213,10 @@ export default hopeTheme(
             screenshot: true,
           }
         },
+      },
+
+      icon: {
+        assets: "fontawesome-with-brands",
       },
 
       copyright: true,

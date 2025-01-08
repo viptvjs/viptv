@@ -14,7 +14,7 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "vuepress-vite dev  src --clean-cache",
+    "dev": "vuepress-vite dev src --clean-cache",
     "build": "vuepress-vite build  src --clean-cache",
     "clean": "rm -rf dist && rm -rf node_modules",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",

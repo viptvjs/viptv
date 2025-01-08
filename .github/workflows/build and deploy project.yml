@@ -9,6 +9,8 @@ env:
   TZ: Asia/Shanghai
 jobs:
   build-project:
+    name: Deploy docs to GitHub pages
+    if: github.repository == 'viptv-work/viptv'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
