@@ -13,7 +13,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "devDependencies": {
-    "@types/node": "^22.10.2",
+    "@types/node": "^22.10.5",
     "@types/node-fetch": "^2.6.12",
     "node-fetch": "^3.3.2",
     "tsup": "^8.3.5"
