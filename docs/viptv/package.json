@@ -21,7 +21,7 @@
     "preview": "vuepress-vite preview src"
   },
   "devDependencies": {
-    "@types/node": "^22.10.2",
+    "@types/node": "^22.10.5",
     "@vuepress/bundler-vite": "2.0.0-rc.19",
     "@vuepress/helper": "2.0.0-rc.66",
     "@vuepress/plugin-feed": "2.0.0-rc.69",
@@ -33,13 +33,13 @@
     "@vuepress/plugin-slimsearch": "2.0.0-rc.69",
     "@vuepress/plugin-watermark": "2.0.0-rc.69",
     "@vuepress/theme-default": "2.0.0-rc.69",
-    "@vueuse/core": "^12.2.0",
+    "@vueuse/core": "^12.4.0",
     "aplayer": "^1.10.1",
     "artplayer": "^5.2.1",
     "axios": "^1.7.9",
     "dashjs": "^4.7.4",
     "dexie": "^4.0.10",
-    "hls.js": "^1.5.18",
+    "hls.js": "^1.5.19",
     "mpegts.js": "^1.8.0",
     "vidstack": "^1.12.12",
     "vue": "^3.5.13",
@@ -49,8 +49,8 @@
     "vuepress-theme-hope": "2.0.0-rc.67"
   },
   "dependencies": {
-    "uuid": "^11.0.4",
     "pinia": "^2.3.0",
-    "store": "^2.0.12"
+    "store": "^2.0.12",
+    "uuid": "^11.0.5"
   }
 }

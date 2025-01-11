@@ -2,10 +2,11 @@ import { defineClientConfig } from "vuepress/client";
 import {  onMounted } from 'vue';
 import SocialLink from "./composables/SocialLink";
 import ProjectLink from "./composables/ProjectLink";
-//import Experiences from "./components/Experiences.vue";
+import Experiences from "./components/Experiences.vue";
 import { db } from './composables/db';
 import BlogBg from "./components/BlogBg.vue";
 import NavMusic from "./components/NavMusic.vue";
+import Uuid from "./components/Uuid.vue";
 //import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
 export default defineClientConfig({
@@ -17,6 +18,8 @@ export default defineClientConfig({
     // 注册全局组件
     app.component("SocialLink", SocialLink);
     app.component("ProjectLink", ProjectLink);
+    app.component("Experiences", Experiences);
+    app.component("Uuid", Uuid);
     // 注册路由守卫
     
   },

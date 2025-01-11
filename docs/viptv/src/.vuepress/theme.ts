@@ -1,4 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
+import { dateSorter } from "@vuepress/helper";
 import { getDirname, path } from "vuepress/utils";
 import { AVAILABLE_SERVICES } from "vuepress-plugin-components";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
@@ -46,6 +47,24 @@ export default hopeTheme(
         displayFooter: true,
         footer: "极速 、 高清 、 无广告", // 页脚
         copyright: "基于MIT 协议 | 版权所有 © 2020-至今 Mr.HeFung",
+        blogLocales: {
+          tutorial: "教程",
+        },
+        blog: {
+          description: "专心致志做事，大气温和待人。",
+          intro: "/about/blog",
+          timeline: "简单快乐，理应如此。",
+          medias: {
+            Email: "mailto:vodtvx@gmail.com",
+            Gitee: "https://gitee.com/viptv-work",
+            Discord: "https://discord.gg/K7azvhYv",
+            Twitter: "https://x.com/viptv_work",
+            Telegram: "https://t.me/viptv_work",
+            GitHub: "https://github.com/viptv-work",
+            Gitlab: "https://gitlab.com/viptv",
+          },
+        },
+
       },
       "/en/": {
         navbar: enNavbar,
@@ -53,22 +72,27 @@ export default hopeTheme(
         displayFooter: true,
         footer: "Best IPTV Subscription Provider.", // 页脚
         copyright: "MIT Licensed | Copyright © 2020-present Mr.HeFung",
+        blogLocales: {
+          tutorial: "Tutorial",
+        },
+        blog: {
+          description: "专心致志做事，大气温和待人。",
+          intro: "/about/blog",
+          timeline: "简单快乐，理应如此。",
+          medias: {
+            Email: "mailto:vodtvx@gmail.com",
+            Gitee: "https://gitee.com/viptv-work",
+            Discord: "https://discord.gg/K7azvhYv",
+            Twitter: "https://x.com/viptv_work",
+            Telegram: "https://t.me/viptv_work",
+            GitHub: "https://github.com/viptv-work",
+            Gitlab: "https://gitlab.com/viptv",
+          },
+        },
       },
     },
-    blog: {
-      description: "专心致志做事，大气温和待人。",
-      intro: "/about/blog",
-      timeline: "简单快乐，理应如此。",
-      medias: {
-        Email: "mailto:vodtvx@gmail.com",
-        Gitee: "https://gitee.com/viptv-work",
-        Discord: "https://discord.gg/K7azvhYv",
-        Twitter: "https://x.com/viptv_work",
-        Telegram: "https://t.me/viptv_work",
-        GitHub: "https://github.com/viptv-work",
-        Gitlab: "https://gitlab.com/viptv",
-      },
-    },
+    
+    
     // 加密配置
     encrypt: {
       config: {
@@ -171,6 +195,7 @@ export default hopeTheme(
         excerpt: true, //是否生成摘要。
         excerptLength: 0,
         type: [
+ 
           getRecentUpdatedArticles({
             locales: { "/en/": "Recent Updated", "/": "最近更新" },
           }),
@@ -196,7 +221,6 @@ export default hopeTheme(
       components: {
         components: [
           "Share",
-          "FontIcon",
           "Badge",
           "VPCard",
           "ArtPlayer",
