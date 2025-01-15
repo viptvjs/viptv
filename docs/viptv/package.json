@@ -21,7 +21,7 @@
     "preview": "vuepress-vite preview src"
   },
   "devDependencies": {
-    "@types/node": "^22.10.5",
+    "@types/node": "^22.10.6",
     "@vuepress/bundler-vite": "2.0.0-rc.19",
     "@vuepress/helper": "2.0.0-rc.66",
     "@vuepress/plugin-feed": "2.0.0-rc.69",
