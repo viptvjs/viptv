@@ -146,7 +146,7 @@ onMounted(() => {
   <ClientOnly>
     <div class="MyMusic">
       <div class="MyMusic_Play" :class="{ hide: !IsShow }">
-        <VPIcon class="close"  icon="xmark" @click="CloseStatus" />
+        <VPIcon class="close"  absolute right-10 top-10 size-30 flex-center cursor-pointer color-grey opacity-40 icon="xmark" @click="CloseStatus" />
         <div id="GlobalAPlayer"><h1>加载中..</h1></div>
       </div>
     </div>

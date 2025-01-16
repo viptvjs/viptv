@@ -1,14 +1,13 @@
 ---
 title: 宋明八字总结
 icon: /assets/image/circle-info.svg
-date: 2023-9-16
 order: 10
 category:
-- 总结
-- 明
+  - 总结
+  - 明
 tag:
-- 《神峰通考》
-- 《命理约言》
+  - 《神峰通考》
+  - 《命理约言》
 ---
 ## 1.深化时期
 

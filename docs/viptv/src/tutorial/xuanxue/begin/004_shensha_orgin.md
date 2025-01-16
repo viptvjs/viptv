@@ -4,13 +4,13 @@ icon: /assets/image/circle-info.svg
 date: 2023-9-6
 order: 4
 category:
-- 起源
-- 隋
+  - 起源
+  - 隋
 
 tag:
-- 神煞
-- 四时
-- 刑冲会和
+  - 神煞
+  - 四时
+  - 刑冲会和
 ---
 
 ## 1.神煞系统

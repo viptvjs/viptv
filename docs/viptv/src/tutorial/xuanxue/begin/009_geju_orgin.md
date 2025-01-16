@@ -1,13 +1,12 @@
 ---
 title: 格局起源
 icon: /assets/image/circle-info.svg
-date: 2023-9-13
 order: 9
 category:
-- 起源
-- 宋
+  - 起源
+  - 宋
 tag:
-- 渊海子平
+  - 渊海子平
 ---
 
 ## 1.正格和外格

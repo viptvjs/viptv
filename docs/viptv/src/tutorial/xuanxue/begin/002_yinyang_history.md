@@ -1,15 +1,14 @@
 ---
 title: 阴阳五行学说
 icon: /assets/image/circle-info.svg
-date: 2023-9-4
 order: 2
 category:
-- 发展
+  - 发展  
 tag:
-- 阴阳
-- 五行
-- 五运六气
-- 干支
+  - 阴阳
+  - 五行
+  - 五运六气
+  - 干支
 ---
 
 ## 1.阴阳起源

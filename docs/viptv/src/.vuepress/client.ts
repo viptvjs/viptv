@@ -3,10 +3,13 @@ import {  onMounted } from 'vue';
 import SocialLink from "./composables/SocialLink";
 import ProjectLink from "./composables/ProjectLink";
 import Experiences from "./components/Experiences.vue";
+import ShortVideoRemoveWatermark from "./components/ShortVideoRemoveWatermark.vue";
 import { db } from './composables/db';
 import BlogBg from "./components/BlogBg.vue";
 import NavMusic from "./components/NavMusic.vue";
 import Uuid from "./components/Uuid.vue";
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 //import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
 export default defineClientConfig({
@@ -15,7 +18,9 @@ export default defineClientConfig({
    
   },
   enhance: ({ app }) => {
+    app.use(ElementPlus);
     // 注册全局组件
+    app.component("ShortVideoRemoveWatermark", ShortVideoRemoveWatermark);
     app.component("SocialLink", SocialLink);
     app.component("ProjectLink", ProjectLink);
     app.component("Experiences", Experiences);

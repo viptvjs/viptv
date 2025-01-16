@@ -1,16 +1,14 @@
 ---
 title: 命理发展历史
 icon: /assets/image/circle-info.svg
-date: 2023-9-5
 order: 3
 category:
-- 发展
+  - 发展
 
 tag:
-- 术数
-- 七略
-- 命理学发展
-
+  - 术数
+  - 七略
+  - 命理学发展
 ---
 
 ## 1.术数

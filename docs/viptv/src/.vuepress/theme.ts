@@ -1,5 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { dateSorter } from "@vuepress/helper";
 import { getDirname, path } from "vuepress/utils";
 import { AVAILABLE_SERVICES } from "vuepress-plugin-components";
 import { enNavbar, zhNavbar, enSidebar, zhSidebar } from "./config/index.js";
@@ -19,7 +18,7 @@ export default hopeTheme(
     favicon: "/favicon.ico",
     breadcrumb: true, // 面包屑导航
     logo: "/logo.svg",
-    repo: "viptv-work/dev", // 自定义仓库链接文字。默认从 `repo` 中自动推断为
+    repo: "viptv-work/viptv", // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     docsDir: "docs/viptv/src", //文档在仓库中的目录
     repoDisplay: true, //是否在导航栏显示仓库链接，默认为 `true`
     fullscreen: true, //全屏按钮
@@ -131,9 +130,7 @@ export default hopeTheme(
       },
       mark: true,
       math: true,
-      revealjs: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
+      revealjs: true,
       spoiler: true,
       stylize: [
         {
@@ -268,8 +265,6 @@ export default hopeTheme(
               type: "primary",
             },
           ],
-          fullscreen: false,
-          showOnce: false,
         },
         {
           path: "/en/",
@@ -283,8 +278,6 @@ export default hopeTheme(
             },
             { text: "Default Action" },
           ],
-          fullscreen: false,
-          showOnce: false,
         },
       ],
 

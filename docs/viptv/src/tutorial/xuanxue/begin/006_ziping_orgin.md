@@ -1,7 +1,6 @@
 ---
 title: 子平五行
 icon: /assets/image/circle-info.svg
-date: 2023-9-10
 order: 6
 category:
 - 起源

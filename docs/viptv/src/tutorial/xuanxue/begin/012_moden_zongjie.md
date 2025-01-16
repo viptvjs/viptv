@@ -1,13 +1,12 @@
 ---
 title: 近现代八字总结
 icon: /assets/image/circle-info.svg
-date: 2023-9-18
 order: 11
 category:
-- 总结
-- 近代
+  - 总结
+  - 近代
 tag:
--  徐乐吾
+  -  徐乐吾
 ---
 
 ## 1.古籍整理和诠释
