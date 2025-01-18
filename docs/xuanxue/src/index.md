@@ -54,3 +54,5 @@ features:
     link: https://www.viptv.work
     linkText: 返回主站
 ---
+
+<confetti />
