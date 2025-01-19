@@ -35,7 +35,7 @@
     "@vuepress/theme-default": "2.0.0-rc.73",
     "@vueuse/core": "^12.4.0",
     "aplayer": "^1.10.1",
-    "artplayer": "^5.2.1",
+    "artplayer": "^5.2.2",
     "axios": "^1.7.9",
     "dashjs": "^4.7.4",
     "dexie": "^4.0.11",
