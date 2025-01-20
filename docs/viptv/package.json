@@ -51,7 +51,7 @@
   "dependencies": {
     "element-plus": "^2.9.3",
     "lodash-es": "^4.17.21",
-    "pinia": "^2.3.0",
+    "pinia": "^2.3.1",
     "store": "^2.0.12",
     "unocss": "^65.4.2",
     "uuid": "^11.0.5"
