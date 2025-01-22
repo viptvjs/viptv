@@ -1,3 +1,11 @@
+## 2025-01-23 电影、山脉和魔法
+
+黄昏时的鹿谷，帕克城，犹他州，美国 (© Adventure_Photo/Getty Images)
+
+![](https://cn.bing.com/th?id=OHR.DeerValley_ZH-CN6029262704_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.DeerValley_ZH-CN6029262704_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.DeerValley_ZH-CN6029262704_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
 ## 2025-01-22 在失落之城发现美
 
 代尔修道院，佩特拉，约旦 (© Punnawit Suwuttananun/Getty Images)
@@ -237,12 +245,4 @@ Village of Zahara de la Sierra, Cádiz province, Spain (© SEN LI/Getty Images)
 ![](https://cn.bing.com/th?id=OHR.FestivusCranes_ZH-CN2464862059_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
 
 [Download 1920 * 1080](https://cn.bing.com/th?id=OHR.FestivusCranes_ZH-CN2464862059_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.FestivusCranes_ZH-CN2464862059_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2024-12-22 冲浪、沙滩和圣诞老人
-
-水晶码头的圣诞树，太平洋海滩，加利福尼亚州，美国 (© SamAntonioPhotography/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.CrystalPier_ZH-CN2256372880_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.CrystalPier_ZH-CN2256372880_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.CrystalPier_ZH-CN2256372880_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
 
