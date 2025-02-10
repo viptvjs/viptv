@@ -10,9 +10,9 @@
   },
   "devDependencies": {
     "@mdit/plugin-footnote": "^0.16.0",
-    "prettier": "3.4.2",
+    "prettier": "3.5.0",
     "sass-embedded": "^1.83.4",
-    "vitepress": "1.5.0"
+    "vitepress": "1.6.3"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.3",
