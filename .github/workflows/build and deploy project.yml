@@ -10,7 +10,7 @@ env:
 jobs:
   build-project:
     name: Deploy docs to GitHub pages
-    if: github.repository == 'viptv-work/viptv'
+    if: github.repository == 'viptvjs/viptv'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -42,7 +42,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PUBLISH_DOCS }}
-          external_repository: viptv-work/viptv.work
+          external_repository: viptvjs/viptv.work
           publish_dir: ./docs/viptv/dist
           publish_branch: main
           cname: www.viptv.work
@@ -68,7 +68,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PUBLISH_DOCS }}
-          external_repository: viptv-work/xuanxue
+          external_repository: viptvjs/xuanxue
           publish_dir: ./docs/xuanxue/.vitepress/dist
           publish_branch: main
           cname: xuanxue.viptv.work    
