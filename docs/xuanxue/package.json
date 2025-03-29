@@ -9,9 +9,9 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "devDependencies": {
-    "@mdit/plugin-footnote": "^0.16.0",
+    "@mdit/plugin-footnote": "^0.16.8",
     "prettier": "3.5.0",
-    "sass-embedded": "^1.83.4",
+    "sass-embedded": "^1.86.0",
     "vitepress": "1.6.3"
   },
   "dependencies": {
