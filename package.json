@@ -27,7 +27,7 @@
       "useEmoji": true
     }
   },
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "pnpm@10.8.0",
   "engines": {
     "node": ">=20"
   }
