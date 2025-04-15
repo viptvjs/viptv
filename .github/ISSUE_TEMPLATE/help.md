@@ -1,7 +1,9 @@
 ---
 name: 需要帮助
-about: "其它问题"
+about: 其它问题
+title: ''
 labels: help wanted
+assignees: ''
 
 ---
 
