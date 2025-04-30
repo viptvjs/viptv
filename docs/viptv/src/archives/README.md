@@ -1,3 +1,11 @@
+## 2025-05-01 芬芳的传统
+
+鸡蛋花，夏威夷，美国 (© Miranda Jans/Getty Images)
+
+![](https://cn.bing.com/th?id=OHR.PinkPlumeria_ZH-CN3890147555_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.PinkPlumeria_ZH-CN3890147555_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.PinkPlumeria_ZH-CN3890147555_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
 ## 2025-04-30 瀑布声在各国间回响
 
 从巴拉那州看到的伊瓜苏瀑布, 巴西 (© agustavop/Getty Images)
@@ -237,12 +245,4 @@
 ![](https://cn.bing.com/th?id=OHR.TicanFrog_ZH-CN8949758487_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
 
 [Download 1920 * 1080](https://cn.bing.com/th?id=OHR.TicanFrog_ZH-CN8949758487_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.TicanFrog_ZH-CN8949758487_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2025-03-31 普利亚的“白色之城”
-
-黄昏下的奥斯图尼, 普利亚, 意大利 (© Feng Wei Photography/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.ItalyOstuni_ZH-CN8306220080_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.ItalyOstuni_ZH-CN8306220080_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.ItalyOstuni_ZH-CN8306220080_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
 
