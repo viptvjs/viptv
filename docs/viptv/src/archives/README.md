@@ -1,3 +1,11 @@
+## 2025-05-14 矿石与传奇
+
+弗拉维亚港, 苏尔西斯-伊格莱西恩特, 撒丁岛, 意大利 (© Marco Bottigelli/Getty Images)
+
+![](https://cn.bing.com/th?id=OHR.SardiniaFlavia_ZH-CN6784449568_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
+
+[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.SardiniaFlavia_ZH-CN6784449568_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.SardiniaFlavia_ZH-CN6784449568_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
+
 ## 2025-05-13 66岁，依然美丽动人
 
 百内国家公园, 巴塔哥尼亚, 智利 (© Marco Bottigelli/Getty Images)
@@ -237,12 +245,4 @@ Rhyolite附近山谷中的驴子，内华达州，美国 (© Moelyn Photos/Getty
 ![](https://cn.bing.com/th?id=OHR.SpottedDolphins_ZH-CN1257100316_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
 
 [Download 1920 * 1080](https://cn.bing.com/th?id=OHR.SpottedDolphins_ZH-CN1257100316_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.SpottedDolphins_ZH-CN1257100316_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
-
-## 2025-04-13 让我们一起庆祝宋干节！
-
-班克鲁特的唐赛寺，泰国 (© Ratnakorn Piyasirisorost/Getty Images)
-
-![](https://cn.bing.com/th?id=OHR.ThailandPagodas_ZH-CN1143878296_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4)
-
-[Download 1920 * 1080](https://cn.bing.com/th?id=OHR.ThailandPagodas_ZH-CN1143878296_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4) | [Download 3840 * 2160](https://cn.bing.com/th?id=OHR.ThailandPagodas_ZH-CN1143878296_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4)
 
