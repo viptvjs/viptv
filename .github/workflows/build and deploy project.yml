@@ -76,7 +76,7 @@ jobs:
       - name: Commit project 🐱‍🏍
         if: steps.verify_diff.outputs.changed == 'true'
         run: | 
-          git config --local user.email "28900094+github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "28900094+HeFung[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
           git commit -m "update viptv dev project"
