@@ -71,11 +71,11 @@ setTimeout(function () {
           >VuePress-Reco</a
         >
       </p>
-      <p class="bulletin-p">QQ 频道：******(无效二维码)</p>
-      <img class="bulletin-img" src="./qrcode.png" />
+      <p class="bulletin-p">打赏：扫码赞助我们</p>
+      <img class="bulletin-img" src="./alipay.png" />
       <hr />
       <div class="btn-group">
-        <a class="btn" href="https://vitepress.dev/zh/" target="_blank">官网</a>
+        <a class="btn" href="https://viptv.work/" target="_blank">官网</a>
       </div>
     </div>
   </div>
