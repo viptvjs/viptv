@@ -62,15 +62,6 @@ setTimeout(function () {
 
     <div class="bulletin-content">
       <h3 class="bulletin-h3">本次更新：</h3>
-      <p class="bulletin-p">
-        公告样式，参考自
-        <a
-          class="bulletin-link"
-          href="https://theme-reco.vuejs.press/"
-          target="_blank"
-          >VuePress-Reco</a
-        >
-      </p>
       <p class="bulletin-p">打赏：扫码赞助我们</p>
       <img class="bulletin-img" src="./alipay.png" />
       <hr />
