@@ -1,3 +1,4 @@
+import type { EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { useRoute } from 'vitepress'
 import { h } from 'vue'
@@ -17,7 +18,7 @@ export default {
       
     })
   },
-  enhanceApp: ({ app }  ) => {
+  enhanceApp: ({ app }: EnhanceAppContext) => {
     googleAnalytics({ id: 'G-6QN23XNMXB' })
     app.component('confetti' , confetti) // 五彩纸屑
   
